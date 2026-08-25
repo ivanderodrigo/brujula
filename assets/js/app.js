@@ -368,3 +368,106 @@ window.addEventListener('DOMContentLoaded',()=>{sharedUI();globalSearch();window
   };
   window.addEventListener('bm-ready',()=>{BM.decorateChrome();BM.applyDynamicSeo()});
 })();
+
+/* v1.1.1 PRO · navegación, organización visual y copia local */
+(function(){
+  const originalDecorate=BM.decorateChrome.bind(BM);
+  BM.proNav=function(){
+    const b=this.base();
+    return `
+      <a href="${b}" data-pro-nav="inicio">Inicio</a>
+      <a href="${b}municipio/" data-pro-nav="municipio">Mi municipio</a>
+      <a href="${b}oportunidades/" data-pro-nav="oportunidades">Oportunidades</a>
+      <a href="${b}proyectos/" data-pro-nav="proyectos">Proyectos</a>
+      <a href="${b}obligaciones/" data-pro-nav="obligaciones">Obligaciones</a>
+      <details class="mega-menu"><summary>Explorar</summary><div class="mega-panel">
+        <div class="mega-group"><strong>Decidir</strong><a href="${b}ejecutivo/">Ejecutivo 360</a><a href="${b}cockpit/">Cockpit</a><a href="${b}decisiones/">Prioridades</a><a href="${b}plan/">Plan 90 días</a><a href="${b}presentacion/">Presentación</a></div>
+        <div class="mega-group"><strong>Inteligencia</strong><a href="${b}inteligencia/">Territorio 360</a><a href="${b}comparar/">Comparar municipios</a><a href="${b}indicadores/">Indicadores</a><a href="${b}observatorio/">Observatorio</a><a href="${b}casos/">Casos reales</a></div>
+        <div class="mega-group"><strong>Ejecutar</strong><a href="${b}herramientas/">Herramientas</a><a href="${b}playbooks/">Playbooks</a><a href="${b}servicios/">Servicios públicos</a><a href="${b}calendario/">Calendario</a><a href="${b}recursos/">Fuentes y recursos</a></div>
+      </div></details>`;
+  };
+  BM.decorateChrome=function(){
+    originalDecorate();
+    const base=this.base();
+    document.querySelectorAll('.brand').forEach(el=>{
+      const footer=!!el.closest('.footer');
+      el.innerHTML=`<span class="brand-mark"><img src="${base}assets/img/logo-brujula.svg" alt=""></span><span class="brand-meta"><span class="brand-name">Brújula <span>Municipal</span></span><span class="brand-sub">inteligencia local aplicada</span></span>`;
+      if(footer)el.classList.add('brand-neutral');
+    });
+    document.querySelectorAll('.navlinks').forEach(nav=>{
+      nav.innerHTML=this.proNav();
+      const path=location.pathname.toLowerCase();
+      let key='inicio';
+      for(const k of ['municipio','oportunidades','proyectos','obligaciones'])if(path.includes('/'+k+'/'))key=k;
+      nav.querySelector(`[data-pro-nav="${key}"]`)?.setAttribute('aria-current','page');
+    });
+    if(!document.querySelector('.mobile-dock')){
+      const dock=document.createElement('nav');dock.className='mobile-dock';dock.setAttribute('aria-label','Navegación móvil');
+      dock.innerHTML=`
+        <a href="${base}" class="${location.pathname==='/'||location.pathname.endsWith('/brujula/')?'active':''}">${this.iconSvg('home')}<span>Inicio</span></a>
+        <a href="${base}municipio/">${this.iconSvg('localidad')}<span>Municipio</span></a>
+        <a href="${base}oportunidades/">${this.iconSvg('oportunidades')}<span>Ayudas</span></a>
+        <a href="${base}proyectos/">${this.iconSvg('proyectos')}<span>Proyectos</span></a>
+        <a href="${base}herramientas/">${this.iconSvg('herramientas')}<span>Herramientas</span></a>`;
+      document.body.appendChild(dock);
+    }
+    document.querySelectorAll('main').forEach(m=>{if(!m.id)m.id='main-content'});
+    if(!document.querySelector('.skip-link')){
+      const a=document.createElement('a');a.className='skip-link';a.href='#main-content';a.textContent='Saltar al contenido principal';document.body.prepend(a);
+    }
+  };
+  BM.localBackup=function(){
+    const keys=['bm_profile','bm_prefs','bm_capacity','bm_workspace'];const data={version:'1.1.1',exported_at:new Date().toISOString(),data:{}};
+    for(const k of keys){const raw=localStorage.getItem(k);if(raw!==null){try{data.data[k]=JSON.parse(raw)}catch{data.data[k]=raw}}}
+    this.download(`brujula-copia-local-${new Date().toISOString().slice(0,10)}.json`,JSON.stringify(data,null,2),'application/json;charset=utf-8');
+    localStorage.setItem('bm_last_backup',new Date().toISOString());
+  };
+  BM.restoreLocalBackup=async function(file){
+    const text=await file.text();const payload=JSON.parse(text);const data=payload.data||payload;
+    for(const k of ['bm_profile','bm_prefs','bm_capacity','bm_workspace'])if(k in data)localStorage.setItem(k,JSON.stringify(data[k]));
+    location.reload();
+  };
+  BM.injectSpaceSafety=function(){
+    if(!location.pathname.includes('/espacio/')||document.querySelector('.local-data-safety'))return;
+    const main=document.querySelector('main');if(!main)return;
+    const box=document.createElement('section');box.className='section local-data-safety';
+    const last=localStorage.getItem('bm_last_backup');
+    box.innerHTML=`<div class="shell"><div class="notice" style="display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center"><div><div class="kicker">Copia local</div><h3 style="margin-top:6px">Tu trabajo vive solo en este navegador</h3><p class="muted">Si borras los datos del navegador, usas incógnito o cambias de equipo puedes perder municipio, prioridades y elementos guardados.${last?` Última copia: ${new Date(last).toLocaleString('es-ES')}.`:''}</p></div><div class="exec-actions"><button class="btn btn-teal" data-local-backup>Descargar copia</button><label class="btn">Restaurar<input type="file" accept="application/json" data-local-restore hidden></label></div></div></div>`;
+    main.insertBefore(box,main.firstChild);
+    box.querySelector('[data-local-backup]').onclick=()=>this.localBackup();
+    box.querySelector('[data-local-restore]').onchange=e=>{if(e.target.files?.[0])this.restoreLocalBackup(e.target.files[0]).catch(()=>alert('No se pudo restaurar la copia.'))};
+  };
+  window.addEventListener('keydown',e=>{
+    if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k'){
+      const input=document.querySelector('[data-global-search] input');
+      if(input){e.preventDefault();input.focus();input.scrollIntoView({block:'center',behavior:'smooth'})}
+    }
+  });
+  window.addEventListener('bm-ready',()=>{BM.decorateChrome();BM.injectSpaceSafety()});
+})();
+
+/* v1.1.1 PRO · context rail for inner pages */
+(function(){
+  BM.injectProContext=function(){
+    const path=location.pathname.replace(/\/+/g,'/');
+    const base=this.base();
+    if(document.querySelector('.pro-context')) return;
+    const isHome=path==='/' || /\/brujula\/?$/.test(path) || /\/brujula-municipal\/?$/.test(path);
+    if(isHome) return;
+    const map={
+      municipio:['Mi municipio','Contexto territorial'],oportunidades:['Oportunidades','Financiación'],proyectos:['Proyectos','Cartera de soluciones'],obligaciones:['Obligaciones','Cumplimiento'],
+      inteligencia:['Inteligencia territorial','Diagnóstico'],comparar:['Comparar','Benchmark'],indicadores:['Indicadores','Datos'],observatorio:['Observatorio','Señales'],casos:['Casos reales','Aprendizaje'],
+      ejecutivo:['Ejecutivo 360','Dirección'],cockpit:['Cockpit','Dirección'],decisiones:['Prioridades','Decidir'],plan:['Plan 90 días','Ejecutar'],presentacion:['Presentación','Reunión'],
+      herramientas:['Herramientas','Ejecutar'],playbooks:['Playbooks','Ejecutar'],servicios:['Servicios públicos','Antes de comprar'],calendario:['Calendario','Plazos'],recursos:['Fuentes y metodología','Rigor'],actualizacion:['Actualización','Calidad del dato'],espacio:['Mi espacio','Trabajo local'],autor:['Autor','Proyecto']
+    };
+    const key=Object.keys(map).find(k=>path.includes('/'+k+'/')) || 'brujula';
+    const meta=map[key]||['Brújula Municipal','Inteligencia local'];
+    const header=document.querySelector('.topbar'); if(!header)return;
+    const profile=this.getProfile?this.getProfile():null;
+    const locality=profile?.name || 'Selecciona localidad';
+    const rail=document.createElement('div');rail.className='pro-context';
+    rail.innerHTML=`<div class="shell pro-context-inner"><div class="pro-breadcrumb"><a href="${base}">Brújula</a><span class="sep">/</span><span>${meta[1]}</span><span class="sep">/</span><b>${meta[0]}</b></div><div class="pro-context-actions"><span class="pro-context-chip">${this.iconSvg('localidad')}<strong>${this.escapeHtml(locality)}</strong></span><a class="pro-context-chip" href="${base}actualizacion/">${this.iconSvg('observatorio')}Datos y fuentes</a><a class="pro-context-chip" href="${base}espacio/">${this.iconSvg('herramientas')}Mi espacio</a></div></div>`;
+    header.insertAdjacentElement('afterend',rail);
+  };
+  window.addEventListener('bm-ready',()=>BM.injectProContext());
+})();

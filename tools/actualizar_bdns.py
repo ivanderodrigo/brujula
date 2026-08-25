@@ -13,11 +13,11 @@ import argparse, datetime as dt, json, re, sys, time, unicodedata, urllib.reques
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/"data"/"generated"/"oportunidades_bdns.json"
-RAW_DIR=ROOT/"data"/"generated"/"raw_bdns"
+RAW_DIR=ROOT/"tools"/"cache"/"raw_bdns"
 STATUS=ROOT/"data"/"generated"/"status.json"
 BASE="https://www.infosubvenciones.es/bdnstrans/api"
 VPD="GE"
-UA="BrujulaMunicipal-static-updater/0.5 (+static site)"
+UA="BrujulaMunicipal-static-updater/1.1.1 (+https://brujulamunicipal.eu.org/)"
 
 MUNICIPAL_TERMS=["municipio","municipios","ayuntamiento","ayuntamientos","entidad local","entidades locales","eell","diputacion","diputación","cabildo","consejo insular","mancomunidad","entidad de ambito territorial inferior","entidad de ámbito territorial inferior"]
 TOPICS={

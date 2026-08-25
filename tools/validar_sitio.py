@@ -11,6 +11,15 @@ import argparse, json, re, sys
 
 ROOT = Path(__file__).resolve().parents[1]
 
+def is_publishable_path(path:Path):
+    rel=path.relative_to(ROOT)
+    parts=rel.parts
+    if not parts:return True
+    if parts[0]=='.git':return False
+    if len(parts)>=2 and parts[0]=='tools' and parts[1]=='cache':return False
+    if 'raw_bdns' in parts or 'boe_raw' in parts:return False
+    return True
+
 class LinkParser(HTMLParser):
     def __init__(self):
         super().__init__(); self.refs=[]
@@ -100,6 +109,7 @@ def validate_sources(errors):
 
 def validate_html(errors):
     for html in ROOT.rglob('*.html'):
+        if not is_publishable_path(html): continue
         if any(part.startswith('.') for part in html.relative_to(ROOT).parts): continue
         parser=LinkParser()
         try: parser.feed(html.read_text(encoding='utf-8'))
@@ -123,6 +133,7 @@ def validate_seo(errors,warnings):
         count=txt.count('<url>')
         if count<200: warnings.append(f'Sitemap pequeño: {count} URLs')
     for p in ROOT.rglob('index.html'):
+        if not is_publishable_path(p): continue
         txt=p.read_text(encoding='utf-8',errors='ignore')
         if '<link rel="canonical"' not in txt: errors.append(f'SEO sin canonical: {p.relative_to(ROOT)}')
         if 'application/ld+json' not in txt: errors.append(f'SEO sin JSON-LD: {p.relative_to(ROOT)}')
@@ -140,6 +151,7 @@ def validate_seo(errors,warnings):
 def validate_no_backend(errors):
     forbidden=[r'localhost:\d+',r'127\.0\.0\.1:\d+',r'api[_-]?key\s*[:=]',r'supabase\.co',r'cloudflare.*workers']
     for p in list(ROOT.rglob('*.html'))+list(ROOT.rglob('*.js')):
+        if not is_publishable_path(p): continue
         txt=p.read_text(encoding='utf-8',errors='ignore')
         for pat in forbidden:
             if re.search(pat,txt,re.I):

@@ -4,3 +4,11 @@ logs/*.log
 logs/*.tmp
 .DS_Store
 Thumbs.db
+
+# Cachés de trabajo: nunca forman parte de la web pública ni del repositorio.
+tools/cache/
+tools/**/__pycache__/
+
+# Directorios raw heredados de v1.1; la evidencia bruta se conserva ahora en tools/cache.
+data/generated/raw_bdns/
+data/generated/boe_raw/

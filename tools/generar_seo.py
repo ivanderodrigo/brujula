@@ -10,6 +10,13 @@ SITE=CFG['site_url'].rstrip('/')+'/'
 OG=urljoin(SITE,CFG['og_image'])
 START='<!-- SEO:BRUJULA:START -->'; END='<!-- SEO:BRUJULA:END -->'
 
+def publishable(path:Path):
+    rel=path.relative_to(ROOT)
+    parts=rel.parts
+    if len(parts)>=2 and parts[0]=='tools' and parts[1]=='cache': return False
+    if parts and parts[0].startswith('.'): return False
+    return True
+
 def esc(s): return html.escape(str(s or ''),quote=True)
 def page_url(path:Path):
     rel=path.relative_to(ROOT).as_posix()
@@ -76,7 +83,7 @@ def write_card(kind,item,interactive,summary_field='summary'):
     facts=[]
     for key,label in [('organization','Organismo'),('category','Ámbito'),('complexity','Complejidad'),('status_label','Estado'),('deadline','Plazo'),('population','Población'),('cost','Coste'),('actual_cost','Coste real')]:
         if item.get(key) not in (None,''):facts.append(f'<div><strong>{esc(item.get(key))}</strong><span>{label}</span></div>')
-    body=f'''<!doctype html><html lang="es" data-base="../../../"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} · Brújula Municipal</title><meta name="description" content="{esc(desc[:300])}"><link rel="stylesheet" href="../../../assets/css/styles.css"></head><body><header class="topbar"><div class="shell nav"><a class="brand" href="../../../">Brújula <span>Municipal</span></a><div class="nav-actions"><a class="btn" href="../../../{interactive}">Abrir ficha interactiva</a></div></div></header><main><section class="detail-hero"><div class="shell"><div class="kicker">Ficha indexable · {esc(kind)}</div><h1>{esc(title)}</h1><p class="lede">{esc(desc)}</p><div class="facts">{''.join(facts)}</div></div></section><section class="section"><div class="shell two-col-detail"><div><article class="card"><div class="kicker">Qué debes saber</div><h2>Resumen práctico</h2><p>{esc(desc)}</p>{f'<p><a class="btn" href="{esc(source)}" target="_blank" rel="noopener">Fuente oficial ↗</a></p>' if source else ''}</article></div><aside class="card sticky-side"><div class="kicker">Brújula Municipal</div><h3>Continúa en la herramienta</h3><p>Abre la ficha interactiva para relacionar esta información con tu localidad, proyectos, financiación y obligaciones.</p><a class="btn btn-teal" href="../../../{interactive}">Abrir ficha interactiva</a></aside></div></section></main><footer class="footer"><div class="shell"><p class="small">Brújula Municipal · Inteligencia práctica para pequeños ayuntamientos.</p></div></footer><script src="../../../assets/js/app.js"></script></body></html>'''
+    body=f'''<!doctype html><html lang="es" data-base="../../../"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} · Brújula Municipal</title><meta name="description" content="{esc(desc[:300])}"><link rel="stylesheet" href="../../../assets/css/styles.css"></head><body><a class="skip-link" href="#main-content">Saltar al contenido principal</a><header class="topbar"><div class="shell nav"><a class="brand" href="../../../">Brújula <span>Municipal</span></a><div class="nav-actions"><a class="btn" href="../../../{interactive}">Abrir ficha interactiva</a></div></div></header><main id="main-content"><section class="detail-hero"><div class="shell"><div class="kicker">Ficha indexable · {esc(kind)}</div><h1>{esc(title)}</h1><p class="lede">{esc(desc)}</p><div class="facts">{''.join(facts)}</div></div></section><section class="section"><div class="shell two-col-detail"><div><article class="card"><div class="kicker">Qué debes saber</div><h2>Resumen práctico</h2><p>{esc(desc)}</p>{f'<p><a class="btn" href="{esc(source)}" target="_blank" rel="noopener">Fuente oficial ↗</a></p>' if source else ''}</article></div><aside class="card sticky-side"><div class="kicker">Brújula Municipal</div><h3>Continúa en la herramienta</h3><p>Abre la ficha interactiva para relacionar esta información con tu localidad, proyectos, financiación y obligaciones.</p><a class="btn btn-teal" href="../../../{interactive}">Abrir ficha interactiva</a></aside></div></section></main><footer class="footer"><div class="shell"><p class="small">Brújula Municipal · Inteligencia práctica para pequeños ayuntamientos.</p></div></footer><script src="../../../assets/js/app.js"></script></body></html>'''
     path=folder/'index.html'; path.write_text(body,encoding='utf-8'); inject(path); return url
 
 def main():
@@ -90,6 +97,7 @@ def main():
     for x in cases: urls.append(write_card('casos',x,f'casos/detalle.html?id={x["id"]}',summary_field='result'))
     # metadatos para páginas existentes
     for p in ROOT.rglob('*.html'):
+        if not publishable(p): continue
         if '/fichas/' in p.as_posix(): continue
         inject(p)
     # manifest / robots / humans
@@ -99,6 +107,7 @@ def main():
     (ROOT/'humans.txt').write_text(f'{CFG["site_name"]}\nAutor: {CFG["author_name"]}\nLinkedIn: {CFG["author_linkedin"]}\nWeb: {SITE}\n',encoding='utf-8')
     # manifiesto enlazado desde todas las páginas
     for p in ROOT.rglob('*.html'):
+        if not publishable(p): continue
         text=p.read_text(encoding='utf-8')
         if 'rel="manifest"' not in text:
             rel=os.path.relpath(ROOT/'site.webmanifest',p.parent).replace('\\','/')
@@ -107,6 +116,7 @@ def main():
     # sitemap: secciones + fichas; excluye templates detalle genéricos
     static=[]
     for p in ROOT.rglob('index.html'):
+        if not publishable(p): continue
         rel=p.relative_to(ROOT).as_posix()
         if rel.startswith('.'):continue
         static.append(page_url(p))
