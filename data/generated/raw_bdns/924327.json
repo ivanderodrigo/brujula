@@ -1,0 +1,76 @@
+{
+  "id": 1125888,
+  "organo": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE PALENCIA",
+    "nivel3": "DIPUTACIÓN PROVINCIAL DE PALENCIA"
+  },
+  "sedeElectronica": "https://sede.diputaciondepalencia.es",
+  "codigoBDNS": "924327",
+  "fechaRecepcion": "2026-08-10",
+  "instrumentos": [
+    {
+      "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+    }
+  ],
+  "tipoConvocatoria": "Concurrencia competitiva - canónica",
+  "presupuestoTotal": 2387326,
+  "mrr": false,
+  "descripcion": "DECRETO 31 de julio de 2026, de la Presidenta de la Diputación de Palencia, que aprueba la convocatoria de subvenciones a los Ayuntamientos de la provincia de Palencia con población inferior a 20.000 habitantes para financiación de gasto corriente",
+  "descripcionLeng": null,
+  "tiposBeneficiarios": [
+    {
+      "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+    }
+  ],
+  "sectores": [
+    {
+      "descripcion": "ACTIVIDADES ADMINISTRATIVAS Y SERVICIOS AUXILIARES",
+      "codigo": "O"
+    }
+  ],
+  "regiones": [
+    {
+      "descripcion": "ES414 - Palencia"
+    }
+  ],
+  "descripcionFinalidad": "Otras Prestaciones económicas",
+  "descripcionBasesReguladoras": "ORDENANZA GENERAL DE SUBVENCIONES DE LA DIPUTACION DE PALENCIA",
+  "urlBasesReguladoras": "https://www.diputaciondepalencia.es/system/files/bop/2014/20140709-bop-82-ordinario.pdf",
+  "sePublicaDiarioOficial": true,
+  "abierto": false,
+  "fechaInicioSolicitud": null,
+  "fechaFinSolicitud": "2026-09-30",
+  "textInicio": "Dia siguiente a la fecha de publicación en BOP",
+  "textFin": null,
+  "ayudaEstado": null,
+  "urlAyudaEstado": null,
+  "fondos": [],
+  "reglamento": null,
+  "objetivos": [],
+  "sectoresProductos": [],
+  "documentos": [
+    {
+      "id": 1507543,
+      "descripcion": "Documento de la convocatoria en español",
+      "nombreFic": "DECRETO APROBACION.pdf",
+      "long": 1184658,
+      "datMod": "2026-08-10",
+      "datPublicacion": "2026-08-14"
+    }
+  ],
+  "anuncios": [
+    {
+      "numAnuncio": 219038,
+      "titulo": "Convocatoria de subvenciones a los Ayuntamientos de la provincia de Palencia con población inferior a 20.000 habitantes para financiación de gasto corriente",
+      "tituloLeng": null,
+      "texto": "<p>Primero.-Beneficiarios:</p><p>Ayuntamientos de la provincia de Palencia con población inferior a 20.000 habitantes.</p><p>Segundo.-Objeto:</p><p>Es objeto de esta convocatoria la concesión de ayudas destinadas a la financiación del gasto corriente de los Ayuntamientos de la provincia de Palencia con población inferior a 20.000 habitantes.</p><p>Tercero.-Actuaciones subvencionables.</p><p>Financiación de los gastos de funcionamiento ordinario de los servicios municipales, mediante la imputación de gastos correspondientes a los capítulos I y II de la clasificación económica del presupuesto de gastos de la entidad local.</p><p>Cuarto.-Cuantía:</p><p>La cuantía total de las subvenciones ascienda a la cantidad de 2.387.326,00 euros</p><p>Quinto.-Plazo de presentación de solicitudes y justificación.</p><p>El plazo para la presentación de las solicitudes y justificación de la ayuda será desde el día siguiente al de la publicación de la convocatoria en el Boletín Oficial de la Provincia hasta el día 30 de septiembre de 2026.</p><p>Sexto.-Los anexos y demás documentación correspondiente a la presente convocatoria estarán a disposición de los interesados en la sede electrónica de la Diputación provincial de Palencia https://sede.diputaciondepalencia.es en el apartado Información pública - Subvenciones y ayudas</p>",
+      "textoLeng": null,
+      "url": "https://www.diputaciondepalencia.es/servicios/boletin-oficial-provincia/bop-no-99-miercoles-19-agosto-2026",
+      "cve": null,
+      "desDiarioOficial": "B.O.P. DE PALENCIA",
+      "datPublicacion": "2026-08-19"
+    }
+  ],
+  "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
+}

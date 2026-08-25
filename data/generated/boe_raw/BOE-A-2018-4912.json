@@ -1,0 +1,144 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260626T065732Z",
+    "identificador": "BOE-A-2018-4912",
+    "ambito": {
+      "codigo": "1",
+      "texto": "Estatal"
+    },
+    "departamento": {
+      "codigo": "7320",
+      "texto": "Ministerio del Interior"
+    },
+    "rango": {
+      "codigo": "1350",
+      "texto": "Orden"
+    },
+    "fecha_disposicion": "20180328",
+    "numero_oficial": "INT/372/2018",
+    "titulo": "Orden INT/372/2018, de 28 de marzo, por la que se crea y se regula el funcionamiento de la Comisión Ministerial de Administración Digital del Ministerio del Interior.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "20180411",
+    "diario_numero": "88",
+    "fecha_vigencia": "20180412",
+    "vigencia_agotada": "N",
+    "estado_consolidacion": {
+      "codigo": "3",
+      "texto": "Finalizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es/o/2018/03/28/int372",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-4912"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260626T065732Z",
+        "identificador": "BOE-A-2018-4912",
+        "ambito": {
+          "codigo": "1",
+          "texto": "Estatal"
+        },
+        "departamento": {
+          "codigo": "7320",
+          "texto": "Ministerio del Interior"
+        },
+        "rango": {
+          "codigo": "1350",
+          "texto": "Orden"
+        },
+        "fecha_disposicion": "20180328",
+        "numero_oficial": "INT/372/2018",
+        "titulo": "Orden INT/372/2018, de 28 de marzo, por la que se crea y se regula el funcionamiento de la Comisión Ministerial de Administración Digital del Ministerio del Interior.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "20180411",
+        "diario_numero": "88",
+        "fecha_vigencia": "20180412",
+        "estatus_derogacion": "N",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "N",
+        "estado_consolidacion": {
+          "codigo": "3",
+          "texto": "Finalizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es/o/2018/03/28/int372",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-4912"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "5278",
+              "texto": "Organización de la Administración del Estado"
+            }
+          }
+        ],
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "BOE-A-2015-4324",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "la Orden INT/698/2015, de 17 de abril"
+                },
+                {
+                  "id_norma": "BOE-A-2014-9741",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "el Real Decreto 806/2014, de 19 de septiembre"
+                }
+              ]
+            }
+          ],
+          "posteriores": [
+            {
+              "posterior": [
+                {
+                  "id_norma": "BOE-A-2026-13891",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el art. 2, por Orden INT/644/2026, de 23 de junio"
+                },
+                {
+                  "id_norma": "BOE-A-2025-641",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "los arts. 2.1 y 2, 3.2, 4 y 5, por Orden INT/5/2025, de 13 de enero"
+                },
+                {
+                  "id_norma": "BOE-A-2019-4673",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "los arts. 2, 3 y 4, por Orden INT/365/2019, de 27 de marzo"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

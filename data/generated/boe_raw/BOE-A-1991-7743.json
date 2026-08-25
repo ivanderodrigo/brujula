@@ -1,0 +1,171 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260716T103330Z",
+    "identificador": "BOE-A-1991-7743",
+    "ambito": {
+      "codigo": "2",
+      "texto": "Autonómico"
+    },
+    "departamento": {
+      "codigo": "8110",
+      "texto": "Comunidad Autónoma de La Rioja"
+    },
+    "rango": {
+      "codigo": "1300",
+      "texto": "Ley"
+    },
+    "fecha_disposicion": "19910321",
+    "numero_oficial": "3/1991",
+    "titulo": "Ley 3/1991, de 21 de marzo, de Elecciones a la Diputación General de La Rioja.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "19910327",
+    "diario_numero": "74",
+    "fecha_vigencia": "19910328",
+    "vigencia_agotada": "N",
+    "estado_consolidacion": {
+      "codigo": "3",
+      "texto": "Finalizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es-ri/l/1991/03/21/3",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-1991-7743"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260716T103330Z",
+        "identificador": "BOE-A-1991-7743",
+        "ambito": {
+          "codigo": "2",
+          "texto": "Autonómico"
+        },
+        "departamento": {
+          "codigo": "8110",
+          "texto": "Comunidad Autónoma de La Rioja"
+        },
+        "rango": {
+          "codigo": "1300",
+          "texto": "Ley"
+        },
+        "fecha_disposicion": "19910321",
+        "numero_oficial": "3/1991",
+        "titulo": "Ley 3/1991, de 21 de marzo, de Elecciones a la Diputación General de La Rioja.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "19910327",
+        "diario_numero": "74",
+        "fecha_vigencia": "19910328",
+        "estatus_derogacion": "N",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "N",
+        "estado_consolidacion": {
+          "codigo": "3",
+          "texto": "Finalizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es-ri/l/1991/03/21/3",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-1991-7743"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "6244",
+              "texto": "La Rioja"
+            }
+          }
+        ],
+        "notas": {
+          "nota": "Publicada en el BOR núm. 36, de 23 de marzo de 1991."
+        },
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "BOE-A-1987-4252",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "Ley 1/1987, de 23 de enero"
+                },
+                {
+                  "id_norma": "BOE-A-1985-11672",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "Ley Orgánica 5/1985, de 19 de junio"
+                },
+                {
+                  "id_norma": "BOE-A-1982-15030",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "art. 18.6 del Estatuto aprobado por Ley Orgánica 3/1982, de 9 de junio"
+                },
+                {
+                  "id_norma": "BOE-A-1991-6824",
+                  "relacion": {
+                    "codigo": "330",
+                    "texto": "CITA"
+                  },
+                  "texto": "Ley Orgánica 8/1991, de 13 de marzo"
+                },
+                {
+                  "id_norma": "BOE-A-1987-8193",
+                  "relacion": {
+                    "codigo": "330",
+                    "texto": "CITA"
+                  },
+                  "texto": "Ley Orgánica 1/1987, de 2 de abril"
+                },
+                {
+                  "id_norma": "BOE-A-1958-11341",
+                  "relacion": {
+                    "codigo": "330",
+                    "texto": "CITA"
+                  },
+                  "texto": "Ley sobre procedimiento administrativo, de 17 de julio de 1958 (Gazeta)"
+                }
+              ]
+            }
+          ],
+          "posteriores": [
+            {
+              "posterior": [
+                {
+                  "id_norma": "BOE-A-1995-8135",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "SE DICTA DE CONFORMIDAD"
+                  },
+                  "texto": "con el art. 22, convocando Elecciones: Decreto 2/1995, de 3 de abril"
+                },
+                {
+                  "id_norma": "BOE-A-1991-7963",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "SE DICTA DE CONFORMIDAD"
+                  },
+                  "texto": "con el art. 22, convocando Elecciones: Decreto 3/1991, de 1 de abril"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

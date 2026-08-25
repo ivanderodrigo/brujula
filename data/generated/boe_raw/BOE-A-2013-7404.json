@@ -1,0 +1,120 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260626T073728Z",
+    "identificador": "BOE-A-2013-7404",
+    "ambito": {
+      "codigo": "1",
+      "texto": "Estatal"
+    },
+    "departamento": {
+      "codigo": "4810",
+      "texto": "Ministerio de Justicia"
+    },
+    "rango": {
+      "codigo": "1410",
+      "texto": "Instrucción"
+    },
+    "fecha_disposicion": "20130625",
+    "titulo": "Instrucción de 25 de junio de 2013, de la Dirección General de los Registros y del Notariado, sobre supuestos a los que se aplica el artículo 217 del Reglamento del Registro Civil.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "20130706",
+    "diario_numero": "161",
+    "fecha_vigencia": "20130706",
+    "vigencia_agotada": "N",
+    "estado_consolidacion": {
+      "codigo": "3",
+      "texto": "Finalizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es/ins/2013/06/25/(1)",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-7404"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260626T073728Z",
+        "identificador": "BOE-A-2013-7404",
+        "ambito": {
+          "codigo": "1",
+          "texto": "Estatal"
+        },
+        "departamento": {
+          "codigo": "4810",
+          "texto": "Ministerio de Justicia"
+        },
+        "rango": {
+          "codigo": "1410",
+          "texto": "Instrucción"
+        },
+        "fecha_disposicion": "20130625",
+        "titulo": "Instrucción de 25 de junio de 2013, de la Dirección General de los Registros y del Notariado, sobre supuestos a los que se aplica el artículo 217 del Reglamento del Registro Civil.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "20130706",
+        "diario_numero": "161",
+        "fecha_vigencia": "20130706",
+        "estatus_derogacion": "N",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "N",
+        "estado_consolidacion": {
+          "codigo": "3",
+          "texto": "Finalizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es/ins/2013/06/25/(1)",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-7404"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "5955",
+              "texto": "Registro Civil"
+            }
+          }
+        ],
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "BOE-A-2007-5585",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "art. 6 de la Ley 3/2007, de 15 de marzo"
+                },
+                {
+                  "id_norma": "BOE-A-1958-18486",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "art. 217 del Reglamento aprobado por Decreto de 19 de noviembre de 1958 (GAZETA)"
+                },
+                {
+                  "id_norma": "BOE-A-1957-7537",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "Ley de 8 de junio de 1957 (GAZETA)"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

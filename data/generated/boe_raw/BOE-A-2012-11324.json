@@ -1,0 +1,136 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260630T085212Z",
+    "identificador": "BOE-A-2012-11324",
+    "ambito": {
+      "codigo": "1",
+      "texto": "Estatal"
+    },
+    "departamento": {
+      "codigo": "3210",
+      "texto": "Ministerio de Fomento"
+    },
+    "rango": {
+      "codigo": "1350",
+      "texto": "Orden"
+    },
+    "fecha_disposicion": "20120801",
+    "numero_oficial": "FOM/1882/2012",
+    "titulo": "Orden FOM/1882/2012, de 1 de agosto, por la que se aprueban las condiciones generales de contratación de los transportes de mercancías por carretera.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "20120905",
+    "diario_numero": "214",
+    "fecha_vigencia": "20120925",
+    "vigencia_agotada": "N",
+    "estado_consolidacion": {
+      "codigo": "3",
+      "texto": "Finalizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es/o/2012/08/01/fom1882",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-11324"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260630T085212Z",
+        "identificador": "BOE-A-2012-11324",
+        "ambito": {
+          "codigo": "1",
+          "texto": "Estatal"
+        },
+        "departamento": {
+          "codigo": "3210",
+          "texto": "Ministerio de Fomento"
+        },
+        "rango": {
+          "codigo": "1350",
+          "texto": "Orden"
+        },
+        "fecha_disposicion": "20120801",
+        "numero_oficial": "FOM/1882/2012",
+        "titulo": "Orden FOM/1882/2012, de 1 de agosto, por la que se aprueban las condiciones generales de contratación de los transportes de mercancías por carretera.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "20120905",
+        "diario_numero": "214",
+        "fecha_vigencia": "20120925",
+        "estatus_derogacion": "N",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "N",
+        "estado_consolidacion": {
+          "codigo": "3",
+          "texto": "Finalizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es/o/2012/08/01/fom1882",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-11324"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "7116",
+              "texto": "Vehículos de motor"
+            }
+          }
+        ],
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "BOE-A-1997-9868",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "Orden de 25 de abril de 1997"
+                },
+                {
+                  "id_norma": "BOE-A-2009-18004",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "Ley 15/2009, de 11 de noviembre"
+                }
+              ]
+            }
+          ],
+          "posteriores": [
+            {
+              "posterior": [
+                {
+                  "id_norma": "BOE-A-2026-14112",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "las condiciones generales 3.4 y 8.3 del anexo, por Real Decreto-ley 18/2026, de 29 de junio"
+                },
+                {
+                  "id_norma": "BOE-A-2026-8283",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "lo indicado del anexo, por Real Decreto-ley 9/2026, de 14 de abril"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

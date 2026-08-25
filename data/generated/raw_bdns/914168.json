@@ -1,0 +1,88 @@
+{
+  "id": 1115729,
+  "organo": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE SORIA",
+    "nivel3": "DIPUTACIÓN PROVINCIAL DE SORIA"
+  },
+  "sedeElectronica": "https://portaltramitador.dipsoria.es/web/inicioWebc.do?opcion=noreg",
+  "codigoBDNS": "914168",
+  "fechaRecepcion": "2026-06-19",
+  "instrumentos": [
+    {
+      "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+    }
+  ],
+  "tipoConvocatoria": "Concesión directa - instrumental",
+  "presupuestoTotal": 148943,
+  "mrr": false,
+  "descripcion": "CONVENIO DE COLABORACIÓN ENTRE LA DIPUTACIÓN Y LOS AYUNTAMIENTOS DEL TITULARES DE CENTROS DE EDUCACIÓN INFANTIL Y CRECEMOS PARA LA FINANCIACIÓN DE LOS CENTROS EN 2026",
+  "descripcionLeng": null,
+  "tiposBeneficiarios": [
+    {
+      "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+    }
+  ],
+  "sectores": [
+    {
+      "descripcion": "ADMINISTRACIÓN PÚBLICA Y DEFENSA; SEGURIDAD SOCIAL OBLIGATORIA",
+      "codigo": "P"
+    }
+  ],
+  "regiones": [
+    {
+      "descripcion": "ES417 - Soria"
+    }
+  ],
+  "descripcionFinalidad": "Educación",
+  "descripcionBasesReguladoras": "Ordenanza general reguladora de la concesión de subvenciones por la Diputación Provincial de Soria, el Patronato para el Desarrollo Integral de la Provincia de Soria y otros entes dependientes de la Diputación Provincial",
+  "urlBasesReguladoras": "https://www.dipsoria.es/sites/dipsoria/files/public/paginas/archivos/ordenanza_general_reguladora_de_la_concesion_de_subvenciones.pdf",
+  "sePublicaDiarioOficial": false,
+  "abierto": false,
+  "fechaInicioSolicitud": null,
+  "fechaFinSolicitud": null,
+  "textInicio": "1 de enero de 2026",
+  "textFin": "14 de febrero de 2027",
+  "ayudaEstado": null,
+  "urlAyudaEstado": null,
+  "fondos": [],
+  "reglamento": null,
+  "objetivos": [],
+  "sectoresProductos": [],
+  "documentos": [
+    {
+      "id": 1478833,
+      "descripcion": "Texto en castellano de la convocatoria",
+      "nombreFic": "Convenio centros de educ infantil 2026.pdf",
+      "long": 615106,
+      "datMod": "2026-06-19",
+      "datPublicacion": "2026-06-19"
+    },
+    {
+      "id": 1478836,
+      "descripcion": "ANEXO JUSTIFICACIÓN BERLANGA DE DUERO",
+      "nombreFic": "Anexo Justificación crecemos Berlanga 2026.pdf",
+      "long": 538114,
+      "datMod": "2026-06-19",
+      "datPublicacion": "2026-06-19"
+    },
+    {
+      "id": 1478835,
+      "descripcion": "ANEXO JUSTITFICACIÓN CENTROS",
+      "nombreFic": "Anexo justif centros educ inf 26.pdf",
+      "long": 163551,
+      "datMod": "2026-06-19",
+      "datPublicacion": "2026-06-19"
+    },
+    {
+      "id": 1478834,
+      "descripcion": "ACUERDO JUNTA DE GOBIERNO QUE APRUEBA EL CONVENIO",
+      "nombreFic": "JGL_Certificado_28507_249947_10.pdf",
+      "long": 214278,
+      "datMod": "2026-06-19",
+      "datPublicacion": "2026-06-19"
+    }
+  ],
+  "anuncios": [],
+  "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
+}

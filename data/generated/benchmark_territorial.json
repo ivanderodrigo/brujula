@@ -1,1 +1,119 @@
-{"generated_at":null,"groups":{},"national":{},"note":"Se regenera a partir de indicadores oficiales; no contiene valores sintéticos."}
+{
+  "generated_at": "2026-08-25T23:25:06+00:00",
+  "groups": {
+    "national": {
+      "n": 0,
+      "median": {
+        "population": null,
+        "population_change": null,
+        "density": null,
+        "mean_age": null,
+        "over65": null,
+        "broadband100": null,
+        "pharmacies": null,
+        "primary_schools": null,
+        "highway_minutes": null,
+        "hospital_minutes": null,
+        "income_per_person": null
+      }
+    },
+    "le500": {
+      "n": 0,
+      "median": {
+        "population": null,
+        "population_change": null,
+        "density": null,
+        "mean_age": null,
+        "over65": null,
+        "broadband100": null,
+        "pharmacies": null,
+        "primary_schools": null,
+        "highway_minutes": null,
+        "hospital_minutes": null,
+        "income_per_person": null
+      }
+    },
+    "501_1000": {
+      "n": 0,
+      "median": {
+        "population": null,
+        "population_change": null,
+        "density": null,
+        "mean_age": null,
+        "over65": null,
+        "broadband100": null,
+        "pharmacies": null,
+        "primary_schools": null,
+        "highway_minutes": null,
+        "hospital_minutes": null,
+        "income_per_person": null
+      }
+    },
+    "1001_5000": {
+      "n": 0,
+      "median": {
+        "population": null,
+        "population_change": null,
+        "density": null,
+        "mean_age": null,
+        "over65": null,
+        "broadband100": null,
+        "pharmacies": null,
+        "primary_schools": null,
+        "highway_minutes": null,
+        "hospital_minutes": null,
+        "income_per_person": null
+      }
+    },
+    "5001_20000": {
+      "n": 0,
+      "median": {
+        "population": null,
+        "population_change": null,
+        "density": null,
+        "mean_age": null,
+        "over65": null,
+        "broadband100": null,
+        "pharmacies": null,
+        "primary_schools": null,
+        "highway_minutes": null,
+        "hospital_minutes": null,
+        "income_per_person": null
+      }
+    },
+    "20001_50000": {
+      "n": 0,
+      "median": {
+        "population": null,
+        "population_change": null,
+        "density": null,
+        "mean_age": null,
+        "over65": null,
+        "broadband100": null,
+        "pharmacies": null,
+        "primary_schools": null,
+        "highway_minutes": null,
+        "hospital_minutes": null,
+        "income_per_person": null
+      }
+    },
+    "gt50000": {
+      "n": 0,
+      "median": {
+        "population": null,
+        "population_change": null,
+        "density": null,
+        "mean_age": null,
+        "over65": null,
+        "broadband100": null,
+        "pharmacies": null,
+        "primary_schools": null,
+        "highway_minutes": null,
+        "hospital_minutes": null,
+        "income_per_person": null
+      }
+    }
+  },
+  "peers": {},
+  "method": "Comparables por tramo de población + densidad + edad media + evolución demográfica. No es un ranking ni una equivalencia jurídica."
+}

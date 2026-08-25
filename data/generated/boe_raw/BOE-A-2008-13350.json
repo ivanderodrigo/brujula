@@ -1,0 +1,251 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260713T121510Z",
+    "identificador": "BOE-A-2008-13350",
+    "ambito": {
+      "codigo": "2",
+      "texto": "Autonómico"
+    },
+    "departamento": {
+      "codigo": "8070",
+      "texto": "Comunidad Autónoma de Cataluña"
+    },
+    "rango": {
+      "codigo": "1300",
+      "texto": "Ley"
+    },
+    "fecha_disposicion": "20080710",
+    "numero_oficial": "8/2008",
+    "titulo": "Ley 8/2008, de 10 de julio, de financiación de las infraestructuras de gestión de los residuos y de los cánones sobre la disposición del desperdicio de los residuos.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "20080805",
+    "diario_numero": "188",
+    "fecha_vigencia": "20080806",
+    "vigencia_agotada": "N",
+    "estado_consolidacion": {
+      "codigo": "4",
+      "texto": "Desactualizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es-ct/l/2008/07/10/8",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-13350"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260713T121510Z",
+        "identificador": "BOE-A-2008-13350",
+        "ambito": {
+          "codigo": "2",
+          "texto": "Autonómico"
+        },
+        "departamento": {
+          "codigo": "8070",
+          "texto": "Comunidad Autónoma de Cataluña"
+        },
+        "rango": {
+          "codigo": "1300",
+          "texto": "Ley"
+        },
+        "fecha_disposicion": "20080710",
+        "numero_oficial": "8/2008",
+        "titulo": "Ley 8/2008, de 10 de julio, de financiación de las infraestructuras de gestión de los residuos y de los cánones sobre la disposición del desperdicio de los residuos.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "20080805",
+        "diario_numero": "188",
+        "fecha_vigencia": "20080806",
+        "estatus_derogacion": "N",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "N",
+        "estado_consolidacion": {
+          "codigo": "4",
+          "texto": "Desactualizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es-ct/l/2008/07/10/8",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-13350"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "6836",
+              "texto": "Tasas"
+            }
+          }
+        ],
+        "notas": {
+          "nota": "Publicada en el DOGC núm. 5175, de 17 de julio de 2008."
+        },
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "BOE-A-2003-14569",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "la Ley 16/2003, de 13 de junio"
+                },
+                {
+                  "id_norma": "BOE-A-2006-13087",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "los arts. 144 y 203 del el Estatuto aprobado por Ley Orgánica 6/2006, de 19 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-1993-21942",
+                  "relacion": {
+                    "codigo": "331",
+                    "texto": "EN RELACIÓN con"
+                  },
+                  "texto": "la Ley 6/1993, de 15 de julio"
+                },
+                {
+                  "id_norma": "DOUE-L-2006-80689",
+                  "relacion": {
+                    "codigo": "330",
+                    "texto": "CITA"
+                  },
+                  "texto": "Directiva 2006/12/CE, de 5 de abril"
+                }
+              ]
+            }
+          ],
+          "posteriores": [
+            {
+              "posterior": [
+                {
+                  "id_norma": "BOE-A-2017-7353",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "SE DEROGA"
+                  },
+                  "texto": "el art. 17.4; SE MODIFICA los arts. 6.10 y 15 y SE AÑADE las disposiciones adicionales 2 y 4 y transitoria 3, por Ley 5/2017, de 28 de marzo"
+                },
+                {
+                  "id_norma": "DOGC-f-2026-90190",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "los arts. 5 y 6, por Ley 11/2026, de 9 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-2023-10344",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "los arts. 5 y 6, por Ley 3/2023, de 16 de marzo"
+                },
+                {
+                  "id_norma": "BOE-A-2020-5648",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "en la forma indicada, los arts.16 novies y 24, por Decreto-ley 11/2020, de 9 de abril"
+                },
+                {
+                  "id_norma": "BOE-A-2020-5569",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "los arts. 6, 15 y disposición adicional 2, por Ley 5/2020, de 29 de abril"
+                },
+                {
+                  "id_norma": "DOGC-f-2019-90518",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el art. 16 decies, por Decreto-ley 12/2019, de 9 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-2015-3637",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el art. 15 y SE PRORROGA, para el ejercicio 2015, el plazo establecido por la disposición adicional 3 a los efectos indicados, por Ley 3/2015, de 11 de marzo"
+                },
+                {
+                  "id_norma": "BOE-A-2014-2999",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "los arts. 1 a 3, 5, 6, 15, 27 y SE AÑADE la sección 1 bis al capítulo III y la disposición adicional 3, y SE SUSPENDE la aplicación de lo indicado de la sección II del capítulo III, por Ley 2/2014, de 27 de enero"
+                },
+                {
+                  "id_norma": "BOE-A-2012-4730",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el art. 15, por Ley 5/2012, de 20 de marzo"
+                },
+                {
+                  "id_norma": "BOE-A-2011-13896",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "con efectos desde el 1 de octubre de 2011, el art. 15, y SE SUSPENDE durante dos años lo indicado en la sección II del capítulo III, por Ley 7/2011, de 27 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-2010-737",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "art. 17.4, por Ley 26/2009, de 23 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2020-5901",
+                  "relacion": {
+                    "codigo": "203",
+                    "texto": "SE CORRIGEN errores"
+                  },
+                  "texto": ", con variación de preceptos modificadores, de la Ley 5/2020, de 29 de abril, en BOE num. 163, de 10 de junio de 2020"
+                },
+                {
+                  "id_norma": "BOE-A-2014-3003",
+                  "relacion": {
+                    "codigo": "203",
+                    "texto": "SE CORRIGEN errores"
+                  },
+                  "texto": ", con modificación de los arts. 5, 174 y 207.5, de la Ley 2/2014, de 27 de enero, en BOE núm. 69, de 21 de marzo de 2014"
+                },
+                {
+                  "id_norma": "DOGC-f-2020-90174",
+                  "relacion": {
+                    "codigo": "204",
+                    "texto": "SE CORRIGEN erratas"
+                  },
+                  "texto": ", en la Ley 5/2020, de 27 de abril, en DOGC núm. 8135, de 18 de mayo de 2020"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

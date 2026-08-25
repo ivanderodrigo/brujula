@@ -1,0 +1,141 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260803T084148Z",
+    "identificador": "BOE-A-2023-9290",
+    "ambito": {
+      "codigo": "1",
+      "texto": "Estatal"
+    },
+    "departamento": {
+      "codigo": "9573",
+      "texto": "Ministerio de Trabajo y Economía Social"
+    },
+    "rango": {
+      "codigo": "1350",
+      "texto": "Orden"
+    },
+    "fecha_disposicion": "20230410",
+    "numero_oficial": "TES/369/2023",
+    "titulo": "Orden TES/369/2023, de 10 de abril, por la que se aprueba la Política de Seguridad de la Información y de los Servicios en el ámbito de la administración digital del Ministerio de Trabajo y Economía Social y se crea el Comité de Seguridad de las Tecnologías de la Información y las Comunicaciones del Departamento.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "20230417",
+    "diario_numero": "91",
+    "fecha_vigencia": "20230418",
+    "vigencia_agotada": "S",
+    "estado_consolidacion": {
+      "codigo": "3",
+      "texto": "Finalizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es/o/2023/04/10/tes369",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-9290"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260803T084148Z",
+        "identificador": "BOE-A-2023-9290",
+        "ambito": {
+          "codigo": "1",
+          "texto": "Estatal"
+        },
+        "departamento": {
+          "codigo": "9573",
+          "texto": "Ministerio de Trabajo y Economía Social"
+        },
+        "rango": {
+          "codigo": "1350",
+          "texto": "Orden"
+        },
+        "fecha_disposicion": "20230410",
+        "numero_oficial": "TES/369/2023",
+        "titulo": "Orden TES/369/2023, de 10 de abril, por la que se aprueba la Política de Seguridad de la Información y de los Servicios en el ámbito de la administración digital del Ministerio de Trabajo y Economía Social y se crea el Comité de Seguridad de las Tecnologías de la Información y las Comunicaciones del Departamento.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "20230417",
+        "diario_numero": "91",
+        "fecha_vigencia": "20230418",
+        "estatus_derogacion": "S",
+        "fecha_derogacion": "20260802",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "S",
+        "estado_consolidacion": {
+          "codigo": "3",
+          "texto": "Finalizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es/o/2023/04/10/tes369",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-9290"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "4189",
+              "texto": "Seguridad informática"
+            }
+          }
+        ],
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "BOE-A-2011-17656",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "en la forma indicada, la Orden TIN/3016/2011, de 28 de octubre"
+                },
+                {
+                  "id_norma": "",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "en la forma indicada, la Orden de 30 de julio de 2012 del Ministerio de Empleo y Seguridad Social"
+                },
+                {
+                  "id_norma": "BOE-A-2022-7191",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "los arts. 12 y 13 del Real Decreto 311/2022, de 3 de mayo"
+                },
+                {
+                  "id_norma": "BOE-A-2020-4765",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "el Real Decreto 499/2020, de 28 de abril"
+                }
+              ]
+            }
+          ],
+          "posteriores": {
+            "posterior": {
+              "id_norma": "BOE-A-2026-16757",
+              "relacion": {
+                "codigo": "210",
+                "texto": "SE DEROGA"
+              },
+              "texto": ", por Orden TES/804/2026, de 23 de julio"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

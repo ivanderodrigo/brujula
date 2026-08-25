@@ -1,0 +1,64 @@
+{
+  "id": 1125344,
+  "organo": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "GALICIA",
+    "nivel3": "AGENCIA TURISMO DE GALICIA"
+  },
+  "sedeElectronica": null,
+  "codigoBDNS": "923783",
+  "fechaRecepcion": "2026-08-06",
+  "instrumentos": [
+    {
+      "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+    }
+  ],
+  "tipoConvocatoria": "Concesión directa - instrumental",
+  "presupuestoTotal": 1126800,
+  "mrr": false,
+  "descripcion": "CONVENIO DE COLABORACIÓN  ENTRE LA AGENCIA  DE TURISMO  DE GALICIA,  LA MANCOMUNIDAD  DE AYUNTAMIENTOS  GALLEGOS DEL CAMINO FRANCÉS Y LOS  AYUNTAMIENTOS  INTEGRANTES DE LA MANCOMUNIDAD PARA ACTUACIONES DE MEJORA PAISAJÍSTICA Y DE PROMOCIÓN DEL XACOBEO EN ",
+  "descripcionLeng": null,
+  "tiposBeneficiarios": [
+    {
+      "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+    }
+  ],
+  "sectores": [
+    {
+      "descripcion": "Prestación de servicios a la comunidad en general",
+      "codigo": "84.2"
+    }
+  ],
+  "regiones": [
+    {
+      "descripcion": "ES11 - GALICIA"
+    }
+  ],
+  "descripcionFinalidad": "Comercio, Turismo y Pymes",
+  "descripcionBasesReguladoras": "CONVENIO DE COLABORACIÓN  ENTRE LA AGENCIA  DE TURISMO  DE GALICIA,  LA MANCOMUNIDAD  DE AYUNTAMIENTOS  GALLEGOS DEL CAMINO FRANCÉS Y LOS  AYUNTAMIENTOS  INTEGRANTES DE LA MANCOMUNIDAD PARA ACTUACIONES DE MEJORA PAISAJÍSTICA Y DE PROMOCIÓN DEL XACOBEO EN ",
+  "urlBasesReguladoras": "https://convenios.xunta.gal/consultaconvenios/busqueda-convenio?locale=es",
+  "sePublicaDiarioOficial": false,
+  "abierto": false,
+  "fechaInicioSolicitud": null,
+  "fechaFinSolicitud": null,
+  "textInicio": "SIN PLAZO SOLICITUD",
+  "textFin": "SIN PLAZO SOLICITUD",
+  "ayudaEstado": null,
+  "urlAyudaEstado": null,
+  "fondos": [],
+  "reglamento": null,
+  "objetivos": [],
+  "sectoresProductos": [],
+  "documentos": [
+    {
+      "id": 1506068,
+      "descripcion": "Texto en castellano de la convocatoria",
+      "nombreFic": "Texto convenio Camiño Francés 2026_v3_20260806_093848.pdf",
+      "long": 763083,
+      "datMod": "2026-08-06",
+      "datPublicacion": "2026-08-06"
+    }
+  ],
+  "anuncios": [],
+  "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
+}

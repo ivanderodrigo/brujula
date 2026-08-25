@@ -1,0 +1,200 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260707T082228Z",
+    "identificador": "BOE-A-2017-7769",
+    "ambito": {
+      "codigo": "1",
+      "texto": "Estatal"
+    },
+    "departamento": {
+      "codigo": "9218",
+      "texto": "Ministerio de Empleo y Seguridad Social"
+    },
+    "rango": {
+      "codigo": "1340",
+      "texto": "Real Decreto"
+    },
+    "fecha_disposicion": "20170703",
+    "numero_oficial": "694/2017",
+    "titulo": "Real Decreto 694/2017, de 3 de julio, por el que se desarrolla la Ley 30/2015, de 9 de septiembre, por la que se regula el Sistema de Formación Profesional para el Empleo en el ámbito laboral.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "20170705",
+    "diario_numero": "159",
+    "fecha_vigencia": "20170706",
+    "vigencia_agotada": "N",
+    "estado_consolidacion": {
+      "codigo": "3",
+      "texto": "Finalizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es/rd/2017/07/03/694",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-7769"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260707T082228Z",
+        "identificador": "BOE-A-2017-7769",
+        "ambito": {
+          "codigo": "1",
+          "texto": "Estatal"
+        },
+        "departamento": {
+          "codigo": "9218",
+          "texto": "Ministerio de Empleo y Seguridad Social"
+        },
+        "rango": {
+          "codigo": "1340",
+          "texto": "Real Decreto"
+        },
+        "fecha_disposicion": "20170703",
+        "numero_oficial": "694/2017",
+        "titulo": "Real Decreto 694/2017, de 3 de julio, por el que se desarrolla la Ley 30/2015, de 9 de septiembre, por la que se regula el Sistema de Formación Profesional para el Empleo en el ámbito laboral.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "20170705",
+        "diario_numero": "159",
+        "fecha_vigencia": "20170706",
+        "estatus_derogacion": "N",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "N",
+        "estado_consolidacion": {
+          "codigo": "3",
+          "texto": "Finalizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es/rd/2017/07/03/694",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-7769"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "6832",
+              "texto": "Trabajadores autónomos"
+            }
+          }
+        ],
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "BOE-A-2007-7573",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "el Real Decreto 395/2007, de 23 de marzo"
+                },
+                {
+                  "id_norma": "BOE-A-2006-6248",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "el art. 2.1.k) del Real Decreto 357/2006, de 24 de marzo"
+                },
+                {
+                  "id_norma": "BOE-A-1997-2340",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "el Real Decreto 2579/1996, de 13 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2011-18062",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "MODIFICA"
+                  },
+                  "texto": "el art. 3.1 del Real Decreto 1543/2011, de 31 de octubre"
+                },
+                {
+                  "id_norma": "BOE-A-2008-3526",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "MODIFICA"
+                  },
+                  "texto": "los arts. 5.4, 7.3 y 8.1 del Real Decreto 229/2008, de 15 de febrero"
+                },
+                {
+                  "id_norma": "BOE-A-2015-9734",
+                  "relacion": {
+                    "codigo": "490",
+                    "texto": "DESARROLLA"
+                  },
+                  "texto": "la Ley 30/2015, de 9 de septiembre"
+                }
+              ]
+            }
+          ],
+          "posteriores": [
+            {
+              "posterior": [
+                {
+                  "id_norma": "BOE-A-2025-27115",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "los arts. 18, 25 y la disposición transitoria 2, por Real Decreto 1189/2025, de 26 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2021-15771",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el art. 28.1 y 2, por Real Decreto 818/2021, de 28 de septiembre"
+                },
+                {
+                  "id_norma": "BOE-A-2022-16196",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "SE DICTA DE CONFORMIDAD"
+                  },
+                  "texto": "y se regula la oferta formativa del sistema de Formación profesional en el ámbito laboral asociada al Catálogo Nacional de Cualificaciones Profesionales: Orden EFP/942/2022, de 23 de septiembre"
+                },
+                {
+                  "id_norma": "BOE-A-2019-4715",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "SE DICTA DE CONFORMIDAD"
+                  },
+                  "texto": ", sobre ofertas formativas y su financiación: Orden TMS/368/2019, de 28 de marzo"
+                },
+                {
+                  "id_norma": "BOE-A-2019-3642",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "SE DICTA DE CONFORMIDAD"
+                  },
+                  "texto": "con los arts. 3.4, 38.3.b) y la disposición final 4 y se regula el Catálogo de Especialidades Formativas, por Orden TMS/283/2019, de 12 de marzo"
+                },
+                {
+                  "id_norma": "BOE-A-2018-10513",
+                  "relacion": {
+                    "codigo": "470",
+                    "texto": "SE DECLARA"
+                  },
+                  "texto": "en el Conflicto 5240/2017, la inconstitucionalidad y nulidad del inciso indicado del párrafo 4 del art. 28.1, y el párrafo 1 de la disposición adicional 4.1 , por Sentencia 71/2018, de 21 de junio"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

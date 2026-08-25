@@ -1,0 +1,64 @@
+{
+  "id": 1115133,
+  "organo": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE GUADALAJARA",
+    "nivel3": "DIPUTACIÓN PROVINCIAL DE GUADALAJARA"
+  },
+  "sedeElectronica": null,
+  "codigoBDNS": "913572",
+  "fechaRecepcion": "2026-06-17",
+  "instrumentos": [
+    {
+      "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+    }
+  ],
+  "tipoConvocatoria": "Concesión directa - instrumental",
+  "presupuestoTotal": 60000,
+  "mrr": false,
+  "descripcion": "JG DE 14/04/2026 QUE APRUEBA EL CONVENIO CON LA CONSEJERÍA DE EDUCACIÓN, CULTURA Y DEPORTES DE LA JCCM Y LA FUNDACIÓN IMPULSA CASTILLA-LA MANCHA PARA LA PRESTACIÓN DEL SERVICIO BIBLIOTECARIO MÓVIL EN MUNICIPIOS DE LA PROVINCIA, AÑO 2026",
+  "descripcionLeng": null,
+  "tiposBeneficiarios": [
+    {
+      "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+    }
+  ],
+  "sectores": [
+    {
+      "descripcion": "Actividades de bibliotecas, archivos, museos y otras actividades culturales",
+      "codigo": "91"
+    }
+  ],
+  "regiones": [
+    {
+      "descripcion": "ES424 - Guadalajara"
+    }
+  ],
+  "descripcionFinalidad": "Cultura",
+  "descripcionBasesReguladoras": "ORDENANZA GENERAL SUBVENCIONES DIPUTACIÓN 2025",
+  "urlBasesReguladoras": "https://boletin.dguadalajara.es/boletin/index.php/2-anuncios/60080-ORDENANZA-GENERAL-DE-SUBVENCIONES",
+  "sePublicaDiarioOficial": false,
+  "abierto": false,
+  "fechaInicioSolicitud": null,
+  "fechaFinSolicitud": null,
+  "textInicio": "SIN PLAZO DE SOLICITUD",
+  "textFin": "SIN PLAZO DE SOLICITUD",
+  "ayudaEstado": null,
+  "urlAyudaEstado": null,
+  "fondos": [],
+  "reglamento": null,
+  "objetivos": [],
+  "sectoresProductos": [],
+  "documentos": [
+    {
+      "id": 1477269,
+      "descripcion": "Texto en castellano de la convocatoria",
+      "nombreFic": "20260416_Certificado_Certificado Junta de Gobierno_Certificado acuerdo JG 14_04_2026_Ord_punto_13 Expediente 1034_2026..pdf",
+      "long": 487763,
+      "datMod": "2026-06-17",
+      "datPublicacion": "2026-06-17"
+    }
+  ],
+  "anuncios": [],
+  "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
+}

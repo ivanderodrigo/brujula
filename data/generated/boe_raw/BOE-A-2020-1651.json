@@ -1,0 +1,347 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260626T070618Z",
+    "identificador": "BOE-A-2020-1651",
+    "ambito": {
+      "codigo": "1",
+      "texto": "Estatal"
+    },
+    "departamento": {
+      "codigo": "7723",
+      "texto": "Jefatura del Estado"
+    },
+    "rango": {
+      "codigo": "1320",
+      "texto": "Real Decreto-ley"
+    },
+    "fecha_disposicion": "20200204",
+    "numero_oficial": "3/2020",
+    "titulo": "Real Decreto-ley 3/2020, de 4 de febrero, de medidas urgentes por el que se incorporan al ordenamiento jurídico español diversas directivas de la Unión Europea en el ámbito de la contratación pública en determinados sectores; de seguros privados; de planes y fondos de pensiones; del ámbito tributario y de litigios fiscales.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "20200205",
+    "diario_numero": "31",
+    "fecha_vigencia": "20200206",
+    "vigencia_agotada": "N",
+    "estado_consolidacion": {
+      "codigo": "3",
+      "texto": "Finalizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es/rdl/2020/02/04/3",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-1651"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260626T070618Z",
+        "identificador": "BOE-A-2020-1651",
+        "ambito": {
+          "codigo": "1",
+          "texto": "Estatal"
+        },
+        "departamento": {
+          "codigo": "7723",
+          "texto": "Jefatura del Estado"
+        },
+        "rango": {
+          "codigo": "1320",
+          "texto": "Real Decreto-ley"
+        },
+        "fecha_disposicion": "20200204",
+        "numero_oficial": "3/2020",
+        "titulo": "Real Decreto-ley 3/2020, de 4 de febrero, de medidas urgentes por el que se incorporan al ordenamiento jurídico español diversas directivas de la Unión Europea en el ámbito de la contratación pública en determinados sectores; de seguros privados; de planes y fondos de pensiones; del ámbito tributario y de litigios fiscales.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "20200205",
+        "diario_numero": "31",
+        "fecha_vigencia": "20200206",
+        "estatus_derogacion": "N",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "N",
+        "estado_consolidacion": {
+          "codigo": "3",
+          "texto": "Finalizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es/rdl/2020/02/04/3",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-1651"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "7001",
+              "texto": "Unión Europea"
+            }
+          }
+        ],
+        "notas": {
+          "nota": "Entrada en vigor:, con las salvedades indicadas, el 6 de febrero de 2020."
+        },
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "BOE-A-2007-18875",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "la Ley 31/2007, de 30 de octubre"
+                },
+                {
+                  "id_norma": "BOE-A-2006-12916",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "la Ley 26/2006, de 17 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-1993-25359",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "el epígrafe 13 del art. 45.I.C) y MODIFICA el mismo art. de la Ley del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados, texto refundido aprobado por Real Decreto Legislativo 1/1993, de 24 de septiembre"
+                },
+                {
+                  "id_norma": "BOE-A-2017-12902",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "MODIFICA"
+                  },
+                  "texto": "los arts. 118, 331 y la disposición final 1.3 de la Ley 9/2017, de 8 de noviembre"
+                },
+                {
+                  "id_norma": "BOE-A-2015-13057",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "MODIFICA"
+                  },
+                  "texto": "la disposición adicional 8 del Real Decreto 1060/2015, de 20 de noviembre"
+                },
+                {
+                  "id_norma": "BOE-A-2015-7897",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "MODIFICA"
+                  },
+                  "texto": "los arts. 64 y 206 y AÑADE el 79 bis y el 79 ter a la Ley 20/2015, de 14 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-2010-18651",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "MODIFICA"
+                  },
+                  "texto": "el art. 8.a) del Real Dcreto-ley 13/2010, de 3 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2006-20764",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "MODIFICA"
+                  },
+                  "texto": "el art. 17.2 de laLey 35/2006, de 28 de noviembre"
+                },
+                {
+                  "id_norma": "BOE-A-2004-4527",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "MODIFICA"
+                  },
+                  "texto": "la disposición adicional 1 de la Ley del Impuesto sobre la Renta de no Residentes, texto refundido aprobado por Real Decreto Legislativo 5/2004, de 5 de marzo"
+                },
+                {
+                  "id_norma": "BOE-A-2002-24252",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "MODIFICA"
+                  },
+                  "texto": "y AÑADE determinados preceptos a la Ley de Regulación de los Planes y Fondos de Pensiones, texto refundido aprobado por Real Decreto Legislativo 1/2002, de 29 de noviembre"
+                },
+                {
+                  "id_norma": "BOE-A-1998-16718",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "MODIFICA"
+                  },
+                  "texto": "la disposición adicional 9 de la Ley 29/1998, de 13 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-1992-28925",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "MODIFICA"
+                  },
+                  "texto": "los arts. 13.4, 66, 79, 80 y 81 del Reglamento aprobado por Real Decreto 1624/1992, de 29 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-1992-28741",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "MODIFICA"
+                  },
+                  "texto": "el art. 4 de la Ley 38/1992, de 28 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-1992-28740",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "MODIFICA"
+                  },
+                  "texto": "los arts. 3, 9, 15, 25, 68, 75, 84, 164 y AÑADE el 9 bis a la Ley 37/1992, de 28 de diciembre"
+                },
+                {
+                  "id_norma": "DOUE-L-2017-82041",
+                  "relacion": {
+                    "codigo": "426",
+                    "texto": "TRANSPONE"
+                  },
+                  "texto": "la Directiva (UE) 2017/1852, de 10 de octubre"
+                },
+                {
+                  "id_norma": "DOUE-L-2016-80214",
+                  "relacion": {
+                    "codigo": "426",
+                    "texto": "TRANSPONE"
+                  },
+                  "texto": "la Directiva (UE) 2016/97, de 20 de enero"
+                },
+                {
+                  "id_norma": "DOUE-L-2014-80599",
+                  "relacion": {
+                    "codigo": "426",
+                    "texto": "TRANSPONE"
+                  },
+                  "texto": "la Directiva 2014/25/UE, de 26 de febrero"
+                },
+                {
+                  "id_norma": "DOUE-L-2014-80597",
+                  "relacion": {
+                    "codigo": "426",
+                    "texto": "TRANSPONE"
+                  },
+                  "texto": "la Directiva 2014/23/UE, de 26 de febrero"
+                },
+                {
+                  "id_norma": "DOUE-L-2019-80467",
+                  "relacion": {
+                    "codigo": "426",
+                    "texto": "TRANSPONE"
+                  },
+                  "texto": "parcialmente la Directiva (UE) 2019/475, de 18 de febrero"
+                },
+                {
+                  "id_norma": "DOUE-L-2018-81978",
+                  "relacion": {
+                    "codigo": "426",
+                    "texto": "TRANSPONE"
+                  },
+                  "texto": "parcialmente la Directiva (UE) 2018/1910, de 4 de diciembre"
+                },
+                {
+                  "id_norma": "DOUE-L-2016-82502",
+                  "relacion": {
+                    "codigo": "426",
+                    "texto": "TRANSPONE"
+                  },
+                  "texto": "parcialmente la Directiva (UE) 2016/2341, de 14 de diciembre"
+                }
+              ]
+            }
+          ],
+          "posteriores": [
+            {
+              "posterior": [
+                {
+                  "id_norma": "BOE-A-2023-12204",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "SE DEROGA"
+                  },
+                  "texto": "la disposición transitoria 8, por Ley 13/2023, de 24 de mayo"
+                },
+                {
+                  "id_norma": "BOE-A-2025-26605",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": ", con efectos desde el 1 de enero de 2026, el art. 1.1 y 2, por Orden HAC/1517/2025, de 18 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2023-25764",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el art. 1.1. y 2 , por Orden HFP/1352/2023, de 15 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2022-22128",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "los arts. 72.2, 112.1 y la disposición final 16, por Ley 31/2022, de 23 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2021-21885",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el art. 1.1. y 2, por Orden HFP/1499/2021, de 28 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2021-17910",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el art. 126.1, por Real Decreto-ley 24/2021, de 2 de noviembre"
+                },
+                {
+                  "id_norma": "BOE-A-2024-8516",
+                  "relacion": {
+                    "codigo": "404",
+                    "texto": "SE ACTUALIZA"
+                  },
+                  "texto": ", con efectos desde el 9 de octubre de 2024, los importes de los arts. 152.1.g) y 157.1.f) y g), por Resolución de 19 de abril de 2024"
+                },
+                {
+                  "id_norma": "BOE-A-2020-17340",
+                  "relacion": {
+                    "codigo": "331",
+                    "texto": "SE DICTA EN RELACIÓN"
+                  },
+                  "texto": "sobre aplicación de las especialidades previstas en materia de \ncontratos al ámbito de aplicación del Libro I: Real Decreto-ley 36/2020, de 30 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2020-2897",
+                  "relacion": {
+                    "codigo": "301",
+                    "texto": "SE PUBLICA  Acuerdo de convalidación"
+                  },
+                  "texto": ", por Resolución  de 20 de febrero de 2020"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

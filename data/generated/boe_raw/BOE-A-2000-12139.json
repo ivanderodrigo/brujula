@@ -1,0 +1,208 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260813T083835Z",
+    "identificador": "BOE-A-2000-12139",
+    "ambito": {
+      "codigo": "1",
+      "texto": "Estatal"
+    },
+    "departamento": {
+      "codigo": "4810",
+      "texto": "Ministerio de Justicia"
+    },
+    "rango": {
+      "codigo": "1310",
+      "texto": "Real Decreto Legislativo"
+    },
+    "fecha_disposicion": "20000623",
+    "numero_oficial": "3/2000",
+    "titulo": "Real Decreto Legislativo 3/2000, de 23 de junio, por el que se aprueba el texto refundido de las disposiciones legales vigentes sobre el Régimen especial de Seguridad Social del personal al servicio de la Administración de Justicia.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "20000628",
+    "diario_numero": "154",
+    "fecha_vigencia": "20000629",
+    "vigencia_agotada": "N",
+    "estado_consolidacion": {
+      "codigo": "3",
+      "texto": "Finalizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es/rdlg/2000/06/23/3",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-12139"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260813T083835Z",
+        "identificador": "BOE-A-2000-12139",
+        "ambito": {
+          "codigo": "1",
+          "texto": "Estatal"
+        },
+        "departamento": {
+          "codigo": "4810",
+          "texto": "Ministerio de Justicia"
+        },
+        "rango": {
+          "codigo": "1310",
+          "texto": "Real Decreto Legislativo"
+        },
+        "fecha_disposicion": "20000623",
+        "numero_oficial": "3/2000",
+        "titulo": "Real Decreto Legislativo 3/2000, de 23 de junio, por el que se aprueba el texto refundido de las disposiciones legales vigentes sobre el Régimen especial de Seguridad Social del personal al servicio de la Administración de Justicia.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "20000628",
+        "diario_numero": "154",
+        "fecha_vigencia": "20000629",
+        "estatus_derogacion": "N",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "N",
+        "estado_consolidacion": {
+          "codigo": "3",
+          "texto": "Finalizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es/rdlg/2000/06/23/3",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-12139"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "5938",
+              "texto": "Regímenes especiales de la Seguridad Social"
+            }
+          }
+        ],
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "BOE-A-1978-14530",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "el Real Decreto-ley 16/1978, de 7 de junio"
+                },
+                {
+                  "id_norma": "BOE-A-1998-30155",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "el art. 62 de la Ley 50/1998, de 14 de abril"
+                }
+              ]
+            }
+          ],
+          "posteriores": [
+            {
+              "posterior": [
+                {
+                  "id_norma": "BOE-A-2012-9364",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "SE DEROGA"
+                  },
+                  "texto": "el art. 20.1.a), por Real Decreto-ley 20/2012, de 13 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-2002-25412",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "SE DEROGA"
+                  },
+                  "texto": "los arts. 6, 8 y 25.3 y 4, SE MODIFICA los arts. 10 y 25.2 y SE AÑADE una disposición adicional 5, por Ley 53/2002, de 30 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2024-26693",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": ", con efectos desde el 3 de marzo de 2025, los arts. 11, 12, 18, 19 y 20, por Ley 6/2024, de 20 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2023-5364",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": ", con efectos desde el 1 de junio de 2023, el art. 19, por Ley Orgánica 1/2023, de 28 de febrero"
+                },
+                {
+                  "id_norma": "BOE-A-2021-21653",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "los arts. 10.2 y 23.2, por Ley 22/2021, de 28 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2018-9268",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el art. 15.2 y 3, por Ley 6/2018, de 3 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-2017-7387",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "los arts. 3 y 16, por Ley 3/2017, de 27 de junio"
+                },
+                {
+                  "id_norma": "BOE-A-2006-22865",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el art. 20.2, por Ley 42/2006, de 28 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2000-12880",
+                  "relacion": {
+                    "codigo": "201",
+                    "texto": "CORRECCIÓN de errores"
+                  },
+                  "texto": "en BOE num. 162, de 7 de julio de 2000"
+                },
+                {
+                  "id_norma": "BOE-A-2020-4332",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "SE DICTA DE CONFORMIDAD"
+                  },
+                  "texto": ", sobre concesión de licencias y abono de retribuciones a los mutualistas en situación de incapacidad temporal durante la vigencia del estado de alarma: Real Decreto-ley 13/2020, de 7 de abril"
+                },
+                {
+                  "id_norma": "BOE-A-2011-13384",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "SE DICTA DE CONFORMIDAD"
+                  },
+                  "texto": "con la disposición final 2, aprobando el Reglamento del mutualismo judicial: Real Decreto 1026/2011, de 15 de julio"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

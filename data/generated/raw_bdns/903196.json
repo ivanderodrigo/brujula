@@ -1,0 +1,72 @@
+{
+  "id": 1104757,
+  "organo": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE VALLADOLID",
+    "nivel3": "DIPUTACIÓN PROVINCIAL DE VALLADOLID"
+  },
+  "sedeElectronica": null,
+  "codigoBDNS": "903196",
+  "fechaRecepcion": "2026-05-04",
+  "instrumentos": [
+    {
+      "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+    }
+  ],
+  "tipoConvocatoria": "Concesión directa - instrumental",
+  "presupuestoTotal": 3000,
+  "mrr": false,
+  "descripcion": "Decreto nº1626/2026 de fecha 30/03/2026 para la firma del Convenio de Colaboración a suscribir entre Dip.Vall. con la Asociación El Prao de Luyas, cuyo fin es la recuperación de la biodiversidad agraria en los municipios de la provincia de Valladolid 2026",
+  "descripcionLeng": null,
+  "tiposBeneficiarios": [
+    {
+      "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+    }
+  ],
+  "sectores": [
+    {
+      "descripcion": "Agricultura, ganadería, caza y servicios relacionados con las mismas",
+      "codigo": "01"
+    }
+  ],
+  "regiones": [
+    {
+      "descripcion": "ES418 - Valladolid"
+    }
+  ],
+  "descripcionFinalidad": "Agricultura, Pesca y Alimentación",
+  "descripcionBasesReguladoras": "BASE REGULADORA GENERAL - ORDENANZA GENERAL DE SUBVENCIONES",
+  "urlBasesReguladoras": "https://www.diputaciondevalladolid.es/documents/10181/1090769/ORDENANZA+GENERAL+DE+SUBVENCIONES/d5d6fb94-fd7a-444b-bb18-6c50ffec90e0",
+  "sePublicaDiarioOficial": false,
+  "abierto": false,
+  "fechaInicioSolicitud": "2026-01-01",
+  "fechaFinSolicitud": "2026-10-30",
+  "textInicio": null,
+  "textFin": null,
+  "ayudaEstado": null,
+  "urlAyudaEstado": null,
+  "fondos": [],
+  "reglamento": null,
+  "objetivos": [],
+  "sectoresProductos": [],
+  "documentos": [
+    {
+      "id": 1465014,
+      "descripcion": "DECRETO",
+      "nombreFic": "8_DECRETO_APROBANDO_CONVENIO.pdf",
+      "long": 1329627,
+      "datMod": "2026-05-29",
+      "datPublicacion": "2026-05-29"
+    },
+    {
+      "id": 1465013,
+      "descripcion": "Texto en castellano de la convocatoria",
+      "nombreFic": "9_Convenio_El_Prao_de_Luyas_2026.pdf",
+      "long": 332061,
+      "datMod": "2026-05-29",
+      "datPublicacion": "2026-05-29"
+    }
+  ],
+  "anuncios": [],
+  "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
+}

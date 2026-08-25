@@ -1,0 +1,185 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260821T071651Z",
+    "identificador": "BOE-A-2006-14944",
+    "ambito": {
+      "codigo": "2",
+      "texto": "Autonómico"
+    },
+    "departamento": {
+      "codigo": "8090",
+      "texto": "Comunidad Autónoma de Galicia"
+    },
+    "rango": {
+      "codigo": "1300",
+      "texto": "Ley"
+    },
+    "fecha_disposicion": "20060630",
+    "numero_oficial": "4/2006",
+    "titulo": "Ley 4/2006, de 30 de junio, de transparencia y de buenas prácticas en la Administración pública gallega.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "20060819",
+    "diario_numero": "198",
+    "fecha_vigencia": "20060803",
+    "vigencia_agotada": "S",
+    "estado_consolidacion": {
+      "codigo": "3",
+      "texto": "Finalizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es-ga/l/2006/06/30/4",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-14944"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260821T071651Z",
+        "identificador": "BOE-A-2006-14944",
+        "ambito": {
+          "codigo": "2",
+          "texto": "Autonómico"
+        },
+        "departamento": {
+          "codigo": "8090",
+          "texto": "Comunidad Autónoma de Galicia"
+        },
+        "rango": {
+          "codigo": "1300",
+          "texto": "Ley"
+        },
+        "fecha_disposicion": "20060630",
+        "numero_oficial": "4/2006",
+        "titulo": "Ley 4/2006, de 30 de junio, de transparencia y de buenas prácticas en la Administración pública gallega.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "20060819",
+        "diario_numero": "198",
+        "fecha_vigencia": "20060803",
+        "estatus_derogacion": "S",
+        "fecha_derogacion": "20160306",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "S",
+        "estado_consolidacion": {
+          "codigo": "3",
+          "texto": "Finalizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es-ga/l/2006/06/30/4",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-14944"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "4166",
+              "texto": "Información administrativa"
+            }
+          }
+        ],
+        "notas": [
+          {
+            "nota": [
+              "Entrada en vigor:, con la salvedad indicada, el 3 de agosto de 2006.",
+              "Publicada en el DOG núm. 136, de 14 de julio de 2006."
+            ]
+          }
+        ],
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "BOE-A-1996-27351",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "MODIFICA"
+                  },
+                  "texto": "los arts. 2 y 10 de la Ley 9/1996, de 18 de octubre"
+                },
+                {
+                  "id_norma": "BOE-A-1983-23788",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "art. 24 de la Ley 1/1983, de 22 de febrero"
+                },
+                {
+                  "id_norma": "BOE-A-1981-9564",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "art. 28.1 del Estatuto aprobado por Ley Orgánica 1/1981, de 6 de abril"
+                },
+                {
+                  "id_norma": "",
+                  "relacion": {
+                    "codigo": "480",
+                    "texto": "DECLARA la vigencia"
+                  },
+                  "texto": "En cuando no se oponga del Decreto 164/2005, de 16 de junio (DOGA del 24)"
+                },
+                {
+                  "id_norma": "",
+                  "relacion": {
+                    "codigo": "480",
+                    "texto": "DECLARA la vigencia"
+                  },
+                  "texto": "En cuando no se oponga del Decreto 169/1995, de 16 de junio (DOGA del 20)"
+                }
+              ]
+            }
+          ],
+          "posteriores": [
+            {
+              "posterior": [
+                {
+                  "id_norma": "BOE-A-2016-3190",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "SE DEROGA"
+                  },
+                  "texto": ", por Ley 1/2016, de 18 de enero"
+                },
+                {
+                  "id_norma": "BOE-A-2015-5676",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "SE DEROGA"
+                  },
+                  "texto": "los arts. 4, 6 y 12.2, por Ley 1/2015, de 1 de abril"
+                },
+                {
+                  "id_norma": "BOE-A-2011-2546",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el art. 11.3, por Ley 15/2010, de 28 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2010-2888",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el art. 11.3, por Ley 9/2009, de 23 de diciembre"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 1114493,
+  "organo": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE ALICANTE",
+    "nivel3": "DIPUTACIÓN PROVINCIAL DE ALACANT/ALICANTE"
+  },
+  "sedeElectronica": "https://diputacionalicante.sedelectronica.es",
+  "codigoBDNS": "912932",
+  "fechaRecepcion": "2026-06-15",
+  "instrumentos": [
+    {
+      "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+    }
+  ],
+  "tipoConvocatoria": "Concesión directa - instrumental",
+  "presupuestoTotal": 47800,
+  "mrr": false,
+  "descripcion": "Resolución de la Sra. Vicepresidenta 1ª y Diputada de Economía, Comunicación y Ciclo Hídrico número 2026-2605, de 9 de junio de 2026, por la que se concede una subvención al Ayuntamiento de La Vall de Laguar para reparación fugas redes de abastecimiento.",
+  "descripcionLeng": null,
+  "tiposBeneficiarios": [
+    {
+      "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+    }
+  ],
+  "sectores": [
+    {
+      "descripcion": "SUMINISTRO DE AGUA, ACTIVIDADES DE SANEAMIENTO, GESTIÓN DE RESIDUOS Y DESCONTAMINACIÓN",
+      "codigo": "E"
+    }
+  ],
+  "regiones": [
+    {
+      "descripcion": "ES521 - Alicante / Alacant"
+    }
+  ],
+  "descripcionFinalidad": "Infraestructuras",
+  "descripcionBasesReguladoras": "Ordenanza General de Subvenciones aprobada por el Pleno de la Excma. Diputación Provincial de Alicante, en sesión extraordinaria de 19 de diciembre de 2025.",
+  "urlBasesReguladoras": "https://sede.diputacionalicante.es/wp-content/uploads/2026/01/Ordenanza-General-de-concesion-de-subvenciones-Diputacion-de-Alicante.pdf",
+  "sePublicaDiarioOficial": false,
+  "abierto": false,
+  "fechaInicioSolicitud": "2026-04-01",
+  "fechaFinSolicitud": "2026-06-09",
+  "textInicio": null,
+  "textFin": null,
+  "ayudaEstado": null,
+  "urlAyudaEstado": null,
+  "fondos": [],
+  "reglamento": null,
+  "objetivos": [],
+  "sectoresProductos": [],
+  "documentos": [
+    {
+      "id": 1475595,
+      "descripcion": "Documento de la convocatoria en español",
+      "nombreFic": "20260608_Resolución_DECRETO 2026-2605 [Resolución PR_2026_3124 - Circuito de Resolución de Órgano Unipersonal].pdf",
+      "long": 619427,
+      "datMod": "2026-06-15",
+      "datPublicacion": "2026-06-15"
+    }
+  ],
+  "anuncios": [],
+  "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
+}

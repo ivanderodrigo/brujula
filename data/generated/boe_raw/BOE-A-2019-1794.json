@@ -1,0 +1,171 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260803T082121Z",
+    "identificador": "BOE-A-2019-1794",
+    "ambito": {
+      "codigo": "2",
+      "texto": "Autonómico"
+    },
+    "departamento": {
+      "codigo": "8080",
+      "texto": "Comunidad Autónoma de Extremadura"
+    },
+    "rango": {
+      "codigo": "1500",
+      "texto": "Decreto-ley"
+    },
+    "fecha_disposicion": "20181211",
+    "numero_oficial": "2/2018",
+    "titulo": "Decreto-ley 2/2018, de 11 de diciembre, de medidas urgentes para el restablecimiento de los derechos del personal al servicio de la Administración de la Junta de Extremadura en las situaciones de incapacidad temporal, y por el que se extienden las mejoras voluntarias de la acción protectora de la Seguridad Social a las situaciones de maternidad, paternidad, riesgo durante el embarazo y riesgo durante la lactancia.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "20190209",
+    "diario_numero": "35",
+    "fecha_vigencia": "20181212",
+    "vigencia_agotada": "N",
+    "estado_consolidacion": {
+      "codigo": "3",
+      "texto": "Finalizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es-ex/dl/2018/12/11/2",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2019-1794"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260803T082121Z",
+        "identificador": "BOE-A-2019-1794",
+        "ambito": {
+          "codigo": "2",
+          "texto": "Autonómico"
+        },
+        "departamento": {
+          "codigo": "8080",
+          "texto": "Comunidad Autónoma de Extremadura"
+        },
+        "rango": {
+          "codigo": "1500",
+          "texto": "Decreto-ley"
+        },
+        "fecha_disposicion": "20181211",
+        "numero_oficial": "2/2018",
+        "titulo": "Decreto-ley 2/2018, de 11 de diciembre, de medidas urgentes para el restablecimiento de los derechos del personal al servicio de la Administración de la Junta de Extremadura en las situaciones de incapacidad temporal, y por el que se extienden las mejoras voluntarias de la acción protectora de la Seguridad Social a las situaciones de maternidad, paternidad, riesgo durante el embarazo y riesgo durante la lactancia.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "20190209",
+        "diario_numero": "35",
+        "fecha_vigencia": "20181212",
+        "estatus_derogacion": "N",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "N",
+        "estado_consolidacion": {
+          "codigo": "3",
+          "texto": "Finalizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es-ex/dl/2018/12/11/2",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2019-1794"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "6499",
+              "texto": "Seguridad Social"
+            }
+          }
+        ],
+        "notas": {
+          "nota": "Publicada en el DOE núm. 240, de 12 de diciembre de 2018."
+        },
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "BOE-A-2012-13042",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "el Decreto-ley 2/2012, de 8 de octubre"
+                },
+                {
+                  "id_norma": "",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "el Decreto 38/2013, de 19 de marzo (DOE núm. 59, de 26 de marzo de 2013)"
+                },
+                {
+                  "id_norma": "",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "la Orden de 31 de enero de 2013 (DOE núm. 22, de 1 de febrero de 2013)"
+                },
+                {
+                  "id_norma": "BOE-A-2018-9268",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "la disposición adicional 54 de la Ley 6/2018, de 3 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-2011-1638",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "el Estatuto aprobado por Ley Orgánica 1/2011, de 28 de enero"
+                }
+              ]
+            }
+          ],
+          "posteriores": [
+            {
+              "posterior": [
+                {
+                  "id_norma": "BOE-A-2026-16930",
+                  "relacion": {
+                    "codigo": "470",
+                    "texto": "SE DECLARA"
+                  },
+                  "texto": ", en la Cuestión 9849/2024, su inadmisión en relación con el art. 3, por Sentencia 55/2026, de 8 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-2026-16246",
+                  "relacion": {
+                    "codigo": "470",
+                    "texto": "SE DECLARA"
+                  },
+                  "texto": ", en la Cuestión 3364/2024, su inadmisión en relación con el art.3, por Sentencia 50/2026, de 23 de junio"
+                },
+                {
+                  "id_norma": "DOE-e-2019-90294",
+                  "relacion": {
+                    "codigo": "301",
+                    "texto": "SE PUBLICA  Acuerdo de convalidación"
+                  },
+                  "texto": ", por Resolución  de 27 de diciembre de 2019"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260731T082622Z",
+    "identificador": "BOE-A-2015-11722",
+    "ambito": {
+      "codigo": "1",
+      "texto": "Estatal"
+    },
+    "departamento": {
+      "codigo": "7320",
+      "texto": "Ministerio del Interior"
+    },
+    "rango": {
+      "codigo": "1310",
+      "texto": "Real Decreto Legislativo"
+    },
+    "fecha_disposicion": "20151030",
+    "numero_oficial": "6/2015",
+    "titulo": "Real Decreto Legislativo 6/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "20151031",
+    "diario_numero": "261",
+    "fecha_vigencia": "20160131",
+    "vigencia_agotada": "N",
+    "estado_consolidacion": {
+      "codigo": "3",
+      "texto": "Finalizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es/rdlg/2015/10/30/6",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260731T082622Z",
+        "identificador": "BOE-A-2015-11722",
+        "ambito": {
+          "codigo": "1",
+          "texto": "Estatal"
+        },
+        "departamento": {
+          "codigo": "7320",
+          "texto": "Ministerio del Interior"
+        },
+        "rango": {
+          "codigo": "1310",
+          "texto": "Real Decreto Legislativo"
+        },
+        "fecha_disposicion": "20151030",
+        "numero_oficial": "6/2015",
+        "titulo": "Real Decreto Legislativo 6/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "20151031",
+        "diario_numero": "261",
+        "fecha_vigencia": "20160131",
+        "estatus_derogacion": "N",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "N",
+        "estado_consolidacion": {
+          "codigo": "3",
+          "texto": "Finalizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es/rdlg/2015/10/30/6",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "7116",
+              "texto": "Vehículos de motor"
+            }
+          }
+        ],
+        "notas": [
+          {
+            "nota": [
+              "Entrada en vigor: 31 de enero de 2016, excepto el capítulo V del título V y los anexos V, VI y VII que lo harán el 1 de noviembre de 2015.",
+              "El dejar sin efecto la modificación de la Ley 6/2014, se establece de acuerdo con la derogación de lo indicado de la disposición final 5 de la Ley 35/2015, de 22 de septiembre"
+            ]
+          }
+        ],
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "BOE-A-2015-10197",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "la disposición final 5 en lo que afecta a la entrada en vigor del contenido de la disposición final 2 de la Ley 35/2015, de 22 de septiembre"
+                },
+                {
+                  "id_norma": "BOE-A-1990-6396",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial, texto articulado aprobado por Real Decreto Legislativo 339/1990, de 2 de marzo"
+                },
+                {
+                  "id_norma": "BOE-A-2014-3715",
+                  "relacion": {
+                    "codigo": "230",
+                    "texto": "DEJA SIN EFECTO"
+                  },
+                  "texto": "la modificación de la disposición adicional 2 de la Ley 6/2014, de 7 de abril"
+                }
+              ]
+            }
+          ],
+          "posteriores": [
+            {
+              "posterior": [
+                {
+                  "id_norma": "BOE-A-2026-13889",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": ", con efectos desde el 1 de octubre de 2026, el anexo I, por Real Decreto 518/2026, de 24 de junio"
+                },
+                {
+                  "id_norma": "BOE-A-2025-24545",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el capítulo II y III del título I, el capítulo I del título II, el art. 12, el anexo VI.1 y la disposición final 2.2 del texto refundido de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial; y la disposición adicional 1, por Ley 9/2025, de 3 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2023-15135",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "los arts. 5, 62, 76, 77, disposición final 2, anexo III y SE AÑADE el IX, por Real Decreto-ley 5/2023, de 28 de junio"
+                },
+                {
+                  "id_norma": "BOE-A-2022-14965",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el art. 85.1, por Ley Orgánica 11/2022, de 13 de septiembre"
+                },
+                {
+                  "id_norma": "BOE-A-2022-3290",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el art. 76 n), por Real Decreto-ley 3/2022, de 1 de marzo"
+                },
+                {
+                  "id_norma": "BOE-A-2021-21006",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "y SE AÑADE determinados preceptos, en la forma indicada, por Ley 18/2021, de 20 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2021-8806",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el art. 68, por Ley Orgánica 7/2021, de 26 de mayo"
+                },
+                {
+                  "id_norma": "BOE-A-2025-4407",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "SE DICTA DE CONFORMIDAD"
+                  },
+                  "texto": "con el art. 63.5 y regula los cursos de conducción para la recuperación o bonificación de puntos: Orden INT/209/2025, de 27 de febrero"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": 1114918,
+  "organo": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE SEVILLA",
+    "nivel3": "DIPUTACIÓN PROVINCIAL DE SEVILLA"
+  },
+  "sedeElectronica": null,
+  "codigoBDNS": "913357",
+  "fechaRecepcion": "2026-06-16",
+  "instrumentos": [
+    {
+      "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+    }
+  ],
+  "tipoConvocatoria": "Concurrencia competitiva - canónica",
+  "presupuestoTotal": 1294567.44,
+  "mrr": false,
+  "descripcion": "BASES REGULADORAS ESPECÍFICAS Y CONVOCATORIA DE SUBVENCIONES DEL SERVICIO DE JUVENTUD DEL ÁREA DE CULTURA Y CIUDADANÍA DESTINADAS A LAS ENTIDADES LOCALES DE LA PROVINCIA DE SEVILLA, DE LA LÍNEA SECTORIAL “RED PTJ\" (2026)",
+  "descripcionLeng": null,
+  "tiposBeneficiarios": [
+    {
+      "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+    }
+  ],
+  "sectores": [
+    {
+      "descripcion": "ACTIVIDADES ARTÍSTICAS, DEPORTIVAS Y DE ENTRETENIMIENTO",
+      "codigo": "S"
+    }
+  ],
+  "regiones": [
+    {
+      "descripcion": "ES618 - Sevilla"
+    }
+  ],
+  "descripcionFinalidad": "Cultura",
+  "descripcionBasesReguladoras": "BASES REGULADORAS ESPECÍFICAS Y CONVOCATORIA DE SUBVENCIONES DEL SERVICIO DE JUVENTUD DEL ÁREA DE CULTURA Y CIUDADANÍA DESTINADAS A LAS ENTIDADES LOCALES DE LA PROVINCIA DE SEVILLA, DE LA LÍNEA SECTORIAL “RED PTJ\" (2026)",
+  "urlBasesReguladoras": "dipusevilla.es",
+  "sePublicaDiarioOficial": true,
+  "abierto": false,
+  "fechaInicioSolicitud": null,
+  "fechaFinSolicitud": null,
+  "textInicio": "el día siguiente a la publicación del extracto",
+  "textFin": "quince días hábiles después",
+  "ayudaEstado": null,
+  "urlAyudaEstado": null,
+  "fondos": [],
+  "reglamento": null,
+  "objetivos": [],
+  "sectoresProductos": [],
+  "documentos": [
+    {
+      "id": 1476706,
+      "descripcion": "Documento de la convocatoria en español",
+      "nombreFic": "RESOL. APROBACION BASES PTJ.pdf",
+      "long": 308619,
+      "datMod": "2026-06-16",
+      "datPublicacion": "2026-06-18"
+    }
+  ],
+  "anuncios": [
+    {
+      "numAnuncio": 214762,
+      "titulo": "EXTRACTO DE LA RESOLUCIÓN DE PRESIDENCIA N.º 4049/2026, DE 15 DE JUNIO DE 2026, POR LA QUE SE APRUEBAN LAS BASES REGULADORAS ESPECÍFICAS Y CONVOCATORIA DE SUBVENCIONES DEL SERVICIO DE JUVENTUD DEL ÁREA DE CULTURA Y CIUDADANÍA DESTINADAS A  AYUNTAMIENTOS Y ELAS DE LA PROVINCIA DE SEVILLA, PARA LA EJECUCIÓN DE LA LÍNEA SECTORIAL “RED PROVINCIAL DE PERSONAL TÉCNICO DE JUVENTUD (RED PTJ)” EJERCICIO 2026.",
+      "tituloLeng": null,
+      "texto": "<p>Primero: Beneficiarios</p><p>Los ayuntamientos de municipios con población inferior a 20.000 habitantes y las entidades locales autónomas de la provincia de Sevilla.</p><p> </p><p>Segundo: Finalidad</p><p>Contribuir al reforzamiento y consolidación de las estructuras de juventud de ayuntamientos y entidades locales autónomas de la provincia de Sevilla, a cuyo fin se convocan ayudas para la financiación de los costes salariales y de seguridad social de profesionales específicos de juventud que realicen funciones de diseño, planificación, ejecución y evaluación de programas y proyectos que implementen las políticas en materia de juventud de estas entidades, así como de gestión de las personas que intervienen en estos procesos.</p><p> </p><p>Tercero: Bases Reguladoras</p><p>La presente convocatoria se regirá por la resolución n.º 4049/2026, de 15 de junio de 2026, por la que se aprueban las bases reguladoras específicas y convocatoria de subvenciones del Servicio de Juventud del Área de Cultura y Ciudadanía destinadas a Ayuntamientos y entidades locales autónomas de la provincia de Sevilla, para la ejecución de la línea “Red Provincial de Personal Técnico de Juventud (RED PTJ)” ejercicio 2026 y se encuentran publicadas en la Sede Electrónica de la Diputación de Sevilla.</p><p> </p><p>Las bases reguladoras específicas de la convocatoria de subvenciones de la línea sectorial “Red Provincial de Personal Técnico de Juventud (RED PTJ)”, se encuentran publicadas en el Boletín Oficial de la provincia, en el tablón electrónico, y en la sede electrónica de la Diputación de Sevilla.</p><p> </p><p>Cuarto: Cuantía</p><p>El importe máximo total de las subvenciones objeto de esta línea será de 1.294.567,44 euros</p><p> </p><p>Quinto: Plazo de presentación de solicitudes</p><p>El plazo de presentación de solicitudes será de quince días hábiles, contados a partir del siguiente al de la publicación del extracto de la convocatoria en el Boletín Oficial de la Provincia de Sevilla, a través de la Base de Datos Nacional de Subvenciones.</p><p> </p><p>Sexto: Otros</p><p>La solicitud deberá ir acompañada de la documentación descrita en las Bases que regulan la convocatoria.</p>",
+      "textoLeng": null,
+      "url": null,
+      "cve": null,
+      "desDiarioOficial": "B.O.P. DE SEVILLA",
+      "datPublicacion": "2026-06-22"
+    }
+  ],
+  "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
+}

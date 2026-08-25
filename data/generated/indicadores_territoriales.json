@@ -1,1 +1,58 @@
-{"generated_at":null,"source_status":"pending_first_update","items":[],"note":"Ejecuta la actualización completa para incorporar los indicadores territoriales oficiales. La interfaz no inventa valores cuando faltan."}
+{
+  "generated_at": "2026-08-25T23:24:56+00:00",
+  "source_status": {
+    "population": {
+      "ok": false,
+      "dataset": "cifras_poblacion_2023.zip",
+      "error": "https://gis.miteco.gob.es/descargas/app/DescargaFichero?f=cifras_poblacion_2023.zip: HTTP Error 400: Bad Request"
+    },
+    "population_change": {
+      "ok": false,
+      "dataset": "Variacion_Pob_2014_2023.zip",
+      "error": "https://gis.miteco.gob.es/descargas/app/DescargaFichero?f=Variacion_Pob_2014_2023.zip: HTTP Error 400: Bad Request"
+    },
+    "density": {
+      "ok": false,
+      "dataset": "Densidad_Poblacion_2023.zip",
+      "error": "https://gis.miteco.gob.es/descargas/app/DescargaFichero?f=Densidad_Poblacion_2023.zip: HTTP Error 400: Bad Request"
+    },
+    "mean_age": {
+      "ok": false,
+      "dataset": "Edad_Media_2023.zip",
+      "error": "https://gis.miteco.gob.es/descargas/app/DescargaFichero?f=Edad_Media_2023.zip: HTTP Error 400: Bad Request"
+    },
+    "over65": {
+      "ok": false,
+      "dataset": "Poblacion-65A_2022.zip",
+      "error": "https://gis.miteco.gob.es/descargas/app/DescargaFichero?f=Poblacion-65A_2022.zip: HTTP Error 400: Bad Request"
+    },
+    "broadband100": {
+      "ok": false,
+      "dataset": "Porcentaje_Pob_Cob100.zip",
+      "error": "https://gis.miteco.gob.es/descargas/app/DescargaFichero?f=Porcentaje_Pob_Cob100.zip: HTTP Error 400: Bad Request"
+    },
+    "pharmacies": {
+      "ok": false,
+      "dataset": "Farmacias_2023.zip",
+      "error": "https://gis.miteco.gob.es/descargas/app/DescargaFichero?f=Farmacias_2023.zip: HTTP Error 400: Bad Request"
+    },
+    "primary_schools": {
+      "ok": false,
+      "dataset": "Centros_EdPrimaria_2022.zip",
+      "error": "https://gis.miteco.gob.es/descargas/app/DescargaFichero?f=Centros_EdPrimaria_2022.zip: HTTP Error 400: Bad Request"
+    },
+    "highway_minutes": {
+      "ok": false,
+      "dataset": "Tiempo-Autop-Autov_2022.zip",
+      "error": "https://gis.miteco.gob.es/descargas/app/DescargaFichero?f=Tiempo-Autop-Autov_2022.zip: HTTP Error 400: Bad Request"
+    },
+    "hospital_minutes": {
+      "ok": false,
+      "dataset": "Tiempo-Hospital_2022.zip",
+      "error": "https://gis.miteco.gob.es/descargas/app/DescargaFichero?f=Tiempo-Hospital_2022.zip: HTTP Error 400: Bad Request"
+    }
+  },
+  "successful_sources": 0,
+  "items": [],
+  "note": "Solo se publican valores extraídos de fuentes oficiales. Una fuente fallida conserva, si existe, la última copia válida."
+}

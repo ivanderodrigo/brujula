@@ -1,0 +1,96 @@
+{
+  "id": 1116145,
+  "organo": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE LEÓN",
+    "nivel3": "DIPUTACIÓN PROVINCIAL DE LEÓN"
+  },
+  "sedeElectronica": null,
+  "codigoBDNS": "914584",
+  "fechaRecepcion": "2026-06-22",
+  "instrumentos": [
+    {
+      "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+    }
+  ],
+  "tipoConvocatoria": "Concurrencia competitiva - canónica",
+  "presupuestoTotal": 278000,
+  "mrr": false,
+  "descripcion": "SUBVENCIÓN A AYUNTAMIENTOS PARA PROGRAMAS JUVENILES",
+  "descripcionLeng": null,
+  "tiposBeneficiarios": [
+    {
+      "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+    }
+  ],
+  "sectores": [
+    {
+      "descripcion": "Otras actividades recreativas y de entretenimiento",
+      "codigo": "93.2"
+    }
+  ],
+  "regiones": [
+    {
+      "descripcion": "ES413 - León"
+    }
+  ],
+  "descripcionFinalidad": "Servicios Sociales y Promoción Social",
+  "descripcionBasesReguladoras": "ORD. GNRAL. DE SUBVENCIONES 2022",
+  "urlBasesReguladoras": "https://transparencia.dipuleon.es/export/sites/transparencia/.galleries/Normativa/Ordenanzas-y-Reglamentos/Subvenciones/Ordenanza-General-de-Subvenciones.pdf",
+  "sePublicaDiarioOficial": true,
+  "abierto": false,
+  "fechaInicioSolicitud": null,
+  "fechaFinSolicitud": null,
+  "textInicio": "20 DÍAS HÁBILES",
+  "textFin": "A PARTIR DEL SIGUIENTE AL DE LA PUBLICACIÓN DEL EXTRACTO EN EL B.O.P. DE LEÓN",
+  "ayudaEstado": null,
+  "urlAyudaEstado": null,
+  "fondos": [],
+  "reglamento": null,
+  "objetivos": [],
+  "sectoresProductos": [],
+  "documentos": [
+    {
+      "id": 1479955,
+      "descripcion": "Texto en castellano de la convocatoria",
+      "nombreFic": "Acuerdo_JG_de_11-06-26_Aprobación_convoc._subv._Programas_Municipales_Activ._Juveniles_2026.pdf",
+      "long": 655467,
+      "datMod": "2026-06-22",
+      "datPublicacion": "2026-06-22"
+    },
+    {
+      "id": 1479956,
+      "descripcion": "Anexo I. Declaración responsable",
+      "nombreFic": "Anexo_I._Declaración_responsable.pdf",
+      "long": 104785,
+      "datMod": "2026-06-22",
+      "datPublicacion": "2026-06-22"
+    },
+    {
+      "id": 1479959,
+      "descripcion": "Anexo IV. Memoria descriptiva de la actuación subvencionada",
+      "nombreFic": "Anexo_IV._Memoria_descriptiva_de_la_actuación_subvencionada.pdf",
+      "long": 138059,
+      "datMod": "2026-06-22",
+      "datPublicacion": "2026-06-22"
+    },
+    {
+      "id": 1479958,
+      "descripcion": "Anexo III. Memoria económica",
+      "nombreFic": "Anexo_III._Memoria_económica.pdf",
+      "long": 128127,
+      "datMod": "2026-06-22",
+      "datPublicacion": "2026-06-22"
+    },
+    {
+      "id": 1479957,
+      "descripcion": "Anexo II. Proyecto descriptivo del programa solicitado",
+      "nombreFic": "Anexo_II._Proyecto_descriptivo_del_programa_solicitado.pdf",
+      "long": 126383,
+      "datMod": "2026-06-22",
+      "datPublicacion": "2026-06-22"
+    }
+  ],
+  "anuncios": [],
+  "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
+}

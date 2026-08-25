@@ -1,0 +1,125 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260710T074232Z",
+    "identificador": "BOE-A-2021-1351",
+    "ambito": {
+      "codigo": "1",
+      "texto": "Estatal"
+    },
+    "departamento": {
+      "codigo": "9576",
+      "texto": "Ministerio de Asuntos Económicos y Transformación Digital"
+    },
+    "rango": {
+      "codigo": "1340",
+      "texto": "Real Decreto"
+    },
+    "fecha_disposicion": "20210112",
+    "numero_oficial": "2/2021",
+    "titulo": "Real Decreto 2/2021, de 12 de enero, por el que se aprueba el Reglamento de desarrollo de la Ley 22/2015, de 20 de julio, de Auditoría de Cuentas.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "20210130",
+    "diario_numero": "26",
+    "fecha_vigencia": "20210131",
+    "vigencia_agotada": "N",
+    "estado_consolidacion": {
+      "codigo": "3",
+      "texto": "Finalizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es/rd/2021/01/12/2",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-1351"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260710T074232Z",
+        "identificador": "BOE-A-2021-1351",
+        "ambito": {
+          "codigo": "1",
+          "texto": "Estatal"
+        },
+        "departamento": {
+          "codigo": "9576",
+          "texto": "Ministerio de Asuntos Económicos y Transformación Digital"
+        },
+        "rango": {
+          "codigo": "1340",
+          "texto": "Real Decreto"
+        },
+        "fecha_disposicion": "20210112",
+        "numero_oficial": "2/2021",
+        "titulo": "Real Decreto 2/2021, de 12 de enero, por el que se aprueba el Reglamento de desarrollo de la Ley 22/2015, de 20 de julio, de Auditoría de Cuentas.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "20210130",
+        "diario_numero": "26",
+        "fecha_vigencia": "20210131",
+        "estatus_derogacion": "N",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "N",
+        "estado_consolidacion": {
+          "codigo": "3",
+          "texto": "Finalizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es/rd/2021/01/12/2",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-1351"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "6674",
+              "texto": "Sociedades"
+            }
+          }
+        ],
+        "notas": {
+          "nota": "Entrada en vigor, con la salvedad indicada en la disposición final 2, el 31 de enero de 2021."
+        },
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "BOE-A-2011-17395",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "el Real Decreto 1517/2011, de 31 de octubre"
+                },
+                {
+                  "id_norma": "BOE-A-2015-8147",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "la disposición final 8 de la Ley 22/2015, de 20 de julio"
+                },
+                {
+                  "id_norma": "DOUE-L-2014-81094",
+                  "relacion": {
+                    "codigo": "330",
+                    "texto": "CITA"
+                  },
+                  "texto": "Directiva 2014/56/UE, de 16 de abril"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

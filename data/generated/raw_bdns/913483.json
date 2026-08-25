@@ -1,0 +1,80 @@
+{
+  "id": 1115044,
+  "organo": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE ALMERÍA",
+    "nivel3": "DIPUTACIÓN PROVINCIAL DE ALMERÍA"
+  },
+  "sedeElectronica": "www.dipalme.org",
+  "codigoBDNS": "913483",
+  "fechaRecepcion": "2026-06-16",
+  "instrumentos": [
+    {
+      "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+    }
+  ],
+  "tipoConvocatoria": "Concesión directa - instrumental",
+  "presupuestoTotal": 20000,
+  "mrr": false,
+  "descripcion": "SUBVENCIÓN NOMINATIVA Y CONVENIO ENTRE DIPUTACIÓN DE ALMERÍA Y COLEGIO OFICIAL DE GRADUADOS SOCIALES PARA IMPLANTACIÓN DE SERVICIOS DE ORIENTACIÓN JURÍDICO-LABORAL EN MUNICIPIOS MENORES DE 20.000 HABITANTES EN ALMERÍA. Decreto núm. 1405 de 16/06/2025",
+  "descripcionLeng": null,
+  "tiposBeneficiarios": [
+    {
+      "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+    }
+  ],
+  "sectores": [
+    {
+      "descripcion": "Prestación de servicios a la comunidad en general",
+      "codigo": "84.2"
+    }
+  ],
+  "regiones": [
+    {
+      "descripcion": "ES611 - Almería"
+    }
+  ],
+  "descripcionFinalidad": "Otras actuaciones de carácter económico",
+  "descripcionBasesReguladoras": "ORDENANZA GENERAL DE SUBVENCIONES",
+  "urlBasesReguladoras": "https://www.dipalme.org/Servicios/Boletin/BOP5Anteriores.nsf/fechabop/C1257E260069CFD5C125879E0043D6C0/$file/21-04757.pdf",
+  "sePublicaDiarioOficial": false,
+  "abierto": false,
+  "fechaInicioSolicitud": null,
+  "fechaFinSolicitud": null,
+  "textInicio": "SIN PLAZO DE SOLICITUD",
+  "textFin": "SIN PLAZO DE SOLICITUD",
+  "ayudaEstado": null,
+  "urlAyudaEstado": null,
+  "fondos": [],
+  "reglamento": null,
+  "objetivos": [],
+  "sectoresProductos": [],
+  "documentos": [
+    {
+      "id": 1478204,
+      "descripcion": "Convenio CGS firmado por las partes",
+      "nombreFic": "CONVENIO CGS 2026.report (3).pdf",
+      "long": 602033,
+      "datMod": "2026-06-18",
+      "datPublicacion": "2026-06-18"
+    },
+    {
+      "id": 1477041,
+      "descripcion": "Documento de la convocatoria en español",
+      "nombreFic": "ORDENANZA GENERAL SUBVENCIONES.pdf",
+      "long": 160714,
+      "datMod": "2026-06-16",
+      "datPublicacion": "2026-06-16"
+    },
+    {
+      "id": 1477042,
+      "descripcion": "Concesión de subvención y aprobación Convenio",
+      "nombreFic": "Resolucion_1405_de_16-6-2026-Presidente.pdf",
+      "long": 237940,
+      "datMod": "2026-06-16",
+      "datPublicacion": "2026-06-16"
+    }
+  ],
+  "anuncios": [],
+  "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
+}

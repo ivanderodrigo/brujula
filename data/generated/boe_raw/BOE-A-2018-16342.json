@@ -1,0 +1,144 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260720T114236Z",
+    "identificador": "BOE-A-2018-16342",
+    "ambito": {
+      "codigo": "2",
+      "texto": "Autonómico"
+    },
+    "departamento": {
+      "codigo": "8162",
+      "texto": "Comunitat Valenciana"
+    },
+    "rango": {
+      "codigo": "1300",
+      "texto": "Ley"
+    },
+    "fecha_disposicion": "20181106",
+    "numero_oficial": "22/2018",
+    "titulo": "Ley 22/2018, de 6 de noviembre, de Inspección General de Servicios y del sistema de alertas para la prevención de malas prácticas en la Administración de la Generalitat y su sector público instrumental.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "20181130",
+    "diario_numero": "289",
+    "fecha_vigencia": "20181128",
+    "vigencia_agotada": "N",
+    "estado_consolidacion": {
+      "codigo": "3",
+      "texto": "Finalizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es-vc/l/2018/11/06/22",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16342"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260720T114236Z",
+        "identificador": "BOE-A-2018-16342",
+        "ambito": {
+          "codigo": "2",
+          "texto": "Autonómico"
+        },
+        "departamento": {
+          "codigo": "8162",
+          "texto": "Comunitat Valenciana"
+        },
+        "rango": {
+          "codigo": "1300",
+          "texto": "Ley"
+        },
+        "fecha_disposicion": "20181106",
+        "numero_oficial": "22/2018",
+        "titulo": "Ley 22/2018, de 6 de noviembre, de Inspección General de Servicios y del sistema de alertas para la prevención de malas prácticas en la Administración de la Generalitat y su sector público instrumental.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "20181130",
+        "diario_numero": "289",
+        "fecha_vigencia": "20181128",
+        "estatus_derogacion": "N",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "N",
+        "estado_consolidacion": {
+          "codigo": "3",
+          "texto": "Finalizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es-vc/l/2018/11/06/22",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16342"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "5281",
+              "texto": "Organización de las Comunidades Autónomas"
+            }
+          }
+        ],
+        "notas": [
+          {
+            "nota": [
+              "Entrada en vigor:, salvo el capítulo I del título II, el 28 de noviembre de 2018.",
+              "Publicada en el DOCV núm. 8419, de 8 de noviembre de 2018."
+            ]
+          }
+        ],
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "el Decreto 68/2014, de 9 de mayo (DOGV núm. 7271, de 12 de mayo)"
+                },
+                {
+                  "id_norma": "BOE-A-1982-17235",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "el Estatuto aprobado por Ley Orgánica 5/1982, de 1 de julio"
+                }
+              ]
+            }
+          ],
+          "posteriores": [
+            {
+              "posterior": [
+                {
+                  "id_norma": "BOE-A-2026-15683",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "los arts. 12, 23, 28 y SE SUPRIME la disposición adicional 2, por Ley 3/2026, de 29 de junio"
+                },
+                {
+                  "id_norma": "DOGV-r-2025-90320",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "los arts. 12, 23, 28 y SE SUPRIME la disposición adicional 2, por Decreto-ley 14/2025, de 26 de diciembre"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

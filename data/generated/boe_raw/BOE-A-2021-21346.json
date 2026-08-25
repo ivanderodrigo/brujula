@@ -1,0 +1,145 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260717T221004Z",
+    "identificador": "BOE-A-2021-21346",
+    "ambito": {
+      "codigo": "1",
+      "texto": "Estatal"
+    },
+    "departamento": {
+      "codigo": "9576",
+      "texto": "Ministerio de Asuntos Económicos y Transformación Digital"
+    },
+    "rango": {
+      "codigo": "1350",
+      "texto": "Orden"
+    },
+    "fecha_disposicion": "20211216",
+    "numero_oficial": "ETD/1449/2021",
+    "titulo": "Orden ETD/1449/2021, de 16 de diciembre, por la que se aprueba el Cuadro Nacional de Atribución de Frecuencias.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "20211224",
+    "diario_numero": "308",
+    "fecha_vigencia": "20211225",
+    "vigencia_agotada": "S",
+    "estado_consolidacion": {
+      "codigo": "3",
+      "texto": "Finalizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es/o/2021/12/16/etd1449",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-21346"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260717T221004Z",
+        "identificador": "BOE-A-2021-21346",
+        "ambito": {
+          "codigo": "1",
+          "texto": "Estatal"
+        },
+        "departamento": {
+          "codigo": "9576",
+          "texto": "Ministerio de Asuntos Económicos y Transformación Digital"
+        },
+        "rango": {
+          "codigo": "1350",
+          "texto": "Orden"
+        },
+        "fecha_disposicion": "20211216",
+        "numero_oficial": "ETD/1449/2021",
+        "titulo": "Orden ETD/1449/2021, de 16 de diciembre, por la que se aprueba el Cuadro Nacional de Atribución de Frecuencias.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "20211224",
+        "diario_numero": "308",
+        "fecha_vigencia": "20211225",
+        "estatus_derogacion": "S",
+        "fecha_derogacion": "20260718",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "S",
+        "estado_consolidacion": {
+          "codigo": "3",
+          "texto": "Finalizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es/o/2021/12/16/etd1449",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-21346"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "6858",
+              "texto": "Telefonía móvil"
+            }
+          }
+        ],
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "BOE-A-2017-12318",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "la Orden ETU/1033/2017, de 25 de octubre"
+                },
+                {
+                  "id_norma": "BOE-A-2017-2460",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "el art. 6 del Reglamento aprobado por Real Decreto 123/2017, de 24 de febrero"
+                },
+                {
+                  "id_norma": "BOE-A-2014-4950",
+                  "relacion": {
+                    "codigo": "330",
+                    "texto": "CITA"
+                  },
+                  "texto": "Ley 9/2014, de 9 de mayo"
+                }
+              ]
+            }
+          ],
+          "posteriores": [
+            {
+              "posterior": [
+                {
+                  "id_norma": "BOE-A-2026-15661",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "SE DEROGA"
+                  },
+                  "texto": ", por Orden TDF/732/2026, de 10 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-2023-14422",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el Cuadro Nacional de Atribución de Frecuencias, por Orden ETD/625/2023, de 12 de junio"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260813T074238Z",
+    "identificador": "BOE-A-1996-2468",
+    "ambito": {
+      "codigo": "1",
+      "texto": "Estatal"
+    },
+    "departamento": {
+      "codigo": "5260",
+      "texto": "Ministerio de Industria y Energía"
+    },
+    "rango": {
+      "codigo": "1340",
+      "texto": "Real Decreto"
+    },
+    "fecha_disposicion": "19951228",
+    "numero_oficial": "2200/1995",
+    "titulo": "Real Decreto 2200/1995, de 28 de diciembre, por el que se aprueba el Reglamento de la Infraestructura para la Calidad y la Seguridad Industrial.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "19960206",
+    "diario_numero": "32",
+    "fecha_vigencia": "19960207",
+    "vigencia_agotada": "N",
+    "estado_consolidacion": {
+      "codigo": "3",
+      "texto": "Finalizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es/rd/1995/12/28/2200",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2468"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260813T074238Z",
+        "identificador": "BOE-A-1996-2468",
+        "ambito": {
+          "codigo": "1",
+          "texto": "Estatal"
+        },
+        "departamento": {
+          "codigo": "5260",
+          "texto": "Ministerio de Industria y Energía"
+        },
+        "rango": {
+          "codigo": "1340",
+          "texto": "Real Decreto"
+        },
+        "fecha_disposicion": "19951228",
+        "numero_oficial": "2200/1995",
+        "titulo": "Real Decreto 2200/1995, de 28 de diciembre, por el que se aprueba el Reglamento de la Infraestructura para la Calidad y la Seguridad Industrial.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "19960206",
+        "diario_numero": "32",
+        "fecha_vigencia": "19960207",
+        "estatus_derogacion": "N",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "N",
+        "estado_consolidacion": {
+          "codigo": "3",
+          "texto": "Finalizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es/rd/1995/12/28/2200",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2468"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "7127",
+              "texto": "Verificadores medioambientales"
+            }
+          }
+        ],
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "BOE-A-1990-58",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "el Real Decreto 1617/1989, de 24 de noviembre"
+                },
+                {
+                  "id_norma": "BOE-A-1987-25866",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "el Real Decreto 1407/1987, de 13 de noviembre"
+                },
+                {
+                  "id_norma": "BOE-A-1987-14656",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "el Real Decreto 800/1987, de 15 de mayo"
+                },
+                {
+                  "id_norma": "BOE-A-1985-19377",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "el Real Decreto 1614/1985, de 1 de agosto"
+                },
+                {
+                  "id_norma": "BOE-A-1981-25549",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "el Real Decreto 2584/1981, de 18 de septiembre"
+                },
+                {
+                  "id_norma": "BOE-A-1979-9692",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "el Real Decreto 735/1979, de 20 de febrero"
+                },
+                {
+                  "id_norma": "BOE-A-1992-17363",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "la Ley 21/1992, de 16 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-1995-12739",
+                  "relacion": {
+                    "codigo": "330",
+                    "texto": "CITA"
+                  },
+                  "texto": "Reglamento aprobado por Real Decreto 697/1995, de 28 de abril"
+                },
+                {
+                  "id_norma": "DOUE-L-1993-81101",
+                  "relacion": {
+                    "codigo": "330",
+                    "texto": "CITA"
+                  },
+                  "texto": "Reglamento (CEE) 1836/93, de 29 de junio"
+                },
+                {
+                  "id_norma": "BOE-A-1993-3344",
+                  "relacion": {
+                    "codigo": "330",
+                    "texto": "CITA"
+                  },
+                  "texto": "Real Decreto 1630/1992, de 29 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-1992-26318",
+                  "relacion": {
+                    "codigo": "330",
+                    "texto": "CITA"
+                  },
+                  "texto": "Ley 30/1992, de 26 de noviembre"
+                },
+                {
+                  "id_norma": "DOUE-L-1983-80141",
+                  "relacion": {
+                    "codigo": "330",
+                    "texto": "CITA"
+                  },
+                  "texto": "Directiva 83/189/CEE, de 28 de marzo"
+                }
+              ]
+            }
+          ],
+          "posteriores": [
+            {
+              "posterior": [
+                {
+                  "id_norma": "BOE-A-2013-3906",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "SE DEROGA"
+                  },
+                  "texto": "los arts. 51, 52, 53 y SE MODIFICA el art. 49, por Real Decreto 239/2013, de 5 de abril"
+                },
+                {
+                  "id_norma": "BOE-A-2011-398",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "SE DEROGA"
+                  },
+                  "texto": "los arts. 14 a 19 y la disposición adicional 3, por Real Decreto 1715/2010, de 17 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2023-7056",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": ", con efectos desde el 1 de julio de 2023, las disposiciones adicional 6 y transitoria 4, por Real Decreto 145/2023, de 28 de febrero"
+                },
+                {
+                  "id_norma": "BOE-A-2020-6472",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "la disposición transitoria 4, por Real Decreto 542/2020, de 26 de mayo"
+                },
+                {
+                  "id_norma": "BOE-A-2015-13530",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "los arts. 10 y 11, la sección 1 del capítulo IV y las disposiciones adicional 3 y final 1, por Real Decreto 1072/2015, de 27 de noviembre"
+                },
+                {
+                  "id_norma": "BOE-A-2010-5547",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "determinados preceptos, por Real Decreto 338/2010, de 19 de marzo"
+                },
+                {
+                  "id_norma": "BOE-A-1997-9026",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el art. 14 y la disposición transitoria 4 y se Prorrogan los Plazos establecidos en las disposiciones adicionales 1 y 3 y Trasitorias 1, 2 y 3, por Real Decreto 411/1997, de 21 de marzo"
+                },
+                {
+                  "id_norma": "BOE-A-2025-7190",
+                  "relacion": {
+                    "codigo": "407",
+                    "texto": "SE AÑADE"
+                  },
+                  "texto": ", en la forma y con los efectos indicados, la disposición adicional 8, por Real Decreto 164/2025, de 4 de marzo"
+                },
+                {
+                  "id_norma": "BOE-A-1996-5208",
+                  "relacion": {
+                    "codigo": "201",
+                    "texto": "CORRECCIÓN de errores"
+                  },
+                  "texto": "en BOE núm. 57, de 6 de marzo de 1996"
+                },
+                {
+                  "id_norma": "BOE-A-1996-3839",
+                  "relacion": {
+                    "codigo": "331",
+                    "texto": "SE DICTA EN RELACIÓN"
+                  },
+                  "texto": "el Real Decreto 85/1996, de 26 de enero"
+                },
+                {
+                  "id_norma": "BOE-A-2012-4023",
+                  "relacion": {
+                    "codigo": "470",
+                    "texto": "SE DECLARA"
+                  },
+                  "texto": "la nulidad del art. 42.1 y 2.a) y la inaplicabilidad a las personas físicas de lo indicado en los apartados 2.b) y c), 4.b) y c) del art. 42 en la redacción dada por el art. único del Real Decreto 338/2010, por Sentencia del TS de 27 de febrero de 2012"
+                },
+                {
+                  "id_norma": "BOE-A-2011-13894",
+                  "relacion": {
+                    "codigo": "470",
+                    "texto": "SE DECLARA"
+                  },
+                  "texto": "con la salvedad expresada la inaplicabilidad de lo indicado del art. 43 en la redacción dada por el Real Decreto 338/2010,  de 19 de marzo, por Sentencia del TS de 29 de junio de 2011"
+                },
+                {
+                  "id_norma": "BOE-T-2005-4665",
+                  "relacion": {
+                    "codigo": "470",
+                    "texto": "SE DECLARA"
+                  },
+                  "texto": "en el Conflicto 2231/1996, que el art. 51.1 y disposición adicional 3 no invaden las competencias de la C.A. de Cataluña según los f.j. 8 y 9, por Sentencia 33/2005, de 17 de febrero"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260713T135323Z",
+    "identificador": "BOE-A-2010-5882",
+    "ambito": {
+      "codigo": "2",
+      "texto": "Autonómico"
+    },
+    "departamento": {
+      "codigo": "8070",
+      "texto": "Comunidad Autónoma de Cataluña"
+    },
+    "rango": {
+      "codigo": "1300",
+      "texto": "Ley"
+    },
+    "fecha_disposicion": "20100218",
+    "numero_oficial": "3/2010",
+    "titulo": "Ley 3/2010, de 18 de febrero, de prevención y seguridad en materia de incendios en establecimientos, actividades, infraestructuras y edificios.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "20100413",
+    "diario_numero": "89",
+    "fecha_vigencia": "20100510",
+    "vigencia_agotada": "N",
+    "estado_consolidacion": {
+      "codigo": "4",
+      "texto": "Desactualizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es-ct/l/2010/02/18/3",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-5882"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260713T135323Z",
+        "identificador": "BOE-A-2010-5882",
+        "ambito": {
+          "codigo": "2",
+          "texto": "Autonómico"
+        },
+        "departamento": {
+          "codigo": "8070",
+          "texto": "Comunidad Autónoma de Cataluña"
+        },
+        "rango": {
+          "codigo": "1300",
+          "texto": "Ley"
+        },
+        "fecha_disposicion": "20100218",
+        "numero_oficial": "3/2010",
+        "titulo": "Ley 3/2010, de 18 de febrero, de prevención y seguridad en materia de incendios en establecimientos, actividades, infraestructuras y edificios.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "20100413",
+        "diario_numero": "89",
+        "fecha_vigencia": "20100510",
+        "estatus_derogacion": "N",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "N",
+        "estado_consolidacion": {
+          "codigo": "4",
+          "texto": "Desactualizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es-ct/l/2010/02/18/3",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-5882"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "7094",
+              "texto": "Urbanismo"
+            }
+          }
+        ],
+        "notas": {
+          "nota": "Publicada en el DOGC núm. 5584, de 10 de marzo de 2010."
+        },
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "Decreto 241/1994, de 26 de julio (DOGC núm. 1954, de 30 de septiembre de 1994)"
+                },
+                {
+                  "id_norma": "BOE-A-1998-8293",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "MODIFICA"
+                  },
+                  "texto": "determinados preceptos de la Ley 3/1998, de 27 de febrero"
+                },
+                {
+                  "id_norma": "BOE-A-2006-13087",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "art. 65 del Estatuto aprobado por la Ley Orgánica 6/2006, de 19 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-1994-12665",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "Ley 5/1994, de 4 de mayo"
+                }
+              ]
+            }
+          ],
+          "posteriores": [
+            {
+              "posterior": [
+                {
+                  "id_norma": "DOGC-f-2026-90190",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "SE DEROGA"
+                  },
+                  "texto": "el art. 22 bis y SE MODIFICA los arts. 20, 22, 23, 25 y los anexos 1 y 2, por Ley 11/2026, de 9 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-2021-1662",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "los arts. 20 y 25, por Ley 18/2020, de 28 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2015-9208",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "Art. 20 y SE AÑADE el art. 22 bis y SE SUPRIMEN los epígrafes 12, 13 y 14 del anexo 1, por Ley 16/2015, de 24 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-2021-4241",
+                  "relacion": {
+                    "codigo": "203",
+                    "texto": "SE CORRIGEN errores"
+                  },
+                  "texto": "de la Ley 18/2020, de 28 de diciembre, en BOE núm. 66, de 18 de marzo de 2021"
+                },
+                {
+                  "id_norma": "DOGC-f-2021-90113",
+                  "relacion": {
+                    "codigo": "204",
+                    "texto": "SE CORRIGEN erratas"
+                  },
+                  "texto": "en la Ley 18/2020, de 28 de diciembre, en DOGC num. 8361 de 10 de marzo de 2021"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

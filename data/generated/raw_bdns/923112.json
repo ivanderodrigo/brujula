@@ -1,0 +1,68 @@
+{
+  "id": 1124673,
+  "organo": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE ALBACETE",
+    "nivel3": "DIPUTACIÓN PROVINCIAL DE ALBACETE"
+  },
+  "sedeElectronica": "www.dipualba.es",
+  "codigoBDNS": "923112",
+  "fechaRecepcion": "2026-08-03",
+  "instrumentos": [
+    {
+      "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+    }
+  ],
+  "tipoConvocatoria": "Concurrencia competitiva - canónica",
+  "presupuestoTotal": 175000,
+  "mrr": false,
+  "descripcion": "CONVOCATORIA DE SUBVENCIONES DEL SERVICIO DE IGUALDAD CON DESTINO A AYUNTAMIENTOS Y EE.LL MENORES PARA ACTIVIDADES DE CONCILIACIÓN 2026",
+  "descripcionLeng": null,
+  "tiposBeneficiarios": [
+    {
+      "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+    }
+  ],
+  "sectores": [
+    {
+      "descripcion": "OTROS SERVICIOS",
+      "codigo": "T"
+    },
+    {
+      "descripcion": "TRANSPORTE Y ALMACENAMIENTO",
+      "codigo": "H"
+    }
+  ],
+  "regiones": [
+    {
+      "descripcion": "ES421 - Albacete"
+    }
+  ],
+  "descripcionFinalidad": "Servicios Sociales y Promoción Social",
+  "descripcionBasesReguladoras": "CONVOCATORIA DE SUBVENCIONES DEL SERVICIO DE IGUALDAD CON DESTINO A AYUNTAMIENTOS Y EE.LL MENORES PARA ACTIVIDADES DE CONCILIACIÓN 2026",
+  "urlBasesReguladoras": "www.dipualba.es",
+  "sePublicaDiarioOficial": true,
+  "abierto": false,
+  "fechaInicioSolicitud": "2026-08-06",
+  "fechaFinSolicitud": "2026-09-02",
+  "textInicio": null,
+  "textFin": null,
+  "ayudaEstado": null,
+  "urlAyudaEstado": null,
+  "fondos": [],
+  "reglamento": null,
+  "objetivos": [],
+  "sectoresProductos": [],
+  "documentos": [
+    {
+      "id": 1504052,
+      "descripcion": "Documento de la convocatoria en español",
+      "nombreFic": "Decreto Nº 3574 de 31_07_2026 _DECRETO DE CONVOCATORIA DE SUBVENCIONES PARA AYUNTAMIENTOS Y ENTIDADES LOCALES MENORES 2026_ - SEGRA 933658.pdf",
+      "long": 682762,
+      "datMod": "2026-08-03",
+      "datPublicacion": "2026-08-03"
+    }
+  ],
+  "anuncios": [],
+  "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
+}

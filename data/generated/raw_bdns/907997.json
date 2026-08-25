@@ -1,0 +1,64 @@
+{
+  "id": 1109558,
+  "organo": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE ALBACETE",
+    "nivel3": "DIPUTACIÓN PROVINCIAL DE ALBACETE"
+  },
+  "sedeElectronica": " https://eadmin.dipualba.es/subvenciones/convocatoria.aspx?id=3198",
+  "codigoBDNS": "907997",
+  "fechaRecepcion": "2026-05-26",
+  "instrumentos": [
+    {
+      "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+    }
+  ],
+  "tipoConvocatoria": "Concurrencia competitiva - canónica",
+  "presupuestoTotal": 2000000,
+  "mrr": false,
+  "descripcion": "CONVOCATORIA DE SUBVENCIONES DEL SERVICIO DE PRESIDENCIA DESTINADA AYUNTAMIENTOS Y ENTIDADES LOCALES MENORES DE ALBACETE PARA LA CONTRATACIÓN DE PERSONAL Y EMPRESAS DE SERVICIOS PARA EL MANTENIMIENTO DE INFRAESTRUCTURAS Y ESPACIOS MUNICIPALES",
+  "descripcionLeng": null,
+  "tiposBeneficiarios": [
+    {
+      "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+    }
+  ],
+  "sectores": [
+    {
+      "descripcion": "OTROS SERVICIOS",
+      "codigo": "T"
+    }
+  ],
+  "regiones": [
+    {
+      "descripcion": "ES421 - Albacete"
+    }
+  ],
+  "descripcionFinalidad": "Otras actuaciones de carácter económico",
+  "descripcionBasesReguladoras": "ORDENANZA DE LAS BASES QUE RIGEN LAS CONVOCATORIA DE SUBVENCIONES PARA LA REALIZACIÓN DE ACTIVIDADES DE LA ENTIDADES PÚBLICAS",
+  "urlBasesReguladoras": "https://bop.dipualba.es/servicesajax/descargararchivopaginaBOP/248051",
+  "sePublicaDiarioOficial": true,
+  "abierto": false,
+  "fechaInicioSolicitud": "2026-05-28",
+  "fechaFinSolicitud": "2026-06-16",
+  "textInicio": null,
+  "textFin": null,
+  "ayudaEstado": null,
+  "urlAyudaEstado": null,
+  "fondos": [],
+  "reglamento": null,
+  "objetivos": [],
+  "sectoresProductos": [],
+  "documentos": [
+    {
+      "id": 1461682,
+      "descripcion": "Documento de la convocatoria en español",
+      "nombreFic": "Decreto Nº 2486 de 26_05_2026 _Convocatoria de subvenciones para la contratación de personal y empresas de servicios_ - SEGRA 914927.pdf",
+      "long": 454629,
+      "datMod": "2026-05-26",
+      "datPublicacion": "2026-05-26"
+    }
+  ],
+  "anuncios": [],
+  "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
+}

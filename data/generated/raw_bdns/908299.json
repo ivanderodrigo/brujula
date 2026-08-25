@@ -1,0 +1,64 @@
+{
+  "id": 1109860,
+  "organo": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE CUENCA",
+    "nivel3": "DIPUTACIÓN PROVINCIAL DE CUENCA"
+  },
+  "sedeElectronica": null,
+  "codigoBDNS": "908299",
+  "fechaRecepcion": "2026-05-27",
+  "instrumentos": [
+    {
+      "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+    }
+  ],
+  "tipoConvocatoria": "Concurrencia competitiva - canónica",
+  "presupuestoTotal": 700000,
+  "mrr": false,
+  "descripcion": "SUBVENCIONES DESTINADAS A PERSONAS TRABAJADORAS AUTÓNOMAS Y MICROEMPRESAS DE MUNICIPIOS DE LA PROVINCIA DE CUENCA DE MENOS DE 5.000 HABITANTES, PARA SUBVENCIONAR LA REALIZACIÓN DE ACTUACIONES DE INVERSIÓN. EJERCICIO 2026",
+  "descripcionLeng": null,
+  "tiposBeneficiarios": [
+    {
+      "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+    }
+  ],
+  "sectores": [
+    {
+      "descripcion": "ACTIVIDADES ARTÍSTICAS, DEPORTIVAS Y DE ENTRETENIMIENTO",
+      "codigo": "S"
+    }
+  ],
+  "regiones": [
+    {
+      "descripcion": "ES423 - Cuenca"
+    }
+  ],
+  "descripcionFinalidad": "Fomento del Empleo",
+  "descripcionBasesReguladoras": "ORDENANZA GENERAL DE SUBVENCIONES",
+  "urlBasesReguladoras": "https://www.dipucuenca.es/documents/12423/560665/ORDENANZA+REGULADORA+DE+SUBVENCIONES.pdf",
+  "sePublicaDiarioOficial": true,
+  "abierto": false,
+  "fechaInicioSolicitud": null,
+  "fechaFinSolicitud": null,
+  "textInicio": "Dia siguiente al inicio de la publicación en el B.O.P",
+  "textFin": "El plazo de presentación de las solicitudes será de 1 mes",
+  "ayudaEstado": null,
+  "urlAyudaEstado": null,
+  "fondos": [],
+  "reglamento": null,
+  "objetivos": [],
+  "sectoresProductos": [],
+  "documentos": [
+    {
+      "id": 1462409,
+      "descripcion": "Texto en castellano de la convocatoria",
+      "nombreFic": "2026_Decreto_aprobación_Normas_Convocatoria_-_SEGRA_1018306.pdf",
+      "long": 608585,
+      "datMod": "2026-05-27",
+      "datPublicacion": "2026-05-27"
+    }
+  ],
+  "anuncios": [],
+  "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
+}

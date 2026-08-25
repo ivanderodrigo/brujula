@@ -1,0 +1,84 @@
+{
+  "id": 1124420,
+  "organo": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE SALAMANCA",
+    "nivel3": "DIPUTACIÓN DE SALAMANCA"
+  },
+  "sedeElectronica": "https://sede.diputaciondesalamanca.gob.es",
+  "codigoBDNS": "922859",
+  "fechaRecepcion": "2026-07-31",
+  "instrumentos": [
+    {
+      "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+    }
+  ],
+  "tipoConvocatoria": "Concurrencia competitiva - canónica",
+  "presupuestoTotal": 400000,
+  "mrr": false,
+  "descripcion": "SUBVENCIONES DIRIGIDAS A AYUNTAMIENTOS DE LA PROVINCIA DE SALAMANCA INTERESADOS EN LA REALIZACIÓN DE OBRAS DE REPARACIÓN, CONSERVACIÓN Y MANTENIMIENTO DE SUS CENTROS ESCOLARES PARA LOS AÑOS 2025-2026",
+  "descripcionLeng": null,
+  "tiposBeneficiarios": [
+    {
+      "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+    }
+  ],
+  "sectores": [
+    {
+      "descripcion": "Otras actividades de construcción especializada",
+      "codigo": "43.9"
+    }
+  ],
+  "regiones": [
+    {
+      "descripcion": "ES415 - Salamanca"
+    }
+  ],
+  "descripcionFinalidad": "Cultura",
+  "descripcionBasesReguladoras": "Ordenanza General Reguladora de Concesión de Subvenciones",
+  "urlBasesReguladoras": "http://www.lasalina.es/presidencia/informacion/normativa/ordenanzasyreglamentos/presidencia/index.html",
+  "sePublicaDiarioOficial": true,
+  "abierto": false,
+  "fechaInicioSolicitud": null,
+  "fechaFinSolicitud": "2026-09-11",
+  "textInicio": "DESDE EL DIA SIGUIENTE A LA PUBLICACION DEL EXTRACTO EN EL BOLETIN OFICIAL DE LA PROVINCIA",
+  "textFin": null,
+  "ayudaEstado": null,
+  "urlAyudaEstado": null,
+  "fondos": [],
+  "reglamento": null,
+  "objetivos": [],
+  "sectoresProductos": [],
+  "documentos": [
+    {
+      "id": 1503451,
+      "descripcion": "ACUERDO JUNTA GOBIERNO",
+      "nombreFic": "ACUERDO_164 (1)_Censurado..pdf",
+      "long": 162786,
+      "datMod": "2026-07-31",
+      "datPublicacion": "2026-07-31"
+    },
+    {
+      "id": 1503450,
+      "descripcion": "Documento de la convocatoria en español",
+      "nombreFic": "2026CUL006_BASES CONVOCATORIA.pdf",
+      "long": 518196,
+      "datMod": "2026-07-31",
+      "datPublicacion": "2026-07-31"
+    }
+  ],
+  "anuncios": [
+    {
+      "numAnuncio": 218465,
+      "titulo": "Extracto de la Junta de Gobierno Nº 164 de 24/06/2026, de la Diputación Provincial de Salamanca, convocatoria y bases de las subvenciones a ayuntamientos de la provincia con población inferior a 20.000 habitantes, para la realización de obras de reparación, conservación y mejora de centros escolares del medio rural de la provincia de salamanca, para los años 2026-2027",
+      "tituloLeng": null,
+      "texto": "<p>Primero. Beneficiarios:</p><p>Entidades locales de la provincia de Salamanca con población inferior a 20.000 habitantes.</p><p> </p><p>Segundo. Objeto:</p><p>Subvención a ayuntamientos de la provincia de Salamanca para la realización de “obras de reparación, conservación y mejora de colegios de educación infantil y primaria de la provincia de Salamanca para los años 2025-2026”.</p><p> </p><p>Tercero. Bases Reguladoras:</p><p>Convocatoria pública de subvenciones a ayuntamientos para la realización de “obras de reparación, conservación y mejora de colegios de educación infantil y primaria de la provincia de Salamanca para los años 2025-2026” publicado en https://www.subvenciones.gob.es/bdnstrans/L370000/es/inicio y en http://www.lasalina.es/presidencia/informacion/subvenciones/subvencionesplazoabierto/index.html</p><p> </p><p>Cuarto. Cuantía:</p><p>El importe total es de 400.000 €.</p><p> </p><p>Quinto. Plazo de presentación de solicitudes:</p><p>Desde el día siguiente a la publicación del extracto de la presente convocatoria en el Boletín Oficial de la Provincia y hasta el 12 de septiembre de 2025</p>",
+      "textoLeng": null,
+      "url": "https://sede.diputaciondesalamanca.gob.es/documentacion/bop/2026/20260807/BOP-SA-20260807-001.pdf",
+      "cve": "BOP-SA-20260807-001",
+      "desDiarioOficial": "B.O.P. DE SALAMANCA",
+      "datPublicacion": "2026-08-07"
+    }
+  ],
+  "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
+}

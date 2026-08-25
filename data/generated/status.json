@@ -1,6 +1,30 @@
 {
-  "localities_ngmep": {"ok": false, "note": "Ejecuta ACTUALIZAR_LOCALIDADES.bat para cargar municipios, entidades de población y EATIM del NGMEP 2026 y generar el índice dinámico."},
-  "bdns": {"ok": false, "note": "Ejecuta ACTUALIZAR_DATOS_OFICIALES.bat para construir el radar candidato BDNS."},
-  "boe": {"ok": false, "note": "Ejecuta ACTUALIZAR_DATOS_OFICIALES.bat para construir el radar normativo BOE."},
-  "updated_at": null
+  "localities_ngmep": {
+    "ok": true,
+    "total": 38161,
+    "mode": "mirror_osm_es",
+    "municipalities": 8132,
+    "population_entities": 30028,
+    "eatims": 1,
+    "source_year": 2025,
+    "population_year": 2025,
+    "note": "Fallback de disponibilidad. Los nombres/población proceden del fichero ENTIDADES.2025.csv del NGMEP reflejado por OSM-es; EATIM nacionales completas requieren el ZIP oficial.",
+    "source": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=9000004"
+  },
+  "bdns": {
+    "downloaded": 24099,
+    "candidates": 20073,
+    "details": 300,
+    "errors": 0,
+    "ok": true,
+    "window_days": 120
+  },
+  "boe": {
+    "ok": true,
+    "downloaded": 698,
+    "candidates": 100,
+    "errors": 0,
+    "window_days": 60
+  },
+  "updated_at": "2026-08-25T23:24:19"
 }

@@ -1,0 +1,211 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260717T091420Z",
+    "identificador": "BOE-A-1991-10111",
+    "ambito": {
+      "codigo": "2",
+      "texto": "Autonómico"
+    },
+    "departamento": {
+      "codigo": "8060",
+      "texto": "Comunidad Autónoma de Castilla-La Mancha"
+    },
+    "rango": {
+      "codigo": "1300",
+      "texto": "Ley"
+    },
+    "fecha_disposicion": "19910314",
+    "numero_oficial": "3/1991",
+    "titulo": "Ley 3/1991, de 14 de marzo, de Entidades Locales de Castilla-La Mancha.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "19910425",
+    "diario_numero": "99",
+    "fecha_vigencia": "19910416",
+    "vigencia_agotada": "N",
+    "estado_consolidacion": {
+      "codigo": "3",
+      "texto": "Finalizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es-cm/l/1991/03/14/3",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-1991-10111"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260717T091420Z",
+        "identificador": "BOE-A-1991-10111",
+        "ambito": {
+          "codigo": "2",
+          "texto": "Autonómico"
+        },
+        "departamento": {
+          "codigo": "8060",
+          "texto": "Comunidad Autónoma de Castilla-La Mancha"
+        },
+        "rango": {
+          "codigo": "1300",
+          "texto": "Ley"
+        },
+        "fecha_disposicion": "19910314",
+        "numero_oficial": "3/1991",
+        "titulo": "Ley 3/1991, de 14 de marzo, de Entidades Locales de Castilla-La Mancha.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "19910425",
+        "diario_numero": "99",
+        "fecha_vigencia": "19910416",
+        "estatus_derogacion": "N",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "N",
+        "estado_consolidacion": {
+          "codigo": "3",
+          "texto": "Finalizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es-cm/l/1991/03/14/3",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-1991-10111"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "5068",
+              "texto": "Municipios"
+            }
+          }
+        ],
+        "notas": {
+          "nota": "Publicada en el DOCM núm. 25, de 27 de marzo de 1991."
+        },
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "BOE-A-1982-20820",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "el art. 30.5 del Estatuto aprobado por Ley Orgánica 9/1982, de 10 de agosto"
+                },
+                {
+                  "id_norma": "BOE-A-1988-29623",
+                  "relacion": {
+                    "codigo": "330",
+                    "texto": "CITA"
+                  },
+                  "texto": "Ley 39/1988, de 28 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-1986-33252",
+                  "relacion": {
+                    "codigo": "330",
+                    "texto": "CITA"
+                  },
+                  "texto": "Reglamento aprobado por Real Decreto 2568/1986, de 28 de noviembre"
+                },
+                {
+                  "id_norma": "BOE-A-1985-5392",
+                  "relacion": {
+                    "codigo": "330",
+                    "texto": "CITA"
+                  },
+                  "texto": "Ley 7/1985, de 2 de abril"
+                }
+              ]
+            }
+          ],
+          "posteriores": [
+            {
+              "posterior": [
+                {
+                  "id_norma": "BOE-A-2013-2558",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el art. 45, por Ley 9/2012, de 29 de noviembre"
+                },
+                {
+                  "id_norma": "BOE-A-2011-7843",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el título VII, por Ley 10/2011, de 21 de marzo"
+                },
+                {
+                  "id_norma": "BOE-A-2010-16091",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el art. 80, por Ley 5/2009, de 17 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2009-8668",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el art. 80, por Ley 10/2008, de 19 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2001-3897",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el título VII, por Ley 9/2000, de 21 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2000-730",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el Título VII y la disposición transitoria y SE AÑADE la disposición derogatoria, por Ley 13/1999, de 15 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-1998-18180",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el art. 15, por Ley 3/1998, de 4 de junio"
+                },
+                {
+                  "id_norma": "BOE-A-1996-5107",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el título VII y se añade la disposición adicional tercera, por Ley 7/1995, de 21 de diciembre"
+                },
+                {
+                  "id_norma": "DOCM-q-1991-90254",
+                  "relacion": {
+                    "codigo": "201",
+                    "texto": "CORRECCIÓN de errores"
+                  },
+                  "texto": ", con rectificación del título, en DOCM núm. 29, de 12 de abril de 1991"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

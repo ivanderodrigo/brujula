@@ -1,0 +1,76 @@
+{
+  "id": 1120558,
+  "organo": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE ZAMORA",
+    "nivel3": "DIPUTACIÓN PROVINCIAL DE ZAMORA"
+  },
+  "sedeElectronica": null,
+  "codigoBDNS": "918997",
+  "fechaRecepcion": "2026-07-14",
+  "instrumentos": [
+    {
+      "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+    }
+  ],
+  "tipoConvocatoria": "Concurrencia competitiva - canónica",
+  "presupuestoTotal": 662000,
+  "mrr": false,
+  "descripcion": "SEGURIDAD RURAL. Subvención para financiar actividades de mejora de las condiciones de seguridad y salud rural en municipios de menos de 2.000 habitantes.",
+  "descripcionLeng": null,
+  "tiposBeneficiarios": [
+    {
+      "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+    }
+  ],
+  "sectores": [
+    {
+      "descripcion": "Actividades de apoyo a la agricultura, a la ganadería y de preparación posterior a la cosecha",
+      "codigo": "01.6"
+    }
+  ],
+  "regiones": [
+    {
+      "descripcion": "ES419 - Zamora"
+    }
+  ],
+  "descripcionFinalidad": "Agricultura, Pesca y Alimentación",
+  "descripcionBasesReguladoras": "ORDENANZA GENERAL DE SUBVENCIONES",
+  "urlBasesReguladoras": "https://diputaciondezamora.sedelectronica.es/doc/A3A9KMTP66KD43W42XFRWSAQ3",
+  "sePublicaDiarioOficial": true,
+  "abierto": false,
+  "fechaInicioSolicitud": "2026-07-16",
+  "fechaFinSolicitud": "2026-08-05",
+  "textInicio": null,
+  "textFin": null,
+  "ayudaEstado": null,
+  "urlAyudaEstado": null,
+  "fondos": [],
+  "reglamento": null,
+  "objetivos": [],
+  "sectoresProductos": [],
+  "documentos": [
+    {
+      "id": 1493022,
+      "descripcion": "Texto en castellano de la convocatoria",
+      "nombreFic": "20260714_Publicación_Publicación_BASES_SEGURIDAD_RURAL_2026.pdf",
+      "long": 1130731,
+      "datMod": "2026-07-14",
+      "datPublicacion": "2026-07-14"
+    }
+  ],
+  "anuncios": [
+    {
+      "numAnuncio": 216965,
+      "titulo": "Extracto subvenciones para financiar actividades de mejora de las condiciones de seguridad y salud rural en municipios de menos de 2000 habitantes",
+      "tituloLeng": null,
+      "texto": "<p>EXTRACTO DE LA CONVOCATORIA PUBLICA PARA LA CONCESIÓN DE BASES REGULADORAS PARA LA CONCESIÓN DE SUBVENCIONES PÚBLICAS DIRIGIDAS A FINANCIAR LA REALIZACIÓN DE ACTIVIDADES DE MEJORA DE LAS CONDICIONES DE SEGURIDAD Y SALUD EN LOS CENTROS DE TRABAJO DE LOS MUNICIPIOS MENORES DE 2.000 HABITANTES DE LA PROVINCIA DE ZAMORA</p><p></p><p>Decreto de Presidencia de la Diputación Provincial de Zamora nº 2026-4506 de 14 de julio de 2026 por el que se convocan subvenciones para financiar la realización de actividades de mejora de las condiciones de seguridad y salud en los centros de trabajo de los municipios menores de 2.000 habitantes de la provincia de Zamora. </p><p>De conformidad con los previsto en los artículos 17.3.b y 20.8.a de la Ley 38/2003, de 17 de noviembre General de subvenciones, se publica el extracto de la convocatoria cuyo texto completo puede consultarse en la Base de Datos Nacional de Subvenciones (https://www.pap.hacienda.gob.es/bdnstrans/GE/es/inicio) y en la sede electrónica de la Diputación Provincial de Zamora: ?https://www.diputaciondezamora.es?</p><p>Primero. - Beneficiarios</p><p>Tendrán la condición de beneficiarios las personas físicas, personas jurídicas, cooperativas agrarias, sociedades agrarias de transformación, comunidades de bienes y sociedades civiles, todas ellas constituidas con ánimo de lucro, que estén encuadradas dentro del CNAE 01 (actividades de agricultura, ganadería, caza y servicios relacionados con las mismas) destinadas a la ejecución de actividades de mejora de la seguridad y salud de los trabajadores en los centros de trabajo ubicados en municipios de menos de 2.000 habitantes de la provincia de Zamora.</p><p>Segundo. - Objeto</p><p>El objeto de la presente convocatoria es la regulación de la concesión de ayudas, destinadas a la ejecución de actividades de mejora de la seguridad y salud de los trabajadores en los centros de trabajo ubicados en municipios de menos de 2.000 habitantes de la provincia de Zamora.</p><p></p><p></p><p>Tercero. - Actuaciones subvencionables.</p><p>Adquisición o adaptación de maquinaria agrícola y ganadera, incluidos vehículos automotrices de retirada de cadáveres, y sus sistemas antivuelco y señales acústicas marcha atrás.</p><p>Acondicionamiento de naves agrícolas y ganaderas.</p><p>Mejora de lugares de almacenamiento de productos: agrícolas, ganaderos, carburantes, fitosanitarios, entre otros.</p><p>Mejora de accesos a las instalaciones.</p><p>Adquisición e instalación de desfibriladores portátiles semiautomáticos (DESA), así como la formación para su uso.</p><p>Cuarto. - Cuantía</p><p>Hasta el 85% de los gastos justificados.</p><p>Quinto. - Plazo de presentación de solicitudes.</p><p>15 días hábiles a partir del día siguiente de la publicación del extracto de la convocatoria en el Boletín Oficial de la Provincia.</p><p>Sexto. - El documento de la solicitud correspondiente a la presente convocatoria estará a disposición de los interesados en la sede electrónica de la Diputación Provincial de Zamora: https://www.diputaciondezamora.es</p>",
+      "textoLeng": null,
+      "url": "https://www.diputaciondezamora.es/opencms/export/sites/dipu-zamora/servicios/BOP/.Archivos/documentos/BOP/anuncios/2026/82/202601777.pdf",
+      "cve": "202601777",
+      "desDiarioOficial": "B.O.P. DE ZAMORA",
+      "datPublicacion": "2026-07-15"
+    }
+  ],
+  "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
+}

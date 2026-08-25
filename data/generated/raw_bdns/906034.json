@@ -1,0 +1,72 @@
+{
+  "id": 1107595,
+  "organo": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE MÁLAGA",
+    "nivel3": "DIPUTACIÓN PROVINCIAL DE MÁLAGA"
+  },
+  "sedeElectronica": null,
+  "codigoBDNS": "906034",
+  "fechaRecepcion": "2026-05-15",
+  "instrumentos": [
+    {
+      "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+    }
+  ],
+  "tipoConvocatoria": "Concesión directa - instrumental",
+  "presupuestoTotal": 40000,
+  "mrr": false,
+  "descripcion": "Resolución de Presidencia 2026/3051 de 28 de abril, referente a Concesión de subvención a la Unión de Profesionales y Trabajadores Autónomos de España con destino al proyecto \"Red de Ayuntamientos Rurales Emprendedores de Málaga\". Anualidad 2026.",
+  "descripcionLeng": null,
+  "tiposBeneficiarios": [
+    {
+      "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+    }
+  ],
+  "sectores": [
+    {
+      "descripcion": "ACTIVIDADES PROFESIONALES, CIENTÍFICAS Y TÉCNICAS",
+      "codigo": "N"
+    },
+    {
+      "descripcion": "HOSTELERÍA",
+      "codigo": "I"
+    },
+    {
+      "descripcion": "OTROS SERVICIOS",
+      "codigo": "T"
+    }
+  ],
+  "regiones": [
+    {
+      "descripcion": "ES617 - Málaga"
+    }
+  ],
+  "descripcionFinalidad": "Fomento del Empleo",
+  "descripcionBasesReguladoras": "Acuerdo de Pleno de 20 de marzo de 2024 aprobación definitiva de la Ordenanza General de Subvenciones de la Diputación Provincial de Málaga.",
+  "urlBasesReguladoras": "https://www.bopmalaga.es/edicto.php?edicto=20240430-01616-2024-00",
+  "sePublicaDiarioOficial": false,
+  "abierto": false,
+  "fechaInicioSolicitud": null,
+  "fechaFinSolicitud": null,
+  "textInicio": "Sin plazo de solicitud",
+  "textFin": "Sin plazo de solicitud",
+  "ayudaEstado": null,
+  "urlAyudaEstado": null,
+  "fondos": [],
+  "reglamento": null,
+  "objetivos": [],
+  "sectoresProductos": [],
+  "documentos": [
+    {
+      "id": 1455682,
+      "descripcion": "Documento de la convocatoria en español",
+      "nombreFic": "20260428 Concesión UPTA proyecto Red de Ayuntamientos Rurales Emprendedores Málaga.pdf",
+      "long": 611816,
+      "datMod": "2026-05-15",
+      "datPublicacion": "2026-05-15"
+    }
+  ],
+  "anuncios": [],
+  "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
+}

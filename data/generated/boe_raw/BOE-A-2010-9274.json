@@ -1,0 +1,184 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260825T075539Z",
+    "identificador": "BOE-A-2010-9274",
+    "ambito": {
+      "codigo": "1",
+      "texto": "Estatal"
+    },
+    "departamento": {
+      "codigo": "4435",
+      "texto": "Ministerio de Trabajo e Inmigración"
+    },
+    "rango": {
+      "codigo": "1340",
+      "texto": "Real Decreto"
+    },
+    "fecha_disposicion": "20100528",
+    "numero_oficial": "713/2010",
+    "titulo": "Real Decreto 713/2010, de 28 de mayo, sobre registro y depósito de convenios y acuerdos colectivos de trabajo.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "20100612",
+    "diario_numero": "143",
+    "fecha_vigencia": "20101001",
+    "vigencia_agotada": "N",
+    "estado_consolidacion": {
+      "codigo": "3",
+      "texto": "Finalizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es/rd/2010/05/28/713",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-9274"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260825T075539Z",
+        "identificador": "BOE-A-2010-9274",
+        "ambito": {
+          "codigo": "1",
+          "texto": "Estatal"
+        },
+        "departamento": {
+          "codigo": "4435",
+          "texto": "Ministerio de Trabajo e Inmigración"
+        },
+        "rango": {
+          "codigo": "1340",
+          "texto": "Real Decreto"
+        },
+        "fecha_disposicion": "20100528",
+        "numero_oficial": "713/2010",
+        "titulo": "Real Decreto 713/2010, de 28 de mayo, sobre registro y depósito de convenios y acuerdos colectivos de trabajo.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "20100612",
+        "diario_numero": "143",
+        "fecha_vigencia": "20101001",
+        "estatus_derogacion": "N",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "N",
+        "estado_consolidacion": {
+          "codigo": "3",
+          "texto": "Finalizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es/rd/2010/05/28/713",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-9274"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "7869",
+              "texto": "Registros telemáticos"
+            }
+          }
+        ],
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "BOE-A-1996-23245",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "Orden de 10 de octubre de 1996"
+                },
+                {
+                  "id_norma": "BOE-A-1992-4911",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "Orden de 24 de febrero de 1992"
+                },
+                {
+                  "id_norma": "BOE-A-1981-12841",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "Real Decreto 1040/1981, de 22 de mayo"
+                },
+                {
+                  "id_norma": "BOE-A-1995-7730",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "los arts. 90.2 y 3 de la Ley del Estatuto de los Trabajadores, texto refundido aprobado por Real Decreto Legislativo 1/1995, de 24 de marzo"
+                },
+                {
+                  "id_norma": "BOE-A-2007-12352",
+                  "relacion": {
+                    "codigo": "330",
+                    "texto": "CITA"
+                  },
+                  "texto": "Ley 11/2007, de 22 de junio"
+                }
+              ]
+            }
+          ],
+          "posteriores": [
+            {
+              "posterior": [
+                {
+                  "id_norma": "BOE-A-2026-158",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": ", con efectos desde el 15 de enero de 2026, los anexos 2.I, 2.II, 2.III y 2.IV, por Orden TES/1573/2025, de 31 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2020-12214",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": ", con efectos desde el 14 de enero de 2021, el título, determinados preceptos y SE AÑADE la disposición adicional 5 y el anexo 2.V, por Real Decreto 901/2020, de 13 de octubre"
+                },
+                {
+                  "id_norma": "BOE-A-2012-12136",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "los arts. 2.1.a), 6.3 y SE AÑADE la disposición adicional 4, por Real Decreto 1362/2012, de 27 de septiembre"
+                },
+                {
+                  "id_norma": "BOE-A-2010-19392",
+                  "relacion": {
+                    "codigo": "201",
+                    "texto": "CORRECCIÓN de errores"
+                  },
+                  "texto": "en BOE núm. 306, de 17 de diciembre de 2010"
+                },
+                {
+                  "id_norma": "BOE-A-2013-8350",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "SE DICTA DE CONFORMIDAD"
+                  },
+                  "texto": ": Resolución de 17 de julio de 2013"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

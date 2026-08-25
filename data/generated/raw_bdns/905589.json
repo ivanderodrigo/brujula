@@ -1,0 +1,72 @@
+{
+  "id": 1107150,
+  "organo": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE ALICANTE",
+    "nivel3": "O.A. PATRONATO PROVINCIAL DE TURISMO"
+  },
+  "sedeElectronica": "https://costablanca.sedelectronica.es/info.0",
+  "codigoBDNS": "905589",
+  "fechaRecepcion": "2026-05-14",
+  "instrumentos": [
+    {
+      "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+    }
+  ],
+  "tipoConvocatoria": "Concurrencia competitiva - canónica",
+  "presupuestoTotal": 500000,
+  "mrr": false,
+  "descripcion": "Extracto del Acuerdo  12/05/2026 del Consejo Rector del Patronato Provincial de Turismo de la Costa Blanca, Convocatoria  ayudas  Ayuntamientos y Entidades de ámbito territorial inferior de la Provincia de Alicante, promoción Turística de la Costa Blanca",
+  "descripcionLeng": null,
+  "tiposBeneficiarios": [
+    {
+      "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+    }
+  ],
+  "sectores": [
+    {
+      "descripcion": "Prestación de servicios a la comunidad en general",
+      "codigo": "84.2"
+    }
+  ],
+  "regiones": [
+    {
+      "descripcion": "ES521 - Alicante / Alacant"
+    }
+  ],
+  "descripcionFinalidad": "Comercio, Turismo y Pymes",
+  "descripcionBasesReguladoras": "Convocatoria que ha de regir la concesión de ayudas a Ayuntamientos y Entidades de ámbito territorial inferior de la Provincia de Alicante, para la promoción turística de la Costa Blanca. Anualidad 2026",
+  "urlBasesReguladoras": "https://costablanca.sedelectronica.es/transparency/33642358-afcf-4a7d-ad6b-1223ca406007/",
+  "sePublicaDiarioOficial": true,
+  "abierto": false,
+  "fechaInicioSolicitud": null,
+  "fechaFinSolicitud": null,
+  "textInicio": "A partir del día siguiente de la publicación del extracto de la convocatoria en el BOP ",
+  "textFin": "30 DIAS NATURALES A CONTAR DESDE EL DÍA SIGUIENTE PUBLICACIÓN BOP ALICANTE",
+  "ayudaEstado": null,
+  "urlAyudaEstado": null,
+  "fondos": [],
+  "reglamento": null,
+  "objetivos": [],
+  "sectoresProductos": [],
+  "documentos": [
+    {
+      "id": 1502578,
+      "descripcion": "Convocatoria subven Ayuntamientos y Entidades de ámbito territorial inferior de la provincia de Alicante",
+      "nombreFic": "BOP ALICANTE AYTOS 2026.pdf",
+      "long": 594332,
+      "datMod": "2026-07-30",
+      "datPublicacion": "2026-07-30"
+    },
+    {
+      "id": 1454527,
+      "descripcion": "Documento de la convocatoria en español",
+      "nombreFic": "20260513_Informe_Dictamen de comisión_2º Aprobación convocatoria ayudas ayuntamientos y EATIM 2026.pdf",
+      "long": 803097,
+      "datMod": "2026-05-14",
+      "datPublicacion": "2026-05-14"
+    }
+  ],
+  "anuncios": [],
+  "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
+}

@@ -1,0 +1,171 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260713T102231Z",
+    "identificador": "BOE-A-2017-9800",
+    "ambito": {
+      "codigo": "2",
+      "texto": "Autonómico"
+    },
+    "departamento": {
+      "codigo": "8070",
+      "texto": "Comunidad Autónoma de Cataluña"
+    },
+    "rango": {
+      "codigo": "1300",
+      "texto": "Ley"
+    },
+    "fecha_disposicion": "20170725",
+    "numero_oficial": "15/2017",
+    "titulo": "Ley 15/2017, de 25 de julio, de la Agencia de Ciberseguridad de Cataluña.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "20170817",
+    "diario_numero": "196",
+    "fecha_vigencia": "20170801",
+    "vigencia_agotada": "N",
+    "estado_consolidacion": {
+      "codigo": "4",
+      "texto": "Desactualizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es-ct/l/2017/07/25/15",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-9800"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260713T102231Z",
+        "identificador": "BOE-A-2017-9800",
+        "ambito": {
+          "codigo": "2",
+          "texto": "Autonómico"
+        },
+        "departamento": {
+          "codigo": "8070",
+          "texto": "Comunidad Autónoma de Cataluña"
+        },
+        "rango": {
+          "codigo": "1300",
+          "texto": "Ley"
+        },
+        "fecha_disposicion": "20170725",
+        "numero_oficial": "15/2017",
+        "titulo": "Ley 15/2017, de 25 de julio, de la Agencia de Ciberseguridad de Cataluña.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "20170817",
+        "diario_numero": "196",
+        "fecha_vigencia": "20170801",
+        "estatus_derogacion": "N",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "N",
+        "estado_consolidacion": {
+          "codigo": "4",
+          "texto": "Desactualizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es-ct/l/2017/07/25/15",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-9800"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "4189",
+              "texto": "Seguridad informática"
+            }
+          }
+        ],
+        "notas": {
+          "nota": "Publicada en el DOGC núm. 7423, de 31 de julio de 2017."
+        },
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "BOE-A-2010-13843",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "MODIFICA"
+                  },
+                  "texto": "los arts. 6.2 y 3; 7.5 de la Ley 29/2010, de 3 de agosto"
+                },
+                {
+                  "id_norma": "BOE-A-2006-13087",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "el art. 65 del Estatuto aprobado por Ley Orgánica 6/2006, de 19 de julio"
+                }
+              ]
+            }
+          ],
+          "posteriores": [
+            {
+              "posterior": [
+                {
+                  "id_norma": "DOGC-f-2026-90190",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el art. 2, por Ley 11/2026, de 9 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-2026-10430",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "los arts. 2 y 4, por Decreto-ley 3/2026, de 24 de marzo"
+                },
+                {
+                  "id_norma": "BOE-A-2022-953",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "los arts. 1.4 y 4, por Ley 2/2021, de 29 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2019-959",
+                  "relacion": {
+                    "codigo": "470",
+                    "texto": "SE DECLARA"
+                  },
+                  "texto": "en el Recurso 5284/2017, la inconstitucionalidad y nulidad de lo indicado del art. 2, y la constitucionalidad, interpretado conforme al fj 7b)i), de su apartado 2, por Sentencia 142/2018, de 20 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2018-4236",
+                  "relacion": {
+                    "codigo": "470",
+                    "texto": "SE DECLARA"
+                  },
+                  "texto": ", en el Recurso 5284/2017, el mantenimiento de suspensión de vigencia y aplicación de la norma, por Auto de 20 de marzo de 2018"
+                },
+                {
+                  "id_norma": "BOE-A-2017-14162",
+                  "relacion": {
+                    "codigo": "694",
+                    "texto": "Recurso"
+                  },
+                  "texto": "5284/2017 planteado en relación con la norma, con suspensión, desde el 4 de diciembre de 2017, de vigencia y aplicación de la ley y, desde el 31 de octubre de 2017, para las partes legitimadas"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

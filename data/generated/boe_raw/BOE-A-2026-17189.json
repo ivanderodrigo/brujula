@@ -1,0 +1,141 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260807T075447Z",
+    "identificador": "BOE-A-2026-17189",
+    "ambito": {
+      "codigo": "2",
+      "texto": "Autonómico"
+    },
+    "departamento": {
+      "codigo": "8030",
+      "texto": "Comunidad Autónoma de Canarias"
+    },
+    "rango": {
+      "codigo": "1300",
+      "texto": "Ley"
+    },
+    "fecha_disposicion": "20260616",
+    "numero_oficial": "3/2026",
+    "titulo": "Ley 3/2026, de 16 de junio, de cabildos insulares.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "20260807",
+    "diario_numero": "192",
+    "fecha_vigencia": "20260630",
+    "vigencia_agotada": "N",
+    "estado_consolidacion": {
+      "codigo": "3",
+      "texto": "Finalizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es-cn/l/2026/06/16/3",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-17189"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260807T075447Z",
+        "identificador": "BOE-A-2026-17189",
+        "ambito": {
+          "codigo": "2",
+          "texto": "Autonómico"
+        },
+        "departamento": {
+          "codigo": "8030",
+          "texto": "Comunidad Autónoma de Canarias"
+        },
+        "rango": {
+          "codigo": "1300",
+          "texto": "Ley"
+        },
+        "fecha_disposicion": "20260616",
+        "numero_oficial": "3/2026",
+        "titulo": "Ley 3/2026, de 16 de junio, de cabildos insulares.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "20260807",
+        "diario_numero": "192",
+        "fecha_vigencia": "20260630",
+        "estatus_derogacion": "N",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "N",
+        "estado_consolidacion": {
+          "codigo": "3",
+          "texto": "Finalizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es-cn/l/2026/06/16/3",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-17189"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "5281",
+              "texto": "Organización de las Comunidades Autónomas"
+            }
+          }
+        ],
+        "notas": {
+          "nota": "Publicada en el BOC núm. 129, de 29 de junio de 2026."
+        },
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "BOE-A-2015-4621",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "la Ley 8/2015, de 1 de abril"
+                },
+                {
+                  "id_norma": "BOE-A-1990-23140",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "los arts. 10 a 13, 15 y 18, las disposiciones adicionales 1, 2, 5 y 6 y las disposiciones transitorias 3, 4 y 7 de la Ley 14/1990, de 26 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-1990-23087",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "MODIFICA"
+                  },
+                  "texto": "el art. 15 de la Ley 12/1990, de 26 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-1987-11921",
+                  "relacion": {
+                    "codigo": "407",
+                    "texto": "AÑADE"
+                  },
+                  "texto": "los arts. 31 bis y 39 bis a la Ley 2/1987, de 30 de marzo"
+                },
+                {
+                  "id_norma": "BOE-A-2018-15138",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "el Estatuto aprobado por Ley Orgánica 1/2018, de 5 de noviembre"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

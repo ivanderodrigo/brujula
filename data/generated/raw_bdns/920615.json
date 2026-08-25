@@ -1,0 +1,80 @@
+{
+  "id": 1122176,
+  "organo": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE TERUEL",
+    "nivel3": "DIPUTACIÓN PROVINCIAL DE TERUEL"
+  },
+  "sedeElectronica": "https://dpteruel.sedelectronica.es",
+  "codigoBDNS": "920615",
+  "fechaRecepcion": "2026-07-21",
+  "instrumentos": [
+    {
+      "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+    }
+  ],
+  "tipoConvocatoria": "Concurrencia competitiva - canónica",
+  "presupuestoTotal": 90000,
+  "mrr": false,
+  "descripcion": "CONVOCATORIA DE SUBVENCIONES A AYUNTAMIENTOS PARA EQUIPAMIENTO, MANTENIMIENTO Y CONSERVACIÓN DE LOS MULTISERVICIOS RURALES EN FUNCIONAMIENTO DE LA PROVINCIA DE TERUEL 2026",
+  "descripcionLeng": null,
+  "tiposBeneficiarios": [
+    {
+      "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+    }
+  ],
+  "sectores": [
+    {
+      "descripcion": "COMERCIO AL POR MAYOR Y AL POR MENOR",
+      "codigo": "G"
+    },
+    {
+      "descripcion": "OTROS SERVICIOS",
+      "codigo": "T"
+    }
+  ],
+  "regiones": [
+    {
+      "descripcion": "ES242 - Teruel"
+    }
+  ],
+  "descripcionFinalidad": "Otras Prestaciones económicas",
+  "descripcionBasesReguladoras": "ORDENANZA GENERAL POR LA QUE SE APRUEBAN LAS BASES REGULADORAS PARA LA CONCESIÓN DE SUBVENCIONES POR LA DIPUTACIÓN PROVINCIAL DE TERUEL BOP Nº 102 DE 29-05-2024",
+  "urlBasesReguladoras": "https://www.dpteruel.es/DPTweb/la-diputacion/areas/cooperacion-local/desarrollo-territorial/",
+  "sePublicaDiarioOficial": true,
+  "abierto": false,
+  "fechaInicioSolicitud": "2026-07-24",
+  "fechaFinSolicitud": "2026-08-20",
+  "textInicio": null,
+  "textFin": null,
+  "ayudaEstado": null,
+  "urlAyudaEstado": null,
+  "fondos": [],
+  "reglamento": null,
+  "objetivos": [],
+  "sectoresProductos": [],
+  "documentos": [
+    {
+      "id": 1498096,
+      "descripcion": "Documento de la convocatoria en español",
+      "nombreFic": "DECRETO 2026-2682 [DECRETO APROBACIÓN CONVOCATORIA MSR 2026 EN FUNCIONAMIENTO].pdf",
+      "long": 905250,
+      "datMod": "2026-07-22",
+      "datPublicacion": "2026-07-22"
+    }
+  ],
+  "anuncios": [
+    {
+      "numAnuncio": 217746,
+      "titulo": "CONVOCATORIA DE LAS SUBVENCIONES A AYUNTAMIENTOS PARA  EQUIPAMIENTO, MANTENIMIENTO Y CONSERVACIÓN  DE MULTISERVICIOS RURALES EN LA PROVINCIA DE TERUEL 2026.",
+      "tituloLeng": null,
+      "texto": "<p>EXTRACTO del decreto Número: 2026-2682 Fecha: 20/07/2026 de la Presidencia por la que se aprueba \"Convocatoria de las subvenciones a ayuntamientos para equipamiento, mantenimiento y conservación de multiservicios ruales en la provincia de Teruel 2026\".</p><p>Primero. - Bases Reguladoras</p><p>La Ordenanza General de Subvenciones de la Diputación Provincial de Teruel, que recoge las bases reguladoras de la concesión de estas subvenciones, se aprobó por el Pleno Provincial en fecha 27 de marzo de 2024, se publicó su texto íntegro en el Boletín Oficial de la Provincia de Teruel nº 70 de fecha 11 de abril de 2024 y se elevó a definitiva mediante la publicación en el BOP Te nº 12 de fecha 29 de mayo de 2024.</p><p>Segundo. - Crédito presupuestario y financiación</p><p>El crédito disponible para la financiación de las \"Subvenciones Ayuntamientos Multiservicios\" asciende a un importe máximo de 120.000,00 euros con cargo a la aplicación presupuestaria de gastos 2026-4312-76200 de la Diputación Provincial de Teruel. No obstante lo anterior, para esta convocatoria el importe máximo estimado que se va a destinar es de 90.000,00 euros.</p><p>    Además de la cuantía inicialmente prevista, la financiación de las subvenciones podrá incrementarse en una cuantía adicional máxima de 30.000,00 euros cuya aplicación a la concesión de subvenciones no requerirá de una nueva convocatoria, de conformidad con lo dispuesto en el artículo 58 del R.D. 887/2006, por el que se aprueba el Reglamento de la Ley 38/2003. La efectividad de la cuantía adicional queda condicionada a la declaración de disponibilidad del crédito como consecuencia de las circunstancias señaladas en el mencionado artículo y, en su caso, previa aprobación de la modificación presupuestaria que proceda, en un momento anterior a la resolución de la concesión de la subvención.En todo caso, la efectividad de esta cuantía adicional queda condicionada a ladeclaración de disponibilidad de crédito como consecuencia de las circunstancias señaladas en el artículo 58.2 del Real Decreto 887/2006, de 21 de julio, por el que se aprueba el Reglamento de la Ley 38/2003, de 17 de noviembre, General de Subvenciones. Y, en su caso, previa aprobación a la modificación presupuestaria que proceda, en el momento anterior a la resolución de la concesión de la subvención.</p><p>Tercero. - Gastos subvencionables, cuantía máxima de la subvención y compatibilidad</p><p>    Se consideran gastos subvencionables todos aquellos referidos a pequeñas obras de reparación, mantenimiento y conservación, así como la adquisición de equipamiento y mobiliario necesarios para el funcionamiento del MSR, que de manera indubitada estén relacionados directamente con el desarrollo de la actividad, debidamente justificados en la memoria, realizados en el período de ejecución.    No se consideran gastos subvencionables la adquisición de menaje, ni de artículos decorativos y similares.    La cuantía máxima de subvención por solicitante será del 80% de los gastos subvencionables, sin que pueda superar los 3.000 euros.El importe de la subvención en ningún caso superará el coste de la actividad subvencionada. Esta subvención es compatible con otras ayudas que pueda recibir el beneficiario para el mismo objeto y finalidad, sin que en su conjunto puedan superar el 80% del coste de la actividad. En caso de recibir ayudas por un importe superior, estas ayudas se reducirán proporcionalmente hasta cumplir con dicho porcentaje.</p><p>Cuarto. - Objeto</p><p>    El objeto de esta subvención es ayudar a sufragar los gastos de ejecución de las actuaciones de equipamiento, mantenimiento y/o conservación de los Multiservicios Rurales que estén en funcionamiento a 1 de enero del año en la que se publique la convocatoria. Estas actuaciones se vincularán a un local de propiedad o uso municipal mediante el correspondiente contrato de arrendamiento.</p><p>Quinto. - Beneficiarios</p><p>     Podrán ser beneficiarios de esta convocatoria los Ayuntamientos de la Provincia de Teruel, para sí o para sus barrios rurales o las Entidades Locales Menores que presenten sus solicitudes, dentro de los plazos y condiciones que se fijan en la presente convocatoria.</p><p>Sexto. - Requisitos</p><p>Las entidades locales solicitantes deberán reunir los siguientes requisitos:</p><p>        &#9702; No encontrarse incursos en ninguna de las prohibiciones del artículo 13.2 y 3 de la Ley 38/2003, de 17 de noviembre, General de Subvenciones.        &#9702; Hallarse al corriente en el cumplimiento de las obligaciones con la Tesorería General de la Seguridad Social, con la Agencia Tributaria y con la Hacienda Provincial        &#9702; Acreditar el efectivo cumplimiento de los requisitos y la realización de la actividad en todas las subvenciones que le hayan sido concedidas al beneficiario con anterioridad para un mismo destino y finalidad en ejercicios anteriores por alguno de los sujetos comprendidos en los apartados 1 y 2 del artículo 2 de dicha ley, aunque se trate de diferentes fases o aspectos de un mismo proyecto. (Art. 9 de Decreto Legislativo 2/2023, de 3 de mayo, del Gobierno de Aragón, por el que se aprueba el texto refundido de la Ley de Subvenciones de Aragón).        &#9702; Acreditar estar al día en la obligación de rendir sus cuentas a la Cámara de Cuentas de Aragón de acuerdo con la normativa aplicable, de haber adoptado medidas de racionalización del gasto y de haber presentado planes económico-financieros, en el caso de que sus cuentas presenten desequilibrios o acumulen deudas con proveedores.        &#9702; No existir en el municipio, entidad local menor o barrio donde esté implantado el MSR otro establecimiento que preste los servicios que se prestan en el MSR y acreditación de estar en funcionamiento a 1 de enero de 2026.</p><p>Octavo. -  Plazo, lugar y forma de presentación de las solicitudes.</p><p>El plazo para la presentación de las solicitudes será de 20 días hábiles contados a partir de la publicación de esta convocatoria en el Boletín Oficial de la Provincia de Teruel.</p><p>En ningún caso se admitirán solicitudes presentadas fuera del citado plazo.</p><p>    La presentación de la solicitud implica el conocimiento y aceptación de las bases reguladoras de esta subvención y de la presente convocatoria.</p><p>    Los modelos normalizados estarán disponibles en la sede electrónica y en la página web de la Diputación Provincial de Teruelhttps://www.dpteruel.es/DPTweb/la-diputacion/areas/cooperacion-local/desarrollo-territorial/</p><p>Las solicitudes se presentarán a través de la sede electrónica de la Diputación Provincial de Teruel https://dpteruel.sedelectronica.es/catalog/t/4a1a9d84-b32d-4b6c-9c84-cbcfdef59e69</p><p> </p><p> </p>",
+      "textoLeng": null,
+      "url": "https://236ws.dpteruel.es/estatico/boletines/2026/23julio.pdf",
+      "cve": null,
+      "desDiarioOficial": "B.O.P. DE TERUEL",
+      "datPublicacion": "2026-07-23"
+    }
+  ],
+  "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
+}

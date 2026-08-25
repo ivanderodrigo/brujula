@@ -1,0 +1,72 @@
+{
+  "id": 1127515,
+  "organo": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE OURENSE",
+    "nivel3": "DIPUTACIÓN PROVINCIAL DE OURENSE"
+  },
+  "sedeElectronica": null,
+  "codigoBDNS": "925954",
+  "fechaRecepcion": "2026-08-21",
+  "instrumentos": [
+    {
+      "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+    }
+  ],
+  "tipoConvocatoria": "Concesión directa - instrumental",
+  "presupuestoTotal": 5000,
+  "mrr": false,
+  "descripcion": "Ayuntamiento de Bande. Acondicionamiento de Cumbrera en casa del Baño.5.000,00 euros. MOD. 10 Cap. VII",
+  "descripcionLeng": "Concello de Bande. Acondicionamento de Cumbrera en Casa de O Baño.5.000,00 euros. MOD. 10 Cap. VII",
+  "tiposBeneficiarios": [
+    {
+      "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+    }
+  ],
+  "sectores": [
+    {
+      "descripcion": "Otras actividades de construcción especializada",
+      "codigo": "43.9"
+    }
+  ],
+  "regiones": [
+    {
+      "descripcion": "ES113 - Ourense"
+    }
+  ],
+  "descripcionFinalidad": "Otras actuaciones de carácter económico",
+  "descripcionBasesReguladoras": "Ayuntamiento de Bande. Acondicionamiento de Cumbrera en casa del Baño.5.000,00 euros. MOD. 10 Cap. VII",
+  "urlBasesReguladoras": "https://www.depourense.gal/es/servicios/subvenciones/introduccion",
+  "sePublicaDiarioOficial": false,
+  "abierto": false,
+  "fechaInicioSolicitud": "2026-01-29",
+  "fechaFinSolicitud": "2026-02-12",
+  "textInicio": null,
+  "textFin": null,
+  "ayudaEstado": null,
+  "urlAyudaEstado": null,
+  "fondos": [],
+  "reglamento": null,
+  "objetivos": [],
+  "sectoresProductos": [],
+  "documentos": [
+    {
+      "id": 1511928,
+      "descripcion": "Texto en otra lengua de la convocatoria",
+      "nombreFic": "Certificado de acordo da XG de subvención a favor do Concello de Bande, para acondicionamento de Cumbrera en Casa de O Baño.PDF",
+      "long": 1221950,
+      "datMod": "2026-08-21",
+      "datPublicacion": "2026-08-21"
+    },
+    {
+      "id": 1511927,
+      "descripcion": "Texto en castellano de la convocatoria",
+      "nombreFic": "Certificado de acuerdo de la JG de subvención a favor del Ayuntamiento de Bande, para acondicionamiento de Cumbrera en casa del Baño.PDF",
+      "long": 166046,
+      "datMod": "2026-08-21",
+      "datPublicacion": "2026-08-21"
+    }
+  ],
+  "anuncios": [],
+  "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
+}

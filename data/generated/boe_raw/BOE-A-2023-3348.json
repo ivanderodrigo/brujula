@@ -1,0 +1,192 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260810T112532Z",
+    "identificador": "BOE-A-2023-3348",
+    "ambito": {
+      "codigo": "2",
+      "texto": "Autonómico"
+    },
+    "departamento": {
+      "codigo": "8162",
+      "texto": "Comunitat Valenciana"
+    },
+    "rango": {
+      "codigo": "1300",
+      "texto": "Ley"
+    },
+    "fecha_disposicion": "20221129",
+    "numero_oficial": "5/2022",
+    "titulo": "Ley 5/2022, de 29 de noviembre, de residuos y suelos contaminados para el fomento de la economía circular en la Comunitat Valenciana.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "20230209",
+    "diario_numero": "34",
+    "fecha_vigencia": "20221221",
+    "vigencia_agotada": "N",
+    "estado_consolidacion": {
+      "codigo": "4",
+      "texto": "Desactualizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es-vc/l/2022/11/29/5",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-3348"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260810T112532Z",
+        "identificador": "BOE-A-2023-3348",
+        "ambito": {
+          "codigo": "2",
+          "texto": "Autonómico"
+        },
+        "departamento": {
+          "codigo": "8162",
+          "texto": "Comunitat Valenciana"
+        },
+        "rango": {
+          "codigo": "1300",
+          "texto": "Ley"
+        },
+        "fecha_disposicion": "20221129",
+        "numero_oficial": "5/2022",
+        "titulo": "Ley 5/2022, de 29 de noviembre, de residuos y suelos contaminados para el fomento de la economía circular en la Comunitat Valenciana.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "20230209",
+        "diario_numero": "34",
+        "fecha_vigencia": "20221221",
+        "estatus_derogacion": "N",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "N",
+        "estado_consolidacion": {
+          "codigo": "4",
+          "texto": "Desactualizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es-vc/l/2022/11/29/5",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-3348"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "6212",
+              "texto": "Residuos"
+            }
+          }
+        ],
+        "notas": [
+          {
+            "nota": [
+              "Publicada en el DOGV núm. 9482, de 1 de diciembre de 2022.",
+              "Las modificaciones del Decreto-ley 14/2020 y del Decreto Legislativo 1/2021, se establecen por estar modificados por el Decreto-ley 1/2022, de 22 de abril."
+            ]
+          }
+        ],
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "BOE-A-2018-1871",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "el art. 9.16 de la Ley 21/2017, de 28 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2001-425",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "la Ley 10/2000, de 12 de diciembre"
+                },
+                {
+                  "id_norma": "DOGV-r-2022-90121",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "MODIFICA"
+                  },
+                  "texto": "los arts. 1.13 y 10.1 del Decreto-ley 1/2022, de 22 de abril"
+                },
+                {
+                  "id_norma": "DOGV-r-2021-90283",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "MODIFICA"
+                  },
+                  "texto": "la disposición transitoria 5 de la Ley de ordenación del territorio, urbanismo y paisaje, texto refundido aprobado por Decreto Legislativo 1/2021, de 18 de junio"
+                },
+                {
+                  "id_norma": "DOGV-r-2020-90356",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "MODIFICA"
+                  },
+                  "texto": "el art. 3 del Decreto-ley 14/2020, de 7 de agosto"
+                },
+                {
+                  "id_norma": "BOE-A-1982-17235",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "el Estatuto aprobado por Ley Orgánica 5/1982, de 1 de julio"
+                }
+              ]
+            }
+          ],
+          "posteriores": [
+            {
+              "posterior": [
+                {
+                  "id_norma": "BOE-A-2024-2666",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "SE DEROGA"
+                  },
+                  "texto": "la disposición adicional [sic] y SE MODIFICA determinados preceptos, por Ley 7/2023, de 26 de diciembre"
+                },
+                {
+                  "id_norma": "DOGV-r-2026-90213",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "los arts. 31, 31 y SE AÑADE la disposición adicional 9, por Ley 5/2026, de 31 de julio"
+                },
+                {
+                  "id_norma": "DOGV-r-2024-90263",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "y se renumera, con efectos desde el 1 de enero de 2025, la disposición adicional, por Decreto-ley 17/2024, de 23 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2023-5482",
+                  "relacion": {
+                    "codigo": "407",
+                    "texto": "SE AÑADE"
+                  },
+                  "texto": "2 disposiciones adicionales, por Ley 8/2022, de 29 de diciembre"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

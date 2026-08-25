@@ -1,0 +1,203 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260714T072830Z",
+    "identificador": "BOE-A-2003-9620",
+    "ambito": {
+      "codigo": "2",
+      "texto": "Autonómico"
+    },
+    "departamento": {
+      "codigo": "8070",
+      "texto": "Comunidad Autónoma de Cataluña"
+    },
+    "rango": {
+      "codigo": "1300",
+      "texto": "Ley"
+    },
+    "fecha_disposicion": "20030407",
+    "numero_oficial": "4/2003",
+    "titulo": "Ley 4/2003, de 7 de abril, de Ordenación del Sistema de Seguridad Pública de Cataluña.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "20030513",
+    "diario_numero": "114",
+    "fecha_vigencia": "20030416",
+    "vigencia_agotada": "N",
+    "estado_consolidacion": {
+      "codigo": "4",
+      "texto": "Desactualizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es-ct/l/2003/04/07/4",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-9620"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260714T072830Z",
+        "identificador": "BOE-A-2003-9620",
+        "ambito": {
+          "codigo": "2",
+          "texto": "Autonómico"
+        },
+        "departamento": {
+          "codigo": "8070",
+          "texto": "Comunidad Autónoma de Cataluña"
+        },
+        "rango": {
+          "codigo": "1300",
+          "texto": "Ley"
+        },
+        "fecha_disposicion": "20030407",
+        "numero_oficial": "4/2003",
+        "titulo": "Ley 4/2003, de 7 de abril, de Ordenación del Sistema de Seguridad Pública de Cataluña.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "20030513",
+        "diario_numero": "114",
+        "fecha_vigencia": "20030416",
+        "estatus_derogacion": "N",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "N",
+        "estado_consolidacion": {
+          "codigo": "4",
+          "texto": "Desactualizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es-ct/l/2003/04/07/4",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-9620"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "5635",
+              "texto": "Policía"
+            }
+          }
+        ],
+        "notas": {
+          "nota": "Publicada en el  DOGC núm. 3865, de 15 de abril de 2003."
+        },
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "BOE-A-1994-18777",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "Disposición adicional 2 de la Ley 10/1994, de 11 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-1991-20343",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "art. 16 de la Ley 16/1991, de 10 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-1979-30178",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "el art. 33.2 del Estatuto aprobado por Ley Orgánica 4/1979, de 18 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-1999-2518",
+                  "relacion": {
+                    "codigo": "330",
+                    "texto": "CITA"
+                  },
+                  "texto": "Ley 22/1998, de 30 de diciembre"
+                }
+              ]
+            }
+          ],
+          "posteriores": [
+            {
+              "posterior": [
+                {
+                  "id_norma": "DOGC-f-2026-90190",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "SE DEROGA"
+                  },
+                  "texto": "el art. 12 y SE MODIFICA los arts. 13, 27, 31 y 32, por Ley 11/2026, de 9 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-2017-7353",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el art. 4 y la disposición adicional 1, por Ley 5/2017, de 28 de marzo"
+                },
+                {
+                  "id_norma": "BOE-A-2015-3637",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el art. 15 y SE AÑADE los arts. 25 bis y 25 ter, por Ley 3/2015, de 11 de marzo"
+                },
+                {
+                  "id_norma": "BOE-A-2012-548",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "las referencias indicadas en la disposición adicional 4, y SE DECLARA la VIGENCIA del art. 17.2, por Ley 11/2011, de 29 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2012-547",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "la disposición adicional 1 y SE AÑADEN las disposiciones adicionales 7 y 8, por Ley 10/2011, de 29 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2007-15546",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "SE DICTA DE CONFORMIDAD"
+                  },
+                  "texto": ", creando el Instituto de Seguridad Pública de Cataluña: Ley 10/2007, de 30 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-2007-15545",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "SE DICTA DE CONFORMIDAD"
+                  },
+                  "texto": "con el art. 30, regulando el servicio y el centro de atención y gestión de llamadas de urgencia 112: Ley 9/2007, de 30 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-2014-504",
+                  "relacion": {
+                    "codigo": "470",
+                    "texto": "SE DECLARA"
+                  },
+                  "texto": "en la Cuestión 8389/2010,  su DESESTIMACIÓN, por Sentencia 218/2013, de 19 de diciembre"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

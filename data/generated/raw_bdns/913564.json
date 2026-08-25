@@ -1,0 +1,76 @@
+{
+  "id": 1115125,
+  "organo": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE CIUDAD REAL",
+    "nivel3": "DIPUTACIÓN PROVINCIAL DE CIUDAD REAL"
+  },
+  "sedeElectronica": "https://www.dipucr.es/",
+  "codigoBDNS": "913564",
+  "fechaRecepcion": "2026-06-17",
+  "instrumentos": [
+    {
+      "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+    }
+  ],
+  "tipoConvocatoria": "Concurrencia competitiva - canónica",
+  "presupuestoTotal": 40000,
+  "mrr": false,
+  "descripcion": "Convocatoria de Subvenciones a Municipios y Eatims de la Provincia de Ciudad Real para Escuelas de Natación 2026.",
+  "descripcionLeng": null,
+  "tiposBeneficiarios": [
+    {
+      "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+    }
+  ],
+  "sectores": [
+    {
+      "descripcion": "Actividades deportivas",
+      "codigo": "93.1"
+    }
+  ],
+  "regiones": [
+    {
+      "descripcion": "ES422 - Ciudad Real"
+    }
+  ],
+  "descripcionFinalidad": "Otras Prestaciones económicas",
+  "descripcionBasesReguladoras": "SERVICIO DE SUBVENCIONES.- Convocatoria de Subvenciones a Municipios y Eatims de la Provincia de Ciudad Real para Escuelas de Natación 2026.",
+  "urlBasesReguladoras": "https://dipucr.transparencialocal.gob.es/es_ES/buscar/contenido/articulo/articulo-30519-aprobacion-definitiva-de-modificacion-del-reglamento-regulador-del-plan-de-asistencia-economica-y-cooperacion-municipal ",
+  "sePublicaDiarioOficial": true,
+  "abierto": true,
+  "fechaInicioSolicitud": null,
+  "fechaFinSolicitud": null,
+  "textInicio": "A partir del día siguiente a la publicación de la convocatoria en el BOP",
+  "textFin": "15 días naturales a partir del día siguiente a publicación de la convocatoria en el BOP",
+  "ayudaEstado": null,
+  "urlAyudaEstado": null,
+  "fondos": [],
+  "reglamento": null,
+  "objetivos": [],
+  "sectoresProductos": [],
+  "documentos": [
+    {
+      "id": 1477252,
+      "descripcion": "Texto en castellano de la convocatoria",
+      "nombreFic": "Certificado de acuerdos.pdf",
+      "long": 231173,
+      "datMod": "2026-06-17",
+      "datPublicacion": "2026-06-17"
+    }
+  ],
+  "anuncios": [
+    {
+      "numAnuncio": 214844,
+      "titulo": "SERVICIO DE SUBVENCIONES.- Convocatoria de Subvenciones a Municipios y Eatims de la Provincia de Ciudad Real para Escuelas de Natación 2026.",
+      "tituloLeng": null,
+      "texto": "<p>Extracto del acuerdo de la Junta de Gobierno de la Diputación Provincial de Ciudad Real, de 16 de junio de 2026, por la que se aprueba convocatoria de subvenciones a Ayuntamientos y Eatims. de la provincia de Ciudad Real para Escuelas de Natación 2026.</p><p>        Primero.- Beneficiarios: </p><p>Podrán acogerse a esta convocatoria todos los municipios, sus organismos autónomos, y las entidades de ámbito territorial inferior al municipio (Eatims) de la provincia, que lo soliciten de acuerdo con el contenido de la misma y del Reglamento regulador del Plan de Asistencia Económica y Cooperación Municipal.</p><p>\tSegundo.- Objeto:</p><p>\tEs objeto de la presente convocatoria la concesión de ayudas con destino a la realización de Escuelas de Natación durante el verano de 2026, organizadas por los municipios, sus organismos autónomos y las Eatims de la provincia de Ciudad Real.</p><p>\tTercero.- Bases reguladoras:\t</p><p>\tLas bases reguladoras están establecidas en el Reglamento regulador del Plan de Asistencia Económica y Cooperación Municipal, aprobado por el Pleno de la Diputación Provincial en sesión de 29 de abril de 2022 y publicado en el Boletín Oficial de la Provincia  nº 121, de 24 de junio siguiente. </p><p>\tCuarta.- Criterios de adjudicación:</p><p>La cuantía máxima que puede obtener cada municipio, organismo autónomo o Eatim es de 250 euros por Escuela de Natación, pudiendo solicitarse un máximo de dos (2) Escuelas.</p><p>\tQuinta.- Plazo de presentación de solicitudes:</p><p>\tEl plazo de presentación de las solicitudes será de quince (15) días naturales, contados a partir del día siguiente a la fecha de publicación de la convocatoria en el Boletín Oficial de la Provincia.</p><p>\tSexto.- Otros datos:</p><p>\tLas solicitudes derivadas de esta convocatoria y el resto de trámites que procedan, se habrán de efectuar exclusivamente por vía telemática.\t</p>",
+      "textoLeng": null,
+      "url": "https://se1.dipucr.es:4443/SIGEM_BuscadorDocsWeb/getDocument.do?entidad=005&doc=7603848",
+      "cve": "UrFJUyTB9nLtkjx1iUyZ",
+      "desDiarioOficial": "B.O.P. DE CIUDAD REAL",
+      "datPublicacion": "2026-06-18"
+    }
+  ],
+  "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
+}

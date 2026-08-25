@@ -1,0 +1,187 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260702T062030Z",
+    "identificador": "BOE-A-2025-717",
+    "ambito": {
+      "codigo": "2",
+      "texto": "Autonómico"
+    },
+    "departamento": {
+      "codigo": "8162",
+      "texto": "Comunitat Valenciana"
+    },
+    "rango": {
+      "codigo": "1300",
+      "texto": "Ley"
+    },
+    "fecha_disposicion": "20241230",
+    "numero_oficial": "8/2024",
+    "titulo": "Ley 8/2024, de 30 de diciembre, de accesibilidad universal de la Comunitat Valenciana.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "20250117",
+    "diario_numero": "15",
+    "fecha_vigencia": "20250108",
+    "vigencia_agotada": "N",
+    "estado_consolidacion": {
+      "codigo": "3",
+      "texto": "Finalizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es-vc/l/2024/12/30/8",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-717"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260702T062030Z",
+        "identificador": "BOE-A-2025-717",
+        "ambito": {
+          "codigo": "2",
+          "texto": "Autonómico"
+        },
+        "departamento": {
+          "codigo": "8162",
+          "texto": "Comunitat Valenciana"
+        },
+        "rango": {
+          "codigo": "1300",
+          "texto": "Ley"
+        },
+        "fecha_disposicion": "20241230",
+        "numero_oficial": "8/2024",
+        "titulo": "Ley 8/2024, de 30 de diciembre, de accesibilidad universal de la Comunitat Valenciana.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "20250117",
+        "diario_numero": "15",
+        "fecha_vigencia": "20250108",
+        "estatus_derogacion": "N",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "N",
+        "estado_consolidacion": {
+          "codigo": "3",
+          "texto": "Finalizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es-vc/l/2024/12/30/8",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-717"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "7094",
+              "texto": "Urbanismo"
+            }
+          }
+        ],
+        "notas": {
+          "nota": "Publicada en el DOGV núm. 10019, de 7 de enero de 2025."
+        },
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "BOE-A-2003-10295",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "la disposición transitoria 5 de la Ley 11/2003, de 10 de abril"
+                },
+                {
+                  "id_norma": "BOE-A-1998-13360",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "la Ley 1/1998, de 5 de mayo"
+                },
+                {
+                  "id_norma": "BOE-A-2009-20072",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "MODIFICA"
+                  },
+                  "texto": "los arts. 4, 5 y 7 de la Ley 9/2009, de 20 de noviembre"
+                },
+                {
+                  "id_norma": "BOE-A-2003-10296",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "MODIFICA"
+                  },
+                  "texto": "los arts. 3, 4, 16 y AÑADE la disposición adicional 5 de la Ley 12/2003, de 10 de abril"
+                },
+                {
+                  "id_norma": "BOE-A-1982-17235",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "DE CONFORMIDAD con"
+                  },
+                  "texto": "el Estatuto aprobado por Ley Orgánica 5/1982, de 1 de julio"
+                }
+              ]
+            }
+          ],
+          "posteriores": [
+            {
+              "posterior": [
+                {
+                  "id_norma": "DOGV-r-2025-90191",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "el art. 7, por Decreto-ley 12/2025, de 22 de julio"
+                },
+                {
+                  "id_norma": "DOGV-r-2025-90164",
+                  "relacion": {
+                    "codigo": "201",
+                    "texto": "CORRECCIÓN de errores"
+                  },
+                  "texto": "en DOGV núm. 10142 de 2 de julio de 2025"
+                },
+                {
+                  "id_norma": "DOGV-r-2025-90012",
+                  "relacion": {
+                    "codigo": "201",
+                    "texto": "CORRECCIÓN de errores"
+                  },
+                  "texto": "en DOGV núm. 10033, de 27 de enero de 2025"
+                },
+                {
+                  "id_norma": "BOE-A-2025-14458",
+                  "relacion": {
+                    "codigo": "201",
+                    "texto": "CORRECCIÓN de errores"
+                  },
+                  "texto": "en BOE núm. 168 de 14 de julio de 2025"
+                },
+                {
+                  "id_norma": "BOE-A-2025-4618",
+                  "relacion": {
+                    "codigo": "201",
+                    "texto": "CORRECCIÓN de errores"
+                  },
+                  "texto": "en BOE núm. 58 de 8 de marzo de 2025"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

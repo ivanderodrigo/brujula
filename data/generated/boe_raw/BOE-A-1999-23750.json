@@ -1,0 +1,216 @@
+{
+  "list": {
+    "fecha_actualizacion": "20260626T073728Z",
+    "identificador": "BOE-A-1999-23750",
+    "ambito": {
+      "codigo": "1",
+      "texto": "Estatal"
+    },
+    "departamento": {
+      "codigo": "7723",
+      "texto": "Jefatura del Estado"
+    },
+    "rango": {
+      "codigo": "1290",
+      "texto": "Ley Orgánica"
+    },
+    "fecha_disposicion": "19991213",
+    "numero_oficial": "15/1999",
+    "titulo": "Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal.",
+    "diario": "Boletín Oficial del Estado",
+    "fecha_publicacion": "19991214",
+    "diario_numero": "298",
+    "fecha_vigencia": "20000114",
+    "vigencia_agotada": "N",
+    "estado_consolidacion": {
+      "codigo": "3",
+      "texto": "Finalizado"
+    },
+    "url_eli": "https://www.boe.es/eli/es/lo/1999/12/13/15",
+    "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-23750"
+  },
+  "metadatos": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "fecha_actualizacion": "20260626T073728Z",
+        "identificador": "BOE-A-1999-23750",
+        "ambito": {
+          "codigo": "1",
+          "texto": "Estatal"
+        },
+        "departamento": {
+          "codigo": "7723",
+          "texto": "Jefatura del Estado"
+        },
+        "rango": {
+          "codigo": "1290",
+          "texto": "Ley Orgánica"
+        },
+        "fecha_disposicion": "19991213",
+        "numero_oficial": "15/1999",
+        "titulo": "Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal.",
+        "diario": "Boletín Oficial del Estado",
+        "fecha_publicacion": "19991214",
+        "diario_numero": "298",
+        "fecha_vigencia": "20000114",
+        "estatus_derogacion": "N",
+        "estatus_anulacion": "N",
+        "vigencia_agotada": "N",
+        "estado_consolidacion": {
+          "codigo": "3",
+          "texto": "Finalizado"
+        },
+        "url_eli": "https://www.boe.es/eli/es/lo/1999/12/13/15",
+        "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-23750"
+      }
+    ]
+  },
+  "analisis": {
+    "status": {
+      "code": "200",
+      "text": "ok"
+    },
+    "data": [
+      {
+        "materias": [
+          {
+            "materia": {
+              "codigo": "6000",
+              "texto": "Registro General de Protección de Datos"
+            }
+          }
+        ],
+        "referencias": {
+          "anteriores": [
+            {
+              "anterior": [
+                {
+                  "id_norma": "BOE-A-1992-24189",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "DEROGA"
+                  },
+                  "texto": "la Ley Orgánica 5/1992, de 29 de octubre"
+                },
+                {
+                  "id_norma": "BOE-A-1995-24262",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "MODIFICA"
+                  },
+                  "texto": "el art. 24.3 de la Ley 30/1995, de 8 de noviembre"
+                },
+                {
+                  "id_norma": "BOE-A-1963-22706",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "MODIFICA"
+                  },
+                  "texto": "el art. 112.4 de la Ley 230/1963, de 28 de diciembre"
+                }
+              ]
+            }
+          ],
+          "posteriores": [
+            {
+              "posterior": [
+                {
+                  "id_norma": "BOE-A-2018-16673",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "SE DEROGA"
+                  },
+                  "texto": "con las excepciones indicadas, por Ley Orgánica 3/2018, de 5 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2018-10751",
+                  "relacion": {
+                    "codigo": "210",
+                    "texto": "SE DEROGA"
+                  },
+                  "texto": "los arts. 40, 43, 44, 45, 47, 48 y 49, por Real Decreto-ley 5/2018, de 27 de julio"
+                },
+                {
+                  "id_norma": "BOE-A-2011-4117",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "los arts. 43 a 46, por Ley 2/2011, de 4 de marzo"
+                },
+                {
+                  "id_norma": "BOE-A-2003-23936",
+                  "relacion": {
+                    "codigo": "270",
+                    "texto": "SE MODIFICA"
+                  },
+                  "texto": "los arts. 37 y 48, por Ley 62/2003, de 30 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2001-24149",
+                  "relacion": {
+                    "codigo": "404",
+                    "texto": "SE ACTUALIZA"
+                  },
+                  "texto": ", sobre conversión a euros de las cuantías indicadas: Resolución de 11 de diciembre de 2001"
+                },
+                {
+                  "id_norma": "BOE-A-2008-979",
+                  "relacion": {
+                    "codigo": "490",
+                    "texto": "SE DESARROLLA"
+                  },
+                  "texto": ", por Real Decreto 1720/2007, de 21 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2006-21648",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "SE DICTA DE CONFORMIDAD"
+                  },
+                  "texto": ", sobre el tratamiento de datos personales con fines de vigilancia a través de sistemas de cámaras o videocámaras: Instrucción 1/2006, de 8 de noviembre"
+                },
+                {
+                  "id_norma": "BOE-A-2005-186",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "SE DICTA DE CONFORMIDAD"
+                  },
+                  "texto": "con el art. 37.2, sobre publicación de las resoluciones de la Agencia de Protección de Datos: Instrucción 1/2004, de 22 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-A-2000-22726",
+                  "relacion": {
+                    "codigo": "440",
+                    "texto": "SE DICTA DE CONFORMIDAD"
+                  },
+                  "texto": "con el art. 37.c), sobre movimientos internacionales de datos: Instrucción 1/2000, de 1 de diciembre"
+                },
+                {
+                  "id_norma": "BOE-T-2001-332",
+                  "relacion": {
+                    "codigo": "470",
+                    "texto": "SE DECLARA"
+                  },
+                  "texto": "en el Recurso 1463/2000,  la inconstitucionalidad y nulidad de los incisos indicados de los arts. 21.1 y 24.1 y 24.2, por Sentencia 292/2000, de 30 de noviembre"
+                },
+                {
+                  "id_norma": "BOE-A-2011-15623",
+                  "relacion": {
+                    "codigo": "330",
+                    "texto": "-"
+                  },
+                  "texto": ", por Ley 33/2011, de 4 de octubre"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
