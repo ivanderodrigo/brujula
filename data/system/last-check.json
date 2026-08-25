@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "checked_at": "2026-08-25T23:25:08+00:00",
+  "checked_at": "2026-08-25T23:57:40+00:00",
   "pipeline": "static-offline",
   "mode": "full",
   "sources_run": [
@@ -38,9 +38,10 @@
       "downloaded": 698,
       "candidates": 100,
       "errors": 0,
+      "sanitized": 0,
       "window_days": 60
     },
-    "updated_at": "2026-08-25T23:24:19"
+    "updated_at": "2026-08-25T23:56:53"
   },
   "note": "Generado automáticamente. Los visitantes no ejecutan consultas a las fuentes oficiales."
 }
