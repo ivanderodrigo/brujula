@@ -1,0 +1,6 @@
+{
+  "localities_ngmep": {"ok": false, "note": "Ejecuta ACTUALIZAR_LOCALIDADES.bat para cargar municipios, entidades de población y EATIM del NGMEP 2026 y generar el índice dinámico."},
+  "bdns": {"ok": false, "note": "Ejecuta ACTUALIZAR_DATOS_OFICIALES.bat para construir el radar candidato BDNS."},
+  "boe": {"ok": false, "note": "Ejecuta ACTUALIZAR_DATOS_OFICIALES.bat para construir el radar normativo BOE."},
+  "updated_at": null
+}

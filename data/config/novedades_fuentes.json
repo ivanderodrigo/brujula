@@ -1,0 +1,41 @@
+{
+  "keywords": [
+    "municip", "ayunt", "entidad local", "entidades locales", "diputaci", "rural", "reto demogr", "despobl", "pueblo",
+    "agua", "abastecimiento", "digital", "ciberseguridad", "ens", "dato", "inteligencia artificial", "ia", "energ", "alumbrado",
+    "vivienda", "movilidad", "patrimonio", "turismo", "conectividad", "banda ancha", "servicios públicos", "contrataci", "subvenci", "ayuda"
+  ],
+  "feeds": [
+    {
+      "id": "miteco-prensa",
+      "name": "MITECO · Sala de prensa",
+      "organization": "MITECO",
+      "url": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
+      "official": true
+    },
+    {
+      "id": "femp-actualidad",
+      "name": "FEMP · Actualidad",
+      "organization": "FEMP",
+      "url": "https://www.femp.es/feed/",
+      "official": true
+    }
+  ],
+  "watch_pages": [
+    {
+      "id": "redes-noticias",
+      "name": "Red.es · Noticias",
+      "organization": "Red.es",
+      "url": "https://www.red.es/es/actualidad/noticias",
+      "official": true,
+      "mode": "hash-watch"
+    },
+    {
+      "id": "pae-portal",
+      "name": "PAe · Portal de Administración Electrónica",
+      "organization": "AEAD / PAe",
+      "url": "https://administracionelectronica.gob.es/ctt/pae",
+      "official": true,
+      "mode": "hash-watch"
+    }
+  ]
+}

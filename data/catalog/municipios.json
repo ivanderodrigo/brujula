@@ -1,0 +1,184 @@
+{
+  "complete": false,
+  "source_year": 2026,
+  "source_note": "Catálogo inicial reducido. Ejecuta ACTUALIZAR_MUNICIPIOS.bat para descargar el catálogo nacional 2026 derivado de la relación oficial del INE.",
+  "items": [
+    {
+      "id": "el-hoyo",
+      "name": "El Hoyo",
+      "entity_type": "eatim",
+      "parent_municipality": "Mestanza",
+      "province_code": "13",
+      "province": "Ciudad Real",
+      "autonomous_region": "Castilla-La Mancha",
+      "population": 191,
+      "population_year": 2023,
+      "special_profile": true
+    },
+    {
+      "id": "13055",
+      "name": "Mestanza",
+      "entity_type": "municipality",
+      "province_code": "13",
+      "province": "Ciudad Real",
+      "autonomous_region": "Castilla-La Mancha",
+      "population": null,
+      "population_year": null,
+      "special_profile": false
+    },
+    {
+      "id": "13071",
+      "name": "Puertollano",
+      "entity_type": "municipality",
+      "province_code": "13",
+      "province": "Ciudad Real",
+      "autonomous_region": "Castilla-La Mancha",
+      "population": null,
+      "population_year": null,
+      "special_profile": false
+    },
+    {
+      "id": "13034",
+      "name": "Ciudad Real",
+      "entity_type": "municipality",
+      "province_code": "13",
+      "province": "Ciudad Real",
+      "autonomous_region": "Castilla-La Mancha",
+      "population": null,
+      "population_year": null,
+      "special_profile": false
+    },
+    {
+      "id": "28079",
+      "name": "Madrid",
+      "entity_type": "municipality",
+      "province_code": "28",
+      "province": "Madrid",
+      "autonomous_region": "Comunidad de Madrid",
+      "population": null,
+      "population_year": null,
+      "special_profile": false
+    },
+    {
+      "id": "28144",
+      "name": "Soto del Real",
+      "entity_type": "municipality",
+      "province_code": "28",
+      "province": "Madrid",
+      "autonomous_region": "Comunidad de Madrid",
+      "population": null,
+      "population_year": null,
+      "special_profile": false
+    },
+    {
+      "id": "02007",
+      "name": "Alcalá del Júcar",
+      "entity_type": "municipality",
+      "province_code": "02",
+      "province": "Albacete",
+      "autonomous_region": "Castilla-La Mancha",
+      "population": null,
+      "population_year": null,
+      "special_profile": false
+    },
+    {
+      "id": "18105",
+      "name": "Iznalloz",
+      "entity_type": "municipality",
+      "province_code": "18",
+      "province": "Granada",
+      "autonomous_region": "Andalucía",
+      "population": null,
+      "population_year": null,
+      "special_profile": false
+    },
+    {
+      "id": "31123",
+      "name": "Uharte Arakil",
+      "entity_type": "municipality",
+      "province_code": "31",
+      "province": "Navarra",
+      "autonomous_region": "Comunidad Foral de Navarra",
+      "population": null,
+      "population_year": null,
+      "special_profile": false
+    },
+    {
+      "id": "31022",
+      "name": "Arantza",
+      "entity_type": "municipality",
+      "province_code": "31",
+      "province": "Navarra",
+      "autonomous_region": "Comunidad Foral de Navarra",
+      "population": null,
+      "population_year": null,
+      "special_profile": false
+    },
+    {
+      "id": "31153",
+      "name": "Lesaka",
+      "entity_type": "municipality",
+      "province_code": "31",
+      "province": "Navarra",
+      "autonomous_region": "Comunidad Foral de Navarra",
+      "population": null,
+      "population_year": null,
+      "special_profile": false
+    },
+    {
+      "id": "31150",
+      "name": "Lekunberri",
+      "entity_type": "municipality",
+      "province_code": "31",
+      "province": "Navarra",
+      "autonomous_region": "Comunidad Foral de Navarra",
+      "population": null,
+      "population_year": null,
+      "special_profile": false
+    },
+    {
+      "id": "13080",
+      "name": "Solana del Pino",
+      "entity_type": "municipality",
+      "province_code": "13",
+      "province": "Ciudad Real",
+      "autonomous_region": "Castilla-La Mancha",
+      "population": null,
+      "population_year": null,
+      "special_profile": false
+    },
+    {
+      "id": "13073",
+      "name": "Saceruela",
+      "entity_type": "municipality",
+      "province_code": "13",
+      "province": "Ciudad Real",
+      "autonomous_region": "Castilla-La Mancha",
+      "population": null,
+      "population_year": null,
+      "special_profile": false
+    },
+    {
+      "id": "13060",
+      "name": "Navas de Estena",
+      "entity_type": "municipality",
+      "province_code": "13",
+      "province": "Ciudad Real",
+      "autonomous_region": "Castilla-La Mancha",
+      "population": null,
+      "population_year": null,
+      "special_profile": false
+    },
+    {
+      "id": "13068",
+      "name": "Puebla de Don Rodrigo",
+      "entity_type": "municipality",
+      "province_code": "13",
+      "province": "Ciudad Real",
+      "autonomous_region": "Castilla-La Mancha",
+      "population": null,
+      "population_year": null,
+      "special_profile": false
+    }
+  ]
+}

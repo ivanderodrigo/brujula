@@ -1,0 +1,161 @@
+[
+  {
+    "id": "el-hoyo-telecontrol",
+    "municipality": "El Hoyo",
+    "province": "Ciudad Real",
+    "population": 191,
+    "population_note": "Referencia 2023 del piloto",
+    "category": "agua",
+    "project": "Tratamiento, filtración, desinfección y telecontrol",
+    "cost": 175000,
+    "cost_note": "Importe conjunto anunciado para El Hoyo y Solanilla del Tamaral",
+    "funding": "Inversión pública anunciada por Castilla-La Mancha",
+    "result": "Actuación anunciada; no se presenta como resultado ejecutado.",
+    "replicable": "Separar tratamiento, control y telemetría; revisar titularidad/operación antes de diseñar el proyecto.",
+    "source": "https://iaclm.es/el-gobierno-de-garcia-page-resolvera-el-problema-historico-de-abastecimiento-de-agua-en-el-hoyo-y-en-solanilla-del-tamaral-con-una-inversion-de-175-000-euros/"
+  },
+  {
+    "id": "uharte-arakil-agua",
+    "municipality": "Uharte Arakil",
+    "province": "Navarra",
+    "category": "agua",
+    "project": "Telegestión, sectorización y contadores domiciliarios con telelectura",
+    "cost": 216947.36,
+    "funding": "PRTR 195.252,62 € + Comunidad Foral 21.694,74 €",
+    "result": "Actuación seleccionada en el reparto del PERTE de digitalización del ciclo del agua.",
+    "replicable": "Buen patrón para pueblos que necesitan unir telelectura y sectorización en un mismo proyecto.",
+    "source": "https://www.miteco.gob.es/content/dam/miteco/es/agua/temas/pertes/conferencia-sectorial/2024-12-09-Informe-Actuaciones-CCAA-C5I3.pdf"
+  },
+  {
+    "id": "arantza-agua",
+    "municipality": "Arantza",
+    "province": "Navarra",
+    "category": "agua",
+    "project": "Telegestión, sectorización y contadores con telelectura",
+    "cost": 165204.15,
+    "funding": "PRTR 148.683,74 € + Comunidad Foral 16.520,41 €",
+    "result": "Actuación seleccionada en el reparto del PERTE.",
+    "replicable": "Ejemplo de alcance contenido para digitalizar medición y red en un municipio pequeño.",
+    "source": "https://www.miteco.gob.es/content/dam/miteco/es/agua/temas/pertes/conferencia-sectorial/2024-12-09-Informe-Actuaciones-CCAA-C5I3.pdf"
+  },
+  {
+    "id": "lesaka-agua",
+    "municipality": "Lesaka",
+    "province": "Navarra",
+    "category": "agua",
+    "project": "Contadores de agua inteligentes y telegestión",
+    "cost": 389778.11,
+    "funding": "PRTR 350.800,30 € + Comunidad Foral 38.977,81 €",
+    "result": "Actuación seleccionada en el reparto del PERTE.",
+    "replicable": "Permite comparar un proyecto más amplio de telelectura con otros de menor coste.",
+    "source": "https://www.miteco.gob.es/content/dam/miteco/es/agua/temas/pertes/conferencia-sectorial/2024-12-09-Informe-Actuaciones-CCAA-C5I3.pdf"
+  },
+  {
+    "id": "lekunberri-agua",
+    "municipality": "Lekunberri",
+    "province": "Navarra",
+    "category": "agua",
+    "project": "Sectorización de red e instalación de contadores con telelectura",
+    "cost": 256735.99,
+    "funding": "PRTR 231.062,39 € + Comunidad Foral 25.673,60 €",
+    "result": "Actuación seleccionada en el reparto del PERTE.",
+    "replicable": "Combina dos capas que suelen tener más valor juntas: saber dónde se pierde y medir consumos.",
+    "source": "https://www.miteco.gob.es/content/dam/miteco/es/agua/temas/pertes/conferencia-sectorial/2024-12-09-Informe-Actuaciones-CCAA-C5I3.pdf"
+  },
+  {
+    "id": "soto-real-alumbrado",
+    "municipality": "Soto del Real",
+    "province": "Madrid",
+    "category": "energia",
+    "project": "Reforma integral de alumbrado exterior mediante ESE",
+    "cost": 2032148,
+    "funding": "Modelo ESE tutelado por IDAE",
+    "result": "3.277 puntos de luz; consumo final previsto 404.580 kWh/año frente a 1.982.472 kWh/año inicial; ahorro energético indicado por IDAE: 80 %.",
+    "replicable": "El modelo contractual es complejo, pero sirve para estudiar coste total, ahorro y mantenimiento como una sola decisión.",
+    "source": "https://www.idae.es/conozcanos/proyectos-de-excelencia/reforma-de-alumbrado-exterior-soto-del-real"
+  },
+  {
+    "id": "cordoba-municipios-smart",
+    "municipality": "Diputación de Córdoba / varios municipios",
+    "province": "Córdoba",
+    "category": "digitalizacion",
+    "project": "Municipios Cordobeses Inteligentes y Sostenibles",
+    "cost": 4847608.63,
+    "funding": "69 % Red.es/FEDER + 31 % Diputación",
+    "result": "Plataforma, open data y sensorización de energía, residuos, medioambiente y aguas.",
+    "replicable": "Ejemplo de por qué un pequeño municipio puede beneficiarse de servicios y plataformas supramunicipales.",
+    "source": "https://www.red.es/es/iniciativas/proyectos/plan-nacional-de-ciudades-inteligentes/2%C2%AA-convocatoria/cordoba"
+  },
+  {
+    "id": "alpujarra-conectada-2026",
+    "municipality": "Alpujarra almeriense y granadina · 51 municipios",
+    "province": "Almería / Granada",
+    "category": "despoblacion",
+    "project": "PAI Alpujarra Conectada: Centros de Innovación Territorial, vivienda e innovación rural",
+    "cost": 5100000,
+    "funding": "4,3 M€ FEDER sobre un presupuesto de 5,1 M€",
+    "result": "Plan integrado para 27 municipios de la Alpujarra almeriense y 24 de la granadina, con cuatro sedes CIT y actuaciones de vivienda e innovación territorial.",
+    "replicable": "Interesa como referencia para proyectos supramunicipales: agrupar municipios, construir una estrategia común y combinar innovación, vivienda y dinamización productiva.",
+    "source": "https://www.miteco.gob.es/es/prensa/ultimas-noticias/2026/abril/el-miteco-firma-las-condiciones-de-ayuda-del-pai--alpujarra-cone.html",
+    "tags": [
+      "despoblacion",
+      "vivienda",
+      "innovacion",
+      "servicios",
+      "supramunicipal"
+    ]
+  },
+  {
+    "id": "campus-rural-2026",
+    "municipality": "Programa nacional · municipios rurales",
+    "province": "España",
+    "category": "despoblacion",
+    "project": "Campus Rural: atracción de talento universitario hacia pequeños municipios",
+    "funding": "Programa estatal en colaboración con universidades públicas",
+    "result": "Más de 2.200 universitarios han realizado prácticas en pequeños municipios; la edición 2026 ofrece 850 plazas en 45 universidades públicas.",
+    "replicable": "Los ayuntamientos pueden pensar en prácticas, acogida y proyectos concretos que conviertan talento temporal en vínculos duraderos con el territorio.",
+    "source": "https://www.miteco.gob.es/es/prensa/ultimas-noticias/2026/mayo/-sara-aagesen---campus-rural-demuestra-que-el-medio-rural-esta-c.html",
+    "tags": [
+      "talento",
+      "despoblacion",
+      "juventud",
+      "universidad"
+    ]
+  },
+  {
+    "id": "redcit-2025",
+    "municipality": "Red de Centros de Innovación Territorial",
+    "province": "20 provincias",
+    "category": "innovacion",
+    "project": "RedCIT: centros territoriales para innovación, emprendimiento y cooperación rural",
+    "funding": "Impulso MITECO y colaboración territorial",
+    "result": "En abril de 2025 la red alcanzó 20 provincias y MITECO indicó que el 86% de los municipios de menos de 5.000 habitantes tenía proyectos impulsados o financiados por el Ministerio.",
+    "replicable": "Antes de crear una estructura local aislada, conviene comprobar si existe un Centro de Innovación Territorial que pueda aportar acompañamiento, red y proyectos compartidos.",
+    "source": "https://www.miteco.gob.es/es/prensa/ultimas-noticias/2025/abril/sara-aagesen---con-la-adhesion-de-estos-ocho-centros-de-innovaci.html",
+    "tags": [
+      "innovacion",
+      "emprendimiento",
+      "apoyo",
+      "supramunicipal"
+    ]
+  },
+  {
+    "id": "cartera-proyectos-locales-2025",
+    "municipality": "330 pequeños municipios · 38 provincias",
+    "province": "España",
+    "category": "despoblacion",
+    "project": "Cartera de casi 100 proyectos innovadores de entidades locales",
+    "cost": 19863701,
+    "funding": "MITECO · proyectos innovadores para transformación territorial",
+    "result": "77 ayuntamientos, 12 agrupaciones de municipios, 10 diputaciones, 3 mancomunidades y una comarca fueron beneficiarios; las actuaciones alcanzan a más de 330 pequeños municipios.",
+    "replicable": "Demuestra el valor de agrupar proyectos y combinar sostenibilidad, digitalización, talento, cultura y movilidad en estrategias territoriales coherentes.",
+    "source": "https://www.miteco.gob.es/es/prensa/ultimas-noticias/2025/abril/la-vicepresidenta-aagesen-anuncia-que-el-miteco-destinara-mas-de.html",
+    "tags": [
+      "despoblacion",
+      "digitalizacion",
+      "movilidad",
+      "talento",
+      "cultura"
+    ]
+  }
+]

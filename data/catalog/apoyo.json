@@ -1,0 +1,208 @@
+[
+  {
+    "id": "marco-provincial-lbrl",
+    "title": "Asistencia y cooperación provincial a municipios",
+    "category": "asistencia",
+    "coverage": "España",
+    "province": null,
+    "status": "framework",
+    "status_label": "Marco general · comprobar servicio concreto",
+    "organization": "Diputación, cabildo, consejo insular u organismo equivalente",
+    "summary": "La legislación básica atribuye a las diputaciones funciones de asistencia y cooperación a municipios, con especial atención a los de menor capacidad; la prestación concreta depende de cada territorio.",
+    "topics": [
+      "administracion",
+      "contratacion",
+      "digitalizacion",
+      "servicios"
+    ],
+    "entity_types": [
+      "municipality"
+    ],
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+    "verified": "2026-08-25",
+    "warning": "No implica que exista un servicio concreto en todas las provincias; Brújula debe comprobar la oferta del organismo competente."
+  },
+  {
+    "id": "cr-asistencia-municipios",
+    "title": "Departamento de Asistencia a Municipios",
+    "category": "asistencia",
+    "coverage": "Ciudad Real",
+    "province": "Ciudad Real",
+    "status": "verified",
+    "status_label": "Servicio provincial verificado",
+    "organization": "Diputación Provincial de Ciudad Real",
+    "summary": "Área provincial de apoyo a municipios; su reglamento regula la prestación del servicio de asistencia.",
+    "topics": [
+      "administracion",
+      "juridico",
+      "economico",
+      "servicios"
+    ],
+    "entity_types": [
+      "municipality",
+      "eatim"
+    ],
+    "source": "https://www.dipucr.es/diputacion/sobre-la-institucion/reglamento-interno/reglamento-para-la-prestacion-del-servicio-por-el-departamento-de-asistencia-a-municipios",
+    "verified": "2026-08-25"
+  },
+  {
+    "id": "cr-admin-electronica",
+    "title": "Apoyo en administración electrónica y gestión de datos",
+    "category": "digitalizacion",
+    "coverage": "Ciudad Real",
+    "province": "Ciudad Real",
+    "status": "verified",
+    "status_label": "Apoyo provincial comunicado",
+    "organization": "Diputación Provincial de Ciudad Real",
+    "summary": "La Diputación ha destacado el apoyo a ayuntamientos en administración electrónica y almacenamiento/gestión de datos mediante soluciones tecnológicas provinciales.",
+    "topics": [
+      "digitalizacion",
+      "administracion",
+      "datos",
+      "ciberseguridad"
+    ],
+    "entity_types": [
+      "municipality",
+      "eatim"
+    ],
+    "source": "https://www.dipucr.es/noticias/item/6243-valverde-remarca-la-importancia-de-afrontar-la-modernizacion-interna-de-la-diputacion-y-destaca-el-apoyo-que-presta-a-los-ayuntamientos-en-materia-de-administracion-electronica-y-almacenamiento-de-datos",
+    "verified": "2026-08-25",
+    "warning": "Comprobar condiciones, cobertura y adhesión del servicio concreto."
+  },
+  {
+    "id": "cr-sedes",
+    "title": "Sedes electrónicas municipales",
+    "category": "administracion",
+    "coverage": "Ciudad Real",
+    "province": "Ciudad Real",
+    "status": "verified",
+    "status_label": "Infraestructura provincial verificada",
+    "organization": "Diputación Provincial de Ciudad Real",
+    "summary": "La Diputación mantiene un entorno de sedes electrónicas municipales y normativa para la prestación de servicios electrónicos a ayuntamientos de la provincia.",
+    "topics": [
+      "administracion",
+      "sede",
+      "registro"
+    ],
+    "entity_types": [
+      "municipality",
+      "eatim"
+    ],
+    "source": "https://sedescr.dipucr.es/diputacion-de-ciudad-real/",
+    "verified": "2026-08-25"
+  },
+  {
+    "id": "cr-tributos",
+    "title": "Gestión tributaria, inspección y recaudación",
+    "category": "tributos",
+    "coverage": "Ciudad Real",
+    "province": "Ciudad Real",
+    "status": "verified",
+    "status_label": "Servicio provincial verificado",
+    "organization": "Diputación Provincial de Ciudad Real",
+    "summary": "Colaboración con ayuntamientos en gestión tributaria, inspección y recaudación, con asesoramiento y mejora de sistemas de gestión informática.",
+    "topics": [
+      "tributos",
+      "administracion",
+      "digitalizacion"
+    ],
+    "entity_types": [
+      "municipality",
+      "eatim"
+    ],
+    "source": "https://www.dipucr.es/gestion-tributaria-inspeccion-y-recaudacion",
+    "verified": "2026-08-25"
+  },
+  {
+    "id": "cr-archivos",
+    "title": "Apoyo y documentación para archivos municipales",
+    "category": "archivo",
+    "coverage": "Ciudad Real",
+    "province": "Ciudad Real",
+    "status": "verified",
+    "status_label": "Área provincial verificada",
+    "organization": "Diputación Provincial de Ciudad Real",
+    "summary": "La Diputación mantiene un área específica de Archivos Municipales con documentación organizada por municipios.",
+    "topics": [
+      "archivo",
+      "documentos",
+      "administracion"
+    ],
+    "entity_types": [
+      "municipality",
+      "eatim"
+    ],
+    "source": "https://www.dipucr.es/documentos-archivos-municipales",
+    "verified": "2026-08-25"
+  },
+  {
+    "id": "cr-arquitectura",
+    "title": "Asistencia técnica de arquitectura a municipios",
+    "category": "tecnica",
+    "coverage": "Ciudad Real",
+    "province": "Ciudad Real",
+    "status": "verified",
+    "status_label": "Área provincial verificada",
+    "organization": "Diputación Provincial de Ciudad Real",
+    "summary": "El Área de Asistencia a Municipios dispone de recursos de arquitectura y documentación técnica organizada por municipios.",
+    "topics": [
+      "obras",
+      "edificios",
+      "patrimonio",
+      "vivienda"
+    ],
+    "entity_types": [
+      "municipality",
+      "eatim"
+    ],
+    "source": "https://www.dipucr.es/documentos-arquitectura/municipios",
+    "verified": "2026-08-25"
+  },
+  {
+    "id": "cr-formacion",
+    "title": "Formación para empleados públicos locales",
+    "category": "formacion",
+    "coverage": "Ciudad Real",
+    "province": "Ciudad Real",
+    "status": "verified",
+    "status_label": "Servicio provincial verificado",
+    "organization": "Diputación Provincial de Ciudad Real",
+    "summary": "Portal de formación con oferta para personal de Diputación, ayuntamientos y demás entidades locales de la provincia.",
+    "topics": [
+      "formacion",
+      "digitalizacion",
+      "contratacion",
+      "transparencia"
+    ],
+    "entity_types": [
+      "municipality",
+      "eatim"
+    ],
+    "source": "https://formacion.dipucr.es/",
+    "verified": "2026-08-25"
+  },
+  {
+    "id": "cr-digitalizacion-2025",
+    "title": "DulcinIA, Conecta Ciudad Real y herramientas provinciales",
+    "category": "digitalizacion",
+    "coverage": "Ciudad Real",
+    "province": "Ciudad Real",
+    "status": "announced",
+    "status_label": "Iniciativas provinciales anunciadas",
+    "organization": "Diputación Provincial de Ciudad Real",
+    "summary": "Iniciativas provinciales presentadas para administración electrónica, conectividad, IA y gestión digital municipal.",
+    "topics": [
+      "ia",
+      "conectividad",
+      "digitalizacion",
+      "administracion"
+    ],
+    "entity_types": [
+      "municipality",
+      "eatim"
+    ],
+    "source": "https://www.dipucr.es/noticias/item/5988-valverde-apuesta-por-extender-a-todos-los-ayuntamientos-sobre-todo-a-los-mas-pequenos-la-inteligencia-artificial-y-las-nuevas-herramientas-de-gestion-con-el-proyecto-dulcinia",
+    "verified": "2026-08-25",
+    "warning": "Una noticia de presentación no acredita por sí sola disponibilidad inmediata ni condiciones de acceso; deben comprobarse programas/adhesión."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "reto-demografico-80m-2026",
+    "date": "2026-08-25",
+    "title": "El Estado autoriza hasta 80 M€ para proyectos locales contra la despoblación",
+    "organization": "MITECO",
+    "category": "reto-demografico",
+    "why": "Duplica la dotación de la línea anterior y anticipa una oportunidad relevante para entidades locales durante 2026–2029. Brújula debe convertir el anuncio en vigilancia activa sin presentarlo todavía como convocatoria abierta.",
+    "action": "Preparar cartera de proyectos y documentación base, pero esperar la publicación oficial antes de afirmar elegibilidad, plazos o cuantías por proyecto.",
+    "source": "https://www.miteco.gob.es/es/prensa/ultimas-noticias/2026/agosto/el-gobierno-duplica-hasta-los-80-millones-de-euros-las-ayudas-a-.html"
+  },
+  {
+    "id": "estrategia-equidad-2026",
+    "date": "2026-07-14",
+    "title": "Aprobada la II Estrategia Nacional para la Equidad Territorial y el Reto Demográfico",
+    "organization": "MITECO",
+    "category": "reto-demografico",
+    "why": "Refuerza un enfoque integrado de servicios, movilidad, vivienda, resiliencia y cooperación multinivel. Brújula debe cruzar estas dimensiones, no tratarlas como silos.",
+    "action": "Usar sus pilares como marco para los playbooks territoriales y futuras capas de indicadores.",
+    "source": "https://www.miteco.gob.es/en/prensa/ultimas-noticias/2026/julio/-el-gobierno-aprueba-la-ii-estrategia-nacional-para-la-equidad-t.html"
+  },
+  {
+    "id": "femp-central-2026",
+    "date": "2026-06-17",
+    "title": "La Central de Contratación FEMP supera las 2.500 entidades adheridas",
+    "organization": "FEMP",
+    "category": "contratacion",
+    "why": "Para municipios con pocos recursos, una central de contratación puede ser una alternativa real a licitar individualmente determinados suministros y servicios.",
+    "action": "Brújula debe mostrar 'comprueba central/servicio común' antes de recomendar contratación propia.",
+    "source": "https://www.femp.es/noticias/2026/06/17/la-central-de-contratacion-de-la-femp-red-de-redes-al-servicio-de-las-entidades-locales"
+  },
+  {
+    "id": "femp-guia-ia-2026",
+    "date": "2026-06-23",
+    "title": "Guía práctica y políticas de uso de IA en entidades locales",
+    "organization": "FEMP",
+    "category": "ia",
+    "why": "La IA municipal exige gobernanza del dato, política de uso, evaluación de madurez y criterios jurídicos/organizativos antes de desplegar casos de uso.",
+    "action": "El diagnóstico de IA de Brújula debe empezar por datos, riesgos y organización, no por herramientas.",
+    "source": "https://www.femp.es/documentos"
+  },
+  {
+    "id": "reod-2026",
+    "date": "2026-05-26",
+    "title": "Constituida la Red Española de Oficinas del Dato",
+    "organization": "FEMP",
+    "category": "datos",
+    "why": "Consolida un ecosistema municipal orientado a compartir y reutilizar datos urbanos de forma coordinada.",
+    "action": "Añadir una ruta específica para municipios que quieran madurar gobernanza del dato y conectarse a iniciativas compartidas.",
+    "source": "https://www.femp.es/noticias/2026/05/26/constituida-la-red-espanola-de-oficinas-del-dato-de-la-femp"
+  },
+  {
+    "id": "red-ciudades-dato-2026",
+    "date": "2026-05-18",
+    "title": "Nueva Red de Ciudades del Dato abierta a entidades locales",
+    "organization": "FEMP",
+    "category": "datos",
+    "why": "Abre una vía de colaboración que puede evitar que cada ayuntamiento diseñe su estrategia de datos de forma aislada.",
+    "action": "Mostrarla en proyectos de datos, IA, energía, movilidad y comercio.",
+    "source": "https://www.femp.es/noticias/2026/05/18/la-femp-lanza-la-red-de-ciudades-del-dato-para-transformar-la-gestion-local-informacion-y-tecnologia-al-servicio-del-ciudadano"
+  },
+  {
+    "id": "ccn-890-2026",
+    "date": "2026-05-29",
+    "title": "Actualización de la guía CCN-STIC-890 de adecuación al ENS",
+    "organization": "CCN",
+    "category": "ciberseguridad",
+    "why": "Los perfiles de cumplimiento específico permiten acotar el trabajo de adecuación en entidades locales y de menor tamaño.",
+    "action": "Priorizar el perfil aplicable antes de convertir ENS en una lista genérica de controles.",
+    "source": "https://www.ccn-cert.cni.es/es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad?format=html&limit=20&limitstart=160"
+  },
+  {
+    "id": "femp-edint-2026",
+    "date": "2026-02-26",
+    "title": "EDINT avanza como espacio de datos para infraestructuras urbanas inteligentes",
+    "organization": "FEMP",
+    "category": "datos",
+    "why": "Los casos de uso en movilidad, energía y comercio muestran que el valor está en compartir y gobernar datos, no solo en desplegar sensores.",
+    "action": "Relacionar proyectos IoT con gobernanza, interoperabilidad y reutilización de datos.",
+    "source": "https://www.femp.es/noticias/2026/02/26/la-femp-afianza-su-papel-referente-en-la-transformacion-digital-de-la-administracion-publica-y-local"
+  },
+  {
+    "id": "femp-aead-2026",
+    "date": "2026-04-07",
+    "title": "FEMP plantea integrar más servicios locales en Mi Carpeta Ciudadana",
+    "organization": "FEMP / AEAD",
+    "category": "administracion",
+    "why": "Apunta hacia servicios ciudadanos integrados y reutilización de infraestructuras comunes, en lugar de portales municipales desconectados.",
+    "action": "En proyectos de atención ciudadana, comprobar integraciones estatales y supramunicipales antes de desarrollar nuevas apps.",
+    "source": "https://www.femp.es/noticias/2026/04/07/la-femp-pretende-que-los-ayuntamientos-sigan-dando-pasos-en-procesos-de-digitalizacion"
+  }
+]

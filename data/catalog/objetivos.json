@@ -1,0 +1,410 @@
+[
+  {
+    "id": "agua",
+    "title": "Gestionar mejor el agua",
+    "question": "¿Qué problema tienes?",
+    "choices": [
+      [
+        "fugas",
+        "Pérdidas o fugas"
+      ],
+      [
+        "telelectura",
+        "Lecturas manuales"
+      ],
+      [
+        "depositos",
+        "Depósitos sin supervisión"
+      ],
+      [
+        "agua",
+        "Calidad o control"
+      ]
+    ]
+  },
+  {
+    "id": "ciberseguridad",
+    "title": "Mejorar ciberseguridad",
+    "question": "¿Qué necesitas priorizar?",
+    "choices": [
+      [
+        "ens",
+        "Cumplir ENS"
+      ],
+      [
+        "backup",
+        "Copias y recuperación"
+      ],
+      [
+        "mfa",
+        "Proteger cuentas"
+      ],
+      [
+        "inventario",
+        "Saber qué tengo"
+      ]
+    ]
+  },
+  {
+    "id": "energia",
+    "title": "Reducir gasto energético",
+    "question": "¿Dónde quieres actuar?",
+    "choices": [
+      [
+        "alumbrado",
+        "Alumbrado"
+      ],
+      [
+        "autoconsumo",
+        "Autoconsumo"
+      ],
+      [
+        "edificios",
+        "Edificios públicos"
+      ]
+    ]
+  },
+  {
+    "id": "digitalizacion",
+    "title": "Digitalizar el ayuntamiento",
+    "question": "¿Qué frena más el trabajo?",
+    "choices": [
+      [
+        "sede",
+        "Trámites"
+      ],
+      [
+        "automatizacion",
+        "Tareas repetitivas"
+      ],
+      [
+        "archivo",
+        "Archivo"
+      ],
+      [
+        "web",
+        "Web"
+      ]
+    ]
+  },
+  {
+    "id": "conectividad",
+    "title": "Mejorar conectividad",
+    "question": "¿Para qué la necesitas?",
+    "choices": [
+      [
+        "wifi",
+        "Wi-Fi"
+      ],
+      [
+        "lorawan",
+        "Sensores/IoT"
+      ]
+    ]
+  },
+  {
+    "id": "turismo",
+    "title": "Impulsar turismo y patrimonio",
+    "question": "¿Qué quieres activar?",
+    "choices": [
+      [
+        "rutas",
+        "Rutas y audioguías"
+      ],
+      [
+        "patrimonio",
+        "Patrimonio digital"
+      ]
+    ]
+  },
+  {
+    "id": "servicios",
+    "title": "Mejorar servicios ciudadanos",
+    "question": "¿Qué servicio?",
+    "choices": [
+      [
+        "ciudadania",
+        "Avisos e incidencias"
+      ],
+      [
+        "residuos",
+        "Residuos"
+      ]
+    ]
+  },
+  {
+    "id": "vivienda",
+    "title": "Vivienda y atraer población",
+    "question": "¿Por dónde empezar?",
+    "choices": [
+      [
+        "vivienda",
+        "Inventario de vivienda"
+      ],
+      [
+        "despoblacion",
+        "Proyectos contra despoblación"
+      ]
+    ]
+  },
+  {
+    "id": "emprendimiento",
+    "title": "Favorecer emprendimiento",
+    "question": "¿Qué recurso?",
+    "choices": [
+      [
+        "emprendimiento",
+        "Coworking/teletrabajo"
+      ],
+      [
+        "conectividad",
+        "Conectividad"
+      ]
+    ]
+  },
+  {
+    "id": "movilidad",
+    "title": "Mejorar movilidad",
+    "question": "¿Qué necesidad?",
+    "choices": [
+      [
+        "movilidad",
+        "Transporte a demanda"
+      ],
+      [
+        "mayores",
+        "Acceso a servicios para mayores"
+      ]
+    ]
+  },
+  {
+    "id": "datos",
+    "title": "Ordenar y aprovechar los datos",
+    "question": "¿Qué necesitas mejorar?",
+    "choices": [
+      [
+        "inventario",
+        "No sé qué datos tenemos"
+      ],
+      [
+        "datos",
+        "Quiero un cuadro de indicadores"
+      ],
+      [
+        "transparencia",
+        "Quiero publicar/reutilizar datos"
+      ],
+      [
+        "ia",
+        "Quiero preparar IA"
+      ]
+    ]
+  },
+  {
+    "id": "ia",
+    "title": "Usar IA con criterio",
+    "question": "¿En qué punto estás?",
+    "choices": [
+      [
+        "ia",
+        "Definir política y usos"
+      ],
+      [
+        "datos",
+        "Ordenar datos primero"
+      ],
+      [
+        "documentos",
+        "Buscar y resumir documentación"
+      ],
+      [
+        "productividad",
+        "Mejorar trabajo interno"
+      ]
+    ]
+  },
+  {
+    "id": "contratacion",
+    "title": "Contratar mejor tecnología y servicios",
+    "question": "¿Qué problema tienes?",
+    "choices": [
+      [
+        "contratacion",
+        "Preparar una licitación"
+      ],
+      [
+        "proveedores",
+        "Dependencia de proveedor"
+      ],
+      [
+        "planificacion",
+        "Renovaciones y contratos"
+      ],
+      [
+        "ciberseguridad",
+        "Seguridad de proveedores"
+      ]
+    ]
+  },
+  {
+    "id": "residuos",
+    "title": "Mejorar residuos y mantenimiento",
+    "question": "¿Dónde está el problema?",
+    "choices": [
+      [
+        "residuos",
+        "Rutas y frecuencias"
+      ],
+      [
+        "datos",
+        "No tengo datos de servicio"
+      ],
+      [
+        "mantenimiento",
+        "Planificar recursos"
+      ],
+      [
+        "medioambiente",
+        "Impacto ambiental"
+      ]
+    ]
+  },
+  {
+    "id": "clima",
+    "title": "Prepararme ante riesgos climáticos",
+    "question": "¿Qué riesgo quieres priorizar?",
+    "choices": [
+      [
+        "clima",
+        "Calor extremo"
+      ],
+      [
+        "proteccion-civil",
+        "Emergencias"
+      ],
+      [
+        "sensores",
+        "Vigilancia de puntos críticos"
+      ],
+      [
+        "medioambiente",
+        "Adaptación local"
+      ]
+    ]
+  },
+  {
+    "id": "participacion",
+    "title": "Mejorar la relación con la ciudadanía",
+    "question": "¿Qué quieres mejorar?",
+    "choices": [
+      [
+        "participacion",
+        "Incidencias"
+      ],
+      [
+        "transparencia",
+        "Participación y acuerdos"
+      ],
+      [
+        "servicios",
+        "Información útil"
+      ],
+      [
+        "administracion",
+        "Atención y trámites"
+      ]
+    ]
+  },
+  {
+    "id": "mayores",
+    "title": "Mejorar cuidados y autonomía de las personas mayores",
+    "question": "¿Qué te preocupa más?",
+    "choices": [
+      [
+        "servicios",
+        "Soledad o falta de apoyo"
+      ],
+      [
+        "movilidad",
+        "Acceso a citas y servicios"
+      ],
+      [
+        "administracion",
+        "Trámites difíciles"
+      ],
+      [
+        "conectividad",
+        "Brecha digital"
+      ]
+    ]
+  },
+  {
+    "id": "accesibilidad-territorial",
+    "title": "Acercar servicios aunque estén lejos",
+    "question": "¿Qué acceso quieres mejorar?",
+    "choices": [
+      [
+        "movilidad",
+        "Hospital y sanidad"
+      ],
+      [
+        "servicios",
+        "Servicios itinerantes"
+      ],
+      [
+        "educacion",
+        "Educación"
+      ],
+      [
+        "conectividad",
+        "Servicios digitales"
+      ]
+    ]
+  },
+  {
+    "id": "arraigo",
+    "title": "Retener y atraer población",
+    "question": "¿Cuál es el principal freno?",
+    "choices": [
+      [
+        "vivienda",
+        "Vivienda disponible"
+      ],
+      [
+        "emprendimiento",
+        "Empleo y actividad"
+      ],
+      [
+        "servicios",
+        "Servicios cotidianos"
+      ],
+      [
+        "despoblacion",
+        "Acogida y arraigo"
+      ]
+    ]
+  },
+  {
+    "id": "resiliencia-servicios",
+    "title": "Asegurar servicios esenciales ante incidencias",
+    "question": "¿Qué no puede fallar?",
+    "choices": [
+      [
+        "agua",
+        "Abastecimiento"
+      ],
+      [
+        "energia",
+        "Energía"
+      ],
+      [
+        "conectividad",
+        "Comunicaciones"
+      ],
+      [
+        "servicios",
+        "Atención a población vulnerable"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,479 @@
+[
+  {
+    "id": "ley39",
+    "title": "Tramitación electrónica y relación con personas obligadas",
+    "category": "administracion",
+    "impact": "alto",
+    "action": "revisar",
+    "summary": "Revisar procedimientos, registros, notificaciones, representación y asistencia para que la tramitación electrónica funcione de forma coherente.",
+    "norm": "Ley 39/2015, de 1 de octubre",
+    "boe_id": "BOE-A-2015-10565",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+    "certainty": "official-law",
+    "steps": [
+      "Inventariar trámites prioritarios",
+      "Revisar registro y notificación",
+      "Comprobar representación y firma",
+      "Documentar la asistencia a personas no digitales"
+    ]
+  },
+  {
+    "id": "rd203",
+    "title": "Funcionamiento electrónico del sector público",
+    "category": "administracion",
+    "impact": "alto",
+    "action": "revisar",
+    "summary": "Alinear sedes, portales, identificación, firma, registros y actuación administrativa automatizada con el desarrollo reglamentario de la administración electrónica.",
+    "norm": "Real Decreto 203/2021, de 30 de marzo",
+    "boe_id": "BOE-A-2021-5032",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+    "certainty": "official-law",
+    "steps": [
+      "Revisar sede y portal",
+      "Revisar identificación y firma",
+      "Documentar actuaciones automatizadas",
+      "Coordinar plataformas supramunicipales"
+    ]
+  },
+  {
+    "id": "ley40",
+    "title": "Funcionamiento electrónico e interoperación entre Administraciones",
+    "category": "administracion",
+    "impact": "medio",
+    "action": "revisar",
+    "summary": "Revisar relaciones electrónicas entre órganos, convenios, sistemas comunes y reglas de funcionamiento del sector público.",
+    "norm": "Ley 40/2015, de 1 de octubre",
+    "boe_id": "BOE-A-2015-10566",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+    "certainty": "official-law",
+    "steps": [
+      "Identificar sistemas compartidos",
+      "Revisar convenios y responsabilidades",
+      "Documentar órganos y competencias",
+      "Alinear integraciones con servicios comunes"
+    ]
+  },
+  {
+    "id": "eni",
+    "title": "Interoperabilidad y gestión del documento electrónico",
+    "category": "digitalizacion",
+    "impact": "alto",
+    "action": "revisar",
+    "summary": "Revisar políticas y requisitos de interoperabilidad, formatos, intercambio, documento y expediente electrónico.",
+    "norm": "Real Decreto 4/2010, de 8 de enero (ENI)",
+    "boe_id": "BOE-A-2010-1331",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-1331",
+    "certainty": "official-law",
+    "steps": [
+      "Inventariar intercambios",
+      "Revisar formatos y metadatos",
+      "Alinear documento y expediente",
+      "Revisar normas técnicas de interoperabilidad aplicables"
+    ]
+  },
+  {
+    "id": "ens",
+    "title": "Adecuación al Esquema Nacional de Seguridad",
+    "category": "ciberseguridad",
+    "impact": "critico",
+    "action": "actuar",
+    "summary": "Organizar seguridad, responsabilidades, categorización, análisis de riesgos, medidas, vigilancia y mejora continua conforme al ENS.",
+    "norm": "Real Decreto 311/2022, de 3 de mayo",
+    "boe_id": "BOE-A-2022-7191",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191",
+    "certainty": "official-law",
+    "steps": [
+      "Definir ámbito y responsables",
+      "Inventariar y categorizar sistemas",
+      "Analizar riesgos y brechas",
+      "Planificar e implantar medidas",
+      "Preparar revisión/auditoría cuando corresponda"
+    ]
+  },
+  {
+    "id": "rgpd",
+    "title": "Protección de datos personales",
+    "category": "privacidad",
+    "impact": "alto",
+    "action": "revisar",
+    "summary": "Aplicar licitud, minimización, información, seguridad, contratos y responsabilidad proactiva al tratamiento de datos personales municipal.",
+    "norm": "RGPD + Ley Orgánica 3/2018",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+    "certainty": "official-law",
+    "steps": [
+      "Inventariar tratamientos",
+      "Revisar bases jurídicas e información",
+      "Revisar encargados y contratos",
+      "Gestionar derechos e incidentes",
+      "Evaluar riesgos y medidas"
+    ]
+  },
+  {
+    "id": "accesibilidad",
+    "title": "Accesibilidad de sitios web y aplicaciones del sector público",
+    "category": "accesibilidad",
+    "impact": "alto",
+    "action": "revisar",
+    "summary": "Revisar accesibilidad de webs y aplicaciones públicas, mecanismos de comunicación y declaración de accesibilidad.",
+    "norm": "Real Decreto 1112/2018, de 7 de septiembre",
+    "boe_id": "BOE-A-2018-12699",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699",
+    "certainty": "official-law",
+    "steps": [
+      "Inventariar webs y apps",
+      "Evaluar problemas WCAG/EN aplicable",
+      "Publicar/revisar declaración",
+      "Planificar correcciones y seguimiento"
+    ]
+  },
+  {
+    "id": "transparencia",
+    "title": "Publicidad activa y derecho de acceso",
+    "category": "transparencia",
+    "impact": "alto",
+    "action": "revisar",
+    "summary": "Mantener información de transparencia local actualizada y organizar la respuesta a solicitudes de acceso.",
+    "norm": "Ley 19/2013, de 9 de diciembre",
+    "boe_id": "BOE-A-2013-12887",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887",
+    "certainty": "official-law",
+    "steps": [
+      "Inventariar obligaciones de publicidad",
+      "Asignar responsables",
+      "Revisar actualización de contenidos",
+      "Organizar solicitudes de acceso"
+    ]
+  },
+  {
+    "id": "contratacion",
+    "title": "Contratación pública y trazabilidad del expediente",
+    "category": "contratacion",
+    "impact": "alto",
+    "action": "revisar",
+    "summary": "Planificar y documentar correctamente necesidad, expediente, publicidad, adjudicación, ejecución y modificaciones de contratos.",
+    "norm": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público",
+    "boe_id": "BOE-A-2017-12902",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+    "certainty": "official-law",
+    "steps": [
+      "Definir necesidad y alcance",
+      "Comprobar procedimiento y publicidad",
+      "Evitar fraccionamiento indebido",
+      "Documentar criterios y adjudicación",
+      "Controlar ejecución y modificaciones"
+    ]
+  },
+  {
+    "id": "factura-electronica",
+    "title": "Factura electrónica y registro contable de facturas",
+    "category": "administracion",
+    "impact": "medio",
+    "action": "revisar",
+    "summary": "Revisar recepción electrónica, puntos de entrada y registro contable de facturas en los supuestos aplicables.",
+    "norm": "Ley 25/2013, de 27 de diciembre",
+    "boe_id": "BOE-A-2013-13722",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-13722",
+    "certainty": "official-law",
+    "steps": [
+      "Revisar punto general de entrada",
+      "Comprobar circuito contable",
+      "Informar a proveedores",
+      "Controlar incidencias y rechazos"
+    ]
+  },
+  {
+    "id": "reutilizacion-datos",
+    "title": "Reutilización de información del sector público",
+    "category": "datos",
+    "impact": "medio",
+    "action": "revisar",
+    "summary": "Revisar condiciones de reutilización, formatos y disponibilidad de información pública cuando se publiquen datos reutilizables.",
+    "norm": "Ley 37/2007, de 16 de noviembre",
+    "boe_id": "BOE-A-2007-19814",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-19814",
+    "certainty": "official-law",
+    "steps": [
+      "Identificar conjuntos reutilizables",
+      "Revisar restricciones y datos personales",
+      "Elegir formatos abiertos cuando proceda",
+      "Publicar condiciones y metadatos"
+    ]
+  },
+  {
+    "id": "rd3-2023-agua",
+    "title": "Calidad y control del agua de consumo",
+    "category": "agua",
+    "impact": "critico",
+    "action": "actuar",
+    "summary": "Revisar responsabilidades, control, calidad, información y gestión del abastecimiento conforme al marco sanitario del agua de consumo.",
+    "norm": "Real Decreto 3/2023, de 10 de enero",
+    "boe_id": "BOE-A-2023-628",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-628",
+    "certainty": "official-law",
+    "steps": [
+      "Identificar titularidad y operador",
+      "Revisar responsabilidades y autocontrol",
+      "Revisar información/SINAC cuando corresponda",
+      "Analizar riesgos, fugas y planes aplicables"
+    ]
+  },
+  {
+    "id": "residuos",
+    "title": "Gestión municipal de residuos y economía circular",
+    "category": "medioambiente",
+    "impact": "alto",
+    "action": "revisar",
+    "summary": "Revisar obligaciones locales de recogida, separación, planificación y gestión de residuos conforme al marco vigente.",
+    "norm": "Ley 7/2022, de 8 de abril",
+    "boe_id": "BOE-A-2022-5809",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-5809",
+    "certainty": "official-law",
+    "steps": [
+      "Revisar servicios y fracciones",
+      "Identificar obligaciones temporales aplicables",
+      "Revisar contratos y datos de gestión",
+      "Planificar comunicación y seguimiento"
+    ]
+  },
+  {
+    "id": "canal-interno",
+    "title": "Sistema interno de información y protección del informante",
+    "category": "gobernanza",
+    "impact": "alto",
+    "action": "revisar",
+    "summary": "Comprobar las obligaciones que correspondan al sector público local sobre sistema interno de información, responsable y procedimiento.",
+    "norm": "Ley 2/2023, de 20 de febrero",
+    "boe_id": "BOE-A-2023-4513",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-4513",
+    "certainty": "official-law",
+    "steps": [
+      "Comprobar ámbito aplicable",
+      "Definir responsable/sistema",
+      "Revisar procedimiento y confidencialidad",
+      "Coordinar protección de datos y archivo"
+    ]
+  },
+  {
+    "id": "igualdad-digital",
+    "title": "Evitar discriminación en servicios y comunicaciones digitales",
+    "category": "servicios",
+    "impact": "medio",
+    "action": "revisar",
+    "summary": "Revisar que la digitalización no elimine indebidamente canales de asistencia ni genere barreras evitables para determinados colectivos.",
+    "norm": "Marco general de procedimiento, igualdad y accesibilidad",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+    "certainty": "editorial-composite",
+    "steps": [
+      "Identificar colectivos afectados",
+      "Mantener asistencia y alternativas cuando correspondan",
+      "Probar lenguaje y accesibilidad",
+      "Medir incidencias de uso"
+    ]
+  },
+  {
+    "id": "conservacion-documental",
+    "title": "Conservación y disponibilidad de documentos electrónicos",
+    "category": "archivo",
+    "impact": "alto",
+    "action": "revisar",
+    "summary": "Organizar conservación, integridad, acceso y transferencia de documentos y expedientes electrónicos durante su ciclo de vida.",
+    "norm": "Ley 39/2015 + ENI y normas técnicas aplicables",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+    "certainty": "editorial-composite",
+    "steps": [
+      "Definir política documental",
+      "Revisar metadatos y formatos",
+      "Planificar conservación y transferencias",
+      "Probar recuperación"
+    ]
+  },
+  {
+    "id": "proveedores-seguridad",
+    "title": "Seguridad y responsabilidades de proveedores tecnológicos",
+    "category": "ciberseguridad",
+    "impact": "alto",
+    "action": "revisar",
+    "summary": "Revisar contratos y responsabilidades de terceros que alojan, administran o acceden a sistemas y datos municipales.",
+    "norm": "ENS + RGPD + contratación pública",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191",
+    "certainty": "editorial-composite",
+    "steps": [
+      "Inventariar proveedores críticos",
+      "Revisar accesos y subcontratación",
+      "Exigir medidas y evidencias proporcionadas",
+      "Definir salida, devolución y borrado de datos"
+    ]
+  },
+  {
+    "id": "continuidad",
+    "title": "Continuidad y recuperación de servicios digitales",
+    "category": "ciberseguridad",
+    "impact": "alto",
+    "action": "actuar",
+    "summary": "Preparar recuperación ante fallos, ransomware, pérdida de conectividad o indisponibilidad de proveedores para los servicios críticos.",
+    "norm": "ENS (medidas de continuidad según sistema/categoría)",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191",
+    "certainty": "editorial-derived",
+    "steps": [
+      "Priorizar servicios críticos",
+      "Definir copias y recuperación",
+      "Identificar dependencias externas",
+      "Probar escenarios y contactos"
+    ]
+  },
+  {
+    "id": "datos-personales-web",
+    "title": "Privacidad en formularios, analítica y servicios web",
+    "category": "privacidad",
+    "impact": "medio",
+    "action": "revisar",
+    "summary": "Minimizar datos y revisar información, formularios, cookies/analítica y proveedores de la web municipal.",
+    "norm": "RGPD + Ley Orgánica 3/2018",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+    "certainty": "editorial-derived",
+    "steps": [
+      "Inventariar formularios y terceros",
+      "Revisar necesidad de cada dato",
+      "Revisar información y conservación",
+      "Reducir scripts y transferencias innecesarias"
+    ]
+  },
+  {
+    "id": "perfil-contratante",
+    "title": "Publicidad y perfil de contratante",
+    "category": "contratacion",
+    "impact": "alto",
+    "action": "revisar",
+    "summary": "Comprobar publicación y trazabilidad de la información contractual exigible en el perfil de contratante y plataformas correspondientes.",
+    "norm": "Ley 9/2017, de Contratos del Sector Público",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+    "certainty": "official-law",
+    "steps": [
+      "Revisar perfil de contratante",
+      "Comprobar publicaciones exigibles",
+      "Corregir expedientes incompletos",
+      "Alinear responsables y plataformas"
+    ]
+  },
+  {
+    "id": "ia-act",
+    "title": "Uso de inteligencia artificial en la administración local",
+    "category": "ia",
+    "impact": "medio",
+    "action": "monitorizar",
+    "summary": "Inventariar usos de IA, identificar riesgos y preparar gobernanza antes de automatizar decisiones o tratar información sensible.",
+    "norm": "Reglamento (UE) 2024/1689 y normativa sectorial aplicable",
+    "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "certainty": "official-regulation-editorial-summary",
+    "steps": [
+      "Inventariar sistemas de IA",
+      "Clasificar uso y datos",
+      "Evitar decisiones opacas no justificadas",
+      "Definir supervisión humana y registro",
+      "Revisar calendario de aplicación aplicable"
+    ]
+  },
+  {
+    "id": "administracion-asistencia",
+    "title": "Asistencia a personas en el uso de medios electrónicos",
+    "category": "administracion",
+    "impact": "alto",
+    "action": "revisar",
+    "summary": "Asegurar que quienes no están obligados o necesitan ayuda puedan recibir asistencia para relacionarse con el ayuntamiento.",
+    "norm": "Ley 39/2015, de 1 de octubre",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+    "certainty": "official-law",
+    "steps": [
+      "Definir canales de asistencia",
+      "Formar personal",
+      "Documentar representación cuando proceda",
+      "Revisar accesibilidad y horarios"
+    ]
+  },
+  {
+    "id": "seguridad-web",
+    "title": "Seguridad de sedes, portales y servicios web",
+    "category": "ciberseguridad",
+    "impact": "alto",
+    "action": "revisar",
+    "summary": "Aplicar medidas de seguridad, actualización y control acordes al riesgo en sedes y servicios web municipales.",
+    "norm": "ENS + normativa de administración electrónica",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191",
+    "certainty": "editorial-derived",
+    "steps": [
+      "Inventariar dominios y servicios",
+      "Revisar TLS, actualizaciones y accesos",
+      "Eliminar componentes obsoletos",
+      "Monitorizar disponibilidad e incidentes"
+    ]
+  },
+  {
+    "id": "inventario-aplicaciones",
+    "title": "Inventario de aplicaciones, datos y dependencias",
+    "category": "digitalizacion",
+    "impact": "medio",
+    "action": "revisar",
+    "summary": "Mantener una visión mínima de aplicaciones, responsables, proveedores, contratos, datos y dependencias para poder gestionar cambios y riesgos.",
+    "norm": "Buena práctica derivada de ENS, RGPD y gestión contractual",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191",
+    "certainty": "editorial-derived",
+    "steps": [
+      "Listar aplicaciones y responsables",
+      "Vincular proveedores y contratos",
+      "Identificar datos y criticidad",
+      "Registrar fecha de renovación/salida"
+    ]
+  },
+  {
+    "id": "copias",
+    "title": "Copias de seguridad y restauración verificadas",
+    "category": "ciberseguridad",
+    "impact": "critico",
+    "action": "actuar",
+    "summary": "Definir copias, separación, retención y pruebas de restauración coherentes con el riesgo y los servicios municipales.",
+    "norm": "ENS (medidas de protección y continuidad según sistema/categoría)",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191",
+    "certainty": "editorial-derived",
+    "steps": [
+      "Identificar datos críticos",
+      "Separar copias del entorno principal",
+      "Definir retención",
+      "Probar restauraciones y registrar resultados"
+    ]
+  },
+  {
+    "id": "acceso-informacion-ambiental",
+    "title": "Acceso y difusión de información ambiental",
+    "category": "medioambiente",
+    "impact": "medio",
+    "action": "revisar",
+    "summary": "Comprobar las obligaciones de acceso y difusión cuando el ayuntamiento posee información ambiental relevante.",
+    "norm": "Ley 27/2006, de 18 de julio",
+    "boe_id": "BOE-A-2006-13010",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-13010",
+    "certainty": "official-law",
+    "steps": [
+      "Identificar información ambiental",
+      "Revisar canales de acceso",
+      "Coordinar límites y datos personales",
+      "Publicar información prioritaria cuando corresponda"
+    ]
+  },
+  {
+    "id": "proteccion-datos-camaras",
+    "title": "Videovigilancia y sensores con datos personales",
+    "category": "privacidad",
+    "impact": "medio",
+    "action": "revisar",
+    "summary": "Antes de desplegar cámaras o sensores, comprobar si captan o permiten identificar personas y aplicar garantías proporcionales.",
+    "norm": "RGPD + Ley Orgánica 3/2018",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+    "certainty": "editorial-derived",
+    "steps": [
+      "Definir finalidad y necesidad",
+      "Minimizar zonas y datos",
+      "Revisar base jurídica e información",
+      "Definir acceso, conservación y seguridad"
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+BRÚJULA MUNICIPAL v1.0 · VALIDACIÓN
+
+- assets/js/app.js: sintaxis Node OK
+- scripts inline HTML: 30 comprobados · 0 errores
+- JSON: válidos
+- validador interno: PUBLICABLE
+- nuevas rutas HTTP verificadas: 200
+  /cockpit/
+  /ejecutivo/
+  /decisiones/
+  /replicar/
+  /presentacion/
+  /autor/
+- LinkedIn autor: https://www.linkedin.com/in/ivanrodrigo/
+- arquitectura: estática / sin backend obligatorio
+
+Nota: el ZIP conserva el catálogo territorial de arranque. En GitHub ejecutar workflow `full` para regenerar localidades e indicadores nacionales.

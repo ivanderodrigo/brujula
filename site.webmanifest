@@ -1,0 +1,16 @@
+{
+  "name": "Brújula Municipal",
+  "short_name": "Brújula",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f9fa",
+  "theme_color": "#123b5d",
+  "icons": [
+    {
+      "src": "assets/img/logo-brujula.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version":"0.7",
+  "principle":"No existe una nota única del municipio. Brújula muestra señales independientes, su evidencia y sus consecuencias prácticas.",
+  "signals":[
+    {"id":"population_decline","metric":"population_change","when":{"lt":-5},"severity":"high","title":"Pérdida de población sostenida","message":"La evolución demográfica aconseja priorizar servicios esenciales, vivienda, acogida y proyectos con bajo coste recurrente.","tags":["despoblacion","vivienda","servicios"]},
+    {"id":"population_growth","metric":"population_change","when":{"gt":5},"severity":"positive","title":"Crecimiento demográfico","message":"Conviene revisar capacidad de servicios, vivienda, atención ciudadana e infraestructuras antes de que aparezcan cuellos de botella.","tags":["vivienda","servicios","administracion"]},
+    {"id":"very_low_density","metric":"density","when":{"lt":8},"severity":"high","title":"Densidad territorial muy baja","message":"La prestación presencial puede ser costosa: tienen más valor las soluciones compartidas, móviles, a demanda y supramunicipales.","tags":["movilidad","servicios","conectividad"]},
+    {"id":"low_density","metric":"density","when":{"lt":12.5},"severity":"medium","title":"Baja densidad","message":"Antes de crear infraestructura propia conviene comparar soluciones itinerantes, mancomunadas o provinciales.","tags":["servicios","contratacion"]},
+    {"id":"high_age","metric":"mean_age","when":{"gt":50},"severity":"high","title":"Envejecimiento elevado","message":"Accesibilidad, cuidados, atención no exclusivamente digital y transporte a servicios deberían entrar en las prioridades.","tags":["servicios","movilidad","administracion"]},
+    {"id":"over65_high","metric":"over65","when":{"gt":30},"severity":"high","title":"Peso alto de población mayor","message":"Los nuevos servicios digitales necesitan canal alternativo, acompañamiento y diseño accesible.","tags":["servicios","administracion","accesibilidad"]},
+    {"id":"connectivity_gap","metric":"broadband100","when":{"lt":80},"severity":"high","title":"Brecha de conectividad fija","message":"No conviene diseñar servicios que presupongan conectividad doméstica suficiente; revisar despliegues y alternativas.","tags":["conectividad","administracion"]},
+    {"id":"hospital_access","metric":"hospital_minutes","when":{"gt":30},"severity":"high","title":"Acceso hospitalario alejado","message":"La movilidad a demanda, coordinación sociosanitaria y servicios de proximidad adquieren mayor valor estratégico.","tags":["movilidad","servicios"]},
+    {"id":"highway_access","metric":"highway_minutes","when":{"gt":30},"severity":"medium","title":"Acceso lento a red viaria de alta capacidad","message":"La accesibilidad territorial puede condicionar empleo, logística y atracción de actividad; conviene no evaluarla solo como un problema digital.","tags":["movilidad","emprendimiento"]},
+    {"id":"no_pharmacy","metric":"pharmacies","when":{"eq":0},"severity":"high","title":"Sin farmacia en el municipio","message":"Conviene revisar accesibilidad a servicios sanitarios, transporte, atención de proximidad y coordinación supramunicipal.","tags":["servicios","movilidad"]},
+    {"id":"no_primary_school","metric":"primary_schools","when":{"eq":0},"severity":"medium","title":"Sin centro de primaria en el municipio","message":"El acceso educativo y la movilidad familiar son factores relevantes para arraigo y atracción de hogares.","tags":["servicios","movilidad","despoblacion"]}
+  ]
+}

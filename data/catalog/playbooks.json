@@ -1,0 +1,431 @@
+[
+  {
+    "id": "ayuntamiento-digital-basico",
+    "title": "Ayuntamiento digital esencial",
+    "promise": "Pasar de herramientas dispersas a una administración electrónica mínima, coherente y mantenible.",
+    "for": "Municipios con poco personal y dependencia de plataformas provinciales o proveedores.",
+    "priority_tags": [
+      "administracion",
+      "archivo",
+      "firma",
+      "registro"
+    ],
+    "projects": [
+      "sede-electronica",
+      "automatizacion-expedientes",
+      "archivo-electronico",
+      "inventario-activos-ti"
+    ],
+    "obligations": [
+      "ley39",
+      "rd203"
+    ],
+    "services": [
+      "portal-eell",
+      "sir",
+      "orve",
+      "notifica",
+      "face",
+      "clave",
+      "inside",
+      "sedipualba"
+    ],
+    "phases": [
+      "Inventariar qué plataformas y servicios ya existen.",
+      "Eliminar duplicidades y resolver registro, firma, notificación y expediente.",
+      "Documentar responsables, continuidad y soporte.",
+      "Automatizar solo los procedimientos de mayor volumen."
+    ]
+  },
+  {
+    "id": "ciberseguridad-esencial",
+    "title": "Ciberseguridad esencial y ENS",
+    "promise": "Reducir riesgo real antes de comprar más herramientas de seguridad.",
+    "for": "Ayuntamientos con recursos técnicos limitados o servicios externalizados.",
+    "priority_tags": [
+      "ciberseguridad",
+      "ens",
+      "backup",
+      "mfa"
+    ],
+    "projects": [
+      "inventario-activos-ti",
+      "mfa-cuentas-criticas",
+      "backup-inmutable",
+      "plan-respuesta-incidentes",
+      "segmentacion-red"
+    ],
+    "obligations": [
+      "ens"
+    ],
+    "services": [
+      "ccn-pce-eell"
+    ],
+    "phases": [
+      "Definir ámbito, activos y responsables.",
+      "Asegurar cuentas, copias y actualización básica.",
+      "Categorizar sistemas y analizar riesgos.",
+      "Preparar plan de tratamiento y evidencias."
+    ]
+  },
+  {
+    "id": "agua-inteligente",
+    "title": "Agua: de la avería a la gestión con datos",
+    "promise": "Priorizar pérdidas, control, calidad y telemetría sin empezar por una plataforma sobredimensionada.",
+    "for": "Municipios con redes envejecidas, lectura manual o poca información de explotación.",
+    "priority_tags": [
+      "agua",
+      "fugas",
+      "telelectura",
+      "depositos"
+    ],
+    "projects": [
+      "sectorizacion-red",
+      "telelectura-agua",
+      "telecontrol-depositos",
+      "sensores-calidad-agua"
+    ],
+    "obligations": [
+      "rd3-2023-agua"
+    ],
+    "services": [
+      "miteco-reto-datos"
+    ],
+    "phases": [
+      "Inventariar red, depósitos, contadores y problemas recurrentes.",
+      "Medir antes de automatizar: consumos, caudales y presiones.",
+      "Definir un piloto de telecontrol/sectorización.",
+      "Escalar solo donde los datos demuestren utilidad."
+    ]
+  },
+  {
+    "id": "energia-alumbrado",
+    "title": "Energía y alumbrado con retorno medible",
+    "promise": "Reducir gasto y consumo con una secuencia que empieza por datos y termina en inversión.",
+    "for": "Municipios con facturas elevadas, alumbrado antiguo o edificios poco eficientes.",
+    "priority_tags": [
+      "energia",
+      "alumbrado",
+      "autoconsumo"
+    ],
+    "projects": [
+      "contabilidad-energetica",
+      "auditoria-alumbrado",
+      "alumbrado-led-telegestion",
+      "autoconsumo-edificios"
+    ],
+    "obligations": [],
+    "services": [
+      "femp-central"
+    ],
+    "phases": [
+      "Consolidar contratos y consumos.",
+      "Priorizar puntos con mayor coste/ahorro potencial.",
+      "Preparar proyecto y financiación.",
+      "Medir ahorro real tras la actuación."
+    ]
+  },
+  {
+    "id": "datos-ia-responsable",
+    "title": "Datos e IA sin empezar por el chatbot",
+    "promise": "Crear las condiciones para usar datos e IA de forma útil, segura y explicable.",
+    "for": "Ayuntamientos que quieren incorporar IA pero aún tienen información dispersa.",
+    "priority_tags": [
+      "datos",
+      "ia",
+      "gobernanza"
+    ],
+    "projects": [
+      "inventario-datos-municipales",
+      "catalogo-datos",
+      "politica-ia",
+      "asistente-interno-documental"
+    ],
+    "obligations": [],
+    "services": [
+      "femp-datos",
+      "femp-ia"
+    ],
+    "phases": [
+      "Inventariar datos, sistemas, contratos y responsables.",
+      "Clasificar usos y riesgos antes de elegir herramientas.",
+      "Seleccionar un caso de uso interno, acotado y medible.",
+      "Evaluar resultados y gobernanza antes de escalar."
+    ]
+  },
+  {
+    "id": "turismo-patrimonio",
+    "title": "Turismo y patrimonio que no dependen de una app",
+    "promise": "Convertir patrimonio y territorio en experiencias digitales ligeras, reutilizables y fáciles de mantener.",
+    "for": "Municipios con patrimonio disperso, rutas o recursos poco interpretados.",
+    "priority_tags": [
+      "turismo",
+      "patrimonio",
+      "rutas"
+    ],
+    "projects": [
+      "inventario-patrimonio-digital",
+      "rutas-qr",
+      "audioguias-web",
+      "archivo-fotografico-digital"
+    ],
+    "obligations": [],
+    "services": [
+      "miteco-reto-datos"
+    ],
+    "phases": [
+      "Inventariar recursos y derechos de uso.",
+      "Priorizar relato y accesibilidad antes que tecnología.",
+      "Publicar web ligera, mapas y audio reutilizables.",
+      "Medir uso y mantener contenidos."
+    ]
+  },
+  {
+    "id": "servicios-proximidad",
+    "title": "Servicios de proximidad y cuidados",
+    "promise": "Usar tecnología para acercar servicios, no para sustituir atención humana.",
+    "for": "Municipios envejecidos, dispersos o con dificultades de movilidad.",
+    "priority_tags": [
+      "mayores",
+      "servicios",
+      "movilidad",
+      "salud"
+    ],
+    "projects": [
+      "transporte-demanda",
+      "agenda-servicios-moviles",
+      "teleasistencia-comunitaria",
+      "red-voluntariado"
+    ],
+    "obligations": [],
+    "services": [
+      "miteco-reto-datos"
+    ],
+    "phases": [
+      "Mapear población, distancias y servicios existentes.",
+      "Identificar necesidades que pueden agruparse o itinerar.",
+      "Diseñar un piloto sencillo de reserva/aviso.",
+      "Medir acceso efectivo, no solo uso de la aplicación."
+    ]
+  },
+  {
+    "id": "vivienda-arraigo",
+    "title": "Vivienda, acogida y arraigo",
+    "promise": "Pasar de 'queremos atraer población' a una cartera de vivienda y servicios realmente utilizables.",
+    "for": "Municipios con vivienda vacía, demanda no atendida o dificultad para atraer familias/trabajadores.",
+    "priority_tags": [
+      "vivienda",
+      "despoblacion",
+      "acogida"
+    ],
+    "projects": [
+      "inventario-vivienda-vacia",
+      "bolsa-vivienda-local",
+      "portal-acogida",
+      "mapa-servicios-nuevos-residentes"
+    ],
+    "obligations": [],
+    "services": [
+      "miteco-reto-datos"
+    ],
+    "phases": [
+      "Inventariar oferta y barreras reales.",
+      "Separar vivienda disponible de vivienda potencial.",
+      "Preparar acompañamiento y servicios de acogida.",
+      "Promocionar solo cuando exista una oferta verificable."
+    ]
+  },
+  {
+    "id": "contratacion-inteligente",
+    "title": "Contratar mejor con menos recursos",
+    "promise": "Definir la necesidad, comprobar soluciones compartidas y reducir dependencia de especificaciones de proveedor.",
+    "for": "Entidades pequeñas sin equipos especializados de contratación TIC.",
+    "priority_tags": [
+      "contratacion",
+      "proveedores",
+      "servicios"
+    ],
+    "projects": [
+      "inventario-contratos-tic",
+      "catalogo-necesidades",
+      "modelo-sla-proveedores",
+      "plan-renovaciones"
+    ],
+    "obligations": [],
+    "services": [
+      "femp-central",
+      "portal-eell"
+    ],
+    "phases": [
+      "Comprobar servicios comunes y centrales de contratación.",
+      "Definir problema, resultado y costes recurrentes.",
+      "Preparar requisitos abiertos e interoperables.",
+      "Incluir salida, datos, soporte y continuidad desde el contrato."
+    ]
+  },
+  {
+    "id": "territorio-30-minutos",
+    "title": "Territorio de proximidad: servicios a 30 minutos",
+    "promise": "Analizar qué servicios faltan, dónde están y qué cooperación territorial puede acercarlos.",
+    "for": "Municipios rurales o dispersos que necesitan priorizar movilidad y servicios esenciales.",
+    "priority_tags": [
+      "movilidad",
+      "servicios",
+      "despoblacion",
+      "territorio"
+    ],
+    "projects": [
+      "mapa-accesibilidad-servicios",
+      "transporte-demanda",
+      "ventanilla-movil",
+      "espacio-multiservicio"
+    ],
+    "obligations": [],
+    "services": [
+      "miteco-reto-datos"
+    ],
+    "phases": [
+      "Mapear tiempos reales de acceso a servicios.",
+      "Priorizar brechas con mayor impacto social.",
+      "Buscar cooperación supramunicipal antes de crear nuevos servicios.",
+      "Medir mejora de accesibilidad territorial."
+    ]
+  },
+  {
+    "id": "territorio-360",
+    "title": "Expediente territorial 360",
+    "promise": "Convertir demografía, accesibilidad, conectividad y servicios en prioridades verificables.",
+    "for": "Municipios que necesitan decidir qué atender primero sin depender de intuiciones o modas.",
+    "priority_tags": [
+      "datos",
+      "despoblacion",
+      "servicios",
+      "movilidad"
+    ],
+    "projects": [
+      "cuadro-indicadores",
+      "mapa-tiempo-servicios",
+      "cartera-inversion-municipal",
+      "inventario-recursos-compartibles"
+    ],
+    "obligations": [],
+    "services": [],
+    "phases": [
+      "Cargar indicadores oficiales y comprobar año/fuente.",
+      "Separar señales demográficas, acceso, conectividad y economía.",
+      "Contrastar con municipios comparables y conocimiento local.",
+      "Traducir señales en una cartera 1·3·5 años con responsables e indicadores."
+    ]
+  },
+  {
+    "id": "respuesta-envejecimiento",
+    "title": "Envejecimiento y servicios de proximidad",
+    "promise": "Diseñar servicios que funcionen para una población mayor sin convertir todo en una app.",
+    "for": "Municipios con edad media o peso de mayores elevados.",
+    "priority_tags": [
+      "servicios",
+      "movilidad",
+      "mayores"
+    ],
+    "projects": [
+      "plan-cuidados-territorial",
+      "servicio-acompanamiento-mayores",
+      "transporte-sanitario-no-urgente",
+      "plan-accesibilidad-administrativa"
+    ],
+    "obligations": [
+      "accesibilidad-web"
+    ],
+    "services": [],
+    "phases": [
+      "Mapear necesidades y acceso real a servicios.",
+      "Identificar recursos existentes y vacíos.",
+      "Diseñar canal presencial/telefónico/digital combinado.",
+      "Medir cobertura, tiempos y continuidad."
+    ]
+  },
+  {
+    "id": "accesibilidad-territorial",
+    "title": "Accesibilidad territorial y país de los 30 minutos",
+    "promise": "Priorizar movilidad y servicios según tiempos reales de acceso, no solo distancia.",
+    "for": "Municipios alejados de hospital, autovía u otros servicios esenciales.",
+    "priority_tags": [
+      "movilidad",
+      "servicios",
+      "despoblacion"
+    ],
+    "projects": [
+      "mapa-tiempo-servicios",
+      "transporte-demanda",
+      "microhub-servicios",
+      "agenda-servicios-moviles"
+    ],
+    "obligations": [],
+    "services": [],
+    "phases": [
+      "Identificar servicios críticos y tiempos de acceso.",
+      "Diferenciar carencia de servicio de carencia de transporte.",
+      "Priorizar soluciones compartidas o a demanda.",
+      "Integrar horarios, reservas e información en un punto único."
+    ]
+  },
+  {
+    "id": "conectividad-inclusiva",
+    "title": "Conectividad útil e inclusión digital",
+    "promise": "Evitar que la digitalización municipal dependa de una conectividad doméstica que parte de la población no tiene.",
+    "for": "Municipios con cobertura insuficiente o población vulnerable a la brecha digital.",
+    "priority_tags": [
+      "conectividad",
+      "administracion",
+      "servicios"
+    ],
+    "projects": [
+      "plan-conectividad-hogares",
+      "punto-conectividad-resiliente",
+      "wifi-inclusion",
+      "alfabetizacion-digital"
+    ],
+    "obligations": [
+      "accesibilidad-web"
+    ],
+    "services": [
+      "clave",
+      "portal-eell"
+    ],
+    "phases": [
+      "Comprobar cobertura y zonas sin servicio suficiente.",
+      "Garantizar puntos de acceso y acompañamiento.",
+      "Diseñar trámites con alternativas no exclusivamente digitales.",
+      "Revisar oportunidades de despliegue y demanda rural."
+    ]
+  },
+  {
+    "id": "cartera-estrategica",
+    "title": "Cartera municipal 1·3·5 años",
+    "promise": "Convertir proyectos sueltos y subvenciones oportunistas en una secuencia sostenible.",
+    "for": "Ayuntamientos que acumulan ideas pero necesitan priorizar capacidad, mantenimiento y financiación.",
+    "priority_tags": [
+      "administracion",
+      "contratacion",
+      "datos"
+    ],
+    "projects": [
+      "cartera-inversion-municipal",
+      "inventario-contratos-tic",
+      "plan-renovaciones",
+      "catalogo-necesidades"
+    ],
+    "obligations": [
+      "contratacion-publica"
+    ],
+    "services": [
+      "central-contratacion-femp"
+    ],
+    "phases": [
+      "Separar urgencias de capacidades estructurales.",
+      "Asignar responsable, coste recurrente e indicador a cada proyecto.",
+      "Ordenar en 1, 3 y 5 años según dependencia y capacidad.",
+      "Revisar la cartera cada semestre y retirar proyectos sin caso de uso."
+    ]
+  }
+]

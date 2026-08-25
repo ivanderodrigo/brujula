@@ -1,0 +1,64 @@
+name: Actualizar datos de Brújula Municipal
+
+"on":
+  schedule:
+    # 03:17 UTC: evita las horas en punto, donde GitHub avisa de mayor carga.
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Tipo de actualización'
+        required: true
+        default: 'daily'
+        type: choice
+        options:
+          - daily
+          - full
+          - validate-only
+
+permissions:
+  contents: write
+
+concurrency:
+  group: brujula-data-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Actualizar y validar
+        env:
+          BRUJULA_REQUIRE_NATIONAL: '1'
+        run: |
+          MODE="${{ github.event.inputs.mode || 'daily' }}"
+          python tools/actualizar_todo.py --mode "$MODE"
+
+      - name: Comprobar si hay cambios publicables
+        id: changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Publicar datos validados en el repositorio
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "brujula-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "datos: actualización automática $(date -u +'%Y-%m-%d')"
+          git push

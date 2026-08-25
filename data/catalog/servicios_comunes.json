@@ -1,0 +1,222 @@
+[
+  {
+    "id": "portal-eell",
+    "title": "Portal de Entidades Locales",
+    "organization": "Administración General del Estado / SGAD",
+    "category": "administracion",
+    "status": "verified",
+    "summary": "Punto centralizado para que las entidades locales accedan a aplicaciones y servicios estatales dirigidos al ámbito local.",
+    "when": "Antes de comprar o desarrollar una aplicación administrativa, comprueba si el servicio que necesitas ya está disponible aquí.",
+    "topics": [
+      "administracion",
+      "servicios",
+      "interoperabilidad"
+    ],
+    "source": "https://administracionelectronica.gob.es/ctt/portaleell/abstract",
+    "verified": "2026-08-25"
+  },
+  {
+    "id": "sir",
+    "title": "SIR · Sistema de Interconexión de Registros",
+    "organization": "SGAD",
+    "category": "interoperabilidad",
+    "status": "verified",
+    "summary": "Infraestructura básica para intercambiar asientos registrales electrónicos entre Administraciones Públicas.",
+    "when": "Si necesitas intercambio registral con otras administraciones, revisa primero cómo accede tu entidad a SIR mediante soluciones certificadas.",
+    "topics": [
+      "administracion",
+      "interoperabilidad",
+      "registro"
+    ],
+    "source": "https://administracionelectronica.gob.es/ctt/sir",
+    "verified": "2026-08-25"
+  },
+  {
+    "id": "orve",
+    "title": "ORVE · Oficina de Registro Virtual",
+    "organization": "SGAD",
+    "category": "administracion",
+    "status": "verified",
+    "summary": "Servicio común de registro que permite gestionar oficinas de registro y remisión electrónica entre administraciones.",
+    "when": "Útil cuando el problema es registro/intercambio y no necesitas construir una plataforma propia.",
+    "topics": [
+      "administracion",
+      "registro",
+      "interoperabilidad"
+    ],
+    "source": "https://administracionelectronica.gob.es/ctt/orve",
+    "verified": "2026-08-25"
+  },
+  {
+    "id": "notifica",
+    "title": "Notifica / DEHú",
+    "organization": "SGAD",
+    "category": "administracion",
+    "status": "verified",
+    "summary": "Servicio compartido para la gestión de notificaciones administrativas y su puesta a disposición electrónica.",
+    "when": "Antes de contratar un sistema aislado de notificaciones, revisa la adhesión y la integración disponible para tu entidad.",
+    "topics": [
+      "administracion",
+      "notificaciones",
+      "digitalizacion"
+    ],
+    "source": "https://administracionelectronica.gob.es/ctt/notifica/mas",
+    "verified": "2026-08-25"
+  },
+  {
+    "id": "face",
+    "title": "FACe · Factura electrónica",
+    "organization": "SGAD",
+    "category": "administracion",
+    "status": "verified",
+    "summary": "Punto general de entrada de facturas electrónicas utilizado por miles de administraciones públicas, incluidas entidades locales.",
+    "when": "Si tu necesidad es recepción y gestión de factura electrónica, comprueba la adhesión y las integraciones disponibles antes de adquirir otra solución.",
+    "topics": [
+      "administracion",
+      "factura",
+      "contratacion"
+    ],
+    "source": "https://administracionelectronica.gob.es/ctt/face",
+    "verified": "2026-08-25"
+  },
+  {
+    "id": "clave",
+    "title": "Cl@ve Identificación",
+    "organization": "SGAD",
+    "category": "identidad",
+    "status": "verified",
+    "summary": "Plataforma común de identificación y autenticación electrónica abierta a su utilización por las Administraciones Públicas.",
+    "when": "Para servicios ciudadanos con identificación, revisa primero si puedes reutilizar Cl@ve en lugar de crear credenciales municipales propias.",
+    "topics": [
+      "administracion",
+      "identidad",
+      "firma",
+      "digitalizacion"
+    ],
+    "source": "https://administracionelectronica.gob.es/ctt/clave",
+    "verified": "2026-08-25"
+  },
+  {
+    "id": "inside",
+    "title": "InSide · Documento y expediente electrónico",
+    "organization": "SGAD",
+    "category": "interoperabilidad",
+    "status": "verified",
+    "summary": "Sistema para gestionar, validar y generar documentos y expedientes electrónicos conforme al ENI.",
+    "when": "Si tu problema es expediente/documento interoperable, evalúa InSide/G-InSide antes de abordar desarrollos propios.",
+    "topics": [
+      "administracion",
+      "archivo",
+      "interoperabilidad",
+      "documento"
+    ],
+    "source": "https://administracionelectronica.gob.es/ctt/inside",
+    "verified": "2026-08-25"
+  },
+  {
+    "id": "sedipualba",
+    "title": "SEDIPUALB@",
+    "organization": "Diputación de Albacete / comunidad de administraciones usuarias",
+    "category": "administracion",
+    "status": "verified",
+    "summary": "Plataforma integral de administración electrónica para entidades locales con registro, firma, facturas, documentos, resoluciones y órganos colegiados.",
+    "when": "Es un buen ejemplo de solución supramunicipal reutilizable: comprueba si tu diputación ofrece esta u otra plataforma equivalente.",
+    "topics": [
+      "administracion",
+      "sede",
+      "registro",
+      "firma",
+      "factura",
+      "archivo"
+    ],
+    "source": "https://administracionelectronica.gob.es/ctt/verIniciativaPInfoAdificional.htm?idIniciativa=sedipualba",
+    "verified": "2026-08-25"
+  },
+  {
+    "id": "ccn-pce-eell",
+    "title": "CCN · Perfil ENS para Entidades Locales",
+    "organization": "Centro Criptológico Nacional",
+    "category": "ciberseguridad",
+    "status": "verified",
+    "summary": "Guías y perfiles de cumplimiento específico del ENS, incluidos perfiles para entidades locales y entidades de menor tamaño.",
+    "when": "Antes de diseñar un programa ENS desde cero, revisa el perfil que corresponda a tu entidad y úsalo para acotar el alcance.",
+    "topics": [
+      "ens",
+      "ciberseguridad",
+      "seguridad"
+    ],
+    "source": "https://www.ccn-cert.cni.es/es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad?format=html&limit=20&limitstart=160",
+    "verified": "2026-08-25"
+  },
+  {
+    "id": "femp-central",
+    "title": "Central de Contratación FEMP",
+    "organization": "FEMP",
+    "category": "contratacion",
+    "status": "verified",
+    "summary": "Central de contratación para entidades locales; en 2026 la FEMP comunicó más de 2.500 entidades adheridas y una red orientada a municipios con recursos limitados.",
+    "when": "Antes de licitar individualmente suministros o servicios disponibles en acuerdos marco, comprueba la Central y otras centrales provinciales/autonómicas.",
+    "topics": [
+      "contratacion",
+      "servicios",
+      "energia",
+      "telecomunicaciones"
+    ],
+    "source": "https://www.femp.es/noticias/2026/06/17/la-central-de-contratacion-de-la-femp-red-de-redes-al-servicio-de-las-entidades-locales",
+    "verified": "2026-08-25"
+  },
+  {
+    "id": "femp-datos",
+    "title": "Red de Ciudades del Dato / EDINT",
+    "organization": "FEMP",
+    "category": "datos",
+    "status": "verified",
+    "summary": "Ecosistema municipal para avanzar en gobernanza, compartición y reutilización de datos urbanos e infraestructuras inteligentes.",
+    "when": "Si quieres iniciar proyectos de datos o IA, puede ser más útil conectar con un ecosistema común que crear una arquitectura aislada.",
+    "topics": [
+      "datos",
+      "ia",
+      "iot",
+      "energia",
+      "movilidad",
+      "comercio"
+    ],
+    "source": "https://www.femp.es/noticias/2026/05/18/la-femp-lanza-la-red-de-ciudades-del-dato-para-transformar-la-gestion-local-informacion-y-tecnologia-al-servicio-del-ciudadano",
+    "verified": "2026-08-25"
+  },
+  {
+    "id": "femp-ia",
+    "title": "Guía práctica de IA para entidades locales",
+    "organization": "FEMP",
+    "category": "ia",
+    "status": "verified",
+    "summary": "Guía 2026 con marco jurídico, gobernanza del dato, madurez, escenarios de despliegue y casos de uso de IA en gobiernos locales.",
+    "when": "Úsala como punto de partida antes de implantar IA: política de uso, datos, riesgos, organización y casos deben preceder a la compra de herramientas.",
+    "topics": [
+      "ia",
+      "datos",
+      "gobernanza",
+      "digitalizacion"
+    ],
+    "source": "https://www.femp.es/documentos",
+    "verified": "2026-08-25"
+  },
+  {
+    "id": "miteco-reto-datos",
+    "title": "Cartografía y datos de Reto Demográfico",
+    "organization": "MITECO · Secretaría General para el Reto Demográfico",
+    "category": "territorio",
+    "status": "verified",
+    "summary": "Conjuntos cartográficos oficiales sobre población, densidad, envejecimiento, variación demográfica, renta, empleo y otros indicadores territoriales.",
+    "when": "Antes de justificar un proyecto territorial, vivienda, movilidad o servicios, revisa estos indicadores para fundamentar el diagnóstico con datos.",
+    "topics": [
+      "despoblacion",
+      "datos",
+      "vivienda",
+      "movilidad",
+      "servicios"
+    ],
+    "source": "https://www.miteco.gob.es/es/cartografia-y-sig/ide/descargas/reto-demografico.html",
+    "verified": "2026-08-25"
+  }
+]

@@ -1,0 +1,244 @@
+[
+  {
+    "id": "reto-demografico-2026-2029",
+    "title": "Proyectos innovadores contra la despoblación · convocatoria 2026–2029",
+    "type": "subvencion",
+    "status": "announced",
+    "status_label": "Anunciada por Consejo de Ministros · pendiente de publicación de convocatoria",
+    "organization": "MITECO · Secretaría General para el Reto Demográfico",
+    "scope": "España",
+    "topics": [
+      "despoblacion",
+      "innovacion",
+      "emprendimiento",
+      "vivienda",
+      "movilidad",
+      "servicios",
+      "resiliencia",
+      "bioeconomia"
+    ],
+    "beneficiary_types": [
+      "local_entity"
+    ],
+    "population_rules": [],
+    "budget_total": 80000000,
+    "summary": "El Consejo de Ministros autorizó el 25/08/2026 una convocatoria de hasta 80 M€ para proyectos promovidos por entidades locales entre 2026 y 2029, orientados a innovación territorial, reactivación socioeconómica y reto demográfico.",
+    "source": "https://www.miteco.gob.es/es/prensa/ultimas-noticias/2026/agosto/el-gobierno-duplica-hasta-los-80-millones-de-euros-las-ayudas-a-.html",
+    "verified": "2026-08-25",
+    "warning": "La autorización no equivale a convocatoria abierta. Hay que esperar la publicación oficial y comprobar bases, plazos, beneficiarios y criterios concretos."
+  },
+  {
+    "id": "agenda2030-2026",
+    "title": "Agenda 2030 en Entidades Locales · convocatoria 2026",
+    "type": "subvencion",
+    "status": "closed",
+    "status_label": "Cerrada · referencia reciente",
+    "organization": "Ministerio de Derechos Sociales, Consumo y Agenda 2030",
+    "scope": "España",
+    "topics": [
+      "gobernanza",
+      "planificacion",
+      "servicios",
+      "despoblacion"
+    ],
+    "beneficiary_types": [
+      "municipality",
+      "local_entity"
+    ],
+    "population_rules": [
+      {
+        "max": 5000,
+        "note": "Tramo específico de crédito para entidades de población ≤5.000 habitantes."
+      }
+    ],
+    "budget_total": 5977299.28,
+    "project_min": 20000,
+    "project_max": 250000,
+    "deadline": "2026-08-10",
+    "summary": "Financia planes y proyectos locales de implementación, alineación y localización de la Agenda 2030.",
+    "source": "https://www.boe.es/buscar/doc.php?id=BOE-B-2026-23632",
+    "bdns": "917873",
+    "verified": "2026-08-25",
+    "warning": "El plazo era de un mes desde la publicación del 9/07/2026; a 25/08/2026 se muestra como cerrada."
+  },
+  {
+    "id": "redes-territorios-inteligentes-2025",
+    "title": "Programa de impulso a ciudades y territorios inteligentes",
+    "type": "ayuda_en_especie",
+    "status": "closed",
+    "status_label": "Cerrada · presupuesto ampliado en agosto de 2026",
+    "organization": "Red.es",
+    "scope": "España",
+    "topics": [
+      "digitalizacion",
+      "datos",
+      "iot",
+      "emprendimiento"
+    ],
+    "beneficiary_types": [
+      "local_entity"
+    ],
+    "population_rules": [],
+    "budget_total": 150532034.25,
+    "project_min": 1500000,
+    "project_max": 6000000,
+    "deadline": "2026-03-30",
+    "summary": "Ayudas en especie para infraestructuras tecnológicas, soluciones avanzadas y puesta en valor de datos de ciudades y territorios.",
+    "source": "https://www.boe.es/buscar/doc.php?id=BOE-B-2026-2419",
+    "update_source": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-27173",
+    "bdns": "881920",
+    "verified": "2026-08-25",
+    "warning": "La ampliación presupuestaria publicada el 15/08/2026 no se interpreta como reapertura del plazo."
+  },
+  {
+    "id": "reto-demografico-2025",
+    "title": "Proyectos innovadores de transformación territorial y lucha contra la despoblación",
+    "type": "subvencion",
+    "status": "resolution",
+    "status_label": "Convocatoria 2025 · resolución provisional publicada",
+    "organization": "MITECO · Secretaría General para el Reto Demográfico",
+    "scope": "España",
+    "topics": [
+      "despoblacion",
+      "vivienda",
+      "movilidad",
+      "emprendimiento",
+      "servicios",
+      "cultura"
+    ],
+    "beneficiary_types": [
+      "local_entity"
+    ],
+    "population_rules": [],
+    "budget_total": 40000000,
+    "summary": "Línea para proyectos innovadores promovidos por entidades locales contra la despoblación; en julio de 2026 se publicaron beneficiarios provisionales de la convocatoria 2025.",
+    "source": "https://www.miteco.gob.es/es/prensa/ultimas-noticias/2026/julio/el-miteco-publica-los-beneficiarios-provisionales-de-40-millones.html",
+    "verified": "2026-08-25",
+    "warning": "No es una convocatoria abierta a 25/08/2026."
+  },
+  {
+    "id": "patrimonio-bibliografico-2026",
+    "title": "Digitalización y preservación del patrimonio bibliográfico · 2026",
+    "type": "subvencion",
+    "status": "closed",
+    "status_label": "Cerrada",
+    "organization": "Ministerio de Cultura",
+    "scope": "España",
+    "topics": [
+      "patrimonio",
+      "digitalizacion",
+      "cultura"
+    ],
+    "beneficiary_types": [
+      "local_entity"
+    ],
+    "population_rules": [],
+    "budget_local_entities": 100000,
+    "project_max": 60000,
+    "deadline": "2026-05-18",
+    "summary": "Digitalización de patrimonio bibliográfico y agregación posterior en Hispana/Europeana, con requisitos específicos sobre los bienes.",
+    "source": "https://www.boe.es/buscar/doc.php?id=BOE-B-2026-13098",
+    "verified": "2026-08-25",
+    "warning": "Fecha de cierre calculada a partir de 15 días hábiles desde la publicación; debe comprobarse el cómputo oficial antes de reutilizarla."
+  },
+  {
+    "id": "idae-alumbrado-2025",
+    "title": "Renovación de alumbrado exterior municipal · 2ª convocatoria",
+    "type": "prestamo_sin_interes",
+    "status": "resolved",
+    "status_label": "Resuelta en 2025 · referencia de financiación",
+    "organization": "IDAE",
+    "scope": "España",
+    "topics": [
+      "energia",
+      "alumbrado"
+    ],
+    "beneficiary_types": [
+      "local_entity"
+    ],
+    "population_rules": [],
+    "budget_total": 142146435,
+    "funding_rate": 100,
+    "summary": "Préstamos reembolsables sin interés para renovación del alumbrado; la resolución definitiva de 2025 seleccionó 70 municipios.",
+    "source": "https://www.idae.es/noticias/el-idae-asigna-142-millones-de-euros-en-ayudas-para-modernizar-el-alumbrado-publico-de-70",
+    "verified": "2026-08-25",
+    "warning": "No es una convocatoria abierta; sirve como referencia para vigilar futuras ediciones."
+  },
+  {
+    "id": "dus5000-referencia",
+    "title": "DUS 5000 · energía limpia en municipios de reto demográfico",
+    "type": "programa_referencia",
+    "status": "reference",
+    "status_label": "Programa de referencia · comprobar nuevas convocatorias",
+    "organization": "IDAE",
+    "scope": "Municipios de reto demográfico según el programa",
+    "topics": [
+      "energia",
+      "alumbrado",
+      "autoconsumo",
+      "movilidad",
+      "smart-rural"
+    ],
+    "beneficiary_types": [
+      "local_entity"
+    ],
+    "population_rules": [],
+    "project_min": 40000,
+    "project_max": 3000000,
+    "funding_rate_base": 85,
+    "funding_rate_max": 100,
+    "summary": "Programa de referencia para inversiones locales de energía limpia, con medidas de edificios, renovables, alumbrado inteligente y movilidad.",
+    "source": "https://idae.es/ayudas-y-financiacion/programa-dus-5000-ayudas-para-inversiones-proyectos-singulares-locales-de",
+    "verified": "2026-08-25",
+    "warning": "No se presenta como convocatoria abierta actual."
+  },
+  {
+    "id": "perte-agua-referencia",
+    "title": "PERTE de digitalización del ciclo del agua · referencia municipal",
+    "type": "programa_referencia",
+    "status": "reference",
+    "status_label": "Programa/actuaciones de referencia",
+    "organization": "MITECO",
+    "scope": "España / despliegues estatales y autonómicos",
+    "topics": [
+      "agua",
+      "digitalizacion",
+      "telelectura",
+      "fugas"
+    ],
+    "beneficiary_types": [
+      "local_entity",
+      "operator"
+    ],
+    "population_rules": [],
+    "summary": "El PERTE ha financiado actuaciones de telelectura, telegestión, sectorización y digitalización en numerosos municipios, incluidos municipios menores de 20.000 habitantes.",
+    "source": "https://www.miteco.gob.es/content/dam/miteco/es/agua/temas/pertes/conferencia-sectorial/2024-12-09-Informe-Actuaciones-CCAA-C5I3.pdf",
+    "verified": "2026-08-25",
+    "warning": "Es una referencia de líneas y actuaciones ya financiadas; no equivale a una convocatoria abierta."
+  },
+  {
+    "id": "el-hoyo-agua-2026",
+    "title": "Mejora del abastecimiento de El Hoyo y Solanilla del Tamaral",
+    "type": "inversion_publica",
+    "status": "announced",
+    "status_label": "Inversión pública anunciada",
+    "organization": "Gobierno de Castilla-La Mancha / Agencia del Agua",
+    "scope": "El Hoyo y Solanilla del Tamaral",
+    "topics": [
+      "agua",
+      "telecontrol"
+    ],
+    "beneficiary_types": [
+      "specific"
+    ],
+    "population_rules": [],
+    "budget_total": 175000,
+    "summary": "Actuaciones anunciadas de tratamiento, filtrado, desinfección y telecontrol; el importe publicado corresponde al conjunto de ambos núcleos.",
+    "source": "https://iaclm.es/el-gobierno-de-garcia-page-resolvera-el-problema-historico-de-abastecimiento-de-agua-en-el-hoyo-y-en-solanilla-del-tamaral-con-una-inversion-de-175-000-euros/",
+    "verified": "2026-08-25",
+    "specific_entities": [
+      "el-hoyo"
+    ],
+    "warning": "No es una subvención abierta y 175.000 € no se atribuyen íntegramente a El Hoyo."
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "sources": {},
+  "note": "Estado de cadencias del pipeline automático. Se inicializa en la primera ejecución satisfactoria.",
+  "last_successful_pipeline": "2026-08-25T15:35:12+00:00",
+  "mode": "validate-only",
+  "last_run_sources": []
+}
