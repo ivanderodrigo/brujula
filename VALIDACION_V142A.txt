@@ -1,0 +1,12 @@
+BRÚJULA MUNICIPAL v1.4.2a · HOTFIX DE VISIBILIDAD
+
+OK · assets/js/app.js pasa node --check.
+OK · scripts inline de plan, detalle de proyecto y autor pasan node --check.
+OK · Mi plan contiene de forma explícita “+ Añadir proyecto al plan”.
+OK · selector de proyectos mantiene recálculo de plan y cautelas.
+OK · detalle de proyecto contiene siempre “Cómo ponerlo en marcha” con municipio seleccionado.
+OK · servicio público/provincial verificado bloquea la oferta de apoyo del autor.
+OK · servicio común/competencia provincial no confirmada permite fallback: comprobar primero lo público y, si no cubre, contactar con el autor.
+OK · ausencia de vía pública suficiente + proyecto que requiere apoyo permite contacto directo contextual.
+OK · página secundaria /autor/ disponible sin añadir navegación principal.
+OK · cache-busting ?v=142a en páginas críticas.
