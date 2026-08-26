@@ -1,0 +1,17 @@
+VALIDACIÓN BRÚJULA MUNICIPAL v1.2.1 RICH MINIMAL
+
+- JavaScript app.js: sintaxis OK (node --check)
+- HTML páginas principales: parseo OK
+- Validación estructural sobre repositorio completo: PUBLICABLE
+- Proyectos base detectados: 175
+- Obligaciones editoriales: 27
+- Servicios comunes: 13
+- Playbooks: 15
+- Apoyos: 9
+- Radar BDNS: se carga dinámicamente desde data/generated/oportunidades_bdns.json
+- Radar BOE: se carga dinámicamente desde data/generated/normativa_boe.json
+- data/generated: NO incluido en overlay
+- data/localidades: NO incluido en overlay
+- Navegación principal: Inicio · Obligaciones · Ayudas · Proyectos · Mi plan
+
+Principio UX validado: primera capa prioritaria + segunda capa de catálogo completo.

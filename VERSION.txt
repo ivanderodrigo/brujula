@@ -1,1 +1,2 @@
-Brújula Municipal v1.2.0 SIMPLE
+Brújula Municipal v1.2.1 RICH MINIMAL
+Sencillez en primera capa · riqueza de datos en segunda capa

@@ -629,3 +629,47 @@ window.addEventListener('DOMContentLoaded',()=>{sharedUI();globalSearch();window
   window.addEventListener('DOMContentLoaded',()=>BM.applySimpleChrome());
   window.addEventListener('bm-ready',()=>BM.applySimpleChrome());
 })();
+
+/* v1.2.1 RICH MINIMAL · toda la información, en capas */
+(function(){
+  BM.richStats=async function(profile){
+    const [projects,opps,obls,support,services,playbooks,signals]=await Promise.all([
+      this.json('data/catalog/proyectos.json'),this.opportunities(),this.obligations(),this.support(),this.services(),this.playbooks(),this.signals()
+    ]);
+    const verified=opps.filter(o=>o.review_status!=='pending'&&o.status!=='pending_review');
+    const radar=opps.filter(o=>o.review_status==='pending'||o.status==='pending_review');
+    const boeRadar=obls.filter(o=>o.review_status==='pending');
+    return {projects:projects.length,opportunities:opps.length,verified_opportunities:verified.length,radar_opportunities:radar.length,obligations:obls.filter(o=>o.review_status!=='pending').length,boe_radar:boeRadar.length,support:support.length,services:services.length,playbooks:playbooks.length,signals:signals.length};
+  };
+  BM.projectRecommendations=async function(profile,limit=8){
+    const projects=await this.json('data/catalog/proyectos.json');
+    if(!profile)return projects.slice(0,limit);
+    return projects.map(p=>({p,score:this.projectFitScore(p,profile)})).sort((a,b)=>b.score-a.score).slice(0,limit).map(x=>x.p);
+  };
+  BM.opportunityLayers=async function(profile){
+    const all=await this.opportunities();
+    const rows=all.map(o=>({o,match:this.matchOpportunity(o,profile),score:this.opportunityScore(o,profile)}));
+    const recommended=rows.filter(x=>x.o.review_status!=='pending'&&x.o.status!=='pending_review'&&['open','announced'].includes(x.o.status)&&x.match.level!=='fail').sort((a,b)=>b.score-a.score);
+    const radar=rows.filter(x=>x.o.review_status==='pending'||x.o.status==='pending_review').sort((a,b)=>b.score-a.score);
+    return {all:rows.sort((a,b)=>b.score-a.score),recommended,radar};
+  };
+  BM.obligationLayers=async function(){
+    const all=await this.obligations();
+    const weight={critico:4,alto:3,medio:2,bajo:1};
+    const curated=all.filter(o=>o.review_status!=='pending').sort((a,b)=>(weight[b.impact]||0)-(weight[a.impact]||0));
+    const radar=all.filter(o=>o.review_status==='pending');
+    return {all,curated,radar};
+  };
+  BM.applySimpleChrome=function(){
+    const base=this.base(),path=location.pathname;
+    document.querySelectorAll('.navlinks').forEach(nav=>{
+      nav.innerHTML=`<a href="${base}" ${path==='/'||/(^|\/)index\.html$/.test(path)?'aria-current="page"':''}>Inicio</a><a href="${base}obligaciones/" ${path.includes('/obligaciones/')?'aria-current="page"':''}>Obligaciones</a><a href="${base}oportunidades/" ${path.includes('/oportunidades/')?'aria-current="page"':''}>Ayudas</a><a href="${base}proyectos/" ${path.includes('/proyectos/')?'aria-current="page"':''}>Proyectos</a><a href="${base}plan/" ${path.includes('/plan/')?'aria-current="page"':''}>Mi plan</a>`;
+    });
+    document.querySelectorAll('.workspace-btn').forEach(x=>x.remove());
+    document.querySelectorAll('.brand-sub').forEach(x=>x.textContent='decisiones claras para municipios pequeños');
+    document.querySelectorAll('.municipality-copy small').forEach(x=>x.textContent='Cambiar municipio');
+    document.body.classList.add('bm-simple','bm-rich-minimal');
+  };
+  window.addEventListener('DOMContentLoaded',()=>BM.applySimpleChrome());
+  window.addEventListener('bm-ready',()=>BM.applySimpleChrome());
+})();
