@@ -1,0 +1,201 @@
+{
+  "version": "1.4.2",
+  "updated": "2026-08-26",
+  "principle": "Fuentes oficiales adicionales para ampliar la búsqueda sin convertir la interfaz en un agregador indiscriminado.",
+  "sources": [
+    {
+      "id": "bdns",
+      "name": "BDNS / SNPSAP",
+      "level": "España",
+      "kind": "live_api",
+      "topics": [
+        "todos"
+      ],
+      "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/index",
+      "notes": "Fuente principal de subvenciones publicadas en España."
+    },
+    {
+      "id": "eu-funding-tenders",
+      "name": "EU Funding & Tenders Portal",
+      "level": "UE",
+      "kind": "direct_eu",
+      "topics": [
+        "digitalizacion",
+        "ciberseguridad",
+        "energia",
+        "clima",
+        "medioambiente",
+        "participacion",
+        "innovacion"
+      ],
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home",
+      "notes": "Portal central de convocatorias directas de la Comisión y agencias ejecutivas."
+    },
+    {
+      "id": "life",
+      "name": "LIFE / CINEA",
+      "level": "UE",
+      "kind": "direct_eu",
+      "topics": [
+        "energia",
+        "clima",
+        "medioambiente",
+        "biodiversidad",
+        "agua",
+        "residuos",
+        "vivienda"
+      ],
+      "url": "https://cinea.ec.europa.eu/life-calls-proposals-2026_en",
+      "admin_effort": "high"
+    },
+    {
+      "id": "interreg",
+      "name": "Interreg Calls",
+      "level": "UE",
+      "kind": "territorial_cooperation",
+      "topics": [
+        "digitalizacion",
+        "clima",
+        "servicios",
+        "despoblacion",
+        "turismo",
+        "patrimonio",
+        "innovacion"
+      ],
+      "url": "https://interreg.eu/calls-for-projects/",
+      "admin_effort": "high"
+    },
+    {
+      "id": "poctep",
+      "name": "Interreg POCTEP",
+      "level": "España-Portugal",
+      "kind": "cross_border",
+      "topics": [
+        "digitalizacion",
+        "energia",
+        "clima",
+        "biodiversidad",
+        "empleo",
+        "educacion",
+        "salud",
+        "turismo",
+        "gobernanza"
+      ],
+      "url": "https://www.poctep.eu/proximas-convocatorias/",
+      "admin_effort": "high"
+    },
+    {
+      "id": "sudoe",
+      "name": "Interreg Sudoe",
+      "level": "Sudoeste europeo",
+      "kind": "transnational",
+      "topics": [
+        "clima",
+        "agua",
+        "servicios",
+        "despoblacion",
+        "innovacion",
+        "patrimonio"
+      ],
+      "url": "https://interreg-sudoe.eu/",
+      "admin_effort": "high"
+    },
+    {
+      "id": "cerv",
+      "name": "CERV",
+      "level": "UE",
+      "kind": "direct_eu",
+      "topics": [
+        "participacion",
+        "cultura",
+        "memoria",
+        "igualdad",
+        "juventud"
+      ],
+      "url": "https://commission.europa.eu/funding-tenders/find-funding/eu-funding-programmes/citizens-equality-rights-and-values-programme_en",
+      "admin_effort": "medium"
+    },
+    {
+      "id": "erasmus",
+      "name": "Erasmus+",
+      "level": "UE",
+      "kind": "direct_eu",
+      "topics": [
+        "juventud",
+        "educacion",
+        "participacion",
+        "deporte"
+      ],
+      "url": "https://erasmus-plus.ec.europa.eu/erasmus-programme-guide",
+      "admin_effort": "medium"
+    },
+    {
+      "id": "leader",
+      "name": "LEADER / Grupos de Acción Local",
+      "level": "Rural",
+      "kind": "local_rural",
+      "topics": [
+        "despoblacion",
+        "emprendimiento",
+        "turismo",
+        "patrimonio",
+        "servicios",
+        "economia_local"
+      ],
+      "url": "https://www.redpac.gob.es/visores_redpac/gal",
+      "admin_effort": "low",
+      "notes": "La convocatoria concreta depende del Grupo de Acción Local y de la comunidad autónoma."
+    },
+    {
+      "id": "prtr",
+      "name": "Plan de Recuperación · buscador oficial",
+      "level": "España / UE",
+      "kind": "aggregator_official",
+      "topics": [
+        "digitalizacion",
+        "energia",
+        "vivienda",
+        "movilidad",
+        "agua",
+        "turismo",
+        "servicios",
+        "todos"
+      ],
+      "url": "https://planderecuperacion.gob.es/como-acceder-a-los-fondos/convocatorias",
+      "notes": "Buscador oficial PRTR que integra fuentes estatales y autonómicas; sirve como segunda capa de detección y contraste."
+    },
+    {
+      "id": "idae",
+      "name": "IDAE · ayudas y financiación",
+      "level": "España",
+      "kind": "sector_official",
+      "topics": [
+        "energia",
+        "alumbrado",
+        "autoconsumo",
+        "rehabilitacion",
+        "movilidad",
+        "clima"
+      ],
+      "url": "https://www.idae.es/ayudas-y-financiacion",
+      "admin_effort": "medium"
+    },
+    {
+      "id": "fundacion-biodiversidad",
+      "name": "Fundación Biodiversidad · convocatorias",
+      "level": "España / FEDER / MITECO",
+      "kind": "sector_official",
+      "topics": [
+        "clima",
+        "biodiversidad",
+        "renaturalizacion",
+        "medioambiente",
+        "agua",
+        "empleo",
+        "adaptacion"
+      ],
+      "url": "https://fundacion-biodiversidad.es/buscador-de-convocatorias/",
+      "admin_effort": "medium"
+    }
+  ]
+}

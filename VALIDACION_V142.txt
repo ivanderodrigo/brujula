@@ -1,0 +1,38 @@
+BRÚJULA MUNICIPAL v1.4.2 · DEEP DECISION
+Validación local de overlay sobre catálogo de referencia completo
+Fecha: 2026-08-26
+
+RESULTADOS
+- JavaScript principal (node --check): OK
+- JavaScript inline de Inicio, Obligaciones, Ayudas, Proyectos y Mi plan: OK
+- Python actualizar_bdns.py: OK
+- Python actualizar_fuentes_financiacion.py: OK
+- Regresión motor v1.4.0: OK
+- Regresión lógica profunda v1.4.1: OK
+- Prueba específica v1.4.2: OK
+- Validador estructural: RESULTADO PUBLICABLE
+
+CATÁLOGO DE REFERENCIA USADO EN PRUEBAS
+- 175 proyectos
+- 27 obligaciones
+- 13 servicios comunes
+- 15 playbooks
+- 9 apoyos
+
+PRUEBAS ESPECÍFICAS v1.4.2
+- Servicio público/provincial verificado -> no muestra asistencia del autor: OK
+- Solo función/posible apoyo provincial -> Diputación primero + autor si no cubre: OK
+- Financiación territorialmente incompatible -> excluida: OK
+- Convocatoria europea compleja en municipio micro -> cautela/capacidad: OK
+- Umbral >20.000 habitantes -> municipio de 800 excluido: OK
+- Convocatoria nacional apta para Administraciones públicas -> no excluida por tamaño: OK
+- Plan automático + proyecto añadido por el equipo: OK
+- Motor de cautelas -> máximo 4 avisos: OK
+- Prioridad a servicio público antes de gastar: OK
+- Sobrecarga de capacidad: OK
+- Registro de 12 familias de fuentes de financiación: OK
+- Integración de oportunidades europeas y nacionales directas: OK
+
+NOTA SOBRE DATOS NACIONALES
+Este paquete es un overlay y deliberadamente NO incluye data/generated/ ni data/localidades/.
+La validación se hizo sobre una base de referencia de catálogo; el recuento local de localidades del fixture no representa la instalación nacional. Al aplicarlo sobre el repositorio real, conserva los datos nacionales existentes y el workflow full los actualiza.

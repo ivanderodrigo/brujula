@@ -1,0 +1,382 @@
+{
+  "version": "1.4.2",
+  "verified": "2026-08-26",
+  "items": [
+    {
+      "type": "eu_opportunity",
+      "review_status": "verified",
+      "verified": "2026-08-26",
+      "extraction_confidence": "high",
+      "automatic_detection": false,
+      "warning": "Fuente oficial europea. La elegibilidad final, el partenariado, la cofinanciación y las condiciones técnicas deben confirmarse en la convocatoria completa.",
+      "id": "eu-life-2026-cet-pda",
+      "title": "LIFE 2026 · Asistencia al desarrollo de inversiones de energía sostenible",
+      "source_kind": "life",
+      "programme": "LIFE Clean Energy Transition",
+      "reference": "LIFE-2026-CET-PDA",
+      "status": "open",
+      "status_label": "Abierta",
+      "application_start": "2026-04-21",
+      "deadline": "2026-09-16",
+      "organization": "Comisión Europea · CINEA",
+      "scope": "Unión Europea",
+      "beneficiary_types": [
+        "local_entity"
+      ],
+      "beneficiary_targets": [
+        "local_entity"
+      ],
+      "topics": [
+        "energia",
+        "clima",
+        "edificios",
+        "financiacion",
+        "administracion"
+      ],
+      "summary": "Asistencia al desarrollo de proyectos para convertir planes de energía sostenible en inversiones preparadas para ejecutarse.",
+      "source": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/project-development-assistance-sustainable-energy-investments-1_en",
+      "administrative_effort": "high",
+      "consortium_mode": "check_topic",
+      "requires_legal_personality": true
+    },
+    {
+      "type": "eu_opportunity",
+      "review_status": "verified",
+      "verified": "2026-08-26",
+      "extraction_confidence": "high",
+      "automatic_detection": false,
+      "warning": "Fuente oficial europea. La elegibilidad final, el partenariado, la cofinanciación y las condiciones técnicas deben confirmarse en la convocatoria completa.",
+      "id": "eu-life-2026-cet-enerpov",
+      "title": "LIFE 2026 · Pobreza energética",
+      "source_kind": "life",
+      "programme": "LIFE Clean Energy Transition",
+      "reference": "LIFE-2026-CET-ENERPOV",
+      "status": "open",
+      "status_label": "Abierta",
+      "application_start": "2026-04-21",
+      "deadline": "2026-09-16",
+      "organization": "Comisión Europea · CINEA",
+      "scope": "Unión Europea",
+      "beneficiary_types": [
+        "local_entity"
+      ],
+      "beneficiary_targets": [
+        "local_entity"
+      ],
+      "topics": [
+        "energia",
+        "vivienda",
+        "servicios",
+        "pobreza_energetica",
+        "mayores"
+      ],
+      "summary": "Proyectos europeos para reducir la pobreza energética y mejorar la capacidad local de llegar a hogares vulnerables.",
+      "source": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/alleviating-household-energy-poverty-europe-1_en",
+      "administrative_effort": "high",
+      "consortium_mode": "check_topic",
+      "requires_legal_personality": true
+    },
+    {
+      "type": "eu_opportunity",
+      "review_status": "verified",
+      "verified": "2026-08-26",
+      "extraction_confidence": "high",
+      "automatic_detection": false,
+      "warning": "Fuente oficial europea. La elegibilidad final, el partenariado, la cofinanciación y las condiciones técnicas deben confirmarse en la convocatoria completa.",
+      "id": "eu-life-2026-cet-enercom",
+      "title": "LIFE 2026 · Comunidades energéticas",
+      "source_kind": "life",
+      "programme": "LIFE Clean Energy Transition",
+      "reference": "LIFE-2026-CET-ENERCOM",
+      "status": "open",
+      "status_label": "Abierta",
+      "application_start": "2026-04-21",
+      "deadline": "2026-09-16",
+      "organization": "Comisión Europea · CINEA",
+      "scope": "Unión Europea",
+      "beneficiary_types": [
+        "local_entity"
+      ],
+      "beneficiary_targets": [
+        "local_entity"
+      ],
+      "topics": [
+        "energia",
+        "autoconsumo",
+        "comunidades_energeticas",
+        "participacion"
+      ],
+      "summary": "Cooperación y apoyo para desplegar comunidades energéticas y soluciones locales de transición energética.",
+      "source": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/facilitating-cooperation-among-energy-communities_en",
+      "administrative_effort": "high",
+      "consortium_mode": "check_topic",
+      "requires_legal_personality": true
+    },
+    {
+      "type": "eu_opportunity",
+      "review_status": "verified",
+      "verified": "2026-08-26",
+      "extraction_confidence": "high",
+      "automatic_detection": false,
+      "warning": "Fuente oficial europea. La elegibilidad final, el partenariado, la cofinanciación y las condiciones técnicas deben confirmarse en la convocatoria completa.",
+      "id": "eu-cerv-2026-town-twinning",
+      "title": "CERV 2026 · Hermanamiento de ciudades",
+      "source_kind": "cerv",
+      "programme": "Citizens, Equality, Rights and Values",
+      "reference": "CERV-2026-CITIZENS-TOWN-TT",
+      "status": "open",
+      "status_label": "Abierta",
+      "deadline": "2026-09-23",
+      "organization": "Comisión Europea",
+      "scope": "Unión Europea",
+      "beneficiary_types": [
+        "municipality",
+        "local_entity"
+      ],
+      "beneficiary_targets": [
+        "municipality",
+        "local_entity"
+      ],
+      "topics": [
+        "participacion",
+        "cultura",
+        "juventud",
+        "ciudadania",
+        "europa"
+      ],
+      "summary": "Apoya intercambios entre localidades y ciudadanía europea alrededor de valores, participación y temas de interés común.",
+      "source": "https://commission.europa.eu/document/download/1f0d875e-c3b4-4933-ac09-de44ae1c4e20_en?filename=Calls+for+proposal+CERV+2026_indicative+planning.pdf",
+      "administrative_effort": "medium",
+      "partners_min": 2,
+      "requires_legal_personality": true,
+      "partnership_note": "Requiere cooperación con localidades/organizaciones de otros países elegibles; confirmar condiciones de la convocatoria."
+    },
+    {
+      "type": "eu_opportunity",
+      "review_status": "verified",
+      "verified": "2026-08-26",
+      "extraction_confidence": "high",
+      "automatic_detection": false,
+      "warning": "Fuente oficial europea. La elegibilidad final, el partenariado, la cofinanciación y las condiciones técnicas deben confirmarse en la convocatoria completa.",
+      "id": "eu-erasmus-2026-youth-participation-r2",
+      "title": "Erasmus+ 2026 · Actividades de participación juvenil · segunda ronda",
+      "source_kind": "erasmus",
+      "programme": "Erasmus+",
+      "reference": "KA154-YOU",
+      "status": "open",
+      "status_label": "Abierta",
+      "deadline": "2026-10-01",
+      "organization": "Erasmus+ · Agencia Nacional",
+      "scope": "España / Unión Europea",
+      "beneficiary_types": [
+        "local_entity"
+      ],
+      "beneficiary_targets": [
+        "local_entity"
+      ],
+      "topics": [
+        "juventud",
+        "participacion",
+        "educacion",
+        "ciudadania"
+      ],
+      "summary": "Actividades que permiten a jóvenes participar en la vida democrática; los organismos públicos locales pueden ser organizaciones participantes.",
+      "source": "https://erasmus-plus.ec.europa.eu/es/programme-guide/part-b/key-action-1/youth-participation",
+      "administrative_effort": "medium",
+      "partners_min": 1,
+      "requires_legal_personality": true,
+      "partnership_note": "Puede ser proyecto nacional con una organización; los transnacionales requieren al menos dos organizaciones de países diferentes."
+    },
+    {
+      "type": "eu_opportunity",
+      "review_status": "verified",
+      "verified": "2026-08-26",
+      "extraction_confidence": "high",
+      "automatic_detection": false,
+      "warning": "Aunque una entidad local sea jurídicamente elegible, liderar un Fondo para Pequeños Proyectos exige capacidad técnica, financiera y de gestión elevada. Para un ayuntamiento pequeño suele ser más prudente explorar participación o apoyo supramunicipal.",
+      "id": "eu-poctep-2026-call-9",
+      "title": "POCTEP · 9.ª convocatoria · Fondos para Pequeños Proyectos",
+      "source_kind": "poctep",
+      "programme": "Interreg VI-A España–Portugal",
+      "reference": "POCTEP-2026-9",
+      "status": "announced",
+      "status_label": "Apertura 9 de septiembre",
+      "application_start": "2026-09-09",
+      "deadline": "2026-10-21",
+      "organization": "Interreg POCTEP",
+      "scope": "Área POCTEP",
+      "eligible_provinces": [
+        "A Coruña",
+        "Lugo",
+        "Ourense",
+        "Pontevedra",
+        "Ávila",
+        "León",
+        "Salamanca",
+        "Valladolid",
+        "Zamora",
+        "Badajoz",
+        "Cáceres",
+        "Cádiz",
+        "Córdoba",
+        "Huelva",
+        "Sevilla"
+      ],
+      "beneficiary_types": [
+        "local_entity"
+      ],
+      "beneficiary_targets": [
+        "local_entity"
+      ],
+      "topics": [
+        "energia",
+        "biodiversidad",
+        "turismo",
+        "cultura",
+        "gobernanza",
+        "innovacion",
+        "emprendimiento"
+      ],
+      "summary": "Convocatoria para gestionar Fondos de Pequeños Proyectos transfronterizos. Está pensada para entidades con capacidad administrativa y financiera suficiente para gestionar el fondo.",
+      "source": "https://www.poctep.eu/portada/9a-y-10a-convocatorias-poctep-aprobadas-bases-para-las-convocatorias-de-septiembre/",
+      "budget_total": 10000000,
+      "project_min": 200000,
+      "cofinance_rate": 0.75,
+      "administrative_effort": "very_high",
+      "requires_cross_border": true,
+      "requires_legal_personality": true
+    },
+    {
+      "type": "eu_opportunity",
+      "review_status": "verified",
+      "verified": "2026-08-26",
+      "extraction_confidence": "high",
+      "automatic_detection": false,
+      "warning": "Fuente oficial europea. La elegibilidad final, el partenariado, la cofinanciación y las condiciones técnicas deben confirmarse en la convocatoria completa.",
+      "id": "eu-poctep-2026-call-10",
+      "title": "POCTEP · 10.ª convocatoria de proyectos",
+      "source_kind": "poctep",
+      "programme": "Interreg VI-A España–Portugal",
+      "reference": "POCTEP-2026-10",
+      "status": "announced",
+      "status_label": "Apertura 29 de septiembre",
+      "application_start": "2026-09-29",
+      "deadline": "2026-11-17",
+      "organization": "Interreg POCTEP",
+      "scope": "Área POCTEP",
+      "eligible_provinces": [
+        "A Coruña",
+        "Lugo",
+        "Ourense",
+        "Pontevedra",
+        "Ávila",
+        "León",
+        "Salamanca",
+        "Valladolid",
+        "Zamora",
+        "Badajoz",
+        "Cáceres",
+        "Cádiz",
+        "Córdoba",
+        "Huelva",
+        "Sevilla"
+      ],
+      "beneficiary_types": [
+        "municipality",
+        "local_entity"
+      ],
+      "beneficiary_targets": [
+        "municipality",
+        "local_entity"
+      ],
+      "topics": [
+        "digitalizacion",
+        "energia",
+        "clima",
+        "biodiversidad",
+        "empleo",
+        "educacion",
+        "salud",
+        "turismo",
+        "gobernanza"
+      ],
+      "summary": "Proyectos de cooperación España–Portugal en digitalización, transición verde, servicios, turismo, empleo y gobernanza, entre otros ámbitos.",
+      "source": "https://www.poctep.eu/portada/9a-y-10a-convocatorias-poctep-aprobadas-bases-para-las-convocatorias-de-septiembre/",
+      "budget_total": 21000000,
+      "cofinance_rate": 0.75,
+      "administrative_effort": "high",
+      "partners_min": 2,
+      "requires_cross_border": true,
+      "requires_legal_personality": true,
+      "partnership_note": "Necesita un proyecto con impacto transfronterizo y partenariado; no se recomienda liderarlo automáticamente desde una estructura municipal muy pequeña."
+    },
+    {
+      "type": "eu_opportunity",
+      "review_status": "verified",
+      "verified": "2026-08-26",
+      "extraction_confidence": "high",
+      "automatic_detection": false,
+      "warning": "Fuente oficial europea. La elegibilidad final, el partenariado, la cofinanciación y las condiciones técnicas deben confirmarse en la convocatoria completa.",
+      "id": "eu-sudoe-2026-call-4",
+      "title": "Interreg Sudoe · 4.ª convocatoria · proyectos estructurantes",
+      "source_kind": "sudoe",
+      "programme": "Interreg Sudoe 2021–2027",
+      "reference": "SUDOE-2026-4",
+      "status": "open",
+      "status_label": "Abierta",
+      "application_start": "2026-05-04",
+      "deadline": "2026-09-30",
+      "organization": "Interreg Sudoe",
+      "scope": "Espacio Sudoe",
+      "eligible_autonomous_regions": [
+        "Galicia",
+        "Principado de Asturias",
+        "Asturias",
+        "Cantabria",
+        "País Vasco",
+        "Euskadi",
+        "Comunidad Foral de Navarra",
+        "Navarra",
+        "La Rioja",
+        "Aragón",
+        "Comunidad de Madrid",
+        "Madrid",
+        "Castilla y León",
+        "Castilla-La Mancha",
+        "Extremadura",
+        "Cataluña",
+        "Catalunya",
+        "Comunitat Valenciana",
+        "Comunidad Valenciana",
+        "Illes Balears",
+        "Islas Baleares",
+        "Andalucía",
+        "Región de Murcia",
+        "Murcia",
+        "Ceuta",
+        "Melilla"
+      ],
+      "beneficiary_types": [
+        "local_entity"
+      ],
+      "beneficiary_targets": [
+        "local_entity"
+      ],
+      "topics": [
+        "clima",
+        "agua",
+        "biodiversidad",
+        "servicios",
+        "despoblacion",
+        "innovacion",
+        "patrimonio"
+      ],
+      "summary": "Convocatoria transnacional para proyectos estructurantes del sudoeste europeo. Requiere cooperación y una capacidad de preparación considerable.",
+      "source": "https://interreg-sudoe.eu/en/las-convocatorias-sudoe-ya-estan-abiertas/call/",
+      "administrative_effort": "high",
+      "partners_min": 2,
+      "requires_cross_border": true,
+      "requires_legal_personality": true
+    }
+  ]
+}

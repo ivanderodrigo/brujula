@@ -1,0 +1,109 @@
+{
+  "version": "1.4.2",
+  "verified": "2026-08-26",
+  "items": [
+    {
+      "type": "direct_official_opportunity",
+      "review_status": "verified",
+      "verified": "2026-08-26",
+      "extraction_confidence": "high",
+      "automatic_detection": false,
+      "warning": "Convocatoria oficial. Confirmar en las bases la línea concreta, disponibilidad del inmueble, gastos elegibles, documentación, pago y obligaciones de mantenimiento.",
+      "id": "es-fb-2026-refugios-climaticos",
+      "title": "Fundación Biodiversidad 2026 · Refugios climáticos",
+      "source_kind": "fundacion_biodiversidad",
+      "programme": "Red de Refugios Climáticos",
+      "status": "open",
+      "status_label": "Abierta",
+      "application_start": "2026-07-29",
+      "deadline": "2026-10-15",
+      "organization": "Fundación Biodiversidad · MITECO",
+      "scope": "España",
+      "beneficiary_types": [
+        "public_administration",
+        "local_entity"
+      ],
+      "beneficiary_targets": [
+        "public_administration",
+        "local_entity"
+      ],
+      "territories": [
+        "España"
+      ],
+      "topics": [
+        "clima",
+        "adaptacion",
+        "servicios",
+        "edificios",
+        "salud",
+        "accesibilidad"
+      ],
+      "summary": "Ayudas para acondicionar espacios interiores como refugios climáticos y crear redes de refugios; las Administraciones Públicas pueden ser beneficiarias en las líneas previstas.",
+      "source": "https://fundacion-biodiversidad.es/otras_convocatorias/convocatoria-de-refugios-climaticos/",
+      "budget_total": 10000000,
+      "administrative_effort": "medium",
+      "requires_legal_personality": true,
+      "requirements_notes": [
+        "Acreditar disponibilidad del espacio",
+        "Mantener el funcionamiento posterior exigido por la convocatoria",
+        "Revisar requisitos técnicos y de accesibilidad de cada línea"
+      ]
+    },
+    {
+      "type": "direct_official_opportunity",
+      "review_status": "verified",
+      "verified": "2026-08-26",
+      "extraction_confidence": "high",
+      "automatic_detection": false,
+      "warning": "Para ayuntamientos pequeños la participación directa está muy limitada por población; una posible agrupación también tiene requisitos de población, colindancia y coordinación que deben comprobarse en las bases.",
+      "id": "es-fb-feder-2026-renaturalizacion-ciudades",
+      "title": "FEDER 2026 · Renaturalización y resiliencia de ciudades",
+      "source_kind": "fundacion_biodiversidad",
+      "programme": "FEDER · Infraestructura verde urbana",
+      "status": "open",
+      "status_label": "Abierta",
+      "application_start": "2026-07-29",
+      "deadline": "2026-10-29",
+      "organization": "Fundación Biodiversidad · MITECO",
+      "scope": "España",
+      "beneficiary_types": [
+        "municipality",
+        "provincial_council",
+        "local_entity_group"
+      ],
+      "beneficiary_targets": [
+        "municipality",
+        "provincial_council",
+        "local_entity_group"
+      ],
+      "territories": [
+        "España"
+      ],
+      "population_rules": [
+        {
+          "min": 20001,
+          "basis": "municipality"
+        }
+      ],
+      "topics": [
+        "clima",
+        "biodiversidad",
+        "renaturalizacion",
+        "infraestructura verde",
+        "urbanismo"
+      ],
+      "summary": "Financia proyectos de infraestructura verde y renaturalización urbana. La vía individual se dirige a capitales de provincia y municipios de más de 20.000 habitantes; existen vías de agrupación con condiciones específicas.",
+      "source": "https://fundacion-biodiversidad.es/convocatorias_feder/convocatoria-de-ayudas-feder-para-el-impulso-de-la-renaturalizacion-de-ciudades-2026/",
+      "budget_total": 9000000,
+      "project_min": 500000,
+      "administrative_effort": "very_high",
+      "requires_legal_personality": true,
+      "partners_min": 1,
+      "requirements_notes": [
+        "Vía individual: capital provincial o >20.000 habitantes y DEGURBA 1/2",
+        "Agrupaciones sujetas a población mínima, colindancia y coordinación",
+        "Comprobar exclusiones por ayudas anteriores y requisitos FEDER"
+      ]
+    }
+  ]
+}
