@@ -21,13 +21,13 @@
   },
   "boe": {
     "ok": true,
-    "downloaded": 635,
-    "candidates": 92,
+    "downloaded": 636,
+    "candidates": 93,
     "errors": 0,
     "sanitized": 0,
     "window_days": 60
   },
-  "updated_at": "2026-08-26T07:40:54",
+  "updated_at": "2026-08-26T08:12:35",
   "territorial_miteco": {
     "ok": false,
     "degraded": true,
