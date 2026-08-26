@@ -1007,3 +1007,133 @@ window.addEventListener('DOMContentLoaded',()=>{sharedUI();globalSearch();window
     return {...dash,phases};
   };
 })();
+
+
+/* v1.4.1 DEEP LOGIC · misma interfaz, más inteligencia interna */
+(function(){
+  const _ctx140=BM.smartContext.bind(BM), _obl140=BM.smartObligationFit.bind(BM), _opp140=BM.smartOpportunityFit.bind(BM), _proj140=BM._projectDecision.bind(BM), _dash140=BM.smartDashboard.bind(BM), _plan140=BM.smart90DayPlan.bind(BM);
+  BM._deepKey=function(profile,suffix=''){return `__v141_${suffix}_${profile?.id||profile?.name||'none'}`};
+  BM._num=function(v){return typeof v==='number'&&Number.isFinite(v)?v:null};
+  BM._hasSignal=function(ctx,id){return (ctx?.signals||[]).some(s=>s.id===id)};
+  BM._supportFresh=function(s,days=548){
+    const raw=s?.verified||s?.updated||s?.checked; if(!raw)return false; const d=new Date(raw); if(Number.isNaN(d.getTime()))return false; return (Date.now()-d.getTime())/86400000<=days;
+  };
+  BM._durationMonths=function(txt){const a=[...(String(txt||'').matchAll(/(\\d+)\\s*[–-]\\s*(\\d+)\\s*mes/gi))];if(a.length)return +a[0][2];const b=String(txt||'').match(/(\\d+)\\s*mes/i);return b?+b[1]:0};
+  BM._compoundSignals=function(ctx){
+    const m=ctx?.metrics||{}, out=[], add=(id,title,tags,weight,message)=>out.push({id,title,tags,weight,severity:'high',message,compound:true});
+    const over=this._num(m.over65), one=this._num(m.one_person_households), ch=this._num(m.population_change), young=this._num(m.under18_pct), den=this._num(m.density), broad=this._num(m.broadband100);
+    if(over!=null&&one!=null&&over>=30&&one>=35)add('aging_isolation','Envejecimiento y hogares unipersonales',['servicios','mayores','cuidados','movilidad','accesibilidad'],8,'Ganan prioridad proximidad, accesibilidad, movilidad y acompañamiento.');
+    if(ch!=null&&young!=null&&ch<-5&&young<=15)add('depopulation_youth','Despoblación y poco peso juvenil',['despoblacion','vivienda','familias','conectividad','emprendimiento'],8,'Ganan prioridad arraigo, vivienda, familias, conectividad y actividad económica.');
+    if(den!=null&&broad!=null&&den<12.5&&broad<80)add('sparse_connectivity','Baja densidad y conectividad débil',['conectividad','movilidad','servicios','administracion'],8,'Favorece soluciones compartidas, móviles o asistidas.');
+    if(over!=null&&broad!=null&&over>=30&&broad<80)add('aging_connectivity','Envejecimiento y brecha de conectividad',['accesibilidad','administracion','servicios','conectividad'],7,'Los servicios digitales necesitan alternativa asistida y accesible.');
+    if(this._hasSignal(ctx,'population_decline')&&this._hasSignal(ctx,'income_peer_low'))add('decline_low_income','Despoblación y menor renta relativa',['servicios','empleo','vivienda','emprendimiento'],7,'Prima bajo coste recurrente e impacto directo en servicios y economía local.');
+    if(ctx?.entityRoute!=='direct'&&ctx?.localPopulation!=null&&ctx.localPopulation<=500)add('micro_eatim','Escala local muy pequeña',['servicios','administracion','movilidad','conectividad'],6,'Dimensionar para la entidad y tramitar por la vía administrativa correcta.');
+    return out;
+  };
+  BM._capacityNarrative=function(ctx){
+    const id=ctx?.capacity?.id||'small';
+    if(['micro','very_small'].includes(id))return {level:'very_low',label:'capacidad operativa probablemente muy limitada',shared:true};
+    if(id==='small')return {level:'low',label:'capacidad operativa limitada',shared:true};
+    if(id==='small_medium')return {level:'medium',label:'capacidad operativa moderada',shared:true};
+    return {level:'higher',label:'mayor capacidad operativa probable',shared:false};
+  };
+  BM.smartContext=async function(profile){
+    if(!profile)return null; const key=this._deepKey(profile,'ctx'); if(this.cache[key])return this.cache[key];
+    const promise=(async()=>{
+      const base=await _ctx140(profile), compound=this._compoundSignals(base), tagWeights={...(base.tagWeights||{})};
+      for(const s of compound)for(const t of s.tags||[]){const n=this.normalize(t);tagWeights[n]=(tagWeights[n]||0)+(s.weight||5)}
+      const fresh=(base.verifiedProvincial||[]).filter(s=>this._supportFresh(s)), stale=(base.verifiedProvincial||[]).filter(s=>!this._supportFresh(s));
+      const capacityNarrative=this._capacityNarrative(base), strategicSignals=[...(base.signals||[]),...compound];
+      const high=compound.slice().sort((a,b)=>(b.weight||0)-(a.weight||0))[0];
+      const reasons=this._uniq([...(base.reasons||[]),high?.title]).slice(0,4);
+      const quality={territorial:base.dataConfidence,provincial:fresh.length?'verified':stale.length?'reconfirm':'unknown',entity_route:base.entityRoute==='direct'?'high':base.admin?'medium':'low'};
+      return {...base,signals:strategicSignals,compoundSignals:compound,tagWeights,verifiedProvincialFresh:fresh,verifiedProvincialStale:stale,capacityNarrative,quality,reasons};
+    })(); this.cache[key]=promise; return promise;
+  };
+  BM._nextObligationAction=function(o,fit,ctx){
+    if(fit.decision==='shared_compliance')return 'Comprobar primero la vía compartida disponible y asignar responsable interno.';
+    if(fit.decision==='check_existing')return 'Preguntar al servicio público o provincial correspondiente antes de contratar una solución propia.';
+    if(fit.route==='parent_municipality')return `Confirmar con ${ctx?.admin?.name||'el municipio matriz'} quién debe tramitar y ejecutar esta obligación.`;
+    if(fit.route==='eatim_review')return 'Confirmar competencias propias/delegadas y régimen autonómico antes de actuar.';
+    if(fit.level==='conditional')return 'Confirmar si se da la condición indicada; si no se da, no abrir trabajo innecesario.';
+    if((o.steps||[]).length)return o.steps[0]+'.';
+    return 'Asignar responsable y comprobar el estado actual antes de abrir nuevas actuaciones.';
+  };
+  BM.smartObligationFit=async function(o,ctx){
+    const fit=await _obl140(o,ctx); if(!ctx)return fit;
+    const affinity=this._topicAffinity([o.category,...(o.topics||[])],ctx); let score=fit.score+Math.min(5,affinity.score*.35), reasons=this._uniq([fit.reason,...(fit.reasons||[])]);
+    const fresh=(ctx.verifiedProvincialFresh||[]).filter(s=>this._topicMatch(o,s));
+    if(fresh.length&&ctx.population!=null&&ctx.population<20000&&fit.decision!=='shared_compliance'){reasons.push(`Hay apoyo provincial verificado relacionado: ${fresh[0].title}.`);score+=2}
+    const nextAction=this._nextObligationAction(o,fit,ctx);
+    return {...fit,score,reason:reasons[0],reasons:reasons.slice(0,4),nextAction,publicSupport:fresh};
+  };
+  BM.smartOpportunityFit=async function(o,ctx){
+    const fit=await _opp140(o,ctx); if(!ctx||fit.tier==='excluded')return {...fit,nextAction:fit.tier==='excluded'?'No dedicar tiempo salvo que cambien las bases o el plazo.':fit.nextAction};
+    let score=fit.score, reasons=[...(fit.reasons||[])], tier=fit.tier,label=fit.label,decision=fit.decision; const days=this.daysUntil(o.deadline), aff=this._topicAffinity(o.topics||[],ctx);
+    if((ctx.compoundSignals||[]).length&&aff.score>=6){score+=4;reasons.push('La convocatoria coincide con varias necesidades territoriales que se refuerzan entre sí.')}
+    if(days!=null&&days<=10&&days>=0&&['micro','very_small'].includes(ctx.capacity?.id)){reasons.push('Plazo muy ajustado para una estructura municipal pequeña: comprobar capacidad de preparar la solicitud.');score-=2}
+    if(ctx.entityRoute!=='direct'&&fit.match?.route==='parent_municipality')reasons.push(`La solicitud debe revisarse con ${ctx.admin?.name||'el municipio matriz'}.`);
+    if(tier==='low'&&fit.match?.level==='pass'&&fit.confidence!=='low'&&aff.score>=8){tier='possible';label='Puede encajar · comprobar';decision='explore';score+=4}
+    let nextAction='Leer las bases antes de invertir tiempo en la solicitud.';
+    if(tier==='verified'||tier==='likely')nextAction=days!=null&&days<=21?'Revisar hoy bases, documentación y capacidad de ejecución.':'Comprobar bases, gasto subvencionable, cofinanciación y documentación.';
+    else if(tier==='possible')nextAction='Confirmar primero beneficiario, territorio y umbrales; solo después preparar documentación.';
+    if(fit.match?.route==='parent_municipality')nextAction=`Confirmar con ${ctx.admin?.name||'el municipio matriz'} si debe presentar la solicitud.`;
+    return {...fit,score,tier,label,decision,reasons:this._uniq(reasons).slice(0,4),nextAction};
+  };
+  BM._projectEffort=function(p,ctx){
+    const cp={baja:2,media:5,alta:9}[this.normalize(p.complexity)]||4; let points=cp, factors=[]; const cap=ctx.capacity||{}, max=cap.max_preferred_cost||50000;
+    if(p.cost_max!=null&&max){const r=p.cost_max/max;if(r>2){points+=8;factors.push('coste muy alto para la escala probable')}else if(r>1){points+=5;factors.push('coste por encima del rango preferente')}else if(r>.5){points+=2}}
+    const months=this._durationMonths(p.duration_band);if(months>=12){points+=4;factors.push('implantación larga')}else if(months>=6){points+=2}
+    const mt=this.normalize(p.maintenance||'');if(['mantenimiento','soporte','actualizaciones','continuidad','licencias','integracion'].some(k=>mt.includes(k))){points+=2;factors.push('carga recurrente de operación/soporte')}
+    if(ctx.entityRoute!=='direct'){points+=2;factors.push('requiere coordinación administrativa adicional')}
+    if(ctx.localPopulation!=null&&ctx.localPopulation<=500&&p.complexity!=='baja'){points+=2;factors.push('escala local muy pequeña')}
+    return {points,level:points>=11?'high':points>=7?'medium':'low',factors:this._uniq(factors)};
+  };
+  BM._projectPublicRoute=function(p,ctx){
+    const fresh=(ctx.verifiedProvincialFresh||[]).filter(s=>this._topicMatch(p,s)),stale=(ctx.verifiedProvincialStale||[]).filter(s=>this._topicMatch(p,s)),common=(ctx.commonServices||[]).filter(s=>this._topicMatch(p,s)),legal=(ctx.legalProvincial||[]).filter(s=>this._topicMatch(p,s));
+    if(fresh.length)return {level:'verified',items:fresh,label:`Apoyo provincial verificado: ${fresh[0].title}`};
+    if(common.length)return {level:'common',items:common,label:`Servicio común a comprobar: ${common[0].title}`};
+    if(stale.length)return {level:'reconfirm',items:stale,label:`Servicio provincial conocido que conviene reconfirmar: ${stale[0].title}`};
+    if(legal.length)return {level:'legal_check',items:legal,label:'La Diputación tiene una función relacionada: comprobar prestación concreta'};
+    return {level:'none',items:[],label:'No hay servicio público/provincial verificado en el catálogo para esta actuación'};
+  };
+  BM._projectNextAction=function(row,ctx){
+    const route=row.publicRoute||{};
+    if(row.decision==='check_existing'){if(route.level==='verified')return `Contactar con el servicio provincial “${route.items[0].title}” y confirmar alcance antes de contratar.`;if(route.level==='common')return `Comprobar si “${route.items[0].title}” cubre la necesidad antes de desarrollar una solución propia.`;return 'Preguntar a Diputación u organismo competente si puede prestar, coordinar o apoyar esta actuación antes de comprar.'}
+    if(ctx.entityRoute!=='direct')return `Acordar con ${ctx.admin?.name||'el municipio matriz'} la vía de ejecución y el alcance mínimo.`;
+    if(row.externalSupport?.show)return 'Definir un alcance mínimo y pedir apoyo para diseño/implantación antes de iniciar contratación.';
+    if(row.funding)return `Revisar la financiación relacionada y, en paralelo, definir responsable, alcance mínimo y coste recurrente.`;
+    if(row.decision==='do_now')return 'Asignar responsable, fijar alcance mínimo y comprobar coste recurrente antes de iniciar contratación.';
+    if(row.decision==='prepare')return 'Preparar una ficha breve: problema, alcance mínimo, responsable, coste total y servicio público ya comprobado.';
+    return 'No abrir expediente todavía: confirmar necesidad y comparar alternativas más sencillas.';
+  };
+  BM._projectDecision=async function(p,ctx,topObligations,fundingRows){
+    const base=await _proj140(p,ctx,topObligations,fundingRows), effort=this._projectEffort(p,ctx), publicRoute=this._projectPublicRoute(p,ctx), aff=this._topicAffinity([p.category,...(p.tags||[])],ctx);
+    let score=base.score+Math.min(10,aff.score*.35)-Math.max(0,effort.points-5)*.55, decision=base.decision, reasons=[...(base.reasons||[])];
+    const hardCompliance=(base.breakdown?.compliance||0)>0;
+    if(decision!=='check_existing'&&effort.level==='high'&&!hardCompliance&&decision==='do_now')decision='prepare';
+    if(decision==='prepare'&&effort.level==='low'&&aff.score>=15)decision='do_now';
+    if(effort.level==='high')reasons.push(`Esfuerzo de implantación alto para ${ctx.capacityNarrative?.label||'la escala municipal'}`);
+    if(publicRoute.level==='reconfirm')reasons.unshift(publicRoute.label);
+    const noPublic=['none'].includes(publicRoute.level), supportNeeded=noPublic&&['do_now','prepare'].includes(decision)&&effort.points>=7;
+    const externalSupport={show:supportNeeded,reason:supportNeeded?'No aparece un servicio provincial o común verificado que resuelva por sí solo esta actuación y la implantación requiere capacidad técnica/organizativa adicional.':'',caution:'Antes de contratar apoyo externo, confirma con Diputación u organismo competente que no exista un servicio no catalogado.'};
+    const logic=await this.simpleLogic(), row={...base,score,decision,decisionLabel:(logic.decision_labels||{})[decision]||base.decisionLabel,reasons:this._uniq(reasons).slice(0,4),effort,publicRoute,externalSupport};
+    row.nextAction=this._projectNextAction(row,ctx); return row;
+  };
+  BM.smartDashboard=async function(profile){
+    const d=await _dash140(profile); if(!d)return d; const obls=d.obligations.curated, opps=d.opportunities, projects=d.projects, out=[];
+    const must=obls.find(x=>['do_now','shared_compliance','check_existing'].includes(x.fit.decision))||obls[0];if(must)out.push({kind:'Cumplimiento',title:must.o.title,text:`${must.fit.label}. Ahora: ${must.fit.nextAction||must.fit.reason}`,href:'obligaciones/detalle.html?id='+must.o.id});
+    const reuse=projects.find(x=>x.decision==='check_existing');if(reuse)out.push({kind:'Antes de gastar',title:reuse.p.title,text:`Ahora: ${reuse.nextAction}`,href:'proyectos/detalle.html?id='+reuse.p.id});
+    const fund=opps.verified[0]||opps.likely[0]||opps.possible[0];if(fund)out.push({kind:'Financiación',title:fund.o.title,text:`${fund.fit.label}. Ahora: ${fund.fit.nextAction||'Revisar bases.'}`,href:'oportunidades/detalle.html?id='+fund.o.id});
+    const act=projects.find(x=>['do_now','prepare'].includes(x.decision)&&x!==reuse)||projects[0];if(act)out.push({kind:'Actuación',title:act.p.title,text:`${act.decisionLabel}. Ahora: ${act.nextAction}`,href:'proyectos/detalle.html?id='+act.p.id});
+    return {...d,priorities:out.slice(0,4)};
+  };
+  BM.smart90DayPlan=async function(profile){
+    const d=await _plan140(profile); if(!d)return d; const obls=d.obligations.curated, projects=d.projects, funds=[...d.opportunities.verified,...d.opportunities.likely,...d.opportunities.possible];
+    return {...d,phases:[
+      {range:'0–30 días',goal:'Cumplir y evitar trabajo o compras innecesarias',actions:this._uniq([...obls.filter(x=>['do_now','shared_compliance','check_existing'].includes(x.fit.decision)).slice(0,3).map(x=>x.fit.nextAction),...projects.filter(x=>x.decision==='check_existing').slice(0,2).map(x=>x.nextAction)]).slice(0,5)},
+      {range:'31–60 días',goal:'Preparar solo actuaciones proporcionadas',actions:this._uniq(projects.filter(x=>['do_now','prepare'].includes(x.decision)&&x.decision!=='check_existing').slice(0,4).map(x=>x.nextAction)).slice(0,5)},
+      {range:'61–90 días',goal:'Financiar y ejecutar lo que ya tiene sentido',actions:this._uniq([...funds.slice(0,2).map(x=>x.fit.nextAction),...projects.filter(x=>['do_now','prepare'].includes(x.decision)).slice(0,2).map(x=>`Cerrar responsable, coste total y siguiente hito de ${x.p.title}.`)]).slice(0,5)}
+    ]};
+  };
+})();

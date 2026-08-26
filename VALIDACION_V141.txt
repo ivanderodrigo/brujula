@@ -1,0 +1,20 @@
+VALIDACIÓN BRÚJULA MUNICIPAL v1.4.1 · DEEP LOGIC
+
+- Estructura visible: conserva v1.4 (Inicio · Obligaciones · Ayudas · Proyectos · Mi plan): OK
+- JavaScript principal: node --check OK
+- Scripts inline de Inicio/Obligaciones/Ayudas/Proyectos/Detalle/Mi plan: OK
+- JSON logica_simple.json: OK
+- JSON author.json: OK
+- Señales territoriales combinadas: test OK
+- Doble escala administrativa/local para EATIM: regresión v1.4 OK
+- Filtros BDNS duros (beneficiario/territorio/plazo/población): regresión v1.4 OK
+- Vía compartida de obligaciones: regresión v1.4 OK
+- Esfuerzo de implantación de proyectos: test OK
+- Detección de servicio público/provincial antes de comprar: test OK
+- Siguiente acción explícita: test OK
+- Contacto del autor condicionado a ausencia de vía pública verificada + necesidad de apoyo: test OK
+- Diversidad de cartera: regresión v1.4 OK
+- Catálogo de referencia: 175 proyectos / 27 obligaciones / 13 servicios / 15 playbooks / 9 apoyos
+- tools/validar_sitio.py sobre repositorio de referencia: RESULTADO PUBLICABLE
+
+NOTA: la copia de referencia local no incluye los data/generated nacionales actuales; el overlay no contiene ni borra data/generated/ ni data/localidades/. La cobertura nacional real se conserva en el repositorio del usuario y se refresca con MODE=full.

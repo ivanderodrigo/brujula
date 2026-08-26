@@ -1,8 +1,21 @@
 {
-  "version": "1.4.0",
+  "version": "1.4.1",
   "updated": "2026-08-26",
-  "principle": "La inteligencia oculta complejidad, no evidencia. Primero se decide aplicabilidad y vía administrativa; después necesidad, reutilización, viabilidad, financiación, urgencia y confianza. Nunca se inventa elegibilidad ni se muestra una puntuación falsa al usuario.",
-  "decision_order": ["applicability","administrative_route","reuse_before_buy","strategic_need","feasibility","funding","urgency","evidence_confidence"],
+  "principle": "La interfaz sigue siendo mínima. El motor cruza aplicabilidad, vía administrativa, servicios existentes, señales territoriales simples y combinadas, capacidad probable, esfuerzo de implantación, coste/mantenimiento, financiación, urgencia y confianza. La salida visible siempre debe terminar en una acción clara.",
+  "decision_order": [
+    "hard_applicability",
+    "administrative_route",
+    "verified_public_service",
+    "legal_shared_route",
+    "compound_territorial_need",
+    "local_scale",
+    "implementation_effort",
+    "maintenance_burden",
+    "funding_accelerator",
+    "deadline_urgency",
+    "evidence_confidence",
+    "next_action"
+  ],
   "sources": {
     "lbrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
     "lrsal": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-13756",
@@ -10,73 +23,559 @@
     "bdns": "https://www.infosubvenciones.es/bdnstrans/GE/es/index"
   },
   "capacity_bands": [
-    {"id":"micro","max_population":500,"label":"estructura municipal muy pequeña","complexity_preference":["baja"],"max_preferred_cost":25000,"shared_first":true,"maintenance_penalty":5},
-    {"id":"very_small","max_population":1000,"label":"estructura municipal muy pequeña","complexity_preference":["baja","media"],"max_preferred_cost":50000,"shared_first":true,"maintenance_penalty":4},
-    {"id":"small","max_population":5000,"label":"ayuntamiento pequeño","complexity_preference":["baja","media"],"max_preferred_cost":100000,"shared_first":true,"maintenance_penalty":3},
-    {"id":"small_medium","max_population":20000,"label":"ayuntamiento pequeño/medio","complexity_preference":["baja","media"],"max_preferred_cost":300000,"shared_first":true,"maintenance_penalty":2},
-    {"id":"medium","max_population":50000,"label":"ayuntamiento medio","complexity_preference":["baja","media","alta"],"max_preferred_cost":1000000,"shared_first":false,"maintenance_penalty":1},
-    {"id":"large","max_population":999999999,"label":"ayuntamiento de mayor tamaño","complexity_preference":["baja","media","alta"],"max_preferred_cost":999999999,"shared_first":false,"maintenance_penalty":0}
+    {
+      "id": "micro",
+      "max_population": 500,
+      "label": "estructura municipal muy pequeña",
+      "complexity_preference": [
+        "baja"
+      ],
+      "max_preferred_cost": 25000,
+      "shared_first": true,
+      "maintenance_penalty": 5
+    },
+    {
+      "id": "very_small",
+      "max_population": 1000,
+      "label": "estructura municipal muy pequeña",
+      "complexity_preference": [
+        "baja",
+        "media"
+      ],
+      "max_preferred_cost": 50000,
+      "shared_first": true,
+      "maintenance_penalty": 4
+    },
+    {
+      "id": "small",
+      "max_population": 5000,
+      "label": "ayuntamiento pequeño",
+      "complexity_preference": [
+        "baja",
+        "media"
+      ],
+      "max_preferred_cost": 100000,
+      "shared_first": true,
+      "maintenance_penalty": 3
+    },
+    {
+      "id": "small_medium",
+      "max_population": 20000,
+      "label": "ayuntamiento pequeño/medio",
+      "complexity_preference": [
+        "baja",
+        "media"
+      ],
+      "max_preferred_cost": 300000,
+      "shared_first": true,
+      "maintenance_penalty": 2
+    },
+    {
+      "id": "medium",
+      "max_population": 50000,
+      "label": "ayuntamiento medio",
+      "complexity_preference": [
+        "baja",
+        "media",
+        "alta"
+      ],
+      "max_preferred_cost": 1000000,
+      "shared_first": false,
+      "maintenance_penalty": 1
+    },
+    {
+      "id": "large",
+      "max_population": 999999999,
+      "label": "ayuntamiento de mayor tamaño",
+      "complexity_preference": [
+        "baja",
+        "media",
+        "alta"
+      ],
+      "max_preferred_cost": 999999999,
+      "shared_first": false,
+      "maintenance_penalty": 0
+    }
   ],
   "decision_labels": {
-    "do_now":"Hacer ahora",
-    "shared_compliance":"Cumplir · mejor vía compartida",
-    "check_existing":"Comprobar servicio existente primero",
-    "prepare":"Preparar",
-    "explore":"Explorar",
-    "later":"Puede esperar",
-    "not_applicable":"No parece aplicable"
+    "do_now": "Hacer ahora",
+    "shared_compliance": "Cumplir · mejor vía compartida",
+    "check_existing": "Comprobar servicio existente primero",
+    "prepare": "Preparar",
+    "explore": "Explorar",
+    "later": "Puede esperar",
+    "not_applicable": "No parece aplicable"
   },
-  "severity_weights": {"high":5,"medium":3,"context":2,"positive":1},
+  "severity_weights": {
+    "high": 5,
+    "medium": 3,
+    "context": 2,
+    "positive": 1
+  },
   "provincial_rules": [
-    {"id":"secretaria-intervencion","max_population":999,"title":"Secretaría e Intervención","mode":"garantia_provincial","message":"En municipios de menos de 1.000 habitantes la Diputación o entidad equivalente debe garantizar estos servicios.","topics":["administracion","economico","juridico"],"legal_basis":"LBRL art. 36.1.b"},
-    {"id":"recaudacion-finanzas","max_population":19999,"title":"Recaudación y apoyo financiero","mode":"asistencia_provincial","message":"La Diputación presta asistencia en recaudación tributaria y apoyo a la gestión financiera a municipios de menos de 20.000 habitantes.","topics":["tributos","economico","administracion"],"legal_basis":"LBRL art. 36.1.f"},
-    {"id":"administracion-electronica","max_population":19999,"title":"Administración electrónica","mode":"prestacion_provincial","message":"La Diputación presta servicios de administración electrónica a municipios de menos de 20.000 habitantes.","topics":["administracion","digitalizacion","interoperabilidad","ciberseguridad"],"legal_basis":"LBRL art. 36.1.g"},
-    {"id":"contratacion-centralizada","max_population":19999,"title":"Contratación centralizada","mode":"prestacion_provincial","message":"La Diputación presta contratación centralizada a municipios de menos de 20.000 habitantes.","topics":["contratacion"],"legal_basis":"LBRL art. 36.1.g"},
-    {"id":"tratamiento-residuos","max_population":4999,"title":"Tratamiento de residuos","mode":"asuncion_si_no_presta","message":"La Diputación asume el tratamiento de residuos en municipios de menos de 5.000 habitantes cuando el municipio no lo presta.","topics":["residuos","medioambiente","servicios"],"legal_basis":"LBRL art. 36.1.c"},
-    {"id":"incendios","max_population":19999,"title":"Prevención y extinción de incendios","mode":"asuncion_si_no_presta","message":"La Diputación asume este servicio en municipios de menos de 20.000 habitantes cuando el municipio no lo presta.","topics":["incendios","medioambiente","servicios"],"legal_basis":"LBRL art. 36.1.c"},
-    {"id":"consultorios","max_population":4999,"title":"Mantenimiento y limpieza de consultorios médicos","mode":"coordinacion_convenio","message":"La Diputación puede coordinar mediante convenio con la Comunidad Autónoma este servicio en municipios de menos de 5.000 habitantes.","topics":["salud","servicios"],"legal_basis":"LBRL art. 36.1.i"}
+    {
+      "id": "secretaria-intervencion",
+      "max_population": 999,
+      "title": "Secretaría e Intervención",
+      "mode": "garantia_provincial",
+      "message": "En municipios de menos de 1.000 habitantes la Diputación o entidad equivalente debe garantizar estos servicios.",
+      "topics": [
+        "administracion",
+        "economico",
+        "juridico"
+      ],
+      "legal_basis": "LBRL art. 36.1.b"
+    },
+    {
+      "id": "recaudacion-finanzas",
+      "max_population": 19999,
+      "title": "Recaudación y apoyo financiero",
+      "mode": "asistencia_provincial",
+      "message": "La Diputación presta asistencia en recaudación tributaria y apoyo a la gestión financiera a municipios de menos de 20.000 habitantes.",
+      "topics": [
+        "tributos",
+        "economico",
+        "administracion"
+      ],
+      "legal_basis": "LBRL art. 36.1.f"
+    },
+    {
+      "id": "administracion-electronica",
+      "max_population": 19999,
+      "title": "Administración electrónica",
+      "mode": "prestacion_provincial",
+      "message": "La Diputación presta servicios de administración electrónica a municipios de menos de 20.000 habitantes.",
+      "topics": [
+        "administracion",
+        "digitalizacion",
+        "interoperabilidad",
+        "ciberseguridad"
+      ],
+      "legal_basis": "LBRL art. 36.1.g"
+    },
+    {
+      "id": "contratacion-centralizada",
+      "max_population": 19999,
+      "title": "Contratación centralizada",
+      "mode": "prestacion_provincial",
+      "message": "La Diputación presta contratación centralizada a municipios de menos de 20.000 habitantes.",
+      "topics": [
+        "contratacion"
+      ],
+      "legal_basis": "LBRL art. 36.1.g"
+    },
+    {
+      "id": "tratamiento-residuos",
+      "max_population": 4999,
+      "title": "Tratamiento de residuos",
+      "mode": "asuncion_si_no_presta",
+      "message": "La Diputación asume el tratamiento de residuos en municipios de menos de 5.000 habitantes cuando el municipio no lo presta.",
+      "topics": [
+        "residuos",
+        "medioambiente",
+        "servicios"
+      ],
+      "legal_basis": "LBRL art. 36.1.c"
+    },
+    {
+      "id": "incendios",
+      "max_population": 19999,
+      "title": "Prevención y extinción de incendios",
+      "mode": "asuncion_si_no_presta",
+      "message": "La Diputación asume este servicio en municipios de menos de 20.000 habitantes cuando el municipio no lo presta.",
+      "topics": [
+        "incendios",
+        "medioambiente",
+        "servicios"
+      ],
+      "legal_basis": "LBRL art. 36.1.c"
+    },
+    {
+      "id": "consultorios",
+      "max_population": 4999,
+      "title": "Mantenimiento y limpieza de consultorios médicos",
+      "mode": "coordinacion_convenio",
+      "message": "La Diputación puede coordinar mediante convenio con la Comunidad Autónoma este servicio en municipios de menos de 5.000 habitantes.",
+      "topics": [
+        "salud",
+        "servicios"
+      ],
+      "legal_basis": "LBRL art. 36.1.i"
+    }
   ],
   "obligation_rules": {
-    "canal-interno":{"mode":"general","municipal":true,"shared_under_population":10000,"shared_message":"Todos los municipios deben disponer de sistema interno de información; por debajo de 10.000 habitantes pueden compartir sistema y recursos con otros municipios o Administraciones públicas de su comunidad autónoma.","legal_basis":"Ley 2/2023 arts. 13 y 14","source_key":"whistleblower"},
-    "ia-act":{"mode":"conditional","condition":"si la entidad utiliza o contrata sistemas de inteligencia artificial"},
-    "proteccion-datos-camaras":{"mode":"conditional","condition":"si existen cámaras, videovigilancia o sensores que tratan datos personales"},
-    "datos-personales-web":{"mode":"conditional_common","condition":"si la web, sede o formularios tratan datos personales"},
-    "acceso-informacion-ambiental":{"mode":"conditional_common","condition":"cuando la entidad posee o difunde información ambiental"},
-    "rd3-2023-agua":{"mode":"service","service":"agua","condition":"por la prestación o responsabilidad sobre abastecimiento de agua de consumo"},
-    "residuos":{"mode":"service","service":"residuos","condition":"por las competencias y servicios locales relacionados con residuos"},
-    "perfil-contratante":{"mode":"activity","condition":"cuando la entidad contrata"},
-    "contratacion":{"mode":"activity","condition":"cuando la entidad prepara o tramita contratación pública","prefer_provincial_under":20000,"provincial_topic":"contratacion"},
-    "factura-electronica":{"mode":"activity","condition":"en la recepción y gestión de facturas electrónicas"},
-    "accesibilidad":{"mode":"activity","condition":"si dispone de sitio web o aplicación móvil del sector público"},
-    "ley39":{"mode":"general","prefer_provincial_under":20000,"provincial_topic":"administracion"},
-    "rd203":{"mode":"general","prefer_provincial_under":20000,"provincial_topic":"administracion"},
-    "eni":{"mode":"general","prefer_common":true,"provincial_topic":"interoperabilidad"},
-    "ens":{"mode":"general","prefer_shared":true,"provincial_topic":"ciberseguridad"},
-    "conservacion-documental":{"mode":"general","prefer_common":true,"provincial_topic":"archivo"},
-    "administracion-asistencia":{"mode":"general","prefer_provincial_under":20000,"provincial_topic":"administracion"},
-    "inventario-aplicaciones":{"mode":"good_practice","condition":"especialmente recomendable para controlar dependencias, contratos y riesgos tecnológicos"},
-    "copias":{"mode":"good_practice_critical","condition":"control operativo esencial aunque la obligación concreta dependa del sistema y marco de seguridad aplicable"},
-    "continuidad":{"mode":"good_practice_critical","condition":"control operativo esencial para servicios digitales municipales"}
+    "canal-interno": {
+      "mode": "general",
+      "municipal": true,
+      "shared_under_population": 10000,
+      "shared_message": "Todos los municipios deben disponer de sistema interno de información; por debajo de 10.000 habitantes pueden compartir sistema y recursos con otros municipios o Administraciones públicas de su comunidad autónoma.",
+      "legal_basis": "Ley 2/2023 arts. 13 y 14",
+      "source_key": "whistleblower"
+    },
+    "ia-act": {
+      "mode": "conditional",
+      "condition": "si la entidad utiliza o contrata sistemas de inteligencia artificial"
+    },
+    "proteccion-datos-camaras": {
+      "mode": "conditional",
+      "condition": "si existen cámaras, videovigilancia o sensores que tratan datos personales"
+    },
+    "datos-personales-web": {
+      "mode": "conditional_common",
+      "condition": "si la web, sede o formularios tratan datos personales"
+    },
+    "acceso-informacion-ambiental": {
+      "mode": "conditional_common",
+      "condition": "cuando la entidad posee o difunde información ambiental"
+    },
+    "rd3-2023-agua": {
+      "mode": "service",
+      "service": "agua",
+      "condition": "por la prestación o responsabilidad sobre abastecimiento de agua de consumo"
+    },
+    "residuos": {
+      "mode": "service",
+      "service": "residuos",
+      "condition": "por las competencias y servicios locales relacionados con residuos"
+    },
+    "perfil-contratante": {
+      "mode": "activity",
+      "condition": "cuando la entidad contrata"
+    },
+    "contratacion": {
+      "mode": "activity",
+      "condition": "cuando la entidad prepara o tramita contratación pública",
+      "prefer_provincial_under": 20000,
+      "provincial_topic": "contratacion"
+    },
+    "factura-electronica": {
+      "mode": "activity",
+      "condition": "en la recepción y gestión de facturas electrónicas"
+    },
+    "accesibilidad": {
+      "mode": "activity",
+      "condition": "si dispone de sitio web o aplicación móvil del sector público"
+    },
+    "ley39": {
+      "mode": "general",
+      "prefer_provincial_under": 20000,
+      "provincial_topic": "administracion"
+    },
+    "rd203": {
+      "mode": "general",
+      "prefer_provincial_under": 20000,
+      "provincial_topic": "administracion"
+    },
+    "eni": {
+      "mode": "general",
+      "prefer_common": true,
+      "provincial_topic": "interoperabilidad"
+    },
+    "ens": {
+      "mode": "general",
+      "prefer_shared": true,
+      "provincial_topic": "ciberseguridad"
+    },
+    "conservacion-documental": {
+      "mode": "general",
+      "prefer_common": true,
+      "provincial_topic": "archivo"
+    },
+    "administracion-asistencia": {
+      "mode": "general",
+      "prefer_provincial_under": 20000,
+      "provincial_topic": "administracion"
+    },
+    "inventario-aplicaciones": {
+      "mode": "good_practice",
+      "condition": "especialmente recomendable para controlar dependencias, contratos y riesgos tecnológicos"
+    },
+    "copias": {
+      "mode": "good_practice_critical",
+      "condition": "control operativo esencial aunque la obligación concreta dependa del sistema y marco de seguridad aplicable"
+    },
+    "continuidad": {
+      "mode": "good_practice_critical",
+      "condition": "control operativo esencial para servicios digitales municipales"
+    }
   },
   "relative_signals": [
-    {"id":"income_peer_low","metric":"income_per_person","direction":"low","ratio":0.85,"title":"Renta inferior a municipios de tamaño similar","tags":["servicios","empleo","vivienda","emprendimiento"],"weight":4,"message":"Prioriza coste recurrente contenido y proyectos con impacto económico o de servicios."},
-    {"id":"over65_peer_high","metric":"over65","direction":"high_delta","delta":5,"title":"Más población sénior que municipios similares","tags":["servicios","movilidad","accesibilidad","administracion","mayores"],"weight":5,"message":"Ganan peso accesibilidad, acompañamiento, atención multicanal y servicios de proximidad."},
-    {"id":"under18_peer_low","metric":"under18_pct","direction":"low_delta","delta":3,"title":"Menor peso de población joven","tags":["despoblacion","vivienda","servicios","familias","conectividad"],"weight":4,"message":"Vivienda, conciliación, conectividad y servicios para familias merecen más atención."},
-    {"id":"broadband_peer_low","metric":"broadband100","direction":"low_delta","delta":10,"title":"Conectividad por debajo de municipios similares","tags":["conectividad","administracion","emprendimiento"],"weight":5,"message":"Evita depender exclusivamente de servicios digitales y prioriza conectividad y alternativas asistidas."},
-    {"id":"single_households_peer_high","metric":"one_person_households","direction":"high_delta","delta":5,"title":"Más hogares unipersonales","tags":["servicios","movilidad","cuidados","mayores"],"weight":4,"message":"Aumenta el valor de servicios de proximidad, acompañamiento y movilidad flexible."}
+    {
+      "id": "income_peer_low",
+      "metric": "income_per_person",
+      "direction": "low",
+      "ratio": 0.85,
+      "title": "Renta inferior a municipios de tamaño similar",
+      "tags": [
+        "servicios",
+        "empleo",
+        "vivienda",
+        "emprendimiento"
+      ],
+      "weight": 4,
+      "message": "Prioriza coste recurrente contenido y proyectos con impacto económico o de servicios."
+    },
+    {
+      "id": "over65_peer_high",
+      "metric": "over65",
+      "direction": "high_delta",
+      "delta": 5,
+      "title": "Más población sénior que municipios similares",
+      "tags": [
+        "servicios",
+        "movilidad",
+        "accesibilidad",
+        "administracion",
+        "mayores"
+      ],
+      "weight": 5,
+      "message": "Ganan peso accesibilidad, acompañamiento, atención multicanal y servicios de proximidad."
+    },
+    {
+      "id": "under18_peer_low",
+      "metric": "under18_pct",
+      "direction": "low_delta",
+      "delta": 3,
+      "title": "Menor peso de población joven",
+      "tags": [
+        "despoblacion",
+        "vivienda",
+        "servicios",
+        "familias",
+        "conectividad"
+      ],
+      "weight": 4,
+      "message": "Vivienda, conciliación, conectividad y servicios para familias merecen más atención."
+    },
+    {
+      "id": "broadband_peer_low",
+      "metric": "broadband100",
+      "direction": "low_delta",
+      "delta": 10,
+      "title": "Conectividad por debajo de municipios similares",
+      "tags": [
+        "conectividad",
+        "administracion",
+        "emprendimiento"
+      ],
+      "weight": 5,
+      "message": "Evita depender exclusivamente de servicios digitales y prioriza conectividad y alternativas asistidas."
+    },
+    {
+      "id": "single_households_peer_high",
+      "metric": "one_person_households",
+      "direction": "high_delta",
+      "delta": 5,
+      "title": "Más hogares unipersonales",
+      "tags": [
+        "servicios",
+        "movilidad",
+        "cuidados",
+        "mayores"
+      ],
+      "weight": 4,
+      "message": "Aumenta el valor de servicios de proximidad, acompañamiento y movilidad flexible."
+    }
   ],
   "topic_families": {
-    "administracion":["administracion","digitalizacion","interoperabilidad","registro","sede","archivo","transparencia","gobernanza"],
-    "seguridad":["ciberseguridad","ens","backup","continuidad","privacidad","seguridad"],
-    "servicios":["servicios","mayores","cuidados","familias","accesibilidad","salud"],
-    "territorio":["despoblacion","vivienda","movilidad","conectividad","emprendimiento","comercio","turismo","patrimonio"],
-    "infraestructuras":["agua","residuos","energia","medioambiente","clima","alumbrado"]
+    "administracion": [
+      "administracion",
+      "digitalizacion",
+      "interoperabilidad",
+      "registro",
+      "sede",
+      "archivo",
+      "transparencia",
+      "gobernanza"
+    ],
+    "seguridad": [
+      "ciberseguridad",
+      "ens",
+      "backup",
+      "continuidad",
+      "privacidad",
+      "seguridad"
+    ],
+    "servicios": [
+      "servicios",
+      "mayores",
+      "cuidados",
+      "familias",
+      "accesibilidad",
+      "salud"
+    ],
+    "territorio": [
+      "despoblacion",
+      "vivienda",
+      "movilidad",
+      "conectividad",
+      "emprendimiento",
+      "comercio",
+      "turismo",
+      "patrimonio"
+    ],
+    "infraestructuras": [
+      "agua",
+      "residuos",
+      "energia",
+      "medioambiente",
+      "clima",
+      "alumbrado"
+    ]
   },
-  "reuse_categories": ["administracion","digitalizacion","contratacion","interoperabilidad","archivo","registro","transparencia","ciberseguridad","datos"],
-  "diversity": {"max_same_category_top":2,"max_same_family_top":3},
+  "reuse_categories": [
+    "administracion",
+    "digitalizacion",
+    "contratacion",
+    "interoperabilidad",
+    "archivo",
+    "registro",
+    "transparencia",
+    "ciberseguridad",
+    "datos"
+  ],
+  "diversity": {
+    "max_same_category_top": 2,
+    "max_same_family_top": 3
+  },
   "confidence": {
-    "high":"Fuente y condiciones estructuradas suficientes para ordenar con confianza.",
-    "medium":"Hay señales útiles, pero al menos una condición importante requiere comprobación.",
-    "low":"Datos insuficientes: se mantiene visible para revisión, no como recomendación."
+    "high": "Fuente y condiciones estructuradas suficientes para ordenar con confianza.",
+    "medium": "Hay señales útiles, pero al menos una condición importante requiere comprobación.",
+    "low": "Datos insuficientes: se mantiene visible para revisión, no como recomendación.",
+    "public_service": "Solo se afirma que un servicio está disponible cuando existe una ficha territorial verificada; una competencia legal de Diputación se muestra como algo que debe comprobarse, no como servicio confirmado."
+  },
+  "compound_signals": [
+    {
+      "id": "aging_isolation",
+      "title": "Envejecimiento + hogares unipersonales",
+      "when": "over65>=30 and one_person_households>=35",
+      "tags": [
+        "servicios",
+        "mayores",
+        "cuidados",
+        "movilidad",
+        "accesibilidad"
+      ],
+      "weight": 8,
+      "message": "Ganan prioridad los servicios de proximidad, accesibilidad y acompañamiento; evita soluciones solo digitales."
+    },
+    {
+      "id": "depopulation_youth",
+      "title": "Pérdida de población + poco peso juvenil",
+      "when": "population_change<-5 and under18_pct<=15",
+      "tags": [
+        "despoblacion",
+        "vivienda",
+        "familias",
+        "conectividad",
+        "emprendimiento"
+      ],
+      "weight": 8,
+      "message": "Prioriza arraigo, vivienda, servicios para familias, conectividad y actividad económica antes que proyectos accesorios."
+    },
+    {
+      "id": "sparse_connectivity",
+      "title": "Baja densidad + conectividad débil",
+      "when": "density<12.5 and broadband100<80",
+      "tags": [
+        "conectividad",
+        "movilidad",
+        "servicios",
+        "administracion"
+      ],
+      "weight": 8,
+      "message": "Favorece soluciones compartidas, móviles o asistidas y evita depender exclusivamente del canal digital."
+    },
+    {
+      "id": "aging_connectivity",
+      "title": "Envejecimiento + brecha digital territorial",
+      "when": "over65>=30 and broadband100<80",
+      "tags": [
+        "accesibilidad",
+        "administracion",
+        "servicios",
+        "conectividad"
+      ],
+      "weight": 7,
+      "message": "Todo servicio digital debe prever atención asistida y alternativa no exclusivamente online."
+    },
+    {
+      "id": "decline_low_income",
+      "title": "Despoblación + menor capacidad económica relativa",
+      "when": "population_decline and income_peer_low",
+      "tags": [
+        "servicios",
+        "empleo",
+        "vivienda",
+        "emprendimiento"
+      ],
+      "weight": 7,
+      "message": "Prima actuaciones con coste recurrente bajo y efecto directo en servicios, vivienda o economía local."
+    },
+    {
+      "id": "micro_eatim",
+      "title": "Entidad muy pequeña dentro de municipio matriz",
+      "when": "eatim_or_nucleus and local_population<=500",
+      "tags": [
+        "servicios",
+        "administracion",
+        "movilidad",
+        "conectividad"
+      ],
+      "weight": 6,
+      "message": "Dimensiona la actuación para la entidad local, pero tramita umbrales y obligaciones por la vía administrativa correcta."
+    }
+  ],
+  "execution_rules": {
+    "complexity_points": {
+      "baja": 2,
+      "media": 5,
+      "alta": 9
+    },
+    "duration_points": {
+      "short": 0,
+      "medium": 2,
+      "long": 4
+    },
+    "cost_ratio_points": [
+      [
+        0.5,
+        0
+      ],
+      [
+        1.0,
+        2
+      ],
+      [
+        2.0,
+        5
+      ],
+      [
+        999999,
+        8
+      ]
+    ],
+    "external_support_min_effort": 7,
+    "high_effort": 11,
+    "maintenance_keywords": [
+      "mantenimiento",
+      "soporte",
+      "actualizaciones",
+      "continuidad",
+      "operación",
+      "licencias",
+      "integración"
+    ],
+    "principle": "La financiación nunca compensa por sí sola un proyecto sobredimensionado. Si el esfuerzo supera la capacidad probable, se prepara o se busca apoyo antes de contratar."
+  },
+  "author_support": {
+    "enabled": true,
+    "show_only_when_no_verified_public_route": true,
+    "minimum_decisions": [
+      "do_now",
+      "prepare"
+    ],
+    "message": "Si no existe un servicio público o provincial verificado que resuelva la actuación y la implantación supera la capacidad probable del ayuntamiento, Brújula ofrece contactar con el autor para ayudar a definir alcance, alternativas y puesta en marcha.",
+    "caution": "Antes de contratar apoyo externo, confirmar siempre con Diputación u organismo competente que no exista un servicio no catalogado."
   }
 }

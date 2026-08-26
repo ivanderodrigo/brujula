@@ -1,0 +1,30 @@
+const fs=require('fs'),path=require('path'),vm=require('vm');
+const root=path.resolve(__dirname,'..');
+const listeners={};
+global.window={addEventListener:(n,f)=>{(listeners[n]||(listeners[n]=[])).push(f)},dispatchEvent:()=>{},location:{pathname:'/'} };
+global.document={documentElement:{dataset:{base:'./'}},querySelectorAll:()=>[],querySelector:()=>null,body:{classList:{add:()=>{}}},head:{appendChild:()=>{}},createElement:()=>({setAttribute:()=>{},classList:{add:()=>{}},appendChild:()=>{}})};
+global.location={pathname:'/',href:'http://localhost/'};global.Event=function(n){this.type=n};global.navigator={};
+const mem={};global.localStorage={getItem:k=>mem[k]||null,setItem:(k,v)=>mem[k]=v,removeItem:k=>delete mem[k]};
+let src=fs.readFileSync(path.join(root,'assets/js/app.js'),'utf8')+'\n;globalThis.BM_TEST=BM;';
+vm.runInThisContext(src,{filename:'app.js'});const B=global.BM_TEST;
+function wire(){B.json=async function(rel){if(this.cache[rel])return this.cache[rel];return this.cache[rel]=JSON.parse(fs.readFileSync(path.join(root,rel),'utf8'))};B.jsonOptional=async function(rel,f){try{return await this.json(rel)}catch{return f}}}
+(async()=>{
+  wire();
+  const mun={id:'m1',name:'Villa Test',entity_type:'municipality',province:'Ciudad Real',autonomous_region:'Castilla-La Mancha',population:800};
+  B.resolveAdministrativeMunicipality=async p=>p;
+  B.metricsFor=async()=>({population:800,population_change:-12,density:7,mean_age:52,over65:34,under18_pct:12,broadband100:70,one_person_households:38,income_per_person:10000});
+  B.peerContext=async()=>({group:'micro',benchmark:null,national:null,peers:[]});
+  B.support=async()=>[];B.services=async()=>[];
+  const ctx=await B.smartContext(mun);
+  if(!ctx.compoundSignals.some(x=>x.id==='aging_isolation'))throw Error('compound aging signal');
+  if(!ctx.compoundSignals.some(x=>x.id==='depopulation_youth'))throw Error('compound depop signal');
+  if(!ctx.compoundSignals.some(x=>x.id==='sparse_connectivity'))throw Error('compound connectivity signal');
+  const projects=await B.json('data/catalog/proyectos.json');
+  const sample=projects.find(p=>p.complexity==='media'&&p.cost_max>=50000)||projects[0];
+  const row=await B._projectDecision(sample,ctx,new Set(),[]);
+  if(!row.effort||!row.publicRoute||!row.nextAction)throw Error('deep project fields');
+  if(row.publicRoute.level==='none'&&['do_now','prepare'].includes(row.decision)&&row.effort.points>=7&&!row.externalSupport.show)throw Error('author support rule');
+  const obl=(await B.json('data/catalog/obligaciones.json'))[0];
+  const of=await B.smartObligationFit(obl,ctx);if(!of.nextAction)throw Error('obligation next action');
+  console.log('OK v1.4.1: compound context, effort, public route, next action, external support guard.');
+})().catch(e=>{console.error(e);process.exit(1)});
