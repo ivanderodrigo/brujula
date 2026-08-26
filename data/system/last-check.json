@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "checked_at": "2026-08-26T10:48:31+00:00",
+  "checked_at": "2026-08-26T13:08:33+00:00",
   "pipeline": "static-offline",
   "mode": "full",
   "sources_run": [
@@ -36,13 +36,13 @@
     },
     "boe": {
       "ok": true,
-      "downloaded": 636,
+      "downloaded": 637,
       "candidates": 93,
       "errors": 0,
       "sanitized": 0,
       "window_days": 60
     },
-    "updated_at": "2026-08-26T10:47:55",
+    "updated_at": "2026-08-26T13:07:57",
     "territorial_miteco": {
       "ok": false,
       "degraded": true,
