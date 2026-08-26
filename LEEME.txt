@@ -1,0 +1,5 @@
+BRUJULA v1.4.3 - PARCHE ENLACE GLOBAL AUTOR
+1. Copiar contenido sobre la raiz del repositorio.
+2. Ejecutar: python tools/aplicar_v143.py
+3. Ejecutar: python tools/auditar_calidad_v143.py
+Resultado esperado: Errores: 0 · Avisos: 0

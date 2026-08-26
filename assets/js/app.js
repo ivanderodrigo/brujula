@@ -1214,3 +1214,126 @@ window.addEventListener('DOMContentLoaded',()=>{sharedUI();globalSearch();window
     const out={...d,projects:planProjects,manualProjects:extra,planProjects,phases:phases.map(x=>({...x,actions:x.actions.slice(0,7)}))};out.cautions=this._planCautions(out);return out;
   };
 })();
+
+
+/* v1.4.3 · cascarón mínimo, accesibilidad, seguridad y escalado TIC exclusivo */
+(function(){
+  const _decision142 = BM._projectDecision ? BM._projectDecision.bind(BM) : null;
+  const _simpleChrome143 = BM.applySimpleChrome ? BM.applySimpleChrome.bind(BM) : null;
+
+  BM.isICTProject=function(p){
+    if(!p)return false;
+    const cfg=(this.cache.__logic?.author_support)||{};
+    const core=new Set((cfg.ict_core_categories||['ciberseguridad','conectividad','digitalizacion','datos','ia','smart-village']).map(x=>this.normalize(x)));
+    const category=this.normalize(p.category||'');
+    if(core.has(category))return true;
+    const raw=this.normalize([p.title,p.summary,...(p.tags||[]),p.maintenance,...(p.first_steps||[])].filter(Boolean).join(' '));
+    const strong=(cfg.ict_strong_keywords||[]).map(x=>this.normalize(x)).filter(Boolean);
+    // Fuera de categorías TIC, exigir un indicador técnico fuerte. "digital" o "estrategia" solos no bastan.
+    return strong.some(k=>raw.includes(k));
+  };
+  BM._specialistProject=function(p){return this.isICTProject(p)};
+
+  if(_decision142){
+    BM._projectDecision=async function(p,ctx,topObligations,fundingRows){
+      const row=await _decision142(p,ctx,topObligations,fundingRows);
+      const ict=this.isICTProject(p);
+      const previous={...(row.externalSupport||{})};
+      if(!ict && previous.show){
+        row.externalSupport={
+          show:false,
+          mode:'external_other',
+          reason:'La actuación puede requerir apoyo especializado del ámbito correspondiente, pero no es un proyecto TIC y Brújula no la escala al autor.',
+          caution:previous.caution||'Comprueba primero servicios públicos y capacidad interna antes de contratar apoyo externo.'
+        };
+      }
+      row.ictProject=ict;
+      row.authorEligible=!!(ict && row.externalSupport?.show);
+      return row;
+    };
+  }
+
+  // Eliminar cualquier CTA global heredada. El autor solo puede aparecer dentro de una ficha TIC elegible.
+  BM.injectContactCTA=async function(){document.querySelectorAll('.contact-float').forEach(x=>x.remove())};
+
+  BM.safeExternalUrl=function(value){
+    try{
+      const u=new URL(String(value||''),location.href);
+      if(!['http:','https:'].includes(u.protocol))return '#';
+      return u.href;
+    }catch{return '#'}
+  };
+  BM.hardenLinks=function(root=document){
+    root.querySelectorAll('a').forEach(a=>{
+      const raw=(a.getAttribute('href')||'').trim();
+      if(/^\s*(javascript|data|vbscript):/i.test(raw)){a.removeAttribute('href');a.setAttribute('aria-disabled','true')}
+      if(a.target==='_blank')a.rel='noopener noreferrer';
+    });
+  };
+  BM.installSecurityMeta=function(){
+    if(!document.querySelector('meta[name="referrer"]')){
+      const m=document.createElement('meta');m.name='referrer';m.content='strict-origin-when-cross-origin';document.head.appendChild(m);
+    }
+  };
+
+  BM.textScaleLevels=[1,1.25,1.5,1.75,2];
+  BM.getTextScale=function(){
+    const n=Number(localStorage.getItem('bm_text_scale_v143')||1);
+    return this.textScaleLevels.includes(n)?n:1;
+  };
+  BM.setTextScale=function(scale){
+    const levels=this.textScaleLevels;let n=Number(scale);if(!levels.includes(n))n=1;
+    localStorage.setItem('bm_text_scale_v143',String(n));
+    document.documentElement.style.fontSize=`${Math.round(n*100)}%`;
+    document.documentElement.dataset.bmTextScale=String(Math.round(n*100));
+    document.querySelectorAll('[data-text-scale]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.textScale)===n)));
+    const status=document.querySelector('#bm-text-size-status');if(status)status.textContent=`Tamaño de texto ${Math.round(n*100)} %`;
+  };
+  BM.installTextControls=function(){
+    document.querySelectorAll('.nav-actions').forEach(actions=>{
+      if(actions.querySelector('.text-size-tools'))return;
+      const wrap=document.createElement('div');wrap.className='text-size-tools';wrap.setAttribute('role','group');wrap.setAttribute('aria-label','Tamaño de texto');
+      wrap.innerHTML=`<button type="button" data-text-step="down" aria-label="Reducir tamaño de texto">A−</button><button type="button" data-text-scale="1" aria-label="Restablecer tamaño de texto">A</button><button type="button" data-text-step="up" aria-label="Aumentar tamaño de texto">A+</button><span class="sr-only" id="bm-text-size-status" aria-live="polite"></span>`;
+      const municipality=actions.querySelector('[data-open-municipality],.municipality-btn,.municipality-command');
+      actions.insertBefore(wrap,municipality||actions.firstChild);
+      const move=dir=>{const levels=this.textScaleLevels,cur=this.getTextScale(),i=Math.max(0,levels.indexOf(cur)),next=levels[Math.max(0,Math.min(levels.length-1,i+dir))];this.setTextScale(next)};
+      wrap.querySelector('[data-text-step="down"]').onclick=()=>move(-1);
+      wrap.querySelector('[data-text-step="up"]').onclick=()=>move(1);
+      wrap.querySelector('[data-text-scale]').onclick=()=>this.setTextScale(1);
+    });
+    this.setTextScale(this.getTextScale());
+  };
+
+  BM.enhanceDialogAccessibility=function(){
+    const ov=document.querySelector('#municipality-overlay');if(!ov||ov.dataset.a11y143)return;ov.dataset.a11y143='1';
+    const selector=ov.querySelector('.selector');if(selector){selector.setAttribute('role','dialog');selector.setAttribute('aria-modal','true');const h=selector.querySelector('h2');if(h){h.id=h.id||'municipality-dialog-title';selector.setAttribute('aria-labelledby',h.id)}}
+    const input=ov.querySelector('input');if(input&&!input.getAttribute('aria-label'))input.setAttribute('aria-label','Buscar municipio, pueblo o EATIM');
+    const results=ov.querySelector('.municipality-results');if(results){results.setAttribute('aria-live','polite');results.setAttribute('aria-relevant','additions text')}
+    const close=ov.querySelector('[data-close-municipality]');if(close&&!close.getAttribute('aria-label'))close.setAttribute('aria-label','Cerrar selector de municipio');
+    document.addEventListener('keydown',e=>{
+      if(!ov.classList.contains('open'))return;
+      if(e.key==='Escape'){e.preventDefault();BM.closeSelector();return}
+      if(e.key!=='Tab'||!selector)return;
+      const focusable=[...selector.querySelectorAll('button,[href],input,select,textarea,[tabindex]:not([tabindex="-1"])')].filter(x=>!x.disabled&&x.offsetParent!==null);
+      if(!focusable.length)return;const first=focusable[0],last=focusable[focusable.length-1];
+      if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}
+    });
+  };
+
+  if(_simpleChrome143){
+    BM.applySimpleChrome=function(){
+      _simpleChrome143();
+      // Mantener el menú principal en cinco opciones. Nunca añadir Autor como navegación global.
+      document.querySelectorAll('.navlinks a[href*="/autor/"]').forEach(x=>x.remove());
+      document.querySelectorAll('footer a[href*="/autor/"]').forEach(x=>x.remove());
+      this.installTextControls();this.hardenLinks();this.enhanceDialogAccessibility();
+      const current=document.querySelector('.navlinks a[aria-current="page"]');if(current)current.scrollIntoView?.({block:'nearest',inline:'nearest'});
+    };
+  }
+
+  const observer=(typeof MutationObserver!=='undefined')?new MutationObserver(m=>{for(const r of m)for(const n of r.addedNodes)if(n.nodeType===1)BM.hardenLinks(n)}):null;
+  window.addEventListener('DOMContentLoaded',()=>{
+    BM.installSecurityMeta();BM.injectContactCTA();BM.installTextControls();BM.enhanceDialogAccessibility();BM.hardenLinks();
+    observer?.observe(document.documentElement,{subtree:true,childList:true});
+  });
+})();

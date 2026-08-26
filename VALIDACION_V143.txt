@@ -1,0 +1,31 @@
+BRÚJULA MUNICIPAL v1.4.3 · VALIDACIÓN
+
+Base de prueba:
+- 175 proyectos
+- 27 obligaciones
+- 13 servicios comunes
+- 15 playbooks
+- 9 apoyos
+
+Resultados:
+- node --check assets/js/app.js: OK
+- validar_sitio.py: PUBLICABLE
+- test_decision_engine_v140.js: OK
+- test_deep_logic_v141.js: OK
+- test_deep_decision_v142.js: OK
+- test_v143_scope.js: OK (autor restringido a TIC)
+- auditar_calidad_v143.py tras aplicar_v143.py: 0 errores · 0 avisos
+- 253 HTML históricos normalizados en prueba completa
+
+Controles v1.4.3:
+- Escalado al autor: solo núcleo TIC/informático real.
+- No TIC: posible apoyo sectorial, sin contacto con autor.
+- Texto ampliable desde la interfaz hasta 200 %.
+- Tamaños tipográficos CSS relativos.
+- Foco visible, controles táctiles, reducción de movimiento y contraste de pie reforzados.
+- Selector de municipio con rol de diálogo, Escape, foco contenido y etiquetas.
+- Enlaces target=_blank normalizados con noopener+noreferrer.
+- Protocolos javascript:/data:/vbscript: bloqueados en el endurecimiento de enlaces.
+- Auditoría de secretos básicos y patrones peligrosos en GitHub Actions.
+
+La validación no equivale a una certificación formal WCAG ni a una auditoría de seguridad profesional/pentest.
