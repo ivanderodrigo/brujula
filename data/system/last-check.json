@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "checked_at": "2026-08-25T23:57:40+00:00",
+  "checked_at": "2026-08-26T00:40:26+00:00",
   "pipeline": "static-offline",
   "mode": "full",
   "sources_run": [
@@ -26,8 +26,8 @@
       "source": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=9000004"
     },
     "bdns": {
-      "downloaded": 24099,
-      "candidates": 20073,
+      "downloaded": 23718,
+      "candidates": 19758,
       "details": 300,
       "errors": 0,
       "ok": true,
@@ -35,13 +35,86 @@
     },
     "boe": {
       "ok": true,
-      "downloaded": 698,
-      "candidates": 100,
+      "downloaded": 632,
+      "candidates": 90,
       "errors": 0,
       "sanitized": 0,
       "window_days": 60
     },
-    "updated_at": "2026-08-25T23:56:53"
+    "updated_at": "2026-08-26T00:39:42",
+    "territorial_miteco": {
+      "ok": false,
+      "degraded": true,
+      "records": 8132,
+      "baseline_records": 8132,
+      "successful_sources": 0,
+      "total_sources": 10,
+      "source_status": {
+        "population": {
+          "ok": false,
+          "dataset": "cifras_poblacion_2023.zip",
+          "error": "paquete sin DBF/ZIP/GPKG/CSV interpretable · contenido: Cifra de población 2023.lyr"
+        },
+        "population_change": {
+          "ok": false,
+          "dataset": "Variacion_Pob_2014_2023.zip",
+          "error": "paquete sin DBF/ZIP/GPKG/CSV interpretable · contenido: Variación de población 2014-2023.lyr"
+        },
+        "density": {
+          "ok": false,
+          "dataset": "Densidad_Poblacion_2023.zip",
+          "error": "paquete sin DBF/ZIP/GPKG/CSV interpretable · contenido: Densidad de población 2023.lyr"
+        },
+        "mean_age": {
+          "ok": false,
+          "dataset": "Edad_Media_2023.zip",
+          "error": "paquete sin DBF/ZIP/GPKG/CSV interpretable · contenido: Edad media 2023.lyr"
+        },
+        "over65": {
+          "ok": false,
+          "dataset": "Poblacion-65A_2022.zip",
+          "error": "paquete sin DBF/ZIP/GPKG/CSV interpretable · contenido: Porcentaje de población de 65 años o más 2022.lyr"
+        },
+        "broadband100": {
+          "ok": false,
+          "dataset": "Porcentaje_Pob_Cob100.zip",
+          "error": "paquete sin DBF/ZIP/GPKG/CSV interpretable · contenido: Porcentaje de población con cobertura 100 MBps 2022.lyr"
+        },
+        "pharmacies": {
+          "ok": false,
+          "dataset": "Farmacias_2023.zip",
+          "error": "paquete sin DBF/ZIP/GPKG/CSV interpretable · contenido: Número de farmacias 2023.lyr"
+        },
+        "primary_schools": {
+          "ok": false,
+          "dataset": "Centros_EdPrimaria_2022.zip",
+          "error": "paquete sin DBF/ZIP/GPKG/CSV interpretable · contenido: Número de centros de educación primaria 2022.lyr"
+        },
+        "highway_minutes": {
+          "ok": false,
+          "dataset": "Tiempo-Autop-Autov_2022.zip",
+          "error": "paquete sin DBF/ZIP/GPKG/CSV interpretable · contenido: Tiempo de acceso autopista_autovía 2022.lyr"
+        },
+        "hospital_minutes": {
+          "ok": false,
+          "dataset": "Tiempo-Hospital_2022.zip",
+          "error": "paquete sin DBF/ZIP/GPKG/CSV interpretable · contenido: Tiempo de acceso hospital 2022.lyr"
+        }
+      }
+    },
+    "income_ine": {
+      "ok": true,
+      "records": 8059,
+      "reference": "2023",
+      "source": "arcgis",
+      "url": "https://www.ine.es/servergis/rest/services/adrh_2023_renta_media_por_persona/FeatureServer/1"
+    },
+    "benchmark": {
+      "ok": true,
+      "records": 8132,
+      "peer_records": 8132,
+      "degraded": true
+    }
   },
   "note": "Generado automáticamente. Los visitantes no ejecutan consultas a las fuentes oficiales."
 }
