@@ -41,7 +41,7 @@ window.addEventListener('bm-ready',async()=>{
  const sourceRows=[
   {name:'BDNS / SNPSAP',ok:!!status.bdns?.ok,meta:status.bdns?.ok?`${status.bdns.details||status.bdns.candidates||0} candidatos procesados`:'sin actualización válida',tag:'diario'},
   {name:'BOE · legislación consolidada',ok:!!status.boe?.ok,meta:status.boe?.ok?`${status.boe.candidates||0} cambios · ${status.boe.sanitized||0} saneados`:'sin actualización válida',tag:'diario'},
-  {name:'MITECO · inteligencia territorial',ok:terrCount>=7000,meta:terrCount?`${BM.number(terrCount)} municipios · ${terrOk}/10 datasets`:`${terrOk}/10 datasets · usando snapshot/pendiente`,tag:'anual'},
+  {name:'Contexto territorial + MITECO',ok:terrOk>0,meta:terrCount?`${BM.number(terrCount)} municipios con base territorial · ${terrOk}/10 enriquecimientos MITECO`:`${terrOk}/10 enriquecimientos MITECO · pendiente`,tag:'base + anual'},
   {name:'INE · renta municipal',ok:incomeCount>=5000,meta:incomeCount?`${BM.number(incomeCount)} municipios${income.reference_latest?' · ref. '+income.reference_latest:''}`:'cobertura insuficiente / snapshot',tag:'anual'},
   {name:'Benchmark territorial',ok:peerCount>0,meta:peerCount?`${BM.number(peerCount)} grupos/comparables`:'espera datos territoriales',tag:'derivado'}
  ];

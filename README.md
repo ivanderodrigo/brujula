@@ -1,15 +1,12 @@
-# Overlay Brújula Municipal v1.1.1 PRO
+# Brújula Municipal v1.1.2 PRO
 
-**Aplicar encima del repositorio v1.1 ya actualizado.**
+Overlay de producción para la v1.1 actual de `ivanderodrigo/brujula`.
 
-Este overlay NO contiene `data/generated/`, `data/localidades/` ni tus catálogos: por tanto no pisa las 38.161 localidades ni los resultados del último workflow.
+Objetivos de esta versión:
+- recuperar cobertura municipal nacional útil incluso con fuentes degradadas;
+- usar la capa municipal oficial de renta del INE;
+- hacer más robusta la ingestión MITECO;
+- mantener benchmark y contexto territorial en modo degradado;
+- rediseñar cabecera, navegación, mapa y portada con una dirección visual enterprise / agencia top.
 
-Incluye únicamente:
-- correcciones MITECO/INE/BOE/cachés;
-- workflow actualizado;
-- SEO/validación endurecidos;
-- nueva portada y centro de actualización;
-- sistema visual global CSS/JS;
-- script de refuerzo de accesibilidad.
-
-Lee `APLICAR_V111_PRO.md`.
+Lee `APLICAR_V112_PRO.md` antes de copiar los archivos.

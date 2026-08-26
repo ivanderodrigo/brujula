@@ -1,0 +1,26 @@
+VALIDACIÓN BRÚJULA MUNICIPAL v1.1.2 PRO
+
+Compilación Python modificada: OK
+JavaScript (node --check): OK
+SEO estructural: 249 URLs sitemap / 222 fichas indexables
+Validación del árbol completo de desarrollo: PUBLICABLE
+Catálogos funcionales preservados: 175 proyectos / 27 obligaciones / 9 oportunidades / 13 servicios / 15 playbooks
+
+Prueba sintética MITECO:
+- ZIP anidado -> CSV: OK
+- conservación de código INE con cero inicial: OK
+- extracción recursiva: OK
+
+Prueba sintética INE ArcGIS:
+- paginación: OK
+- CUMUN: OK
+- renta por persona: OK
+- renta por hogar: OK
+- menores de 18: OK
+- mayores de 65: OK
+- Gini: OK
+
+Benchmark degradable:
+- genera comparables aunque falten dimensiones MITECO: OK
+
+NOTA: la comprobación nacional en vivo de MITECO/INE debe hacerla el siguiente workflow `full` en GitHub, porque el entorno local de construcción no replica las 38.161 localidades generadas ni debe simular una fuente oficial disponible.

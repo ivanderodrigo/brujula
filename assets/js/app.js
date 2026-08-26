@@ -61,7 +61,7 @@ const BM={
  async incomeDataset(){return this.cache.__income||(this.cache.__income=await this.jsonOptional('data/generated/renta_ine.json',{items:[]}))},
  async territorialBenchmark(){return this.cache.__benchmark||(this.cache.__benchmark=await this.jsonOptional('data/generated/benchmark_territorial.json',{groups:{},peers:{}}))},
  municipalCode(profile){if(!profile)return null;if(profile.entity_type==='municipality')return profile.ine_code||(/^[0-9]{5}$/.test(profile.id||'')?profile.id:null);return profile.parent_municipality_id||profile.ine_code||null},
- async metricsFor(profile){const code=this.municipalCode(profile);if(!code)return {ine_code:null};const [t,r]=await Promise.all([this.territorialDataset(),this.incomeDataset()]);const a=(t.items||[]).find(x=>x.ine_code===code)||{};const b=(r.items||[]).find(x=>x.ine_code===code)||{};return {...a,...b,ine_code:code}},
+ async metricsFor(profile){const code=this.municipalCode(profile);if(!code)return {ine_code:null};const [t,r]=await Promise.all([this.territorialDataset(),this.incomeDataset()]);const a=(t.items||[]).find(x=>x.ine_code===code)||{};const b=(r.items||[]).find(x=>x.ine_code===code)||{};let admin=profile;if(profile?.entity_type!=='municipality'&&profile?.parent_municipality_id){admin=await this.loadPlace(profile.parent_municipality_id)||profile}const out={...a,...b,ine_code:code};if(out.population==null)out.population=admin?.population??profile?.municipal_population??profile?.population??null;if(out.density==null&&typeof out.population==='number'&&typeof admin?.surface_ha==='number'&&admin.surface_ha>0){out.density=out.population/(admin.surface_ha/100);out._derived={...(out._derived||{}),density:'Población oficial / superficie oficial del municipio'}}return out},
  async territorialSignals(metrics){const rules=await this.json('data/catalog/reglas_inteligencia.json');const out=[];for(const rule of rules.signals||[]){const v=metrics?.[rule.metric];if(typeof v!=='number')continue;const w=rule.when||{};let ok=true;if(w.lt!=null)ok=ok&&v<w.lt;if(w.lte!=null)ok=ok&&v<=w.lte;if(w.gt!=null)ok=ok&&v>w.gt;if(w.gte!=null)ok=ok&&v>=w.gte;if(w.eq!=null)ok=ok&&v===w.eq;if(ok)out.push({...rule,value:v})}return out},
  benchmarkBand(pop){if(pop==null)return 'unknown';if(pop<=500)return 'le500';if(pop<=1000)return '501_1000';if(pop<=5000)return '1001_5000';if(pop<=20000)return '5001_20000';if(pop<=50000)return '20001_50000';return 'gt50000'},
  async peerContext(profile,metrics){const b=await this.territorialBenchmark();const pop=metrics?.population??profile?.municipal_population??profile?.population;const key=this.benchmarkBand(pop);return {group:key,benchmark:b.groups?.[key]||null,national:b.groups?.national||null,peers:b.peers?.[this.municipalCode(profile)]||[],method:b.method}},
@@ -470,4 +470,80 @@ window.addEventListener('DOMContentLoaded',()=>{sharedUI();globalSearch();window
     header.insertAdjacentElement('afterend',rail);
   };
   window.addEventListener('bm-ready',()=>BM.injectProContext());
+})();
+
+/* v1.1.2 PRO · chrome enterprise + localización territorial exacta + cobertura de datos */
+(function(){
+  BM.entityLabel=function(p){if(!p)return 'Sin localidad';if(p.entity_type==='eatim')return 'EATIM';if(p.entity_type==='population_entity')return 'Entidad de población';return 'Municipio'};
+  BM.proNav=function(){
+    const b=this.base();
+    return `
+      <a href="${b}municipio/" data-pro-nav="municipio">Mi municipio</a>
+      <details class="mega-menu mega-decision"><summary>Decidir</summary><div class="mega-panel mega-panel-compact">
+        <div class="mega-intro"><span class="mega-kicker">Centro de decisión</span><strong>De los datos a una hoja de ruta.</strong><p>Prioridades, cartera y ejecución adaptadas al municipio.</p></div>
+        <div class="mega-group"><strong>Dirección</strong><a href="${b}ejecutivo/">Ejecutivo 360 <span>Resumen para decidir</span></a><a href="${b}cockpit/">Cockpit <span>Visión por perfiles</span></a><a href="${b}decisiones/">Prioridades <span>Ranking explicable</span></a><a href="${b}plan/">Plan 90 días <span>Primeros pasos</span></a></div>
+      </div></details>
+      <a href="${b}oportunidades/" data-pro-nav="oportunidades">Financiación</a>
+      <a href="${b}proyectos/" data-pro-nav="proyectos">Proyectos</a>
+      <a href="${b}obligaciones/" data-pro-nav="obligaciones">Cumplimiento</a>
+      <details class="mega-menu"><summary>Explorar</summary><div class="mega-panel">
+        <div class="mega-intro"><span class="mega-kicker">Explorar Brújula</span><strong>Todo lo que puede ayudar a ejecutar mejor.</strong><p>Inteligencia territorial, referencias reales y herramientas prácticas.</p></div>
+        <div class="mega-group"><strong>Territorio</strong><a href="${b}inteligencia/">Inteligencia 360 <span>Diagnóstico municipal</span></a><a href="${b}comparar/">Comparar municipios <span>Benchmark</span></a><a href="${b}indicadores/">Indicadores <span>Datos y fuentes</span></a><a href="${b}casos/">Casos reales <span>Qué replicar</span></a></div>
+        <div class="mega-group"><strong>Ejecutar</strong><a href="${b}herramientas/">Herramientas <span>Checklists y cálculos</span></a><a href="${b}playbooks/">Playbooks <span>Rutas paso a paso</span></a><a href="${b}servicios/">Servicios públicos <span>Antes de contratar</span></a><a href="${b}observatorio/">Observatorio <span>Señales y tendencias</span></a></div>
+      </div></details>`;
+  };
+  BM.mapPoint=function(p){
+    const lat=Number(p?.latitude),lon=Number(p?.longitude);if(!Number.isFinite(lat)||!Number.isFinite(lon))return null;
+    // ViewBox 720×420. Tres zonas para evitar colocar Canarias sobre la península.
+    if(lon<-12 && lat<31){const x=70+(lon+18.5)/5.5*125,y=330+(29.5-lat)/2.8*54;return {x,y,zone:'Canarias'}}
+    if(lon>1 && lat<40.5){const x=585+(lon-1)/3.5*85,y=230+(40.5-lat)/2.2*48;return {x,y,zone:'Baleares'}}
+    const x=82+(lon+9.5)/13.9*455,y=62+(43.9-lat)/8.3*245;return {x,y,zone:'Península'};
+  };
+  BM.renderTerritorialLocator=function(){
+    const p=this.getProfile();
+    document.querySelectorAll('[data-map-town],[data-home-town]').forEach(el=>el.textContent=p?.name||'Selecciona una localidad');
+    document.querySelectorAll('[data-map-province]').forEach(el=>el.textContent=p?.province||'Provincia por seleccionar');
+    document.querySelectorAll('[data-map-region]').forEach(el=>el.textContent=p?.autonomous_region||'Comunidad autónoma');
+    document.querySelectorAll('[data-map-entity]').forEach(el=>el.textContent=this.entityLabel(p));
+    document.querySelectorAll('[data-map-parent]').forEach(el=>el.textContent=p?.parent_municipality?`Municipio de ${p.parent_municipality}`:'Administración municipal');
+    document.querySelectorAll('[data-map-population]').forEach(el=>el.textContent=(p?.population??p?.municipal_population)!=null?this.number(p.population??p.municipal_population)+' hab.':'Población pendiente');
+    document.querySelectorAll('[data-municipality-province]').forEach(el=>el.textContent=p?.province?`${p.province} · ${p.autonomous_region||''}`:'Selecciona provincia y localidad');
+    document.querySelectorAll('[data-home-town-meta]').forEach(el=>el.textContent=p?`${this.entityLabel(p)} · ${p.parent_municipality?'municipio de '+p.parent_municipality+' · ':''}${p.province||''} · ${p.autonomous_region||''}`:'Brújula distingue municipio, EATIM o entidad de población y aplica la vía administrativa correcta.');
+    const pt=this.mapPoint(p);document.querySelectorAll('[data-map-marker]').forEach(g=>{if(pt){g.style.display='';g.setAttribute('transform',`translate(${pt.x.toFixed(1)} ${pt.y.toFixed(1)})`)}else g.style.display='none'});
+    document.querySelectorAll('[data-map-svg-label]').forEach(el=>el.textContent=p?.name?`${p.name} · ${p.province||''}`:'Localidad · provincia');
+    document.querySelectorAll('[data-map-coordinates]').forEach(el=>el.textContent=pt?`${Number(p.latitude).toFixed(4)}°, ${Number(p.longitude).toFixed(4)}° · ${pt.zone}`:'Coordenadas disponibles al seleccionar localidad');
+  };
+  BM.dataCoverage=async function(){
+    const [status,terr,income,bench,manifest,last]=await Promise.all([
+      this.jsonOptional('data/generated/status.json',{}),this.territorialDataset(),this.incomeDataset(),this.territorialBenchmark(),this.placeManifest(),this.jsonOptional('data/system/last-check.json',{})
+    ]);
+    const terrItems=terr.items||[],incItems=income.items||[];const peers=bench.peers||{};
+    return {
+      localities:manifest.total_entities||status.localities_ngmep?.total||0,
+      bdns:status.bdns?.details||0,boe:status.boe?.candidates||0,
+      territorial:terrItems.length,income:incItems.length,peers:Object.keys(peers).length,
+      mitecoOk:terr.successful_sources??status.territorial_miteco?.successful_sources??0,
+      mitecoTotal:Object.keys(terr.source_status||{}).length||status.territorial_miteco?.total_sources||10,
+      incomeMode:income.source_mode||status.income_ine?.source||'pendiente',
+      checkedAt:last.checked_at||status.generated_at||null
+    };
+  };
+  const _refresh112=BM.refreshProfileUI.bind(BM);
+  BM.refreshProfileUI=function(){_refresh112();this.renderTerritorialLocator();};
+  const _decorate112=BM.decorateChrome.bind(BM);
+  BM.decorateChrome=function(){
+    _decorate112();const b=this.base();
+    document.querySelectorAll('.navlinks').forEach(nav=>{nav.innerHTML=this.proNav();const path=location.pathname.toLowerCase();let key='';for(const k of ['municipio','oportunidades','proyectos','obligaciones'])if(path.includes('/'+k+'/'))key=k;if(key)nav.querySelector(`[data-pro-nav="${key}"]`)?.setAttribute('aria-current','page')});
+    document.querySelectorAll('.nav-actions').forEach(actions=>{
+      const workspace=actions.querySelector('.workspace-btn');if(workspace){workspace.className='utility-button workspace-btn';workspace.innerHTML=`${this.iconSvg('espacio')}<span class="sr-only">Mi espacio</span><span class="workspace-count" data-workspace-count>${this.getWorkspace().length}</span>`;workspace.setAttribute('title','Mi espacio')}
+      let search=actions.querySelector('[data-command-search]');if(!search){search=document.createElement('button');search.type='button';search.className='command-search';search.dataset.commandSearch='1';search.innerHTML=`<span>${this.iconSvg('observatorio')} Buscar</span><kbd>⌘ K</kbd>`;search.onclick=()=>{const input=document.querySelector('[data-global-search] input');if(input){input.focus();input.scrollIntoView({block:'center',behavior:'smooth'})}else location.href=b+'#buscar'};actions.insertBefore(search,actions.firstChild)}
+      const mb=actions.querySelector('.municipality-btn');if(mb){mb.className='municipality-command municipality-btn';mb.innerHTML=`<span class="municipality-pin">${this.iconSvg('localidad')}</span><span class="municipality-copy"><strong data-municipality-label>Seleccionar localidad</strong><small data-municipality-province>Contexto territorial</small></span><span class="municipality-chevron">⌄</span>`}
+    });
+    this.renderTerritorialLocator();
+  };
+  BM.injectDataAvailability=async function(){
+    const path=location.pathname; if(!['/inteligencia/','/indicadores/','/comparar/','/municipio/'].some(x=>path.includes(x))||document.querySelector('.data-availability-rail'))return;
+    const c=await this.dataCoverage();const main=document.querySelector('main');if(!main)return;const sec=document.createElement('section');sec.className='data-availability-rail';sec.innerHTML=`<div class="shell data-availability-inner"><div><span class="data-availability-dot ${c.territorial?'ok':'warn'}"></span><strong>Cobertura territorial</strong><span>${this.number(c.territorial)} municipios con contexto · ${this.number(c.income)} con renta · ${this.number(c.peers)} con comparables</span></div><a href="${this.base()}actualizacion/">Ver calidad del dato →</a></div>`;main.insertBefore(sec,main.firstChild);
+  };
+  window.addEventListener('bm-ready',async()=>{BM.decorateChrome();BM.renderTerritorialLocator();BM.injectDataAvailability()});
 })();

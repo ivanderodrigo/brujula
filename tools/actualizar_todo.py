@@ -28,9 +28,13 @@ def parse_iso(v):
 def due(state,key,days,force=False):
     if force:return True
     src=state.get('sources',{}).get(key,{})
-    last=parse_iso(src.get('last_success') or src.get('last_attempt'))
+    # Una fuente que falló no debe quedar congelada durante su cadencia anual/semestral.
+    # Se reintenta al día siguiente; una fuente sana respeta su cadencia normal.
+    failed=bool(src.get('last_error'))
+    last=parse_iso(src.get('last_attempt') if failed else (src.get('last_success') or src.get('last_attempt')))
     if not last:return True
-    return (now_utc()-last).total_seconds() >= days*86400
+    effective_days=1 if failed else days
+    return (now_utc()-last).total_seconds() >= effective_days*86400
 
 def run(label,args):
     print(f'\n=== {label} ===')

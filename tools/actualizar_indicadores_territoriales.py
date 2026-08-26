@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """Actualiza indicadores territoriales oficiales de MITECO sin dependencias externas.
 
-v1.1.1 PRO
+v1.1.2 PRO
 - Descubre los enlaces desde las páginas oficiales antes de descargar.
 - Soporta portales de descarga que devuelven una página HTML/formulario en vez del ZIP.
 - Mantiene cookies y campos ocultos (incluidos formularios ASP.NET).
+- Inspecciona ZIPs de forma recursiva: DBF directo, ZIP anidado, GeoPackage o CSV.
+- Detecta respuestas OOXML falsas aunque empiecen por PK.
 - Conserva la última copia válida si la fuente anual falla.
 - Nunca inventa valores.
 """
@@ -13,7 +15,7 @@ from pathlib import Path
 from html.parser import HTMLParser
 from http.cookiejar import CookieJar
 from urllib.parse import urljoin, urlparse, parse_qs, urlencode
-import datetime as dt, json, re, struct, sys, urllib.request, zipfile
+import csv, datetime as dt, io, json, re, sqlite3, struct, sys, tempfile, urllib.request, zipfile
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'data'/'generated'/'indicadores_territoriales.json'
@@ -190,12 +192,97 @@ def dbf_records(data:bytes):
         rows.append(row)
     return fields,rows
 
+
+
+def _csv_rows(data:bytes):
+    text=None
+    for enc in ('utf-8-sig','utf-8','cp1252','latin1'):
+        try:text=data.decode(enc);break
+        except UnicodeDecodeError:pass
+    if text is None:text=data.decode('utf-8','replace')
+    try:dialect=csv.Sniffer().sniff(text[:12000],delimiters=';\t,')
+    except Exception:
+        dialect=csv.excel;dialect.delimiter=';'
+    rows=list(csv.DictReader(io.StringIO(text),dialect=dialect))
+    fields=[(h,'C',0,0) for h in (rows[0].keys() if rows else [])]
+    cooked=[]
+    for row in rows:
+        r={}
+        for k,v in row.items():
+            t=str(v or '').strip(); nk=norm(k); num=t.replace(' ','')
+            # Los códigos INE son identificadores, no magnitudes: conservar ceros a la izquierda.
+            if any(x in nk for x in ('cod','ine','id')) and re.fullmatch(r'\d{1,5}',num):
+                r[k]=num.zfill(5);continue
+            if ',' in num:num=num.replace('.','').replace(',','.')
+            try:r[k]=float(num) if re.fullmatch(r'-?\d+(?:\.\d+)?',num) else t
+            except Exception:r[k]=t
+        cooked.append(r)
+    return fields,cooked
+
+def _gpkg_rows(data:bytes):
+    with tempfile.NamedTemporaryFile(suffix='.gpkg') as tmp:
+        tmp.write(data);tmp.flush();con=sqlite3.connect(tmp.name)
+        try:
+            tables=[r[0] for r in con.execute("select name from sqlite_master where type='table'") if not r[0].startswith(('gpkg_','rtree_','sqlite_'))]
+            best=None
+            for table in tables:
+                try:n=con.execute(f'SELECT COUNT(*) FROM "{table}"').fetchone()[0]
+                except Exception:continue
+                if best is None or n>best[0]:best=(n,table)
+            if not best:raise RuntimeError('GeoPackage sin tabla de datos')
+            table=best[1];cols=[r[1] for r in con.execute(f'PRAGMA table_info("{table}")')];
+            rows=[dict(zip(cols,r)) for r in con.execute(f'SELECT * FROM "{table}"')]
+            return [(c,'C',0,0) for c in cols],rows,f'gpkg:{table}'
+        finally:con.close()
+
+def archive_records(data:bytes,depth=0,label='zip'):
+    """Extrae registros tabulares del paquete MITECO sin asumir un único nivel ZIP."""
+    if depth>3:raise RuntimeError('demasiados ZIP anidados')
+    with zipfile.ZipFile(io.BytesIO(data)) as z:
+        names=z.namelist();lower=[n.lower() for n in names]
+        dbfs=[n for n in names if n.lower().endswith('.dbf')]
+        if dbfs:
+            dbf=max(dbfs,key=lambda n:z.getinfo(n).file_size);fields,rows=dbf_records(z.read(dbf));return fields,rows,f'dbf:{dbf}'
+        # MITECO puede empaquetar un shapefile dentro de otro ZIP.
+        nested=[n for n in names if n.lower().endswith('.zip')]
+        for n in sorted(nested,key=lambda x:z.getinfo(x).file_size,reverse=True):
+            try:return archive_records(z.read(n),depth+1,label+'>'+n)
+            except Exception:pass
+        gpkg=[n for n in names if n.lower().endswith('.gpkg')]
+        for n in sorted(gpkg,key=lambda x:z.getinfo(x).file_size,reverse=True):
+            try:return _gpkg_rows(z.read(n))
+            except Exception:pass
+        csvs=[n for n in names if n.lower().endswith(('.csv','.txt'))]
+        for n in sorted(csvs,key=lambda x:z.getinfo(x).file_size,reverse=True):
+            try:
+                fields,rows=_csv_rows(z.read(n))
+                if rows:return fields,rows,f'csv:{n}'
+            except Exception:pass
+        if '[content_types].xml' in lower and any(n.startswith(('xl/','word/','ppt/')) for n in lower):
+            raise RuntimeError('el formulario devolvió un contenedor OOXML, no el Shapefile solicitado')
+        preview=', '.join(names[:12])
+        raise RuntimeError(f'paquete sin DBF/ZIP/GPKG/CSV interpretable · contenido: {preview}')
+
+def update_status(payload):
+    status_path=ROOT/'data'/'generated'/'status.json'
+    try:st=json.loads(status_path.read_text(encoding='utf-8'))
+    except Exception:st={}
+    st['territorial_miteco']=payload
+    status_path.parent.mkdir(parents=True,exist_ok=True)
+    status_path.write_text(json.dumps(st,ensure_ascii=False,indent=2),encoding='utf-8')
+
 def find_code(row):
     preferred=[];other=[]
     for k,v in row.items():
-        s=re.sub(r'\D','',str(v))
-        if len(s)==5:
-            (preferred if any(x in norm(k) for x in ('ine','codmun','codigo','cod_mun','codine')) else other).append(s)
+        nk=norm(k);is_pref=any(x in nk for x in ('ine','codmun','codigo','cod_mun','codine','cod_municip'))
+        raw=str(v).strip()
+        # DBF/CSV puede entregar 01001, 1001, 1001.0 o textos con código.
+        m=re.fullmatch(r'(\d{1,5})(?:\.0+)?',raw)
+        if m and is_pref:
+            preferred.append(m.group(1).zfill(5));continue
+        digits=re.sub(r'\D','',raw)
+        if len(digits)==5:
+            (preferred if is_pref else other).append(digits)
     return (preferred or other or [None])[0]
 
 def find_name(row):
@@ -221,16 +308,38 @@ def load_old():
     try:return json.loads(OUT.read_text(encoding='utf-8'))
     except Exception:return {'items':[]}
 
+
+
+def seed_catalog(by):
+    """Base territorial mínima desde catálogo IGN/CNIG: población, superficie, coordenadas y densidad derivada."""
+    added=0
+    for path in (ROOT/'data'/'localidades'/'provinces').glob('*.json'):
+        try:block=json.loads(path.read_text(encoding='utf-8'))
+        except Exception:continue
+        for x in block.get('items',[]):
+            if x.get('entity_type')!='municipality':continue
+            code=x.get('ine_code') or (x.get('id') if re.fullmatch(r'\d{5}',str(x.get('id',''))) else None)
+            if not code:continue
+            rec=by.setdefault(code,{'ine_code':code});rec.setdefault('name',x.get('name'));rec.setdefault('province',x.get('province'));rec.setdefault('autonomous_region',x.get('autonomous_region'))
+            pop=x.get('population');surface=x.get('surface_ha')
+            if isinstance(pop,(int,float)) and rec.get('population') is None:
+                rec['population']=pop;rec.setdefault('_evidence',{})['population']={'source':x.get('source') or 'IGN/CNIG · NGMEP','url':x.get('source_url'),'field':'population'}
+            if isinstance(surface,(int,float)) and surface>0:
+                rec['surface_ha']=surface
+                if isinstance(rec.get('population'),(int,float)) and rec.get('density') is None:
+                    rec['density']=rec['population']/(surface/100.0);rec.setdefault('_evidence',{})['density']={'source':'Derivado de datos oficiales IGN/CNIG','formula':'population / (surface_ha / 100)','url':x.get('source_url')}
+            if isinstance(x.get('latitude'),(int,float)):rec['latitude']=x.get('latitude')
+            if isinstance(x.get('longitude'),(int,float)):rec['longitude']=x.get('longitude')
+            added+=1
+    return added
+
 def main():
-    old=load_old();by={x.get('ine_code'):x for x in old.get('items',[]) if x.get('ine_code')};source_status={};success=0
+    old=load_old();by={x.get('ine_code'):x for x in old.get('items',[]) if x.get('ine_code')};seeded=seed_catalog(by);source_status={};success=0;print(f'Base IGN/CNIG: {seeded} municipios cargados antes del enriquecimiento MITECO')
     for metric,filename,keywords in SOURCES:
         try:
             zp,via,download_mode=fetch_zip(filename)
-            with zipfile.ZipFile(zp) as z:
-                dbfs=[n for n in z.namelist() if n.lower().endswith('.dbf')]
-                if not dbfs:raise RuntimeError('ZIP sin DBF')
-                dbf=max(dbfs,key=lambda n:z.getinfo(n).file_size);fields,rows=dbf_records(z.read(dbf))
-            count=0;value_field=None
+            fields,rows,container_mode=archive_records(zp.read_bytes())
+            count=0;value_field=None;seen=set()
             for row in rows:
                 code=find_code(row)
                 if not code:continue
@@ -238,18 +347,20 @@ def main():
                 if val is None:continue
                 rec=by.setdefault(code,{'ine_code':code})
                 if not rec.get('name'):rec['name']=find_name(row)
-                rec[metric]=val;rec.setdefault('_evidence',{})[metric]={'source':'MITECO · Reto Demográfico','dataset':filename,'field':field,'url':via}
-                value_field=value_field or field;count+=1
-            if count<7000:raise RuntimeError(f'Solo {count} municipios interpretados; no se acepta como dataset nacional')
-            source_status[metric]={'ok':True,'records':count,'dataset':filename,'via':via,'download_mode':download_mode,'value_field':value_field};success+=1
-            print(f'OK {metric}: {count} registros · campo {value_field} · {download_mode}')
+                rec[metric]=val;rec.setdefault('_evidence',{})[metric]={'source':'MITECO · Reto Demográfico','dataset':filename,'field':field,'url':via,'container':container_mode}
+                value_field=value_field or field;seen.add(code)
+            count=len(seen)
+            if count<7000:raise RuntimeError(f'Solo {count} municipios interpretados desde {container_mode}; no se acepta como dataset nacional')
+            source_status[metric]={'ok':True,'records':count,'dataset':filename,'via':via,'download_mode':download_mode,'container_mode':container_mode,'value_field':value_field};success+=1
+            print(f'OK {metric}: {count} municipios · campo {value_field} · {download_mode} · {container_mode}')
         except Exception as e:
             source_status[metric]={'ok':False,'dataset':filename,'error':str(e)}
             print(f'AVISO {metric}: {e}',file=sys.stderr)
     items=sorted(by.values(),key=lambda x:x.get('ine_code',''))
     OUT.parent.mkdir(parents=True,exist_ok=True)
-    OUT.write_text(json.dumps({'generated_at':dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds'),'source_status':source_status,'successful_sources':success,'items':items,'note':'Solo se publican valores extraídos de fuentes oficiales. Una fuente fallida conserva, si existe, la última copia válida.'},ensure_ascii=False,indent=2),encoding='utf-8')
+    OUT.write_text(json.dumps({'generated_at':dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds'),'source_status':source_status,'successful_sources':success,'items':items,'note':'Base municipal IGN/CNIG (población, coordenadas y densidad cuando existe superficie) enriquecida con MITECO. Las métricas derivadas se identifican expresamente.'},ensure_ascii=False,indent=2),encoding='utf-8')
+    update_status({'ok':success>0,'degraded':success<len(SOURCES),'records':len(items),'baseline_records':len(items),'successful_sources':success,'total_sources':len(SOURCES),'source_status':source_status})
     print(f'Indicadores territoriales: {len(items)} municipios · {success}/{len(SOURCES)} fuentes actualizadas')
-    return 0 if (success>0 or items) else 1
+    return 0 if success>0 else 1
 
 if __name__=='__main__':raise SystemExit(main())
