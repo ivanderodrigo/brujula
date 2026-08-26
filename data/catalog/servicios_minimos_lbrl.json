@@ -1,0 +1,53 @@
+{
+  "updated": "2026-08-26",
+  "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+  "norm": "Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local · artículo 26",
+  "note": "Los umbrales se aplican al municipio. Para municipios de menos de 20.000 habitantes, el artículo 26.2 prevé coordinación provincial o equivalente para determinados servicios.",
+  "bands": [
+    {
+      "min": 0,
+      "services": [
+        "Alumbrado público",
+        "Cementerio",
+        "Recogida de residuos",
+        "Limpieza viaria",
+        "Abastecimiento domiciliario de agua potable",
+        "Alcantarillado",
+        "Acceso a los núcleos de población",
+        "Pavimentación de las vías públicas"
+      ]
+    },
+    {
+      "min": 5001,
+      "services": [
+        "Parque público",
+        "Biblioteca pública",
+        "Tratamiento de residuos"
+      ]
+    },
+    {
+      "min": 20001,
+      "services": [
+        "Protección civil",
+        "Evaluación e información de situaciones de necesidad social y atención inmediata a personas en situación o riesgo de exclusión social",
+        "Prevención y extinción de incendios",
+        "Instalaciones deportivas de uso público"
+      ]
+    },
+    {
+      "min": 50001,
+      "services": [
+        "Transporte colectivo urbano de viajeros",
+        "Medio ambiente urbano"
+      ]
+    }
+  ],
+  "under_20000_coordination": [
+    "Recogida y tratamiento de residuos",
+    "Abastecimiento de agua potable y evacuación y tratamiento de aguas residuales",
+    "Limpieza viaria",
+    "Acceso a los núcleos de población",
+    "Pavimentación de vías urbanas",
+    "Alumbrado público"
+  ]
+}

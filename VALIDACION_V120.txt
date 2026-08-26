@@ -1,0 +1,17 @@
+VALIDACIÓN BRÚJULA MUNICIPAL v1.2.0 SIMPLE
+
+- JavaScript: sintaxis OK (node --check)
+- HTML núcleo: estructura OK
+- CSS: llaves equilibradas
+- validar_sitio.py sobre base de prueba: RESULTADO PUBLICABLE
+- servicios mínimos LBRL: 4 escalones (todos, >5.000, >20.000, >50.000)
+- fuente: BOE · Ley 7/1985, artículo 26
+- entidades no municipales: cálculo de umbral mediante municipio matriz cuando está disponible
+- navegación principal: Inicio / Obligaciones / Ayudas / Mi plan
+- plan: sin cuestionario previo de capacidad
+- BDNS automático: fuera de la lista principal de ayudas hasta revisión
+- BOE automático: fuera de la lista principal de obligaciones hasta revisión
+- data/generated: NO incluido
+- data/localidades: NO incluido
+
+NOTA: la cobertura nacional real se hereda del repositorio y de GitHub Actions; este overlay no la sustituye.

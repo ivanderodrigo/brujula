@@ -1,0 +1,25 @@
+{
+  "modules": [
+    {
+      "id": "ens",
+      "title": "ENS",
+      "subtitle": "Adecuación, evidencias y seguimiento",
+      "status": "future",
+      "description": "Módulo especializado previsto para convertir el cumplimiento del ENS en un itinerario guiado."
+    },
+    {
+      "id": "proteccion-datos",
+      "title": "Protección de datos",
+      "subtitle": "Inventario, controles y evidencias",
+      "status": "future",
+      "description": "Módulo futuro para ordenar obligaciones y evidencias sin añadir complejidad al núcleo de Brújula."
+    },
+    {
+      "id": "contratacion",
+      "title": "Contratación",
+      "subtitle": "Preparación y control",
+      "status": "future",
+      "description": "Módulo futuro de apoyo a la preparación y seguimiento de expedientes."
+    }
+  ]
+}
