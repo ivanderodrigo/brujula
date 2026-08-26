@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "checked_at": "2026-08-26T09:33:06+00:00",
+  "checked_at": "2026-08-26T10:48:31+00:00",
   "pipeline": "static-offline",
   "mode": "full",
   "sources_run": [
@@ -42,7 +42,7 @@
       "sanitized": 0,
       "window_days": 60
     },
-    "updated_at": "2026-08-26T09:32:28",
+    "updated_at": "2026-08-26T10:47:55",
     "territorial_miteco": {
       "ok": false,
       "degraded": true,
