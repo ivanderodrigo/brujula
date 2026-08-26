@@ -1,0 +1,32 @@
+VALIDACIÓN BRÚJULA MUNICIPAL v1.4.0 · DECISION ENGINE
+
+- JSON de lógica: OK
+- Python actualizar_bdns.py: compila OK
+- JavaScript app.js: node --check OK
+- scripts inline de Inicio/Obligaciones/Ayudas/Proyectos/Mi plan: sintaxis OK
+- scripts de detalle Ayuda/Obligación/Proyecto: sintaxis OK
+- test_motor_v140.py: OK
+  · campos estructurados BDNS
+  · beneficiario municipal
+  · privado no confundido con municipio
+  · EATIM
+  · umbral y sujeto poblacional
+  · plazo abierto/cerrado detectado
+- test_decision_engine_v140.js: OK
+  · capacidad automática por escala
+  · Ley 2/2023: cumplimiento compartido <10.000
+  · vetos BDNS por beneficiario/plazo
+  · doble escala EATIM: municipio matriz / población local
+  · vía EATIM directa cuando está explícita
+  · diversidad de cartera de proyectos
+- Validación sobre catálogo de referencia completo: PUBLICABLE
+  · 175 proyectos
+  · 27 obligaciones
+  · 9 oportunidades editoriales
+  · 9 apoyos
+  · 13 servicios comunes
+  · 15 playbooks
+- Overlay no contiene data/generated: OK
+- Overlay no contiene data/localidades: OK
+
+NOTA: la cobertura nacional real de localidades, indicadores y las nuevas extracciones BDNS se confirma al ejecutar MODE=full en el repositorio de producción.

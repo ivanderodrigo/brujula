@@ -275,3 +275,27 @@ html{background:var(--surface)}body{background:var(--surface);color:var(--ink);f
 .summary-band{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:22px 0 32px}.summary-band>div{border-radius:20px;padding:20px;background:#fff;border:1px solid var(--line2)}.summary-band strong{font-size:28px;display:block}.summary-band span{font-size:13px;color:var(--muted2)}
 @media(max-width:900px){.rich-hero .hero-grid{grid-template-columns:1fr;gap:28px}.metric-strip,.discovery-grid{grid-template-columns:repeat(2,1fr)}.project-rich-grid{grid-template-columns:1fr 1fr}.summary-band{grid-template-columns:1fr}.rich-section-head{align-items:flex-start;flex-direction:column}}
 @media(max-width:620px){.rich-hero{padding:56px 0 36px}.rich-hero h1{font-size:46px}.metric-strip,.discovery-grid,.project-rich-grid{grid-template-columns:1fr}.clean-list>a,.clean-row{grid-template-columns:34px minmax(0,1fr);padding:18px}.clean-list>a>b{display:none}.layer-head{padding:20px}.navlinks{overflow-x:auto;white-space:nowrap;padding-bottom:4px;scrollbar-width:none}.navlinks::-webkit-scrollbar{display:none}}
+
+/* v1.3.0 SMART SIMPLE */
+.smart-context{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 26px;padding:12px 14px;border:1px solid rgba(11,43,61,.10);background:rgba(255,255,255,.72);border-radius:16px;box-shadow:0 10px 30px rgba(11,43,61,.05)}
+.smart-context>span{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:#59717d;font-weight:800;margin-right:2px}
+.smart-context>b{font-size:.82rem;font-weight:700;color:#12394a;background:#edf6f3;border:1px solid #d7ebe5;padding:7px 10px;border-radius:999px}
+.smart-context details{margin-left:auto;position:relative}
+.smart-context summary{cursor:pointer;list-style:none;font-size:.82rem;font-weight:800;color:#0b6070;padding:7px 2px}
+.smart-context summary::-webkit-details-marker{display:none}
+.smart-context details[open] p{position:absolute;right:0;top:34px;z-index:20;width:min(430px,80vw);padding:16px 18px;background:#0b2b3d;color:#edf7f4;border-radius:14px;box-shadow:0 18px 50px rgba(11,43,61,.24);font-size:.88rem;line-height:1.55;font-weight:500}
+.smart-why{display:flex;gap:6px;flex-wrap:wrap;margin:14px 0 2px}
+.smart-why span{font-size:.72rem;line-height:1.25;color:#315663;background:#f0f6f5;border:1px solid #dceae7;border-radius:999px;padding:6px 8px}
+.smart-why.inline{margin:8px 0 4px}.smart-why.inline span{background:#f7faf9}
+.mini-chip.provincial{background:#eaf4ff;border-color:#cfe1f7;color:#1b5579}.mini-chip.muted-chip{background:#f2f3f3;border-color:#e1e4e4;color:#68777d}
+.support-smart-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;padding:0 24px 24px}
+.support-smart{display:block;border:1px solid #e2e9e7;border-radius:16px;padding:18px;text-decoration:none;color:inherit;background:#fff;min-height:170px;transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
+.support-smart.verified{border-color:#cfe7dd;background:linear-gradient(180deg,#fbfffd,#f4fbf8)}
+a.support-smart:hover{transform:translateY(-2px);box-shadow:0 14px 34px rgba(11,43,61,.08);border-color:#a9d5c6}
+.support-smart>span{display:inline-block;font-size:.69rem;text-transform:uppercase;letter-spacing:.08em;font-weight:900;color:#29715f;margin-bottom:9px}
+.support-smart.legal>span{color:#755c28}.support-smart.legal{background:#fffdf8;border-color:#eee3c7}
+.support-smart h4{margin:0 0 8px;font-size:1rem;color:#12394a}.support-smart p{margin:0 0 14px;font-size:.86rem;line-height:1.48;color:#60747c}.support-smart b{font-size:.76rem;color:#43616c}
+.compact-layer .layer-head{padding-bottom:18px}
+.plan-side-card a small{display:block;font-size:.7rem;color:#6e8188;margin-top:3px;font-weight:600}
+@media(max-width:900px){.support-smart-grid{grid-template-columns:1fr 1fr}.smart-context details{margin-left:0;width:100%}.smart-context details[open] p{left:0;right:auto;width:min(520px,calc(100vw - 56px))}}
+@media(max-width:620px){.support-smart-grid{grid-template-columns:1fr;padding:0 16px 16px}.smart-context{padding:10px 11px;border-radius:14px}.smart-context>b{font-size:.75rem;padding:6px 8px}.smart-context details[open] p{width:calc(100vw - 40px)}.smart-why span{font-size:.69rem}}

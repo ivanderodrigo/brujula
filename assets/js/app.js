@@ -28,7 +28,7 @@ const BM={
      if(!ok&&selectedType==='eatim'&&p.parent_municipality&&o.beneficiary_types.includes('municipality')){checks.push(['unknown',`Posible vía Ayuntamiento de ${p.parent_municipality}`]);unknown++;route='parent_municipality'}
      else {checks.push([ok?'pass':'fail','Tipo de beneficiario']);if(!ok)fail=true}
    }else{checks.push(['unknown','Beneficiario']);unknown++}
-   if(o.population_rules?.length){let pop;if(route==='parent_municipality'||selectedType==='population_entity')pop=p.municipal_population;else pop=p.population;pop=pop??this.getPrefs().population;if(pop==null){checks.push(['unknown',route==='parent_municipality'?'Población del municipio matriz':'Población']);unknown++}else for(const rule of o.population_rules){let ok=true;if(rule.max!=null)ok=pop<=rule.max;if(rule.min!=null)ok=ok&&pop>=rule.min;checks.push([ok?'pass':'fail',`${route==='parent_municipality'?'Población municipio matriz':'Población'} ${rule.max?'≤ '+this.number(rule.max):''}`]);if(!ok)fail=true}}
+   if(o.population_rules?.length){let pop;if(route==='parent_municipality'||selectedType==='population_entity')pop=p.municipal_population;else pop=p.population;pop=pop??this.getPrefs().population;if(pop==null){checks.push(['unknown',route==='parent_municipality'?'Población del municipio matriz':'Población']);unknown++}else for(const rule of o.population_rules){let ok=true;if(rule.max!=null)ok=pop<=rule.max;if(rule.min!=null)ok=ok&&pop>=rule.min;checks.push([ok?'pass':'fail',`${route==='parent_municipality'?'Población municipio matriz':'Población'} ${[rule.min!=null?'≥ '+this.number(rule.min):'',rule.max!=null?'≤ '+this.number(rule.max):''].filter(Boolean).join(' y ')}`]);if(!ok)fail=true}}
    if(o.territories?.length){const vals=[p.autonomous_region,p.province,p.name,p.parent_municipality];const ok=o.territories.some(t=>vals.some(v=>this.normalize(v)===this.normalize(t)));checks.push([ok?'pass':'fail','Territorio']);if(!ok)fail=true}
    else if(o.scope&&['España','España / despliegues estatales y autonómicos'].includes(o.scope))checks.push(['pass','Ámbito nacional']);else if(!o.scope||o.scope==='Por determinar'){checks.push(['unknown','Ámbito territorial']);unknown++}
    if(fail)return {label:'No parece aplicable',level:'fail',checks,route};if(o.review_status==='pending'||o.status==='pending_review')return {label:'Candidato · comprobar',level:'unknown',checks,route};if(unknown)return {label:route==='parent_municipality'?'Revisar vía municipio matriz':'Buen encaje aparente · comprobar',level:'unknown',checks,route};return {label:'Encaje aparente alto',level:'pass',checks,route}
@@ -672,4 +672,338 @@ window.addEventListener('DOMContentLoaded',()=>{sharedUI();globalSearch();window
   };
   window.addEventListener('DOMContentLoaded',()=>BM.applySimpleChrome());
   window.addEventListener('bm-ready',()=>BM.applySimpleChrome());
+})();
+
+/* v1.3.0 SMART SIMPLE · inteligencia profunda, interfaz mínima */
+(function(){
+  BM.simpleLogic=async function(){return this.cache.__simpleLogic||(this.cache.__simpleLogic=await this.json('data/catalog/logica_simple.json'))};
+  BM.resolveAdministrativeMunicipality=async function(profile){
+    if(!profile)return null;
+    if(profile.entity_type==='municipality')return profile;
+    if(profile.parent_municipality_id){const p=await this.loadPlace(profile.parent_municipality_id);if(p)return p}
+    if(profile.parent_municipality){
+      const rows=await this.searchPlaces(profile.parent_municipality);
+      const exact=rows.find(x=>x.entity_type==='municipality'&&this.normalize(x.name)===this.normalize(profile.parent_municipality)&&(!profile.province||this.normalize(x.province)===this.normalize(profile.province)));
+      if(exact)return await this.loadPlace(exact.id)||exact;
+    }
+    return profile.municipal_population!=null?{...profile,entity_type:'municipality',name:profile.parent_municipality||profile.name,population:profile.municipal_population}:null;
+  };
+  BM.relativeTerritorialSignals=async function(metrics,peer){
+    const logic=await this.simpleLogic(), med=peer?.benchmark?.median||{},out=[];
+    for(const r of logic.relative_signals||[]){const v=metrics?.[r.metric],m=med?.[r.metric];if(typeof v!=='number'||typeof m!=='number'||!Number.isFinite(v)||!Number.isFinite(m))continue;let ok=false;
+      if(r.direction==='low')ok=v<m*r.ratio;
+      if(r.direction==='high')ok=v>m*r.ratio;
+      if(r.direction==='high_delta')ok=v>m+r.delta;
+      if(r.direction==='low_delta')ok=v<m-r.delta;
+      if(ok)out.push({...r,value:v,peer_median:m,severity:'context'});
+    }return out;
+  };
+  BM.smartContext=async function(profile){
+    if(!profile)return null;const admin=await this.resolveAdministrativeMunicipality(profile);const metricProfile=admin?.entity_type==='municipality'?admin:profile;const metrics=await this.metricsFor(metricProfile);const peer=await this.peerContext(metricProfile,metrics);const [baseSignals,relative,logic,supportAll,commonServices]=await Promise.all([this.territorialSignals(metrics),this.relativeTerritorialSignals(metrics,peer),this.simpleLogic(),this.support(),this.services()]);
+    const population=metrics?.population??admin?.population??profile.municipal_population??(profile.entity_type==='municipality'?profile.population:null);
+    const entityRoute=profile.entity_type==='municipality'?'direct':profile.entity_type==='eatim'?'eatim':'parent';
+    const priorityTags=new Set([...baseSignals,...relative].flatMap(x=>x.tags||[]));
+    if(population!=null&&population<=1000){['administracion','contratacion','servicios','digitalizacion'].forEach(x=>priorityTags.add(x))}
+    else if(population!=null&&population<=5000){['servicios','administracion'].forEach(x=>priorityTags.add(x))}
+    if(entityRoute!=='direct'){priorityTags.add('servicios');priorityTags.add('administracion')}
+    const legalProvincial=(logic.provincial_rules||[]).filter(r=>population!=null&&population<=r.max_population).map(r=>({...r,source:logic.sources?.lbrl||null}));
+    const verifiedProvincial=supportAll.filter(x=>x.province&&profile.province&&this.normalize(x.province)===this.normalize(profile.province)).filter(x=>{
+      const types=x.entity_types||[];if(!types.length)return true;if(profile.entity_type==='eatim'&&types.includes('eatim'))return true;if(profile.entity_type==='population_entity')return types.includes('municipality');return types.includes('municipality')||types.includes('local_entity');
+    });
+    const reasons=[];
+    if(profile.entity_type==='eatim')reasons.push(`EATIM · los umbrales municipales se calculan con ${admin?.name||profile.parent_municipality||'el municipio matriz'}`);
+    else if(profile.entity_type==='population_entity')reasons.push(`Núcleo de población · tramitación y umbrales vía ${admin?.name||profile.parent_municipality||'municipio matriz'}`);
+    if(population!=null)reasons.push(this.populationBand(population));
+    [...baseSignals,...relative].slice(0,2).forEach(s=>reasons.push(s.title));
+    if(verifiedProvincial.length)reasons.push(`${verifiedProvincial.length} apoyos provinciales verificados`);
+    return {profile,admin,population,entityRoute,metrics,peer,signals:[...baseSignals,...relative],priorityTags:[...priorityTags],legalProvincial,verifiedProvincial,commonServices,reasons:[...new Set(reasons)].slice(0,4)};
+  };
+  BM.minimumServices=async function(profile){
+    const d=await this.json('data/catalog/servicios_minimos_lbrl.json');if(!profile)return {...d,population:null,services:[],rows:[],band:'Selecciona municipio',coordination:[]};const ctx=await this.smartContext(profile),pop=ctx.population;
+    if(pop==null)return {...d,population:null,services:[],rows:[],band:'Población municipal pendiente',coordination:[],context:ctx,legal_provincial:ctx.legalProvincial,verified_provincial:ctx.verifiedProvincial};
+    const services=[];for(const band of d.bands||[])if(pop>=band.min)services.push(...band.services);const coordination=pop<20000?(d.under_20000_coordination||[]):[],coordSet=new Set(coordination.map(x=>this.normalize(x)));
+    const rows=services.map(service=>{const n=this.normalize(service),coordKey=['alumbrado publico','limpieza viaria','acceso a los nucleos','pavimentacion','recogida de residuos','abastecimiento domiciliario','alcantarillado'].some(k=>n.includes(k)),coordinated=pop<20000&&(coordKey||[...coordSet].some(x=>n.includes(x)||x.includes(n)));let route='Ayuntamiento';let note='Servicio mínimo municipal.';
+      if(ctx.entityRoute!=='direct'){route=`Municipio matriz${ctx.admin?.name?' · '+ctx.admin.name:''}`;note='El umbral del artículo 26 se aplica al municipio; revisar competencias/delegaciones de la entidad inframunicipal.'}
+      else if(coordinated){route='Ayuntamiento · coordinación provincial posible';note='En municipios de menos de 20.000 habitantes la Diputación o equivalente coordina este servicio en los términos del art. 26.2 LBRL.'}
+      return {service,route,note,coordinated};
+    });
+    return {...d,population:pop,services,rows,band:this.populationBand(pop),coordination,context:ctx,legal_provincial:ctx.legalProvincial,verified_provincial:ctx.verifiedProvincial};
+  };
+  BM.smartObligationFit=async function(o,ctx){
+    const logic=await this.simpleLogic(),rule=logic.obligation_rules?.[o.id]||{mode:'general'};let score=({critico:10,alto:7,medio:4,bajo:2}[o.impact]||1),label='Revisar',level='relevant',reason='Marco u obligación práctica relevante para la entidad.';
+    if((ctx?.priorityTags||[]).includes(o.category)){score+=4;reason='Además conecta con una característica o prioridad del municipio.'}
+    if(rule.mode==='conditional'||rule.mode==='conditional_common'){score-=2;label='Solo si se da esta situación';level='conditional';reason=rule.condition}
+    else if(rule.mode==='activity'){score-=1;label='Cuando realices esta actividad';level='conditional';reason=rule.condition}
+    else if(rule.mode==='service'){score+=2;label='Ligada a un servicio municipal';reason=rule.condition}
+    if(ctx?.entityRoute==='parent'){score-=1;label='Vía municipio matriz';reason=`La referencia administrativa principal es ${ctx.admin?.name||'el municipio matriz'}. ${reason}`}
+    if(ctx?.entityRoute==='eatim'){score-=1;label='Revisar alcance EATIM';reason=`No se presume la misma competencia que un municipio. Revisar normativa autonómica, competencias propias/delegadas y, cuando corresponda, ${ctx.admin?.name||'municipio matriz'}. ${reason}`}
+    return {score,label,level,reason,rule};
+  };
+  BM.smartObligationLayers=async function(profile){
+    const all=await this.obligations(),ctx=profile?await this.smartContext(profile):null,weight={critico:4,alto:3,medio:2,bajo:1};const curated=[],radar=[];
+    for(const o of all){if(o.review_status==='pending'){let score=o.detection_score||0;if(ctx?.priorityTags?.includes(o.category))score+=8;radar.push({o,score,label:ctx?.priorityTags?.includes(o.category)?'Prioridad de revisión':'Vigilancia',reason:ctx?.priorityTags?.includes(o.category)?'La materia coincide con señales o prioridades del municipio.':'Cambio detectado; falta confirmar efecto concreto.'})}else{const fit=ctx?await this.smartObligationFit(o,ctx):{score:(weight[o.impact]||0)*2,label:'Revisar',level:'relevant',reason:o.summary};curated.push({o,fit,score:fit.score})}}
+    curated.sort((a,b)=>b.score-a.score);radar.sort((a,b)=>b.score-a.score);return {all,curated,radar,context:ctx};
+  };
+  BM.smartProjectRecommendations=async function(profile,limit=8){
+    const projects=await this.json('data/catalog/proyectos.json');if(!profile)return projects.slice(0,limit).map(p=>({p,score:0,reasons:['Proyecto del catálogo']}));const ctx=await this.smartContext(profile),obls=await this.smartObligationLayers(profile);const topObl=new Set(obls.curated.slice(0,8).map(x=>x.o.id));
+    const rows=projects.map(p=>{let score=this.projectFitScore(p,profile),reasons=[],overlap=(p.tags||[]).filter(t=>ctx.priorityTags.includes(t)||ctx.priorityTags.includes(p.category));if(overlap.length){score+=Math.min(9,overlap.length*3);reasons.push('Responde al contexto del municipio')}
+      if(ctx.population!=null&&ctx.population<=1000){if(p.complexity==='baja'){score+=4;reasons.push('Adecuado para una estructura municipal muy pequeña')}if(p.complexity==='alta')score-=6;if(['€€€','€€€€'].includes(p.cost_band))score-=5}
+      else if(ctx.population!=null&&ctx.population<=5000){if(p.complexity==='baja')score+=2;if(p.complexity==='alta')score-=3;if(p.cost_band==='€€€€')score-=3}
+      if(ctx.entityRoute!=='direct'&&p.complexity==='alta')score-=2;
+      const obligationHit=(p.obligations||[]).some(id=>topObl.has(id));if(obligationHit){score+=3;reasons.push('Conecta con una obligación prioritaria')}
+      const genericTopics=new Set(['servicios','administracion','digitalizacion']);const topicMatch=s=>(s.topics||[]).includes(p.category)||(s.topics||[]).some(t=>!genericTopics.has(t)&&(p.tags||[]).includes(t));
+      const provincial=ctx.verifiedProvincial.filter(topicMatch);if(provincial.length){const substitutable=['administracion','digitalizacion','contratacion','tributos','archivo','interoperabilidad'].includes(p.category)||(p.tags||[]).some(t=>['registro','interoperabilidad'].includes(t));if(substitutable)score-=4;else score+=1;reasons.push(`Antes de comprar, comprobar apoyo provincial: ${provincial[0].title}`)}
+      const legalProv=ctx.legalProvincial.filter(topicMatch);if(legalProv.length&&!provincial.length){score-=1;reasons.push('Comprobar primero si la Diputación puede prestar o coordinar esta necesidad')}
+      const common=ctx.commonServices.filter(topicMatch);if(common.length){score-=3;reasons.push(`Antes de desarrollar, revisar servicio común: ${common[0].title}`)}
+      if(ctx.entityRoute!=='direct')reasons.push(`Coordinar con ${ctx.admin?.name||'el municipio matriz'}`);
+      return {p,score,reasons:[...new Set(reasons)].slice(0,3),provincial,common};
+    }).sort((a,b)=>b.score-a.score);return rows.slice(0,limit);
+  };
+  BM.smartOpportunityFit=async function(o,ctx){
+    if(!ctx)return {tier:'explore',score:o.detection_score||0,label:'Explorar',reasons:['Selecciona municipio para valorar el encaje'],match:null};const match=this.matchOpportunity(o,ctx.profile);if(match.level==='fail')return {tier:'excluded',score:-100,label:'No parece aplicable',reasons:match.checks.filter(x=>x[0]==='fail').map(x=>x[1]),match};
+    const topics=(o.topics||[]).filter(t=>ctx.priorityTags.includes(t)),explicit=(o.beneficiary_types||[]).length>0,hardPass=explicit&&match.checks?.length&&match.checks.every(c=>c[0]==='pass');let score=this.opportunityScore(o,ctx.profile)+(o.detection_score?Math.min(5,o.detection_score/5):0)+topics.length*3,reasons=[];
+    if(topics.length)reasons.push(`Relacionada con ${topics.slice(0,2).join(' · ')}`);
+    if(hardPass){score+=5;reasons.push('Beneficiario, población y ámbito detectados encajan')}
+    else if(!explicit)reasons.push('La BDNS no ha permitido confirmar aún el beneficiario');
+    if(match.route==='parent_municipality')reasons.push(`Posible vía ${ctx.admin?.name||'municipio matriz'}`);
+    const days=this.daysUntil(o.deadline);if(days!=null&&days>=0){score+=2;reasons.push(`Plazo detectado: ${days} días`)}
+    if(o.review_status!=='pending'&&o.status!=='pending_review')return {tier:'verified',score:score+8,label:'Verificada · revisar bases',reasons:[match.label,...reasons].slice(0,3),match};
+    if(hardPass&&topics.length)return {tier:'likely',score,label:'Buen candidato · revisar bases',reasons:reasons.slice(0,3),match};
+    if((explicit&&match.level!=='fail')||topics.length)return {tier:'possible',score,label:match.route==='parent_municipality'?'Posible vía municipio matriz':'Puede encajar · comprobar',reasons:reasons.slice(0,3),match};
+    return {tier:'low',score,label:'Baja prioridad de revisión',reasons:reasons.slice(0,2),match};
+  };
+  BM.smartOpportunityLayers=async function(profile){
+    const all=await this.opportunities(),ctx=profile?await this.smartContext(profile):null,rows=[];for(const o of all){rows.push({o,fit:await this.smartOpportunityFit(o,ctx)})}rows.sort((a,b)=>b.fit.score-a.fit.score);
+    return {context:ctx,verified:rows.filter(x=>x.fit.tier==='verified'&&['open','announced'].includes(x.o.status)),likely:rows.filter(x=>x.fit.tier==='likely'),possible:rows.filter(x=>x.fit.tier==='possible'),low:rows.filter(x=>x.fit.tier==='low'),excluded:rows.filter(x=>x.fit.tier==='excluded'),all:rows};
+  };
+  BM.smartDashboard=async function(profile){
+    if(!profile)return null;const [ctx,min,obls,opps,projects]=await Promise.all([this.smartContext(profile),this.minimumServices(profile),this.smartObligationLayers(profile),this.smartOpportunityLayers(profile),this.smartProjectRecommendations(profile,6)]);const priorities=[];
+    if(obls.curated[0])priorities.push({kind:'Cumplimiento',title:obls.curated[0].o.title,text:obls.curated[0].fit.label+' · '+obls.curated[0].fit.reason,href:'obligaciones/detalle.html?id='+obls.curated[0].o.id});
+    const pSupport=ctx.verifiedProvincial[0]||ctx.legalProvincial[0];if(pSupport)priorities.push({kind:'Apoyo provincial',title:pSupport.title,text:pSupport.summary||pSupport.message||'Comprobar prestación o asistencia antes de contratar una solución propia.',href:'obligaciones/'});
+    const f=opps.verified[0]||opps.likely[0]||opps.possible[0];if(f)priorities.push({kind:'Financiación',title:f.o.title,text:f.fit.label+(f.fit.reasons[0]?' · '+f.fit.reasons[0]:''),href:'oportunidades/detalle.html?id='+f.o.id});
+    if(projects[0])priorities.push({kind:'Actuación',title:projects[0].p.title,text:projects[0].reasons[0]||projects[0].p.summary,href:'proyectos/detalle.html?id='+projects[0].p.id});
+    return {profile,context:ctx,minimum:min,obligations:obls,opportunities:opps,projects,priorities:priorities.slice(0,4)};
+  };
+  BM.smart90DayPlan=async function(profile){
+    const dash=await this.smartDashboard(profile),ctx=dash.context,obls=dash.obligations.curated.slice(0,4),projects=dash.projects.slice(0,4),fund=[...dash.opportunities.verified,...dash.opportunities.likely,...dash.opportunities.possible].slice(0,3);const support=ctx.verifiedProvincial[0]||ctx.legalProvincial[0];
+    const phases=[
+      {range:'0–30 días',goal:'Aclarar obligaciones y usar lo que ya existe',actions:[`Comprobar cómo se prestan los servicios mínimos que corresponden a ${ctx.admin?.name||profile.name}.`,...(support?[`Comprobar antes de contratar: ${support.title}.`]:[]),...obls.slice(0,2).map(x=>`${x.fit.label}: ${x.o.title}.`)]},
+      {range:'31–60 días',goal:'Elegir pocas actuaciones con buen encaje',actions:[...projects.slice(0,3).map(x=>`Definir alcance mínimo de ${x.p.title}${x.reasons[0]?' · '+x.reasons[0]:''}.`),...fund.slice(0,1).map(x=>`Revisar bases y encaje de ${x.o.title}.`)]},
+      {range:'61–90 días',goal:'Preparar ejecución y financiación',actions:[...fund.slice(0,2).map(x=>`Decidir si preparar solicitud para ${x.o.title} (${x.fit.label}).`),...projects.slice(0,1).map(x=>`Cerrar responsable, coste recurrente y siguiente hito de ${x.p.title}.`)]}
+    ];return {...dash,phases};
+  };
+})();
+
+/* v1.4.0 DECISION ENGINE · mucha inteligencia detrás, pocas decisiones delante */
+(function(){
+  BM._decisionKey=function(profile,suffix=''){return `__v140_${suffix}_${profile?.id||profile?.name||'none'}`};
+  BM._finite=function(v){return typeof v==='number'&&Number.isFinite(v)};
+  BM._uniq=function(xs){return [...new Set((xs||[]).filter(Boolean))]};
+  BM.capacityProfile=async function(population){
+    const logic=await this.simpleLogic();
+    return (logic.capacity_bands||[]).find(x=>population!=null&&population<=x.max_population)||(logic.capacity_bands||[]).slice(-1)[0]||{};
+  };
+  BM._signalWeight=async function(signal){
+    const logic=await this.simpleLogic();
+    if(signal?.weight!=null)return signal.weight;
+    return (logic.severity_weights||{})[signal?.severity]||2;
+  };
+  BM._topicFamily=async function(tag){
+    const logic=await this.simpleLogic(),n=this.normalize(tag);
+    for(const [family,tags] of Object.entries(logic.topic_families||{}))if((tags||[]).some(x=>this.normalize(x)===n))return family;
+    return tag||'otros';
+  };
+  BM._topicAffinity=function(itemTags,ctx){
+    let score=0,hits=[];for(const raw of itemTags||[]){const t=this.normalize(raw);const w=ctx?.tagWeights?.[t]||0;if(w>0){score+=w;hits.push({tag:raw,weight:w})}}
+    hits.sort((a,b)=>b.weight-a.weight);return {score,hits};
+  };
+  BM._evidenceConfidence=function(o){
+    if(o?.extraction_confidence)return o.extraction_confidence;
+    if(o?.review_status!=='pending'&&o?.status!=='pending_review'&&o?.verified)return 'high';
+    let n=0;if((o?.beneficiary_types||[]).length)n++;if((o?.territories||[]).length||o?.scope==='España')n++;if(o?.deadline)n++;if(o?.bases_url||o?.source)n++;
+    return n>=3?'medium':'low';
+  };
+  BM._topicMatch=function(subject,service){
+    const a=this._uniq([subject?.category,...(subject?.tags||[]),...(subject?.topics||[])]).map(x=>this.normalize(x));
+    const b=this._uniq([service?.category,...(service?.topics||[])]).map(x=>this.normalize(x));
+    return a.some(x=>b.includes(x))||a.some(x=>b.some(y=>x.length>4&&y.length>4&&(x.includes(y)||y.includes(x))));
+  };
+
+  BM.smartContext=async function(profile){
+    if(!profile)return null;const key=this._decisionKey(profile,'ctx');if(this.cache[key])return this.cache[key];
+    const promise=(async()=>{
+      const admin=await this.resolveAdministrativeMunicipality(profile),metricProfile=admin?.entity_type==='municipality'?admin:profile;
+      const metrics=await this.metricsFor(metricProfile),peer=await this.peerContext(metricProfile,metrics);
+      const [rawBase,relative,logic,supportAll,commonServices]=await Promise.all([this.territorialSignals(metrics),this.relativeTerritorialSignals(metrics,peer),this.simpleLogic(),this.support(),this.services()]);
+      const population=metrics?.population??admin?.population??profile.municipal_population??(profile.entity_type==='municipality'?profile.population:null);
+      const entityRoute=profile.entity_type==='municipality'?'direct':profile.entity_type==='eatim'?'eatim':'parent',localPopulation=profile.population??population,capacityPopulation=entityRoute==='direct'?population:(localPopulation??population),capacity=await this.capacityProfile(capacityPopulation);
+      // Para reglas absolutas sobre una misma métrica conservamos la más intensa (evita duplicar “baja” y “muy baja”).
+      const byMetric=new Map();for(const s of rawBase||[]){const w=await this._signalWeight(s),old=byMetric.get(s.metric);if(!old||w>old._weight)byMetric.set(s.metric,{...s,_weight:w})}
+      const baseSignals=[...byMetric.values()],signals=[...baseSignals,...(relative||[])];
+      const tagWeights={};for(const s of signals){const w=await this._signalWeight(s);for(const tag of s.tags||[]){const n=this.normalize(tag);tagWeights[n]=(tagWeights[n]||0)+w}}
+      const add=(tag,w)=>{const n=this.normalize(tag);tagWeights[n]=(tagWeights[n]||0)+w};
+      if(population!=null&&population<=500){[['administracion',5],['servicios',5],['digitalizacion',3],['contratacion',4],['ciberseguridad',3]].forEach(x=>add(...x))}
+      else if(population!=null&&population<=1000){[['administracion',4],['servicios',4],['contratacion',3],['digitalizacion',3]].forEach(x=>add(...x))}
+      else if(population!=null&&population<=5000){[['servicios',3],['administracion',3],['digitalizacion',2]].forEach(x=>add(...x))}
+      if(entityRoute!=='direct'){add('administracion',4);add('servicios',3)}
+      const priorityTags=Object.entries(tagWeights).sort((a,b)=>b[1]-a[1]).map(x=>x[0]);
+      const legalProvincial=(logic.provincial_rules||[]).filter(r=>population!=null&&population<=r.max_population).map(r=>({...r,source:logic.sources?.lbrl||null}));
+      const verifiedProvincial=supportAll.filter(x=>x.province&&profile.province&&this.normalize(x.province)===this.normalize(profile.province)).filter(x=>{
+        const types=x.entity_types||[];if(!types.length)return true;if(profile.entity_type==='eatim')return types.includes('eatim')||types.includes('local_entity');if(profile.entity_type==='population_entity')return types.includes('municipality');return types.includes('municipality')||types.includes('local_entity');
+      });
+      const known=['population','population_change','density','mean_age','over65','under18_pct','broadband100','income_per_person','income_per_household','one_person_households'].filter(k=>this._finite(metrics?.[k]));
+      const dataConfidence=known.length>=6?'high':known.length>=3?'medium':'basic';
+      const constraints=[],advantages=[];
+      if(capacity?.shared_first)constraints.push('Conviene priorizar soluciones compartidas y con poco mantenimiento');
+      if(entityRoute!=='direct')constraints.push('Las competencias y la vía de tramitación deben confirmarse con el municipio matriz o régimen de la entidad');
+      if((signals||[]).some(s=>s.id==='connectivity_gap'||s.id==='broadband_peer_low'))constraints.push('No diseñar servicios que dependan exclusivamente de conectividad doméstica');
+      if(verifiedProvincial.length)advantages.push('Existe apoyo provincial concreto verificado que puede evitar compras o trabajo duplicado');
+      if(commonServices.length)advantages.push('Hay servicios comunes estatales que deben comprobarse antes de desarrollar soluciones propias');
+      const reasons=[];
+      if(profile.entity_type==='eatim')reasons.push(`EATIM · umbrales municipales sobre ${admin?.name||profile.parent_municipality||'municipio matriz'}`);
+      else if(profile.entity_type==='population_entity')reasons.push(`Núcleo · decisiones administrativas vía ${admin?.name||profile.parent_municipality||'municipio matriz'}`);
+      if(population!=null)reasons.push(this.populationBand(population));
+      signals.slice().sort((a,b)=>(b._weight||b.weight||0)-(a._weight||a.weight||0)).slice(0,2).forEach(s=>reasons.push(s.title));
+      if(verifiedProvincial.length)reasons.push(`${verifiedProvincial.length} apoyos provinciales verificados`);
+      return {profile,admin,population,legalPopulation:population,localPopulation,capacityPopulation,entityRoute,capacity,metrics,peer,signals,tagWeights,priorityTags,legalProvincial,verifiedProvincial,commonServices,dataConfidence,constraints,advantages,reasons:this._uniq(reasons).slice(0,4)};
+    })();this.cache[key]=promise;return promise;
+  };
+
+  BM.smartObligationFit=async function(o,ctx){
+    const logic=await this.simpleLogic(),rule=logic.obligation_rules?.[o.id]||{mode:'general'},impact=({critico:12,alto:9,medio:5,bajo:2}[o.impact]||3);
+    let score=impact,label='Revisar',level='relevant',reason='Obligación o marco práctico relevante para la entidad.',decision='do_now',route='municipality',confidence=o.certainty==='official-law'?'high':'medium';
+    const affinity=this._topicAffinity([o.category,...(o.topics||[])],ctx);score+=Math.min(8,affinity.score);
+    if(rule.mode==='conditional'||rule.mode==='conditional_common'){score-=4;label='Solo si se da esta situación';level='conditional';decision='explore';reason=rule.condition}
+    else if(rule.mode==='activity'){score-=2;label='Cuando realices esta actividad';level='conditional';decision='prepare';reason=rule.condition}
+    else if(rule.mode==='service'){score+=2;label='Ligada a un servicio municipal';reason=rule.condition}
+    else if(rule.mode==='good_practice'||rule.mode==='good_practice_critical'){label=rule.mode==='good_practice_critical'?'Control operativo prioritario':'Buena práctica recomendada';level='practice';decision=rule.mode==='good_practice_critical'?'do_now':'prepare';reason=rule.condition;confidence='medium'}
+    // Caso legal específico: todos los municipios tienen canal interno; <10.000 pueden compartir medios.
+    if(o.id==='canal-interno'&&ctx?.entityRoute==='direct'){
+      label=ctx.population!=null&&ctx.population<10000?'Obligación · puede compartirse':'Obligación municipal';
+      decision=ctx.population!=null&&ctx.population<10000?'shared_compliance':'do_now';
+      route=ctx.population!=null&&ctx.population<10000?'shared':'municipality';score+=6;
+      reason=ctx.population!=null&&ctx.population<10000?rule.shared_message:'Todos los municipios deben disponer de un Sistema interno de información conforme a la Ley 2/2023.';confidence='high';
+    }
+    // Cuando la ley básica atribuye asistencia/prestación provincial, se recomienda comprobarla antes de contratar.
+    if(ctx?.entityRoute==='direct'&&rule.prefer_provincial_under&&ctx.population!=null&&ctx.population<rule.prefer_provincial_under){
+      const topic=rule.provincial_topic||o.category,verified=ctx.verifiedProvincial.find(s=>this._topicMatch({category:topic,tags:[topic]},s)),legal=ctx.legalProvincial.find(s=>(s.topics||[]).some(t=>this.normalize(t)===this.normalize(topic)));
+      if(verified||legal){route=verified?'provincial_verified':'provincial_check';decision=decision==='do_now'?'shared_compliance':decision;score+=2;reason=`${reason} ${verified?`Hay apoyo provincial verificado: ${verified.title}.`:`Antes de contratar, comprobar la asistencia/prestación provincial prevista para municipios de este tamaño.`}`}
+    }
+    if(rule.prefer_common){const common=ctx?.commonServices?.find(s=>this._topicMatch({category:o.category,tags:[rule.provincial_topic||o.category]},s));if(common){route='common_service';decision='check_existing';reason=`${reason} Antes de adquirir una herramienta propia, comprobar si puede resolverse con ${common.title}.`;score+=1}}
+    // EATIM / núcleo: no se presume que una obligación municipal se traslade automáticamente.
+    if(ctx?.entityRoute==='parent'){score-=2;label='Vía municipio matriz';level='route';decision='prepare';route='parent_municipality';reason=`La referencia administrativa principal es ${ctx.admin?.name||'el municipio matriz'}. No se aplica automáticamente al núcleo como entidad separada. ${reason}`}
+    else if(ctx?.entityRoute==='eatim'){
+      score-=2;label='Revisar alcance EATIM';level='route';decision='prepare';route='eatim_review';confidence='medium';reason=`No se presume la misma competencia que un municipio. Confirmar personalidad/régimen autonómico, competencias propias o delegadas y la relación con ${ctx.admin?.name||'el municipio matriz'}. ${reason}`;
+    }
+    const reasons=this._uniq([reason,affinity.hits[0]?`El contexto municipal refuerza ${affinity.hits[0].tag}`:null]);
+    return {score,label,level,reason:reasons[0],reasons,decision,route,confidence,rule,breakdown:{impact,need:affinity.score}};
+  };
+
+  BM.smartObligationLayers=async function(profile){
+    const key=this._decisionKey(profile,'obls');if(profile&&this.cache[key])return this.cache[key];const promise=(async()=>{
+      const all=await this.obligations(),ctx=profile?await this.smartContext(profile):null,curated=[],radar=[];
+      for(const o of all){if(o.review_status==='pending'){
+        const affinity=ctx?this._topicAffinity([o.category,...(o.topics||[])],ctx):{score:0,hits:[]},score=(o.detection_score||0)+Math.min(10,affinity.score);
+        radar.push({o,score,label:affinity.score>=5?'Prioridad de revisión':'Vigilancia',reason:affinity.score>=5?`La materia coincide con ${affinity.hits.slice(0,2).map(x=>x.tag).join(' · ')}.`:'Cambio detectado; falta confirmar su efecto concreto en la entidad.'});
+      }else{const fit=ctx?await this.smartObligationFit(o,ctx):{score:({critico:12,alto:9,medio:5,bajo:2}[o.impact]||3),label:'Revisar',reason:o.summary,decision:'prepare'};curated.push({o,fit,score:fit.score})}}
+      curated.sort((a,b)=>b.score-a.score);radar.sort((a,b)=>b.score-a.score);return {all,curated,radar,context:ctx};
+    })();if(profile)this.cache[key]=promise;return promise;
+  };
+
+  BM.smartOpportunityFit=async function(o,ctx){
+    if(!ctx)return {tier:'explore',score:o.detection_score||0,label:'Explorar',decision:'explore',confidence:'low',reasons:['Selecciona municipio para valorar el encaje'],match:null};
+    const n=x=>this.normalize(x),days=this.daysUntil(o.deadline),confidence=this._evidenceConfidence(o),selected=ctx.profile.entity_type||'municipality',benef=o.beneficiary_types||[],targets=o.beneficiary_targets||benef,applicationState=o.application_status||(o.review_status==='pending'?'unknown':o.status);
+    let score=0,reasons=[],route=ctx.entityRoute==='parent'?'parent_municipality':ctx.entityRoute,hardFail=false,hardPasses=0,unknowns=0;
+    // Estado y plazo son vetos duros cuando son conocidos.
+    if(applicationState==='closed_detected'||o.status==='closed'||(days!=null&&days<0))return {tier:'excluded',score:-200,label:'Cerrada',decision:'not_applicable',confidence,reasons:['El plazo detectado ha finalizado.'],match:{level:'fail',route}};
+    // Beneficiario. Solo tratamos como veto lo que la fuente identifica de forma suficientemente explícita.
+    const directMunicipal=targets.some(x=>['municipality','local_entity'].includes(x));
+    const directEatim=targets.includes('eatim');
+    const clearlyPrivate=targets.length&&targets.every(x=>['company','individual','nonprofit','private_entity'].includes(x));
+    if(clearlyPrivate){hardFail=true;reasons.push('Los beneficiarios detectados son privados, no una entidad local.')}
+    else if(selected==='municipality'){
+      if(directMunicipal){score+=12;hardPasses++;reasons.push('El tipo de beneficiario detectado incluye entidades locales/municipios.')}else if(targets.length){unknowns++;reasons.push('El tipo de beneficiario no confirma expresamente al municipio.')}else{unknowns++;reasons.push('Beneficiario pendiente de confirmar en bases.')}
+    }else if(selected==='eatim'){
+      if(directEatim){score+=14;hardPasses++;route='eatim_direct';reasons.push('La convocatoria menciona expresamente EATIM/entidades inframunicipales.')}
+      else if(directMunicipal){route='parent_municipality';score+=5;unknowns++;reasons.push(`Puede requerir tramitación mediante ${ctx.admin?.name||'el municipio matriz'}.`)}
+      else if(targets.length){unknowns++;reasons.push('No se ha confirmado que una EATIM pueda ser beneficiaria directa.')}else{unknowns++;reasons.push('Beneficiario pendiente de confirmar en bases.')}
+    }else{
+      if(directMunicipal){route='parent_municipality';score+=5;hardPasses++;reasons.push(`La actuación se analizaría vía ${ctx.admin?.name||'el municipio matriz'}.`)}else unknowns++;
+    }
+    // Umbrales demográficos sobre municipio administrativo salvo admisión EATIM explícita con regla propia (no se presupone).
+    if((o.population_rules||[]).length){for(const r of o.population_rules){let pop=ctx.population,basis=r.basis||'unknown',ambiguous=false;if(selected==='eatim'&&route==='eatim_direct'){if(['eatim','local_entity','beneficiary'].includes(basis))pop=ctx.localPopulation;else if(basis==='municipality')pop=ctx.population;else{pop=ctx.population;ambiguous=true}}if(pop==null){unknowns++;reasons.push('Falta población para comprobar el umbral.');continue}let ok=true;if(r.min!=null)ok=ok&&pop>=r.min;if(r.max!=null)ok=ok&&pop<=r.max;const txt=`${r.min!=null?'≥ '+this.number(r.min):''}${r.min!=null&&r.max!=null?' y ':''}${r.max!=null?'≤ '+this.number(r.max):''}`;if(!ok&&ambiguous){unknowns++;reasons.push(`El umbral ${txt} está detectado, pero en una EATIM hay que confirmar si se refiere a la entidad o al municipio matriz.`)}else if(!ok){hardFail=true;reasons.push(`No cumple el umbral poblacional detectado (${txt}).`)}else{score+=8;hardPasses++;reasons.push(`Cumple el umbral poblacional detectado${selected==='eatim'&&route==='eatim_direct'&&['eatim','local_entity','beneficiary'].includes(basis)?' con la población de la entidad':''}.`)}}}
+    // Territorio estructurado.
+    const territories=(o.territories||[]).map(n).filter(Boolean);if(territories.length){const vals=[ctx.profile.autonomous_region,ctx.profile.province,'España'].map(n);const national=territories.some(t=>['espana','es','es - espana'].includes(t)||t.includes('espana'));const ok=national||territories.some(t=>vals.some(v=>v&&(t===v||t.includes(v)||v.includes(t))));if(!ok){hardFail=true;reasons.push('El territorio de impacto detectado no coincide con la entidad.')}else{score+=8;hardPasses++;reasons.push(national?'Ámbito estatal detectado.':'El territorio detectado coincide.')}}else if(o.scope==='España'){score+=5;hardPasses++}else{unknowns++}
+    if(hardFail)return {tier:'excluded',score:-150,label:'No parece aplicable',decision:'not_applicable',confidence,reasons:this._uniq(reasons).slice(0,3),match:{level:'fail',route}};
+    const affinity=this._topicAffinity(o.topics||[],ctx);score+=Math.min(18,affinity.score*1.5);if(affinity.hits.length)reasons.push(`Responde a ${affinity.hits.slice(0,2).map(x=>x.tag).join(' · ')}.`);
+    if(applicationState==='open_detected'||o.status==='open')score+=10;else if(applicationState==='future_detected'||o.status==='announced')score+=4;
+    if(days!=null&&days>=0&&days<=21){score+=7;reasons.push(`Plazo próximo: ${days} días.`)}else if(days!=null&&days<=60){score+=4;reasons.push(`Plazo detectado: ${days} días.`)}else if(days!=null)score+=1;
+    if(o.budget_total)score+=1;if(o.bases_url)score+=2;if(confidence==='high')score+=6;else if(confidence==='medium')score+=2;else score-=4;
+    const verified=o.review_status!=='pending'&&o.status!=='pending_review';
+    if(verified)return {tier:'verified',score:score+12,label:o.status==='announced'?'Verificada · pendiente de apertura':'Verificada · revisar bases',decision:o.status==='announced'?'prepare':'do_now',confidence,reasons:this._uniq(reasons).slice(0,3),match:{level:unknowns?'unknown':'pass',route}};
+    if(hardPasses>=2&&confidence!=='low'&&affinity.score>=3)return {tier:'likely',score,label:'Buen candidato · revisar bases',decision:'prepare',confidence,reasons:this._uniq(reasons).slice(0,3),match:{level:unknowns?'unknown':'pass',route}};
+    if((hardPasses>=1||affinity.score>=4)&&confidence!=='low')return {tier:'possible',score,label:route==='parent_municipality'?'Puede encajar vía municipio matriz':'Puede encajar · comprobar',decision:'explore',confidence,reasons:this._uniq(reasons).slice(0,3),match:{level:'unknown',route}};
+    return {tier:'low',score,label:'Baja prioridad de revisión',decision:'later',confidence,reasons:this._uniq(reasons).slice(0,2),match:{level:'unknown',route}};
+  };
+
+  BM.smartOpportunityLayers=async function(profile){
+    const key=this._decisionKey(profile,'opps');if(profile&&this.cache[key])return this.cache[key];const promise=(async()=>{
+      const all=await this.opportunities(),ctx=profile?await this.smartContext(profile):null,rows=[];for(const o of all)rows.push({o,fit:await this.smartOpportunityFit(o,ctx)});rows.sort((a,b)=>b.fit.score-a.fit.score);
+      return {context:ctx,verified:rows.filter(x=>x.fit.tier==='verified'&&['open','announced','pending_review'].includes(x.o.status)),likely:rows.filter(x=>x.fit.tier==='likely'),possible:rows.filter(x=>x.fit.tier==='possible'),low:rows.filter(x=>x.fit.tier==='low'),excluded:rows.filter(x=>x.fit.tier==='excluded'),all:rows};
+    })();if(profile)this.cache[key]=promise;return promise;
+  };
+
+  BM._projectDecision=async function(p,ctx,topObligations,fundingRows){
+    const logic=await this.simpleLogic(),aff=this._topicAffinity([p.category,...(p.tags||[])],ctx),cap=ctx.capacity||{},breakdown={need:Math.min(22,aff.score*1.7),compliance:0,feasibility:0,reuse:0,funding:0,route:0},reasons=[];
+    const linked=(p.obligations||[]).filter(id=>topObligations.has(id));if(linked.length){breakdown.compliance+=8;reasons.push('Ayuda a responder a una obligación o control prioritario')}
+    if(aff.hits.length)reasons.push(`Encaja con ${aff.hits.slice(0,2).map(x=>x.tag).join(' · ')}`);
+    if((cap.complexity_preference||[]).includes(p.complexity))breakdown.feasibility+=6;else if(p.complexity==='alta')breakdown.feasibility-=8;
+    if(p.cost_max!=null&&cap.max_preferred_cost!=null){if(p.cost_max<=cap.max_preferred_cost)breakdown.feasibility+=5;else if(p.cost_min!=null&&p.cost_min>cap.max_preferred_cost)breakdown.feasibility-=8;else breakdown.feasibility-=3}
+    if(ctx.population!=null&&ctx.population<=500&&p.complexity==='baja')reasons.push('Proporcional a una estructura municipal muy pequeña');
+    if(ctx.entityRoute!=='direct'){breakdown.route-=3;reasons.push(`Coordinar con ${ctx.admin?.name||'el municipio matriz'}`)}
+    const verified=ctx.verifiedProvincial.filter(s=>this._topicMatch(p,s)),legal=ctx.legalProvincial.filter(s=>this._topicMatch(p,s)),common=ctx.commonServices.filter(s=>this._topicMatch(p,s));
+    const substitutable=(logic.reuse_categories||[]).some(c=>this.normalize(c)===this.normalize(p.category))||(p.tags||[]).some(t=>(logic.reuse_categories||[]).some(c=>this.normalize(c)===this.normalize(t)));
+    let decision='prepare';if(substitutable&&verified.length){breakdown.reuse-=12;decision='check_existing';reasons.unshift(`Comprobar antes el apoyo provincial: ${verified[0].title}`)}
+    else if(substitutable&&common.length){breakdown.reuse-=10;decision='check_existing';reasons.unshift(`Comprobar antes el servicio común: ${common[0].title}`)}
+    else if(substitutable&&legal.length){breakdown.reuse-=6;decision='check_existing';reasons.unshift('Comprobar primero si Diputación puede prestar o coordinar esta necesidad')}
+    else if(verified.length){breakdown.reuse+=2;reasons.push(`Puede apoyarse en ${verified[0].title}`)}
+    // Financiación es un acelerador, nunca el motivo único para hacer un proyecto.
+    const fund=(fundingRows||[]).filter(x=>x.fit.tier!=='excluded'&&x.fit.tier!=='low').map(x=>({x,aff:this._topicAffinity(x.o.topics||[],{tagWeights:Object.fromEntries(this._uniq([p.category,...(p.tags||[])]).map(t=>[this.normalize(t),2]))})})).filter(x=>x.aff.score>0).sort((a,b)=>b.x.fit.score-a.x.fit.score)[0];
+    if(fund){breakdown.funding+=Math.min(5,fund.aff.score);reasons.push(`Hay financiación relacionada para revisar: ${fund.x.o.title}`)}
+    const score=breakdown.need+breakdown.compliance+breakdown.feasibility+breakdown.reuse+breakdown.funding+breakdown.route;
+    if(decision!=='check_existing'){if(linked.length&&score>=12)decision='do_now';else if(score>=10)decision='prepare';else if(score>=2)decision='explore';else decision='later'}
+    const confidence=(p.evidence_level&&this.normalize(p.evidence_level).includes('editorial'))?'medium':'medium';
+    return {p,score,decision,decisionLabel:(logic.decision_labels||{})[decision]||'Preparar',confidence,reasons:this._uniq(reasons).slice(0,4),breakdown,provincial:verified,common,funding:fund?.x||null};
+  };
+  BM._diversifyProjects=async function(rows,n){
+    const logic=await this.simpleLogic(),maxCat=logic.diversity?.max_same_category_top||2,maxFam=logic.diversity?.max_same_family_top||3,cat={},fam={},chosen=[],rest=[];
+    for(const x of rows){const c=x.p.category||'otros',f=await this._topicFamily(c);if(chosen.length<n&&(cat[c]||0)<maxCat&&(fam[f]||0)<maxFam){chosen.push(x);cat[c]=(cat[c]||0)+1;fam[f]=(fam[f]||0)+1}else rest.push(x)}
+    if(chosen.length<n){while(chosen.length<n&&rest.length)chosen.push(rest.shift())}return [...chosen,...rest];
+  };
+  BM.smartProjectRecommendations=async function(profile,limit=8){
+    const projects=await this.json('data/catalog/proyectos.json');if(!profile)return projects.slice(0,limit).map(p=>({p,score:0,decision:'explore',decisionLabel:'Explorar',reasons:['Proyecto del catálogo']}));
+    const key=this._decisionKey(profile,'projects');if(!this.cache[key])this.cache[key]=(async()=>{
+      const [ctx,obls,opps]=await Promise.all([this.smartContext(profile),this.smartObligationLayers(profile),this.smartOpportunityLayers(profile)]),topObligations=new Set(obls.curated.filter(x=>['do_now','shared_compliance','check_existing'].includes(x.fit.decision)).slice(0,10).map(x=>x.o.id)),rows=[];
+      for(const p of projects)rows.push(await this._projectDecision(p,ctx,topObligations,opps.all));rows.sort((a,b)=>b.score-a.score);return this._diversifyProjects(rows,12);
+    })();const all=await this.cache[key];return all.slice(0,Math.min(limit,all.length));
+  };
+
+  BM.smartDashboard=async function(profile){
+    if(!profile)return null;const [ctx,min,obls,opps,projects]=await Promise.all([this.smartContext(profile),this.minimumServices(profile),this.smartObligationLayers(profile),this.smartOpportunityLayers(profile),this.smartProjectRecommendations(profile,12)]),priorities=[];
+    const must=obls.curated.find(x=>['do_now','shared_compliance'].includes(x.fit.decision))||obls.curated[0];if(must)priorities.push({kind:'Cumplimiento',title:must.o.title,text:`${must.fit.label} · ${must.fit.reason}`,href:'obligaciones/detalle.html?id='+must.o.id});
+    const reuse=projects.find(x=>x.decision==='check_existing'),support=ctx.verifiedProvincial[0]||ctx.legalProvincial[0];if(reuse)priorities.push({kind:'Evita duplicar',title:reuse.p.title,text:reuse.reasons[0],href:'proyectos/detalle.html?id='+reuse.p.id});else if(support)priorities.push({kind:'Apoyo provincial',title:support.title,text:support.summary||support.message||'Comprobar prestación antes de comprar una solución propia.',href:'obligaciones/'});
+    const fund=opps.verified[0]||opps.likely[0]||opps.possible[0];if(fund)priorities.push({kind:'Financiación',title:fund.o.title,text:`${fund.fit.label}${fund.fit.reasons[0]?' · '+fund.fit.reasons[0]:''}`,href:'oportunidades/detalle.html?id='+fund.o.id});
+    const act=projects.find(x=>['do_now','prepare'].includes(x.decision)&&x.decision!=='check_existing')||projects[0];if(act)priorities.push({kind:'Actuación',title:act.p.title,text:`${act.decisionLabel} · ${act.reasons[0]||act.p.summary}`,href:'proyectos/detalle.html?id='+act.p.id});
+    return {profile,context:ctx,minimum:min,obligations:obls,opportunities:opps,projects,priorities:priorities.slice(0,4)};
+  };
+  BM.smart90DayPlan=async function(profile){
+    const dash=await this.smartDashboard(profile),ctx=dash.context,obls=dash.obligations.curated,projects=dash.projects,funds=[...dash.opportunities.verified,...dash.opportunities.likely,...dash.opportunities.possible];
+    const shared=obls.filter(x=>x.fit.decision==='shared_compliance').slice(0,2),must=obls.filter(x=>x.fit.decision==='do_now').slice(0,2),reuse=projects.filter(x=>x.decision==='check_existing').slice(0,2),act=projects.filter(x=>['do_now','prepare'].includes(x.decision)).slice(0,3);
+    const phases=[
+      {range:'0–30 días',goal:'Cumplir y evitar trabajo o compras innecesarias',actions:this._uniq([...must.map(x=>`${x.fit.label}: ${x.o.title}.`),...shared.map(x=>`${x.fit.label}: ${x.o.title}.`),...reuse.map(x=>`${x.decisionLabel}: ${x.p.title} · ${x.reasons[0]}.`)]).slice(0,5)},
+      {range:'31–60 días',goal:'Preparar solo actuaciones proporcionadas',actions:this._uniq([...act.map(x=>`${x.decisionLabel}: definir alcance mínimo de ${x.p.title}.`),...funds.slice(0,2).map(x=>`Comprobar bases y documentación de ${x.o.title} (${x.fit.label}).`)]).slice(0,5)},
+      {range:'61–90 días',goal:'Decidir, financiar y ejecutar',actions:this._uniq([...funds.slice(0,2).map(x=>`Decidir si preparar solicitud para ${x.o.title}.`),...act.slice(0,2).map(x=>`Cerrar responsable, coste recurrente, contratación y siguiente hito de ${x.p.title}.`)]).slice(0,5)}
+    ];
+    return {...dash,phases};
+  };
 })();
