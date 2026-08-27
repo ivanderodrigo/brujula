@@ -6,19 +6,19 @@
       "last_success": "2026-08-26T13:01:59+00:00"
     },
     "bdns": {
-      "last_attempt": "2026-08-26T13:06:26+00:00",
-      "last_success": "2026-08-26T13:06:26+00:00"
+      "last_attempt": "2026-08-27T14:21:42+00:00",
+      "last_success": "2026-08-27T14:21:42+00:00"
     },
     "boe": {
-      "last_attempt": "2026-08-26T13:07:57+00:00",
-      "last_success": "2026-08-26T13:07:57+00:00"
+      "last_attempt": "2026-08-27T14:23:26+00:00",
+      "last_success": "2026-08-27T14:23:26+00:00"
     },
     "news": {
-      "last_attempt": "2026-08-26T13:08:05+00:00",
-      "last_success": "2026-08-26T13:08:05+00:00"
+      "last_attempt": "2026-08-27T14:23:34+00:00",
+      "last_success": "2026-08-27T14:23:34+00:00"
     },
     "territorial": {
-      "last_attempt": "2026-08-26T13:08:19+00:00",
+      "last_attempt": "2026-08-27T14:23:54+00:00",
       "last_error": "No actualizado; ver source_status"
     },
     "income": {
@@ -27,15 +27,13 @@
     }
   },
   "note": "Estado de cadencias del pipeline automático. Se inicializa en la primera ejecución satisfactoria.",
-  "last_successful_pipeline": "2026-08-26T13:08:33+00:00",
-  "mode": "full",
+  "last_successful_pipeline": "2026-08-27T14:23:58+00:00",
+  "mode": "daily",
   "last_run_sources": [
-    "localities",
     "bdns",
     "boe",
     "news",
     "territorial",
-    "income",
     "seo"
   ]
 }
