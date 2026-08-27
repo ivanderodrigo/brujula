@@ -1337,3 +1337,481 @@ window.addEventListener('DOMContentLoaded',()=>{sharedUI();globalSearch();window
     observer?.observe(document.documentElement,{subtree:true,childList:true});
   });
 })();
+
+/* v1.4.4 · matching estricto general proyecto-financiacion */
+(function () {
+  BM.weakFundingTopics = new Set([
+    'servicios', 'accesibilidad', 'edificios', 'equipamiento',
+    'infraestructura', 'infraestructuras', 'innovacion', 'sostenibilidad',
+    'municipal', 'municipio', 'rural', 'territorio', 'digitalizacion',
+    'datos', 'administracion', 'gobernanza', 'smart', 'smart-village',
+    'tecnologia', 'salud', 'mayores', 'familias'
+  ].map(x => BM.normalize(x)));
+
+  BM.genericFundingCategories = new Set([
+    'servicios', 'digitalizacion', 'administracion',
+    'datos', 'smart-village', 'otros'
+  ].map(x => BM.normalize(x)));
+
+  BM.fundingProjectCompatibility = async function (project, opportunity, fit = null) {
+    if (!project || !opportunity) {
+      return { compatible: false, mode: 'invalid', score: 0, hits: [] };
+    }
+
+    if (fit && ['excluded', 'low'].includes(fit.tier)) {
+      return { compatible: false, mode: 'municipal_fit', score: 0, hits: [] };
+    }
+
+    const opportunityId = opportunity.id;
+    const explicit = (project.opportunities || []).includes(opportunityId);
+
+    if (explicit) {
+      return {
+        compatible: true,
+        mode: 'explicit',
+        score: 100,
+        hits: [opportunityId]
+      };
+    }
+
+    const category = this.normalize(project.category || '');
+    const opportunityTopics = new Set(
+      (opportunity.topics || [])
+        .map(topic => this.normalize(topic))
+        .filter(Boolean)
+    );
+
+    if (!opportunityTopics.size) {
+      return { compatible: false, mode: 'no_topics', score: 0, hits: [] };
+    }
+
+    /*
+     * Una categoría concreta exige coincidencia exacta.
+     * Ejemplos: agua, energía, turismo, patrimonio, movilidad,
+     * vivienda, ciberseguridad, conectividad...
+     */
+    if (
+      category &&
+      !this.genericFundingCategories.has(category) &&
+      !this.weakFundingTopics.has(category)
+    ) {
+      if (!opportunityTopics.has(category)) {
+        return {
+          compatible: false,
+          mode: 'category_mismatch',
+          score: 0,
+          hits: []
+        };
+      }
+
+      return {
+        compatible: true,
+        mode: 'exact_category',
+        score: 12,
+        hits: [category]
+      };
+    }
+
+    /*
+     * En categorías amplias no basta "servicios", "digitalización",
+     * "accesibilidad", "edificios", "innovación", etc.
+     * Se exige al menos un descriptor específico exacto.
+     */
+    const anchors = this._uniq(
+      (project.tags || []).map(tag => this.normalize(tag))
+    ).filter(tag =>
+      tag &&
+      tag.length >= 3 &&
+      !this.weakFundingTopics.has(tag) &&
+      !this.genericFundingCategories.has(tag)
+    );
+
+    const hits = anchors.filter(tag => opportunityTopics.has(tag));
+
+    if (!hits.length) {
+      return {
+        compatible: false,
+        mode: 'generic_only',
+        score: 0,
+        hits: []
+      };
+    }
+
+    return {
+      compatible: true,
+      mode: 'specific_tag',
+      score: 8 + Math.min(4, hits.length * 2),
+      hits
+    };
+  };
+
+  BM.projectOpportunityLinks = async function (profile, project) {
+    const opportunities = await this.opportunities();
+    const output = [];
+
+    for (const opportunity of opportunities) {
+      const match = this.matchOpportunity(opportunity, profile);
+
+      if (match.level === 'fail') {
+        continue;
+      }
+
+      const compatibility = await this.fundingProjectCompatibility(
+        project,
+        opportunity,
+        null
+      );
+
+      if (!compatibility.compatible) {
+        continue;
+      }
+
+      const score =
+        this.opportunityScore(opportunity, profile) +
+        compatibility.score;
+
+      if (score <= -80) {
+        continue;
+      }
+
+      output.push({
+        opportunity,
+        match,
+        overlap: compatibility.hits,
+        score,
+        compatibility
+      });
+    }
+
+    return output.sort((a, b) => b.score - a.score).slice(0, 8);
+  };
+
+  BM.priorityRanking = async function (profile) {
+    const [projects, metrics, signals, opportunities] = await Promise.all([
+      this.json('data/catalog/proyectos.json'),
+      this.metricsFor(profile),
+      this.metricsFor(profile).then(m => this.territorialSignals(m)),
+      this.opportunities()
+    ]);
+
+    const signalTags = [
+      ...new Set(signals.flatMap(signal => signal.tags || []))
+    ];
+
+    const preferences = this.getPrefs();
+    const priorities = preferences.priorities || [];
+    const rows = [];
+
+    for (const project of projects) {
+      let impact = 0;
+      let urgency = 0;
+      let feasibility = 0;
+      let funding = 0;
+      const reasons = [];
+
+      for (const tag of project.tags || []) {
+        if (signalTags.includes(tag)) {
+          impact += 3;
+          reasons.push('responde a una señal territorial');
+        }
+
+        if (
+          priorities.includes(tag) ||
+          priorities.includes(project.category)
+        ) {
+          impact += 4;
+          reasons.push('prioridad declarada');
+        }
+      }
+
+      impact += Math.max(0, this.projectFitScore(project, profile));
+
+      if (['baja', 'media'].includes(project.complexity)) {
+        feasibility += 3;
+        reasons.push('complejidad asumible');
+      } else {
+        feasibility += 1;
+      }
+
+      const capacity = this.getCapacity();
+
+      if (
+        capacity.technical === 'low' &&
+        project.complexity === 'alta'
+      ) {
+        feasibility -= 3;
+      }
+
+      if (
+        capacity.investment === 'low' &&
+        ['€€€', '€€€€'].includes(project.cost_band)
+      ) {
+        feasibility -= 3;
+      }
+
+      let linkedFunding = 0;
+
+      for (const opportunity of opportunities) {
+        const municipalMatch = this.matchOpportunity(opportunity, profile);
+
+        if (municipalMatch.level === 'fail') {
+          continue;
+        }
+
+        const compatibility = await this.fundingProjectCompatibility(
+          project,
+          opportunity,
+          null
+        );
+
+        if (compatibility.compatible) {
+          linkedFunding++;
+        }
+      }
+
+      if (linkedFunding) {
+        funding = Math.min(6, linkedFunding * 2);
+        reasons.push(
+          `${linkedFunding} vía(s) de financiación con encaje temático fuerte`
+        );
+      }
+
+      const urgencyTags = [
+        'agua', 'ciberseguridad', 'servicios', 'energia', 'movilidad'
+      ];
+
+      if (
+        (project.tags || []).some(
+          tag => urgencyTags.includes(tag) && signalTags.includes(tag)
+        )
+      ) {
+        urgency += 3;
+      }
+
+      const total = impact + urgency + feasibility + funding;
+
+      rows.push({
+        project,
+        total,
+        impact,
+        urgency,
+        feasibility,
+        funding,
+        reasons: [...new Set(reasons)],
+        linked_count: linkedFunding
+      });
+    }
+
+    return rows.sort((a, b) => b.total - a.total).slice(0, 20);
+  };
+
+  BM._fundingChannelFit = async function (project, context) {
+    const data = await this.fundingSources();
+    const rows = [];
+
+    for (const source of data.sources || []) {
+      /*
+       * "todos" significa fuente general de búsqueda.
+       * Nunca se usa como prueba de que financia un proyecto concreto.
+       */
+      const topics = (source.topics || []).filter(
+        topic => this.normalize(topic) !== 'todos'
+      );
+
+      if (!topics.length) {
+        continue;
+      }
+
+      const pseudoOpportunity = {
+        id: `source:${source.id}`,
+        topics
+      };
+
+      const compatibility = await this.fundingProjectCompatibility(
+        project,
+        pseudoOpportunity,
+        null
+      );
+
+      if (!compatibility.compatible) {
+        continue;
+      }
+
+      let score = compatibility.score;
+
+      if (
+        source.id === 'leader' &&
+        context?.population != null &&
+        context.population <= 20000
+      ) {
+        score += 5;
+      }
+
+      if (source.id === 'poctep') {
+        const eligibleProvinces = [
+          'A Coruña', 'Lugo', 'Ourense', 'Pontevedra', 'Ávila',
+          'León', 'Salamanca', 'Valladolid', 'Zamora',
+          'Badajoz', 'Cáceres', 'Cádiz', 'Córdoba', 'Huelva', 'Sevilla'
+        ];
+
+        const province = this.normalize(context?.profile?.province);
+
+        if (
+          !eligibleProvinces.some(
+            candidate => this.normalize(candidate) === province
+          )
+        ) {
+          continue;
+        }
+      }
+
+      rows.push({
+        source,
+        score,
+        compatibility
+      });
+    }
+
+    return rows.sort((a, b) => b.score - a.score).slice(0, 3);
+  };
+
+  const previousProjectDecision =
+    BM._projectDecision ? BM._projectDecision.bind(BM) : null;
+
+  if (previousProjectDecision) {
+    BM._projectDecision = async function (
+      project,
+      context,
+      topObligations,
+      fundingRows
+    ) {
+      const row = await previousProjectDecision(
+        project,
+        context,
+        topObligations,
+        fundingRows
+      );
+
+      /*
+       * Retirar cualquier puntuación de financiación heredada de la lógica
+       * antigua antes de aplicar la comprobación estricta.
+       */
+      const oldFunding = Number(row.breakdown?.funding || 0);
+
+      if (row.breakdown) {
+        row.breakdown.funding = 0;
+      }
+
+      row.score = Number(row.score || 0) - oldFunding;
+      row.funding = null;
+
+      row.reasons = (row.reasons || []).filter(reason =>
+        !/financiaci[oó]n relacionada|v[ií]a\(s\) de financiaci[oó]n/i
+          .test(String(reason))
+      );
+
+      let best = null;
+
+      for (const fundingRow of fundingRows || []) {
+        if (!fundingRow?.o) {
+          continue;
+        }
+
+        if (['excluded', 'low'].includes(fundingRow.fit?.tier)) {
+          continue;
+        }
+
+        const compatibility = await this.fundingProjectCompatibility(
+          project,
+          fundingRow.o,
+          fundingRow.fit
+        );
+
+        if (!compatibility.compatible) {
+          continue;
+        }
+
+        const candidate = {
+          row: fundingRow,
+          compatibility,
+          rank:
+            Number(fundingRow.fit?.score || 0) +
+            compatibility.score
+        };
+
+        if (
+          !best ||
+          candidate.rank > best.rank
+        ) {
+          best = candidate;
+        }
+      }
+
+      if (best) {
+        const add = Math.min(5, best.compatibility.score);
+
+        if (row.breakdown) {
+          row.breakdown.funding = add;
+        }
+
+        row.score += add;
+        row.funding = best.row;
+
+        const prefix =
+          best.compatibility.mode === 'explicit'
+            ? 'Financiación vinculada y aplicable a revisar'
+            : 'Financiación con encaje temático fuerte a revisar';
+
+        row.reasons = this._uniq([
+          ...(row.reasons || []),
+          `${prefix}: ${best.row.o.title}`
+        ]).slice(0, 4);
+      }
+
+      /*
+       * Si una asociación de financiación incorrecta había elevado la
+       * prioridad del proyecto, recalcularla sin esos puntos.
+       */
+      if (row.decision !== 'check_existing') {
+        const compliance =
+          Number(row.breakdown?.compliance || 0) > 0;
+
+        let decision =
+          row.score >= 10
+            ? 'prepare'
+            : row.score >= 2
+              ? 'explore'
+              : 'later';
+
+        if (compliance && row.score >= 12) {
+          decision = 'do_now';
+        }
+
+        if (
+          decision === 'do_now' &&
+          row.effort?.level === 'high' &&
+          !compliance
+        ) {
+          decision = 'prepare';
+        }
+
+        row.decision = decision;
+
+        try {
+          const logic = await this.simpleLogic();
+          row.decisionLabel =
+            (logic.decision_labels || {})[decision] ||
+            row.decisionLabel;
+        } catch (_error) {
+          // No romper el motor si falla solo la etiqueta.
+        }
+      }
+
+      if (this._projectNextAction) {
+        row.nextAction = this._projectNextAction(row, context);
+      }
+
+      return row;
+    };
+  }
+})();

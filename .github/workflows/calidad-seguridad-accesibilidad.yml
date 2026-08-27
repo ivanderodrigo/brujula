@@ -1,27 +1,45 @@
 name: Calidad · seguridad · accesibilidad
+
 on:
   push:
     branches: [main]
   pull_request:
   workflow_dispatch:
+
 permissions:
   contents: read
+
 jobs:
   audit:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+
       - name: Sintaxis JavaScript
         run: node --check assets/js/app.js
-      - name: Normalización de páginas históricas (prueba)
-        run: python tools/aplicar_v143.py
+
+      - name: Motor de decisión v1.4.0
+        run: node tools/test_decision_engine_v140.js
+
+      - name: Lógica profunda v1.4.1
+        run: node tools/test_deep_logic_v141.js
+
+      - name: Regla v1.4.3 · autor solo TIC
+        run: node tools/test_v143_scope.js
+
+      - name: Auditoría matching financiación v1.4.4
+        run: python tools/auditar_matching_financiacion_v144.py
+
+      - name: Integridad de workflows
+        run: python tools/test_workflow_integrity.py
+
       - name: Auditoría estática
         run: python tools/auditar_calidad_v143.py
-      - name: Regla autor solo TIC
-        run: node tools/test_v143_scope.js
