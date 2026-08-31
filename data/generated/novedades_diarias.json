@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-30T09:24:46+00:00",
+  "generated_at": "2026-08-31T09:55:22+00:00",
   "review_policy": "Todas las novedades automáticas requieren revisión editorial.",
   "items": [
     {
-      "id": "auto-watch-561f1ab584cd9c",
-      "date": "2026-08-30",
+      "id": "auto-watch-f5af4314436e56",
+      "date": "2026-08-31",
       "title": "Cambio detectado en Red.es · Noticias",
       "organization": "Red.es",
       "category": "vigilancia",
@@ -13,7 +13,7 @@
       "source": "https://www.red.es/es/actualidad/noticias",
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:44+00:00"
+      "detected_at": "2026-08-31T09:55:21+00:00"
     },
     {
       "id": "auto-news-5a36de7e0f8272",
@@ -33,17 +33,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:43+00:00"
+      "detected_at": "2026-08-31T09:55:20+00:00"
     },
     {
-      "id": "auto-news-b9db3dd4799fcb",
+      "id": "auto-news-da8c03898f268a",
       "date": "2026-08-27",
       "title": "El Gobierno plantea impulsar los centros de datos sostenibles, eficientes y soberanos",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/-el-gobierno-plantea-impulsar-los-centros-de-datos-sostenibles--.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/-el-gobierno-plantea-impulsar-los-centros-de-datos-sostenibles--.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -55,17 +55,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-0f05fe758f3dfb",
+      "id": "auto-news-98da5099300acb",
       "date": "2026-08-26",
       "title": "España contribuye con 5 millones de euros a la Alianza Internacional para la Resiliencia frente a la Sequía",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/espana-contribuye-con-5-millones-de-euros-a-la-alianza-internaci.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/espana-contribuye-con-5-millones-de-euros-a-la-alianza-internaci.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -73,17 +73,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-19afe11a68d18c",
+      "id": "auto-news-d7a19a8c63ccc1",
       "date": "2026-08-26",
       "title": "El Gobierno aprueba la asignación final gratuita de derechos de emisión de gases de efecto invernadero para el periodo 2026-2030",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/el-gobierno-aprueba-la-asignacion-final-gratuita-de-derechos-de-.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/el-gobierno-aprueba-la-asignacion-final-gratuita-de-derechos-de-.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -93,17 +93,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-d9eb7b05f1ef17",
+      "id": "auto-news-2f3581085519e5",
       "date": "2026-08-25",
       "title": "La reserva hídrica española se encuentra al 64,9 % de su capacidad",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/la-reserva-hidrica-espanola-se-encuentra-al-64-9---de-su-capacid.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/la-reserva-hidrica-espanola-se-encuentra-al-64-9---de-su-capacid.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -111,7 +111,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
       "id": "auto-news-c66b98ca96682b",
@@ -131,17 +131,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:43+00:00"
+      "detected_at": "2026-08-31T09:55:20+00:00"
     },
     {
-      "id": "auto-news-d2f973be4c8a7e",
+      "id": "auto-news-66b54de6c232fb",
       "date": "2026-08-25",
       "title": "El Gobierno duplica hasta los 80 millones de euros las ayudas a entidades locales para impulsar proyectos contra la despoblación",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/el-gobierno-duplica-hasta-los-80-millones-de-euros-las-ayudas-a-.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/el-gobierno-duplica-hasta-los-80-millones-de-euros-las-ayudas-a-.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -154,17 +154,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-276f57c92655fe",
+      "id": "auto-news-b471719ff29bca",
       "date": "2026-08-19",
       "title": "El MITECO amplía la colaboración con el Centro de Innovación Territorial de Ciudad Real",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/el-miteco-amplia-la-colaboracion-con-el-centro-de-innovacion-ter.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/el-miteco-amplia-la-colaboracion-con-el-centro-de-innovacion-ter.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -174,7 +174,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
       "id": "auto-news-e17ef529042c1e",
@@ -194,17 +194,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:43+00:00"
+      "detected_at": "2026-08-31T09:55:20+00:00"
     },
     {
-      "id": "auto-news-cd847f0e2dab67",
+      "id": "auto-news-25be0bb547fc86",
       "date": "2026-08-18",
       "title": "La superficie forestal afectada por incendios se sitúa en 254.730 hectáreas",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/la-superficie-forestal-afectada-por-incendios-se-situa-en-254-73.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/la-superficie-forestal-afectada-por-incendios-se-situa-en-254-73.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -212,17 +212,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-bf83331251a762",
+      "id": "auto-news-6a1d1272ba9b73",
       "date": "2026-08-18",
       "title": "La reserva hídrica española se encuentra al 66,2% de su capacidad",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/la-reserva-hidrica-espanola-se-encuentra-al-66-2---de-su-capacid.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/la-reserva-hidrica-espanola-se-encuentra-al-66-2---de-su-capacid.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -230,17 +230,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-b3d70197f79253",
+      "id": "auto-news-e2584964a381e8",
       "date": "2026-08-18",
       "title": "Abierta la convocatoria de los Premios Nacionales de Medioambiente y de Energía 2026",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/abierta-la-convocatoria-de-los-premios-nacionales-de-medioambien.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/abierta-la-convocatoria-de-los-premios-nacionales-de-medioambien.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -250,17 +250,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-ff0bde3a82e0bf",
+      "id": "auto-news-ea99849e0b2298",
       "date": "2026-08-14",
       "title": "El MITECO abre actuaciones previas de investigación tras el avistamiento en aguas de Gibraltar de una orca con posibles marcas de perdigones en su aleta dorsal",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/--el-miteco-abre-actuaciones-previas-de-investigacion-tras-el-av.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/--el-miteco-abre-actuaciones-previas-de-investigacion-tras-el-av.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -269,17 +269,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-eb24648fc130c4",
+      "id": "auto-news-065836cfdcc05d",
       "date": "2026-08-14",
       "title": "El BOE publica la orden ministerial por la que se concede la renovación de la autorización de explotación de la central nuclear Almaraz",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/el-boe-publica-la-orden-ministerial-por-la-que-se-concede-la-ren.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/el-boe-publica-la-orden-ministerial-por-la-que-se-concede-la-ren.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -288,17 +288,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-aecf50a1f0a488",
+      "id": "auto-news-bcbfd2504b8281",
       "date": "2026-08-13",
       "title": "Navarra acogerá la segunda edición del Encuentro Nacional de la Red CIT y el programa Campus Rural",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/navarra-acogera-la-segunda-edicion-del-encuentro-nacional-de-la-.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/navarra-acogera-la-segunda-edicion-del-encuentro-nacional-de-la-.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -308,17 +308,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-0f94356213f9df",
+      "id": "auto-news-a6fe9f76e6349c",
       "date": "2026-08-13",
       "title": "MITECO convoca un proceso selectivo para el acceso a la condición de empleado público como personal laboral fijo",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/miteco-convoca-un-proceso-selectivo-para-el-acceso-a-la-condicio.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/miteco-convoca-un-proceso-selectivo-para-el-acceso-a-la-condicio.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -326,7 +326,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
       "id": "auto-news-0cd84504d5ff0a",
@@ -345,17 +345,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:43+00:00"
+      "detected_at": "2026-08-31T09:55:20+00:00"
     },
     {
-      "id": "auto-news-15c779c0757f78",
+      "id": "auto-news-ff613c7b043d44",
       "date": "2026-08-13",
       "title": "El MITECO avanza en la implantación del agregador independiente y en la contratación de más de un comercializador de electricidad",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/el-miteco-avanza-en-la-implantacion-del-agregador-independiente-.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/el-miteco-avanza-en-la-implantacion-del-agregador-independiente-.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -366,7 +366,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
       "id": "auto-news-09fd2b8a679059",
@@ -385,7 +385,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:43+00:00"
+      "detected_at": "2026-08-31T09:55:20+00:00"
     },
     {
       "id": "auto-news-6a6fd878cf02b8",
@@ -406,17 +406,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:43+00:00"
+      "detected_at": "2026-08-31T09:55:20+00:00"
     },
     {
-      "id": "auto-news-35e89dd78eb5f9",
+      "id": "auto-news-46e60ab6595c22",
       "date": "2026-08-11",
       "title": "La reserva hídrica española se encuentra al 68,0 % de su capacidad",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/la-reserva-hidrica-espanola-se-encuentra-al-68-0---de-su-capacid.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/la-reserva-hidrica-espanola-se-encuentra-al-68-0---de-su-capacid.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -424,17 +424,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-c82f29a124a9e9",
+      "id": "auto-news-274cf4ca2c1cb3",
       "date": "2026-08-10",
       "title": "Más de 250 organizaciones y empresas se adhieren al Pacto de Estado frente a la Emergencia Climática",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/mas-de-250-organizaciones-y-empresas-se-adhieren-al-pacto-de-est.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/mas-de-250-organizaciones-y-empresas-se-adhieren-al-pacto-de-est.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -444,7 +444,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
       "id": "auto-news-e5bf4c1514863b",
@@ -464,17 +464,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:43+00:00"
+      "detected_at": "2026-08-31T09:55:20+00:00"
     },
     {
-      "id": "auto-news-421a1451174373",
+      "id": "auto-news-72a3d61f44cf46",
       "date": "2026-08-10",
       "title": "Julio de 2026 fue el más cálido de la serie histórica, empatado con 2022, y también el más seco",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/julio-de-2026-fue-el-mas-calido-de-la-serie-historica--empatado-.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/julio-de-2026-fue-el-mas-calido-de-la-serie-historica--empatado-.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -483,17 +483,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-7b40081025a301",
+      "id": "auto-news-e941684dbb11aa",
       "date": "2026-08-07",
       "title": "Trasvase Tajo-Segura: los embalses de cabecera mantienen el nivel 1 en agosto con previsión de nivel 2 en septiembre",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/trasvase-tajo-segura--los-embalses-de-cabecera-mantienen-el-nive.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/trasvase-tajo-segura--los-embalses-de-cabecera-mantienen-el-nive.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -502,7 +502,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
       "id": "auto-news-f0755c2fa740f7",
@@ -523,17 +523,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:43+00:00"
+      "detected_at": "2026-08-31T09:55:20+00:00"
     },
     {
-      "id": "auto-news-c4d77e1c9a019e",
+      "id": "auto-news-2c74de343eaa35",
       "date": "2026-08-06",
       "title": "El MITECO destina 274 millones a cuatro nuevos proyectos para producir H2 renovable en Castilla-La Mancha, Galicia y Aragón",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/el-miteco-destina-233-millones-a-tres-nuevos-proyectos-para-prod.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/el-miteco-destina-233-millones-a-tres-nuevos-proyectos-para-prod.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -542,17 +542,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-da96d5af7b46f0",
+      "id": "auto-news-5d4a28dd1d9999",
       "date": "2026-08-05",
       "title": "El MITECO acelera la modernización del parque renovable con 612 millones para 173 proyectos de repotenciación eólica e hidroeléctrica",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/el-miteco-acelera-la-modernizacion-del-parque-renovable-con-612-.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/el-miteco-acelera-la-modernizacion-del-parque-renovable-con-612-.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -563,17 +563,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-458926b9990e1f",
+      "id": "auto-news-c65cb636efa429",
       "date": "2026-08-04",
       "title": "La reserva hídrica española se encuentra al 69,6 % de su capacidad",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/la-reserva-hidrica-espanola-se-encuentra-al-69-6---de-su-capacid.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/la-reserva-hidrica-espanola-se-encuentra-al-69-6---de-su-capacid.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -581,17 +581,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-703a59f2b61be5",
+      "id": "auto-news-8af3f6170dcf2a",
       "date": "2026-08-04",
       "title": "El MITECO concede 433,4 millones a 524 nuevos proyectos con almacenamiento de agrivoltaica, renovables en infraestructuras y bomba de calor",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/el-miteco-concede-433-4-millones-a-524-nuevos-proyectos-con-alma.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/el-miteco-concede-433-4-millones-a-524-nuevos-proyectos-con-alma.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -601,7 +601,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
       "id": "auto-news-2f86cd991291d5",
@@ -620,17 +620,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:43+00:00"
+      "detected_at": "2026-08-31T09:55:20+00:00"
     },
     {
-      "id": "auto-news-ff633067881c56",
+      "id": "auto-news-a2f37672b0e9c4",
       "date": "2026-08-03",
       "title": "Comienza el proyecto de restauración del río Nalón en torno a la central térmica de Lada",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/comienza-el-proyecto-de-restauracion-del-rio-nalon-en-torno-a-la.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/comienza-el-proyecto-de-restauracion-del-rio-nalon-en-torno-a-la.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -638,17 +638,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-83d946f6de586b",
+      "id": "auto-news-94464f3a2a0468",
       "date": "2026-07-31",
       "title": "El MITECO impulsa la restauración del Cerco Industrial de Peñarroya-Pueblonuevo (Córdoba) con una inversión de 4 millones de euros",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-miteco-impulsa-la-restauracion-del-cerco-industrial-de-penarr.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-miteco-impulsa-la-restauracion-del-cerco-industrial-de-penarr.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -659,7 +659,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
       "id": "auto-news-8adc1b59d9154a",
@@ -679,17 +679,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:43+00:00"
+      "detected_at": "2026-08-31T09:55:20+00:00"
     },
     {
-      "id": "auto-news-b7be183a178474",
+      "id": "auto-news-07ea9b0b4069fd",
       "date": "2026-07-30",
       "title": "El MITECO prepara una subasta de cogeneración con 600 MW para el próximo mes de noviembre",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-miteco-prepara-una-subasta-de-cogeneracion-con-600-mw-para-el.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-miteco-prepara-una-subasta-de-cogeneracion-con-600-mw-para-el.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -698,17 +698,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-cec3a965d60946",
+      "id": "auto-news-a5b8b746da495d",
       "date": "2026-07-29",
       "title": "El MITECO presenta los últimos avances en gestión de purines y ganadería extensiva a los beneficiarios de las ayudas para la mejora ambiental del sector en la cuenca vertiente",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-miteco-presenta-los-ultimos-avances-en-gestion-de-purines-y-g.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-miteco-presenta-los-ultimos-avances-en-gestion-de-purines-y-g.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -719,17 +719,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-68d112c391de56",
+      "id": "auto-news-da5102b8ff1c90",
       "date": "2026-07-29",
       "title": "El MITECO finaliza la remediación ambiental de la Sierra Minera con el sellado de siete depósitos en El Llano del Beal y El Estrecho de San Ginés (Cartagena)",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-miteco-finaliza-la-remediacion-ambiental-de-la-sierra-minera-.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-miteco-finaliza-la-remediacion-ambiental-de-la-sierra-minera-.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -738,17 +738,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-3ae5c628f7d38e",
+      "id": "auto-news-87b7dd5c4be579",
       "date": "2026-07-29",
       "title": "El MITECO adjudica el Concurso de transición justa del Nudo Narcea a La Barca Energía para construir una central hidroeléctrica reversible",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-miteco-adjudica-el-concurso-de-transicion-justa-del-nudo-narc.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-miteco-adjudica-el-concurso-de-transicion-justa-del-nudo-narc.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -758,7 +758,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
       "id": "auto-news-7749dfe63e08dd",
@@ -778,17 +778,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:43+00:00"
+      "detected_at": "2026-08-31T09:55:20+00:00"
     },
     {
-      "id": "auto-news-a93bf3bc66715b",
+      "id": "auto-news-8de54292ed0bb9",
       "date": "2026-07-28",
       "title": "La reserva hídrica española se encuentra al 71,3 % de su capacidad",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/la-reserva-hidrica-espanola-se-encuentra-al-71-3---de-su-capacid.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/la-reserva-hidrica-espanola-se-encuentra-al-71-3---de-su-capacid.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -796,17 +796,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-d23585f8b1fe19",
+      "id": "auto-news-d5feb40f139e9e",
       "date": "2026-07-28",
       "title": "El Gobierno declara instalaciones energéticas estratégicas los proyectos adjudicatarios de los procedimientos en nudos de transición justa",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-gobierno-declara-instalaciones-energeticas-estrategicas-los-p.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-gobierno-declara-instalaciones-energeticas-estrategicas-los-p.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -815,17 +815,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-899cedcc672060",
+      "id": "auto-news-d14f82d6011e85",
       "date": "2026-07-28",
       "title": "El Gobierno aprueba la tercera Modificación de aspectos puntales de la Planificación de electricidad",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-gobierno-aprueba-la-tercera-modificacion-de-aspectos-puntales.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-gobierno-aprueba-la-tercera-modificacion-de-aspectos-puntales.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -835,17 +835,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-66c602879c3ced",
+      "id": "auto-news-2c60de5216a9e1",
       "date": "2026-07-28",
       "title": "El Gobierno aprueba la creación de un Panel Científico de Acción frente al Cambio Climático",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-gobierno-aprueba-la-creacion-de-un-panel-cientifico-de-accion.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-gobierno-aprueba-la-creacion-de-un-panel-cientifico-de-accion.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -854,17 +854,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-a123d1b16801a3",
+      "id": "auto-news-26eb4bc9531f57",
       "date": "2026-07-28",
       "title": "El Gobierno acelera la electrificación de la economía incrementando la inversión en redes eléctricas y el control sobre el destino de las inversiones",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-gobierno-acelera-la-electrificacion-de-la-economia-incrementa.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-gobierno-acelera-la-electrificacion-de-la-economia-incrementa.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -874,17 +874,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-b621a620d17541",
+      "id": "auto-news-125bf17066f005",
       "date": "2026-07-28",
       "title": "Culmina la restauración de más de 1.100 hectáreas afectadas por la minería del carbón en León, tras la inversión de cerca de 68 millones",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/culmina-la-restauracion-de-mas-de-1-100-hectareas-afectadas-por-.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/culmina-la-restauracion-de-mas-de-1-100-hectareas-afectadas-por-.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -893,7 +893,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
       "id": "auto-news-118a50342330d1",
@@ -912,17 +912,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:43+00:00"
+      "detected_at": "2026-08-31T09:55:20+00:00"
     },
     {
-      "id": "auto-news-608710bfc74e26",
+      "id": "auto-news-738ce0b896ab5a",
       "date": "2026-07-27",
       "title": "El Gobierno presenta la Red de Refugios Climáticos en el marco del Pacto de Estado frente a la Emergencia Climática",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/-el-gobierno-presenta-la-red-de-refugios-climaticos-en-el-marco-.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/-el-gobierno-presenta-la-red-de-refugios-climaticos-en-el-marco-.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -931,17 +931,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-f5cdabdb01ead7",
+      "id": "auto-news-42ce8cf9c95b82",
       "date": "2026-07-23",
       "title": "El MITECO publica los beneficiarios provisionales de 40 millones en ayudas para financiar proyectos innovadores y combatir la despoblación",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-miteco-publica-los-beneficiarios-provisionales-de-40-millones.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-miteco-publica-los-beneficiarios-provisionales-de-40-millones.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -954,17 +954,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-33baa0c1e333b7",
+      "id": "auto-news-67c52ce10fb22e",
       "date": "2026-07-22",
       "title": "El MITECO asigna 43 millones a 36 proyectos de redes de calor y frío alimentadas por renovables",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-miteco-asigna-43-millones-a-36-proyectos-de-redes-de-calor-y-.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-miteco-asigna-43-millones-a-36-proyectos-de-redes-de-calor-y-.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -974,17 +974,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-597222cbf1fccb",
+      "id": "auto-news-d60675f8df962b",
       "date": "2026-07-21",
       "title": "La reserva hídrica española se encuentra al 73,4 % de su capacidad",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/la-reserva-hidrica-espanola-se-encuentra-al-73-4---de-su-capacid.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/la-reserva-hidrica-espanola-se-encuentra-al-73-4---de-su-capacid.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -992,17 +992,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-09fb350be1281d",
+      "id": "auto-news-619b468c08b5d1",
       "date": "2026-07-21",
       "title": "La Conferencia Sectorial de Energía aprueba repartir 368 millones para climatizar hospitales y centros de salud, y centros educativos públicos",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/la-conferencia-sectorial-de-energia-aprueba-repartir-368-millone.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/la-conferencia-sectorial-de-energia-aprueba-repartir-368-millone.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -1012,17 +1012,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-9989373ef167ed",
+      "id": "auto-news-5cfbe660ce8d85",
       "date": "2026-07-21",
       "title": "El MITECO ha destinado 2.000 millones a construir el futuro de las comarcas mineras desde 2019",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-miteco-ha-destinado-2-000-millones-a-construir-el-futuro-de-l.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-miteco-ha-destinado-2-000-millones-a-construir-el-futuro-de-l.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -1034,17 +1034,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-78025e10eccf9a",
+      "id": "auto-news-2423c174950436",
       "date": "2026-07-21",
       "title": "El Gobierno impulsa la descarbonización del transporte con un marco normativo hasta 2040",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-gobierno-impulsa-la-descarbonizacion-del-transporte-con-un-ma.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-gobierno-impulsa-la-descarbonizacion-del-transporte-con-un-ma.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -1053,17 +1053,17 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     },
     {
-      "id": "auto-news-cb0ed8a1475956",
+      "id": "auto-news-d41b779cf84b70",
       "date": "2026-07-20",
       "title": "El MITECO adjudica 165 millones en ayudas a siete proyectos innovadores de almacenamiento energético mediante bombeo reversible",
       "organization": "MITECO",
       "category": "actualidad",
       "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
       "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-miteco-adjudica-165-millones-en-ayudas-a-siete-proyectos-inno.html",
+      "source": "https://miteco-prod.adobecqms.net/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-miteco-adjudica-165-millones-en-ayudas-a-siete-proyectos-inno.html",
       "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
       "source_name": "MITECO · Sala de prensa",
       "matched_keywords": [
@@ -1074,64 +1074,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
-    },
-    {
-      "id": "auto-news-c5eb487a89ad42",
-      "date": "2026-07-16",
-      "title": "MITECO reserva a favor del Estado cuatro zonas con residuos mineros de minería del pasado en Andalucía para buscar minerales fundamentales",
-      "organization": "MITECO",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/miteco-reserva-a-favor-del-estado-cuatro-zonas-con-residuos-mine.html",
-      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
-      "source_name": "MITECO · Sala de prensa",
-      "matched_keywords": [
-        "reto demogr",
-        "ia"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
-    },
-    {
-      "id": "auto-news-7ce974358a9b4e",
-      "date": "2026-07-16",
-      "title": "El MITECO somete a consulta pública un nuevo Real Decreto para reforzar la prevención frente a inundaciones",
-      "organization": "MITECO",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/-el-miteco-somete-a-consulta-publica-un-nuevo-real-decreto-para-.html",
-      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
-      "source_name": "MITECO · Sala de prensa",
-      "matched_keywords": [
-        "reto demogr"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
-    },
-    {
-      "id": "auto-news-dcf878dc55a9a4",
-      "date": "2026-07-16",
-      "title": "El MITECO invierte 280 millones de euros para tratar hasta 26 millones de litros de aguas residuales al día en el entorno de Doñana",
-      "organization": "MITECO",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-miteco-invierte-280-millones-de-euros-para-tratar-hasta-26-mi.html",
-      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
-      "source_name": "MITECO · Sala de prensa",
-      "matched_keywords": [
-        "reto demogr",
-        "agua",
-        "ia"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-08-30T09:24:41+00:00"
+      "detected_at": "2026-08-31T09:55:19+00:00"
     }
   ],
   "watched_pages": [
@@ -1140,7 +1083,7 @@
       "name": "Red.es · Noticias",
       "url": "https://www.red.es/es/actualidad/noticias",
       "changed": true,
-      "checked_at": "2026-08-30T09:24:44+00:00"
+      "checked_at": "2026-08-31T09:55:21+00:00"
     }
   ],
   "errors": [
