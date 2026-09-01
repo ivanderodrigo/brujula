@@ -1,13 +1,9 @@
 {
   "ok": true,
-  "checked_at": "2026-08-31T09:55:42+00:00",
+  "checked_at": "2026-09-01T08:43:30+00:00",
   "pipeline": "static-offline",
   "mode": "daily",
   "sources_run": [
-    "bdns",
-    "boe",
-    "news",
-    "territorial",
     "seo"
   ],
   "data_status": {
