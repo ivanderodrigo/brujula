@@ -27,13 +27,9 @@
     }
   },
   "note": "Estado de cadencias del pipeline automático. Se inicializa en la primera ejecución satisfactoria.",
-  "last_successful_pipeline": "2026-09-03T08:13:11+00:00",
+  "last_successful_pipeline": "2026-09-04T08:02:17+00:00",
   "mode": "daily",
   "last_run_sources": [
-    "bdns",
-    "boe",
-    "news",
-    "territorial",
     "seo"
   ]
 }
