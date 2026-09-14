@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-13T08:29:08+00:00",
+  "generated_at": "2026-09-14T09:07:18+00:00",
   "review_policy": "Todas las novedades automáticas requieren revisión editorial.",
   "items": [
     {
-      "id": "auto-watch-5cbe5fc786c175",
-      "date": "2026-09-13",
+      "id": "auto-watch-fb431c58989678",
+      "date": "2026-09-14",
       "title": "Cambio detectado en Red.es · Noticias",
       "organization": "Red.es",
       "category": "vigilancia",
@@ -13,7 +13,7 @@
       "source": "https://www.red.es/es/actualidad/noticias",
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:05+00:00"
+      "detected_at": "2026-09-14T09:07:15+00:00"
     },
     {
       "id": "auto-news-6f6635b1a99a28",
@@ -33,7 +33,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-13fc00ecefb865",
@@ -51,7 +51,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-de64af2fca1bc8",
@@ -70,7 +70,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-7b03b535a7a282",
@@ -90,7 +90,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-4988ddc15b0e11",
@@ -113,7 +113,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-9557dc22fd61d2",
@@ -131,7 +131,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-447dce89dda3f0",
@@ -151,7 +151,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-be81e4f2634996",
@@ -172,7 +172,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-cc25fe4e6068b9",
@@ -190,7 +190,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-154eee13ac6bbb",
@@ -209,7 +209,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-7592038aca7a98",
@@ -230,7 +230,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-09c5775576a258",
@@ -249,7 +249,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-61a9bbaafcbd42",
@@ -269,7 +269,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-fd67051a9dc025",
@@ -290,7 +290,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-2fdcaa007fa550",
@@ -309,7 +309,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-1c8a3e642eb8b7",
@@ -327,7 +327,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-fa9932f43dc02f",
@@ -346,7 +346,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-b9db3dd4799fcb",
@@ -368,7 +368,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-0f05fe758f3dfb",
@@ -386,7 +386,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-19afe11a68d18c",
@@ -406,7 +406,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-d9eb7b05f1ef17",
@@ -424,7 +424,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-d2f973be4c8a7e",
@@ -447,7 +447,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-276f57c92655fe",
@@ -467,7 +467,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-cd847f0e2dab67",
@@ -485,7 +485,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-bf83331251a762",
@@ -503,7 +503,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-b3d70197f79253",
@@ -523,7 +523,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-ff0bde3a82e0bf",
@@ -542,7 +542,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-eb24648fc130c4",
@@ -561,7 +561,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-aecf50a1f0a488",
@@ -581,7 +581,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-0f94356213f9df",
@@ -599,7 +599,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-15c779c0757f78",
@@ -620,7 +620,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-35e89dd78eb5f9",
@@ -638,7 +638,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-c82f29a124a9e9",
@@ -658,7 +658,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-421a1451174373",
@@ -677,7 +677,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-7b40081025a301",
@@ -696,7 +696,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-c4d77e1c9a019e",
@@ -715,7 +715,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-da96d5af7b46f0",
@@ -736,7 +736,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-458926b9990e1f",
@@ -754,7 +754,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-703a59f2b61be5",
@@ -774,7 +774,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-ff633067881c56",
@@ -792,7 +792,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     },
     {
       "id": "auto-news-83d946f6de586b",
@@ -813,26 +813,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
-    },
-    {
-      "id": "auto-news-b7be183a178474",
-      "date": "2026-07-30",
-      "title": "El MITECO prepara una subasta de cogeneración con 600 MW para el próximo mes de noviembre",
-      "organization": "MITECO",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/julio/el-miteco-prepara-una-subasta-de-cogeneracion-con-600-mw-para-el.html",
-      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
-      "source_name": "MITECO · Sala de prensa",
-      "matched_keywords": [
-        "reto demogr",
-        "ia"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-09-13T08:29:04+00:00"
+      "detected_at": "2026-09-14T09:07:14+00:00"
     }
   ],
   "watched_pages": [
@@ -841,7 +822,7 @@
       "name": "Red.es · Noticias",
       "url": "https://www.red.es/es/actualidad/noticias",
       "changed": true,
-      "checked_at": "2026-09-13T08:29:05+00:00"
+      "checked_at": "2026-09-14T09:07:15+00:00"
     }
   ],
   "errors": [
