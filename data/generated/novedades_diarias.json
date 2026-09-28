@@ -1,10 +1,31 @@
 {
-  "generated_at": "2026-09-27T09:23:55+00:00",
+  "generated_at": "2026-09-28T09:57:21+00:00",
   "review_policy": "Todas las novedades automáticas requieren revisión editorial.",
   "items": [
     {
-      "id": "auto-watch-1193ff0ee0ba7f",
-      "date": "2026-09-27",
+      "id": "auto-news-c2c7d4da9319ad",
+      "date": "2026-09-28",
+      "title": "Carta Local nº 403 – Septiembre 2026",
+      "organization": "FEMP",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.femp.es/carta-local/2026/09/28/carta-local-no-403-septiembre-2026",
+      "source_feed": "https://www.femp.es/feed/",
+      "source_name": "FEMP · Actualidad",
+      "matched_keywords": [
+        "municip",
+        "digital",
+        "ens",
+        "ia"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-09-28T09:57:18+00:00"
+    },
+    {
+      "id": "auto-watch-572fb977abe351",
+      "date": "2026-09-28",
       "title": "Cambio detectado en Red.es · Noticias",
       "organization": "Red.es",
       "category": "vigilancia",
@@ -13,7 +34,7 @@
       "source": "https://www.red.es/es/actualidad/noticias",
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:53+00:00"
+      "detected_at": "2026-09-28T09:57:19+00:00"
     },
     {
       "id": "auto-news-3bd56bf2ee1545",
@@ -33,7 +54,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:53+00:00"
+      "detected_at": "2026-09-28T09:57:18+00:00"
     },
     {
       "id": "auto-news-87c60e7223d903",
@@ -52,7 +73,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-de1cf327f791b6",
@@ -71,7 +92,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-364f266d6daa25",
@@ -91,7 +112,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:53+00:00"
+      "detected_at": "2026-09-28T09:57:18+00:00"
     },
     {
       "id": "auto-news-ed8696a620de2b",
@@ -110,7 +131,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:53+00:00"
+      "detected_at": "2026-09-28T09:57:18+00:00"
     },
     {
       "id": "auto-news-8bfde45a478650",
@@ -130,7 +151,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-34b6175ae43c6b",
@@ -150,7 +171,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:53+00:00"
+      "detected_at": "2026-09-28T09:57:18+00:00"
     },
     {
       "id": "auto-news-e9e73f04018b31",
@@ -169,7 +190,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:53+00:00"
+      "detected_at": "2026-09-28T09:57:18+00:00"
     },
     {
       "id": "auto-news-6408950a8a3d18",
@@ -189,7 +210,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:53+00:00"
+      "detected_at": "2026-09-28T09:57:18+00:00"
     },
     {
       "id": "auto-news-de446eab9b98df",
@@ -212,7 +233,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:53+00:00"
+      "detected_at": "2026-09-28T09:57:18+00:00"
     },
     {
       "id": "auto-news-c477659192895c",
@@ -232,7 +253,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-433e0c2c91d74e",
@@ -251,7 +272,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-246c23cd950fb5",
@@ -269,7 +290,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-db6e6ad1db59cd",
@@ -289,7 +310,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-88f2396c731c20",
@@ -308,7 +329,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:53+00:00"
+      "detected_at": "2026-09-28T09:57:18+00:00"
     },
     {
       "id": "auto-news-1b7517997a49f0",
@@ -328,7 +349,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-50e838ca8f9830",
@@ -348,7 +369,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-bddcfce20f4ace",
@@ -368,7 +389,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-c80a3eccdd5175",
@@ -387,7 +408,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:53+00:00"
+      "detected_at": "2026-09-28T09:57:18+00:00"
     },
     {
       "id": "auto-news-0814cc6075c531",
@@ -406,7 +427,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-665ce4d62379c1",
@@ -424,7 +445,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-c3960bfd33e046",
@@ -443,7 +464,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-f74fa3fcc88d96",
@@ -464,7 +485,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:53+00:00"
+      "detected_at": "2026-09-28T09:57:18+00:00"
     },
     {
       "id": "auto-news-5e1efff4cbb245",
@@ -484,7 +505,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-c70a08a00aee16",
@@ -504,27 +525,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:53+00:00"
-    },
-    {
-      "id": "auto-news-487e04ae06dd81",
-      "date": "2026-09-16",
-      "title": "La FEMP apuesta por el “uso ético” de la IA para garantizar la accesibilidad en el ámbito local",
-      "organization": "FEMP",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.femp.es/noticias/2026/09/16/la-femp-apuesta-por-el-uso-etico-de-la-ia-para-garantizar-la-accesibilidad-en-el-ambito-local",
-      "source_feed": "https://www.femp.es/feed/",
-      "source_name": "FEMP · Actualidad",
-      "matched_keywords": [
-        "municip",
-        "inteligencia artificial",
-        "ia"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:53+00:00"
+      "detected_at": "2026-09-28T09:57:18+00:00"
     },
     {
       "id": "auto-news-e68783ad855d86",
@@ -545,7 +546,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-18c823b5b8e17a",
@@ -564,7 +565,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-04d3a60ab46309",
@@ -584,7 +585,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-4b65f6ca3ac62a",
@@ -602,7 +603,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-2fc1597c8a8777",
@@ -622,7 +623,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-6f6635b1a99a28",
@@ -642,7 +643,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-13fc00ecefb865",
@@ -660,7 +661,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-de64af2fca1bc8",
@@ -679,7 +680,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-7b03b535a7a282",
@@ -699,7 +700,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-4988ddc15b0e11",
@@ -722,7 +723,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-9557dc22fd61d2",
@@ -740,7 +741,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-447dce89dda3f0",
@@ -760,7 +761,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-be81e4f2634996",
@@ -781,7 +782,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-cc25fe4e6068b9",
@@ -799,7 +800,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-154eee13ac6bbb",
@@ -818,7 +819,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-7592038aca7a98",
@@ -839,7 +840,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-09c5775576a258",
@@ -858,7 +859,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-61a9bbaafcbd42",
@@ -878,7 +879,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-fd67051a9dc025",
@@ -899,7 +900,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-2fdcaa007fa550",
@@ -918,7 +919,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-1c8a3e642eb8b7",
@@ -936,7 +937,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-fa9932f43dc02f",
@@ -955,7 +956,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-b9db3dd4799fcb",
@@ -977,7 +978,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-0f05fe758f3dfb",
@@ -995,7 +996,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-19afe11a68d18c",
@@ -1015,7 +1016,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-d9eb7b05f1ef17",
@@ -1033,7 +1034,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-d2f973be4c8a7e",
@@ -1056,7 +1057,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-276f57c92655fe",
@@ -1076,7 +1077,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-cd847f0e2dab67",
@@ -1094,7 +1095,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-bf83331251a762",
@@ -1112,7 +1113,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-b3d70197f79253",
@@ -1132,7 +1133,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-ff0bde3a82e0bf",
@@ -1151,7 +1152,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     },
     {
       "id": "auto-news-eb24648fc130c4",
@@ -1170,66 +1171,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
-    },
-    {
-      "id": "auto-news-aecf50a1f0a488",
-      "date": "2026-08-13",
-      "title": "Navarra acogerá la segunda edición del Encuentro Nacional de la Red CIT y el programa Campus Rural",
-      "organization": "MITECO",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/navarra-acogera-la-segunda-edicion-del-encuentro-nacional-de-la-.html",
-      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
-      "source_name": "MITECO · Sala de prensa",
-      "matched_keywords": [
-        "rural",
-        "reto demogr",
-        "ia"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
-    },
-    {
-      "id": "auto-news-0f94356213f9df",
-      "date": "2026-08-13",
-      "title": "MITECO convoca un proceso selectivo para el acceso a la condición de empleado público como personal laboral fijo",
-      "organization": "MITECO",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/miteco-convoca-un-proceso-selectivo-para-el-acceso-a-la-condicio.html",
-      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
-      "source_name": "MITECO · Sala de prensa",
-      "matched_keywords": [
-        "reto demogr"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
-    },
-    {
-      "id": "auto-news-15c779c0757f78",
-      "date": "2026-08-13",
-      "title": "El MITECO avanza en la implantación del agregador independiente y en la contratación de más de un comercializador de electricidad",
-      "organization": "MITECO",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/agosto/el-miteco-avanza-en-la-implantacion-del-agregador-independiente-.html",
-      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
-      "source_name": "MITECO · Sala de prensa",
-      "matched_keywords": [
-        "reto demogr",
-        "abastecimiento",
-        "ia",
-        "contrataci"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-09-27T09:23:51+00:00"
+      "detected_at": "2026-09-28T09:57:17+00:00"
     }
   ],
   "watched_pages": [
@@ -1238,7 +1180,7 @@
       "name": "Red.es · Noticias",
       "url": "https://www.red.es/es/actualidad/noticias",
       "changed": true,
-      "checked_at": "2026-09-27T09:23:53+00:00"
+      "checked_at": "2026-09-28T09:57:19+00:00"
     }
   ],
   "errors": [
