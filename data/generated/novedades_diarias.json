@@ -1,10 +1,70 @@
 {
-  "generated_at": "2026-09-30T09:51:11+00:00",
+  "generated_at": "2026-10-01T10:18:44+00:00",
   "review_policy": "Todas las novedades automáticas requieren revisión editorial.",
   "items": [
     {
-      "id": "auto-watch-b8e80d85a6d3e4",
-      "date": "2026-09-30",
+      "id": "auto-news-53ae11d9364c68",
+      "date": "2026-10-01",
+      "title": "‘Municipios contra el maltrato’ reconoce a 35 ayuntamientos por prevenir la violencia de género en las aulas",
+      "organization": "FEMP",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.femp.es/noticias/2026/10/01/municipios-contra-el-maltrato-reconoce-a-35-ayuntamientos-por-prevenir-la-violencia-de-genero-en-las-aulas",
+      "source_feed": "https://www.femp.es/feed/",
+      "source_name": "FEMP · Actualidad",
+      "matched_keywords": [
+        "municip",
+        "ayunt",
+        "ia"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-10-01T10:18:42+00:00"
+    },
+    {
+      "id": "auto-news-06df0ae2e2352d",
+      "date": "2026-10-01",
+      "title": "Villas Termales, en el curso “Turismo y termalismo social. Impacto en la salud y el bienestar de las personas” del IMSERSO",
+      "organization": "FEMP",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.femp.es/noticias/2026/10/01/villas-termales-en-el-curso-turismo-y-termalismo-social-impacto-en-la-salud-y-el-bienestar-de-las-personas-del-imserso",
+      "source_feed": "https://www.femp.es/feed/",
+      "source_name": "FEMP · Actualidad",
+      "matched_keywords": [
+        "municip",
+        "ia",
+        "turismo"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-10-01T10:18:42+00:00"
+    },
+    {
+      "id": "auto-news-8e9be3054cc8c1",
+      "date": "2026-10-01",
+      "title": "Los Municipios en Transición Justa-ACOM, de la FEMP, en la conferencia que reúne a las regiones europeas en transición energética",
+      "organization": "FEMP",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.femp.es/noticias/2026/10/01/los-municipios-en-transicion-justa-acom-de-la-femp-en-la-conferencia-que-reune-a-las-regiones-europeas-en-transicion-energetica",
+      "source_feed": "https://www.femp.es/feed/",
+      "source_name": "FEMP · Actualidad",
+      "matched_keywords": [
+        "municip",
+        "ia",
+        "energ"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-10-01T10:18:42+00:00"
+    },
+    {
+      "id": "auto-watch-f40d3a035f3de7",
+      "date": "2026-10-01",
       "title": "Cambio detectado en Red.es · Noticias",
       "organization": "Red.es",
       "category": "vigilancia",
@@ -13,7 +73,45 @@
       "source": "https://www.red.es/es/actualidad/noticias",
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:09+00:00"
+      "detected_at": "2026-10-01T10:18:42+00:00"
+    },
+    {
+      "id": "auto-news-5d85943aad7d32",
+      "date": "2026-09-30",
+      "title": "El MITECO tramita los primeros segmentos de la Red troncal de hidrógeno, ligados a tres grandes proyectos en Andalucía, Aragón y el País Vasco",
+      "organization": "MITECO",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/septiembre/el-miteco-tramita-los-primeros-segmentos-de-la-red-troncal-de-hi.html",
+      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
+      "source_name": "MITECO · Sala de prensa",
+      "matched_keywords": [
+        "reto demogr",
+        "ia"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-10-01T10:18:40+00:00"
+    },
+    {
+      "id": "auto-news-7bb6c8fdbadf66",
+      "date": "2026-09-30",
+      "title": "El MITECO lanza el concurso del nudo de transición justa de Maciñeira para renovables y almacenamiento",
+      "organization": "MITECO",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/septiembre/el-miteco-lanza-el-concurso-del-nudo-de-transicion-justa-de-maci.html",
+      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
+      "source_name": "MITECO · Sala de prensa",
+      "matched_keywords": [
+        "reto demogr",
+        "ia"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-cc8a0cd0cc0b17",
@@ -31,7 +129,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-1a3eb4d4e6d7ef",
@@ -50,7 +148,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:08+00:00"
+      "detected_at": "2026-10-01T10:18:42+00:00"
     },
     {
       "id": "auto-news-8f80c863fa6751",
@@ -69,7 +167,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-44134191c2b174",
@@ -90,7 +188,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-874c8f6dcd17a9",
@@ -110,7 +208,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:08+00:00"
+      "detected_at": "2026-10-01T10:18:42+00:00"
     },
     {
       "id": "auto-news-c2c7d4da9319ad",
@@ -131,7 +229,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:08+00:00"
+      "detected_at": "2026-10-01T10:18:42+00:00"
     },
     {
       "id": "auto-news-3bd56bf2ee1545",
@@ -151,7 +249,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:08+00:00"
+      "detected_at": "2026-10-01T10:18:42+00:00"
     },
     {
       "id": "auto-news-87c60e7223d903",
@@ -170,7 +268,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-de1cf327f791b6",
@@ -189,7 +287,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-364f266d6daa25",
@@ -209,7 +307,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:08+00:00"
+      "detected_at": "2026-10-01T10:18:42+00:00"
     },
     {
       "id": "auto-news-ed8696a620de2b",
@@ -228,7 +326,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:08+00:00"
+      "detected_at": "2026-10-01T10:18:42+00:00"
     },
     {
       "id": "auto-news-8bfde45a478650",
@@ -248,7 +346,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-34b6175ae43c6b",
@@ -268,26 +366,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:08+00:00"
-    },
-    {
-      "id": "auto-news-e9e73f04018b31",
-      "date": "2026-09-23",
-      "title": "Municipios más activos: compromiso local con la actividad física y el deporte",
-      "organization": "FEMP",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.femp.es/noticias/2026/09/23/municipios-mas-activos-compromiso-local-con-la-actividad-fisica-y-el-deporte",
-      "source_feed": "https://www.femp.es/feed/",
-      "source_name": "FEMP · Actualidad",
-      "matched_keywords": [
-        "municip",
-        "ia"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:08+00:00"
+      "detected_at": "2026-10-01T10:18:42+00:00"
     },
     {
       "id": "auto-news-6408950a8a3d18",
@@ -307,7 +386,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:08+00:00"
+      "detected_at": "2026-10-01T10:18:42+00:00"
     },
     {
       "id": "auto-news-de446eab9b98df",
@@ -330,7 +409,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:08+00:00"
+      "detected_at": "2026-10-01T10:18:42+00:00"
     },
     {
       "id": "auto-news-c477659192895c",
@@ -350,7 +429,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-433e0c2c91d74e",
@@ -369,7 +448,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-246c23cd950fb5",
@@ -387,7 +466,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-db6e6ad1db59cd",
@@ -407,26 +486,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
-    },
-    {
-      "id": "auto-news-88f2396c731c20",
-      "date": "2026-09-22",
-      "title": "Establecidas las líneas del primer Encuentro de Consejos Escolares Municipales y del Estado",
-      "organization": "FEMP",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.femp.es/noticias/2026/09/22/establecidas-las-lineas-del-i-encuentro-de-consejos-escolares-municipales-y-del-estado",
-      "source_feed": "https://www.femp.es/feed/",
-      "source_name": "FEMP · Actualidad",
-      "matched_keywords": [
-        "municip",
-        "ia"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:08+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-1b7517997a49f0",
@@ -446,7 +506,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-50e838ca8f9830",
@@ -466,7 +526,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-bddcfce20f4ace",
@@ -486,26 +546,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
-    },
-    {
-      "id": "auto-news-c80a3eccdd5175",
-      "date": "2026-09-21",
-      "title": "La Comisión de Función Pública incide en la necesidad de eliminar la tasa de reposición para facilitar a los gobiernos locales la planificación adecuada de sus recursos",
-      "organization": "FEMP",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.femp.es/noticias/2026/09/21/la-comision-de-funcion-publica-incide-en-la-necesidad-de-eliminar-la-tasa-de-reposicion-para-facilitar-a-los-gobiernos-locales-la-planificacion-adecuada-de-sus-recursos",
-      "source_feed": "https://www.femp.es/feed/",
-      "source_name": "FEMP · Actualidad",
-      "matched_keywords": [
-        "municip",
-        "ia"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:08+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-0814cc6075c531",
@@ -524,7 +565,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-665ce4d62379c1",
@@ -542,7 +583,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-c3960bfd33e046",
@@ -561,7 +602,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-5e1efff4cbb245",
@@ -581,7 +622,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-e68783ad855d86",
@@ -602,7 +643,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-18c823b5b8e17a",
@@ -621,7 +662,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-04d3a60ab46309",
@@ -641,7 +682,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-4b65f6ca3ac62a",
@@ -659,7 +700,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-2fc1597c8a8777",
@@ -679,7 +720,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-6f6635b1a99a28",
@@ -699,7 +740,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-13fc00ecefb865",
@@ -717,7 +758,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-de64af2fca1bc8",
@@ -736,7 +777,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-7b03b535a7a282",
@@ -756,7 +797,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-4988ddc15b0e11",
@@ -779,7 +820,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-9557dc22fd61d2",
@@ -797,7 +838,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-447dce89dda3f0",
@@ -817,7 +858,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-be81e4f2634996",
@@ -838,7 +879,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-cc25fe4e6068b9",
@@ -856,7 +897,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-154eee13ac6bbb",
@@ -875,7 +916,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-7592038aca7a98",
@@ -896,7 +937,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-09c5775576a258",
@@ -915,7 +956,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-61a9bbaafcbd42",
@@ -935,7 +976,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-fd67051a9dc025",
@@ -956,7 +997,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-2fdcaa007fa550",
@@ -975,7 +1016,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-1c8a3e642eb8b7",
@@ -993,7 +1034,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-fa9932f43dc02f",
@@ -1012,7 +1053,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-b9db3dd4799fcb",
@@ -1034,7 +1075,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-0f05fe758f3dfb",
@@ -1052,7 +1093,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-19afe11a68d18c",
@@ -1072,7 +1113,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-d9eb7b05f1ef17",
@@ -1090,7 +1131,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-d2f973be4c8a7e",
@@ -1113,7 +1154,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-276f57c92655fe",
@@ -1133,7 +1174,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-cd847f0e2dab67",
@@ -1151,7 +1192,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-bf83331251a762",
@@ -1169,7 +1210,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     },
     {
       "id": "auto-news-b3d70197f79253",
@@ -1189,7 +1230,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-09-30T09:51:07+00:00"
+      "detected_at": "2026-10-01T10:18:40+00:00"
     }
   ],
   "watched_pages": [
@@ -1198,7 +1239,7 @@
       "name": "Red.es · Noticias",
       "url": "https://www.red.es/es/actualidad/noticias",
       "changed": true,
-      "checked_at": "2026-09-30T09:51:09+00:00"
+      "checked_at": "2026-10-01T10:18:42+00:00"
     }
   ],
   "errors": [
