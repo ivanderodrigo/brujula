@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-05T10:39:05+00:00",
+  "generated_at": "2026-10-07T10:27:18+00:00",
   "review_policy": "Todas las novedades automáticas requieren revisión editorial.",
   "items": [
     {
-      "id": "auto-watch-8d3fa5da712448",
-      "date": "2026-10-05",
+      "id": "auto-watch-85c6b1de05d3af",
+      "date": "2026-10-07",
       "title": "Cambio detectado en Red.es · Noticias",
       "organization": "Red.es",
       "category": "vigilancia",
@@ -13,7 +13,167 @@
       "source": "https://www.red.es/es/actualidad/noticias",
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:03+00:00"
+      "detected_at": "2026-10-07T10:27:18+00:00"
+    },
+    {
+      "id": "auto-news-c93709fac8d0dc",
+      "date": "2026-10-06",
+      "title": "La FEMP reivindica una administración local moderna, proactiva y conectada a las necesidades de los ciudadanos",
+      "organization": "FEMP",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.femp.es/noticias/2026/10/06/la-femp-reivindica-una-administracion-local-moderna-proactiva-y-conectada-a-las-necesidades-de-los-ciudadanos",
+      "source_feed": "https://www.femp.es/feed/",
+      "source_name": "FEMP · Actualidad",
+      "matched_keywords": [
+        "municip",
+        "ia"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-10-07T10:27:18+00:00"
+    },
+    {
+      "id": "auto-news-349433af88ee37",
+      "date": "2026-10-06",
+      "title": "La FEMP celebra sus 45 años con una gran Carrera por el Olimpismo en Torrejón",
+      "organization": "FEMP",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.femp.es/noticias/2026/10/06/la-femp-celebra-sus-45-anos-con-una-gran-carrera-por-el-olimpismo-en-torrejon",
+      "source_feed": "https://www.femp.es/feed/",
+      "source_name": "FEMP · Actualidad",
+      "matched_keywords": [
+        "municip",
+        "ia"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-10-07T10:27:18+00:00"
+    },
+    {
+      "id": "auto-news-f1530167ae814b",
+      "date": "2026-10-06",
+      "title": "La Comisión de Juventud e Infancia de la FEMP analiza el impacto de las políticas públicas en la población joven",
+      "organization": "FEMP",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.femp.es/noticias/2026/10/06/la-comision-de-juventud-e-infancia-de-la-femp-analiza-el-impacto-de-las-politicas-publicas-en-la-poblacion-joven",
+      "source_feed": "https://www.femp.es/feed/",
+      "source_name": "FEMP · Actualidad",
+      "matched_keywords": [
+        "municip",
+        "ia"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-10-07T10:27:18+00:00"
+    },
+    {
+      "id": "auto-news-149e23fcc1f78b",
+      "date": "2026-10-06",
+      "title": "El MITECO comienza los trabajos previos para la retirada de Puerto Mayor y la recuperación ambiental de la Caleta del Estacio (San Javier, Murcia)",
+      "organization": "MITECO",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/octubre/el-miteco-comienza-los-trabajos-previos-para-la-retirada-de-puer.html",
+      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
+      "source_name": "MITECO · Sala de prensa",
+      "matched_keywords": [
+        "reto demogr",
+        "ia"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-10-07T10:27:16+00:00"
+    },
+    {
+      "id": "auto-news-94f2efa873f954",
+      "date": "2026-10-06",
+      "title": "El BOE publica la convocatoria de 80 millones en ayudas para proyectos innovadores y combatir la despoblación",
+      "organization": "MITECO",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/octubre/el-boe-publica-la-convocatoria-de-80-millones-en-ayudas-para-pro.html",
+      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
+      "source_name": "MITECO · Sala de prensa",
+      "matched_keywords": [
+        "entidades locales",
+        "reto demogr",
+        "despobl",
+        "ia",
+        "subvenci",
+        "ayuda"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-10-07T10:27:16+00:00"
+    },
+    {
+      "id": "auto-news-b256a3c37c59f1",
+      "date": "2026-10-05",
+      "title": "Municipios e inteligencia artificial: nueva alianza por un turismo sostenible, innovador y eficiente",
+      "organization": "FEMP",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.femp.es/noticias/2026/10/05/municipios-e-inteligencia-artificial-nueva-alianza-por-un-turismo-sostenible-innovador-y-eficiente",
+      "source_feed": "https://www.femp.es/feed/",
+      "source_name": "FEMP · Actualidad",
+      "matched_keywords": [
+        "municip",
+        "inteligencia artificial",
+        "ia",
+        "turismo"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-10-07T10:27:18+00:00"
+    },
+    {
+      "id": "auto-news-cc8fe980f7147c",
+      "date": "2026-10-05",
+      "title": "La FEMP trabaja en un marco más adaptado a las necesidades reales de los «municipios turísticos»",
+      "organization": "FEMP",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.femp.es/noticias/2026/10/05/la-femp-trabaja-en-un-marco-mas-adaptado-a-las-necesidades-reales-de-los-municipios-turisticos",
+      "source_feed": "https://www.femp.es/feed/",
+      "source_name": "FEMP · Actualidad",
+      "matched_keywords": [
+        "municip",
+        "ia",
+        "turismo"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-10-07T10:27:18+00:00"
+    },
+    {
+      "id": "auto-news-66916dfed9fbd8",
+      "date": "2026-10-05",
+      "title": "Joan Groizard se reúne con Eduardo Arasti sobre la Propuesta de planificación de electricidad con horizonte 2030 en Cantabria tras las alegaciones",
+      "organization": "MITECO",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/octubre/joan-groizard-se-reune-con-eduardo-arasti-sobre-la-propuesta-de-.html",
+      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
+      "source_name": "MITECO · Sala de prensa",
+      "matched_keywords": [
+        "reto demogr",
+        "ia",
+        "energ"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-545c609ad49459",
@@ -32,7 +192,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:02+00:00"
+      "detected_at": "2026-10-07T10:27:18+00:00"
     },
     {
       "id": "auto-news-fed9f709c64eb1",
@@ -51,7 +211,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:02+00:00"
+      "detected_at": "2026-10-07T10:27:18+00:00"
     },
     {
       "id": "auto-news-323d692986cf8e",
@@ -70,7 +230,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:02+00:00"
+      "detected_at": "2026-10-07T10:27:18+00:00"
     },
     {
       "id": "auto-news-53ae11d9364c68",
@@ -90,7 +250,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:02+00:00"
+      "detected_at": "2026-10-07T10:27:18+00:00"
     },
     {
       "id": "auto-news-06df0ae2e2352d",
@@ -110,7 +270,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:02+00:00"
+      "detected_at": "2026-10-07T10:27:18+00:00"
     },
     {
       "id": "auto-news-8e9be3054cc8c1",
@@ -130,7 +290,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:02+00:00"
+      "detected_at": "2026-10-07T10:27:18+00:00"
     },
     {
       "id": "auto-news-f10d1b61b647e2",
@@ -150,7 +310,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-708fc41dbdf921",
@@ -170,7 +330,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-b2196eb71781eb",
@@ -189,7 +349,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-3d17dcd7b87e03",
@@ -209,7 +369,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-5d85943aad7d32",
@@ -228,7 +388,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-7bb6c8fdbadf66",
@@ -247,7 +407,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-cc8a0cd0cc0b17",
@@ -265,26 +425,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
-    },
-    {
-      "id": "auto-news-1a3eb4d4e6d7ef",
-      "date": "2026-09-29",
-      "title": "García-Pelayo oficializa ante la FEMP la cesión a Vivas de su puesto en el Comité de las Regiones",
-      "organization": "FEMP",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.femp.es/noticias/2026/09/29/garcia-pelayo-oficializa-ante-la-femp-la-cesion-a-vivas-de-su-puesto-en-el-comite-de-las-regiones",
-      "source_feed": "https://www.femp.es/feed/",
-      "source_name": "FEMP · Actualidad",
-      "matched_keywords": [
-        "municip",
-        "ia"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:02+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-8f80c863fa6751",
@@ -303,7 +444,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-44134191c2b174",
@@ -324,7 +465,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-874c8f6dcd17a9",
@@ -344,48 +485,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:02+00:00"
-    },
-    {
-      "id": "auto-news-c2c7d4da9319ad",
-      "date": "2026-09-28",
-      "title": "Carta Local nº 403 – Septiembre 2026",
-      "organization": "FEMP",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.femp.es/carta-local/2026/09/28/carta-local-no-403-septiembre-2026",
-      "source_feed": "https://www.femp.es/feed/",
-      "source_name": "FEMP · Actualidad",
-      "matched_keywords": [
-        "municip",
-        "digital",
-        "ens",
-        "ia"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:02+00:00"
-    },
-    {
-      "id": "auto-news-3bd56bf2ee1545",
-      "date": "2026-09-25",
-      "title": "Villas Termales: el mapa del agua que cuida, conecta y da futuro al territorio",
-      "organization": "FEMP",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.femp.es/noticias/2026/09/25/villas-termales-el-mapa-del-agua-que-cuida-conecta-y-da-futuro-al-territorio",
-      "source_feed": "https://www.femp.es/feed/",
-      "source_name": "FEMP · Actualidad",
-      "matched_keywords": [
-        "municip",
-        "agua",
-        "ia"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:02+00:00"
+      "detected_at": "2026-10-07T10:27:18+00:00"
     },
     {
       "id": "auto-news-87c60e7223d903",
@@ -404,7 +504,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-de1cf327f791b6",
@@ -423,27 +523,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
-    },
-    {
-      "id": "auto-news-364f266d6daa25",
-      "date": "2026-09-25",
-      "title": "EDINT pone en marcha un nuevo portal de recursos semánticos para avanzar hacia una mayor interoperabilidad de los datos locales",
-      "organization": "FEMP",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.femp.es/noticias/2026/09/25/edint-pone-en-marcha-un-nuevo-portal-de-recursos-semanticos-para-avanzar-hacia-una-mayor-interoperabilidad-de-los-datos-locales",
-      "source_feed": "https://www.femp.es/feed/",
-      "source_name": "FEMP · Actualidad",
-      "matched_keywords": [
-        "municip",
-        "dato",
-        "ia"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:02+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-8bfde45a478650",
@@ -463,27 +543,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
-    },
-    {
-      "id": "auto-news-34b6175ae43c6b",
-      "date": "2026-09-24",
-      "title": "Hacia una movilidad urbana segura: el nuevo Reglamento de Circulación incorpora propuestas de la FEMP",
-      "organization": "FEMP",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.femp.es/noticias/2026/09/24/hacia-una-movilidad-urbana-segura-el-nuevo-reglamento-de-circulacion-incorpora-propuestas-de-la-femp",
-      "source_feed": "https://www.femp.es/feed/",
-      "source_name": "FEMP · Actualidad",
-      "matched_keywords": [
-        "municip",
-        "ia",
-        "movilidad"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:02+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-c477659192895c",
@@ -503,7 +563,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-433e0c2c91d74e",
@@ -522,7 +582,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-246c23cd950fb5",
@@ -540,7 +600,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-db6e6ad1db59cd",
@@ -560,7 +620,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-1b7517997a49f0",
@@ -580,7 +640,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-50e838ca8f9830",
@@ -600,7 +660,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-bddcfce20f4ace",
@@ -620,7 +680,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-0814cc6075c531",
@@ -639,7 +699,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-665ce4d62379c1",
@@ -657,7 +717,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-c3960bfd33e046",
@@ -676,7 +736,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-5e1efff4cbb245",
@@ -696,7 +756,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-e68783ad855d86",
@@ -717,7 +777,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-18c823b5b8e17a",
@@ -736,7 +796,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-04d3a60ab46309",
@@ -756,7 +816,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-4b65f6ca3ac62a",
@@ -774,7 +834,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-2fc1597c8a8777",
@@ -794,7 +854,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-6f6635b1a99a28",
@@ -814,7 +874,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-13fc00ecefb865",
@@ -832,7 +892,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-de64af2fca1bc8",
@@ -851,7 +911,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-7b03b535a7a282",
@@ -871,7 +931,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-4988ddc15b0e11",
@@ -894,7 +954,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-9557dc22fd61d2",
@@ -912,7 +972,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-447dce89dda3f0",
@@ -932,7 +992,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-be81e4f2634996",
@@ -953,7 +1013,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-cc25fe4e6068b9",
@@ -971,7 +1031,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-154eee13ac6bbb",
@@ -990,7 +1050,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-7592038aca7a98",
@@ -1011,7 +1071,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-09c5775576a258",
@@ -1030,7 +1090,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-61a9bbaafcbd42",
@@ -1050,7 +1110,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-fd67051a9dc025",
@@ -1071,7 +1131,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-2fdcaa007fa550",
@@ -1090,7 +1150,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-1c8a3e642eb8b7",
@@ -1108,7 +1168,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-fa9932f43dc02f",
@@ -1127,7 +1187,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-b9db3dd4799fcb",
@@ -1149,7 +1209,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-0f05fe758f3dfb",
@@ -1167,7 +1227,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-19afe11a68d18c",
@@ -1187,7 +1247,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-d9eb7b05f1ef17",
@@ -1205,7 +1265,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     },
     {
       "id": "auto-news-d2f973be4c8a7e",
@@ -1228,7 +1288,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-05T10:39:01+00:00"
+      "detected_at": "2026-10-07T10:27:16+00:00"
     }
   ],
   "watched_pages": [
@@ -1237,14 +1297,14 @@
       "name": "Red.es · Noticias",
       "url": "https://www.red.es/es/actualidad/noticias",
       "changed": true,
-      "checked_at": "2026-10-05T10:39:03+00:00"
+      "checked_at": "2026-10-07T10:27:18+00:00"
     }
   ],
   "errors": [
     {
       "source": "PAe · Portal de Administración Electrónica",
       "url": "https://administracionelectronica.gob.es/ctt/pae",
-      "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nMoved Temporarily"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
     }
   ]
 }
