@@ -12,8 +12,8 @@
     "source": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=9000004"
   },
   "bdns": {
-    "downloaded": 21234,
-    "candidates": 15245,
+    "downloaded": 21241,
+    "candidates": 15252,
     "details": 300,
     "errors": 0,
     "ok": true,
@@ -22,13 +22,13 @@
   },
   "boe": {
     "ok": true,
-    "downloaded": 521,
-    "candidates": 103,
+    "downloaded": 519,
+    "candidates": 102,
     "errors": 0,
     "sanitized": 0,
     "window_days": 60
   },
-  "updated_at": "2026-10-11T10:10:44",
+  "updated_at": "2026-10-12T11:02:39",
   "territorial_miteco": {
     "ok": false,
     "degraded": true,
