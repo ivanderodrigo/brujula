@@ -1,9 +1,13 @@
 {
   "ok": true,
-  "checked_at": "2026-10-20T08:38:07+00:00",
+  "checked_at": "2026-10-21T08:43:51+00:00",
   "pipeline": "static-offline",
   "mode": "daily",
   "sources_run": [
+    "bdns",
+    "boe",
+    "news",
+    "territorial",
     "seo"
   ],
   "data_status": {
@@ -20,8 +24,8 @@
       "source": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=9000004"
     },
     "bdns": {
-      "downloaded": 20870,
-      "candidates": 15042,
+      "downloaded": 21201,
+      "candidates": 15312,
       "details": 300,
       "errors": 0,
       "ok": true,
@@ -30,13 +34,13 @@
     },
     "boe": {
       "ok": true,
-      "downloaded": 594,
-      "candidates": 121,
+      "downloaded": 625,
+      "candidates": 129,
       "errors": 0,
       "sanitized": 0,
       "window_days": 60
     },
-    "updated_at": "2026-10-19T09:07:27",
+    "updated_at": "2026-10-21T08:43:27",
     "territorial_miteco": {
       "ok": false,
       "degraded": true,
