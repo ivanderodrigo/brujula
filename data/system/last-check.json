@@ -1,9 +1,10 @@
 {
   "ok": true,
-  "checked_at": "2026-10-25T08:34:46+00:00",
+  "checked_at": "2026-10-26T09:09:29+00:00",
   "pipeline": "static-offline",
   "mode": "daily",
   "sources_run": [
+    "localities",
     "bdns",
     "boe",
     "news",
@@ -40,7 +41,7 @@
       "sanitized": 0,
       "window_days": 60
     },
-    "updated_at": "2026-10-25T08:34:23",
+    "updated_at": "2026-10-26T09:08:59",
     "territorial_miteco": {
       "ok": false,
       "degraded": true,
