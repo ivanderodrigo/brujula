@@ -1,3 +1,3 @@
-OK 2026-10-26T09:09:29+00:00
+OK 2026-10-27T09:05:44+00:00
 Modo: daily
-Fuentes: localities, bdns, boe, news, territorial, seo
+Fuentes: seo
