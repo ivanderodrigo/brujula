@@ -1,7 +1,237 @@
 {
-  "generated_at": "2026-10-29T10:11:50+00:00",
+  "generated_at": "2026-11-05T11:09:02+00:00",
   "review_policy": "Todas las novedades automáticas requieren revisión editorial.",
   "items": [
+    {
+      "id": "auto-news-4c3777d16740ea",
+      "date": "2026-11-05",
+      "title": "La Red Española de Oficinas del Dato celebra su primer consejo de Gobierno",
+      "organization": "FEMP",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.femp.es/noticias/2026/11/05/la-red-espanola-de-oficinas-del-dato-celebra-su-primer-consejo-de-gobierno",
+      "source_feed": "https://www.femp.es/feed/",
+      "source_name": "FEMP · Actualidad",
+      "matched_keywords": [
+        "municip",
+        "dato",
+        "ia"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-11-05T11:08:30+00:00"
+    },
+    {
+      "id": "auto-news-6ad56ac1ce4b5b",
+      "date": "2026-11-05",
+      "title": "La FEMP participa en Bruselas en la reunión de secretarios generales y directores del Consejo de Municipios y Regiones de Europa (CMRE)",
+      "organization": "FEMP",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.femp.es/noticias/2026/11/05/la-femp-participa-en-bruselas-en-la-reunion-de-secretarios-generales-y-directores-del-consejo-de-municipios-y-regiones-de-europa-cmre",
+      "source_feed": "https://www.femp.es/feed/",
+      "source_name": "FEMP · Actualidad",
+      "matched_keywords": [
+        "municip",
+        "ia",
+        "vivienda"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-11-05T11:08:30+00:00"
+    },
+    {
+      "id": "auto-watch-1f64f5d21db378",
+      "date": "2026-11-05",
+      "title": "Cambio detectado en Red.es · Noticias",
+      "organization": "Red.es",
+      "category": "vigilancia",
+      "why": "La página oficial vigilada ha cambiado desde la última comprobación.",
+      "action": "Revisar manualmente el cambio antes de publicarlo como novedad material.",
+      "source": "https://www.red.es/es/actualidad/noticias",
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-11-05T11:08:31+00:00"
+    },
+    {
+      "id": "auto-news-84e6406d3ee40a",
+      "date": "2026-11-04",
+      "title": "Reunión del MITECO y Castilla y León para tratar la nueva Propuesta de planificación de electricidad con horizonte 2030 tras las alegaciones",
+      "organization": "MITECO",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/noviembre/reunion-del-miteco-y-castilla-y-leon-para-tratar-la-nueva-propue.html",
+      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
+      "source_name": "MITECO · Sala de prensa",
+      "matched_keywords": [
+        "reto demogr",
+        "ia",
+        "energ"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-11-05T11:08:28+00:00"
+    },
+    {
+      "id": "auto-news-65fe28acf7e62f",
+      "date": "2026-11-04",
+      "title": "La Red de Ciudades LALIGA, ejemplo de colaboración entre el ámbito local y las entidades líderes del desarrollo deportivo",
+      "organization": "FEMP",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.femp.es/noticias/2026/11/04/la-red-de-ciudades-laliga-ejemplo-de-colaboracion-entre-el-ambito-local-y-las-entidades-lideres-del-desarrollo-deportivo",
+      "source_feed": "https://www.femp.es/feed/",
+      "source_name": "FEMP · Actualidad",
+      "matched_keywords": [
+        "municip",
+        "ia"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-11-05T11:08:30+00:00"
+    },
+    {
+      "id": "auto-news-3a1244d21a68ac",
+      "date": "2026-11-04",
+      "title": "La FEMP acoge la muestra fotográfica “La mirada local”: 45 años de historia municipal en imágenes",
+      "organization": "FEMP",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.femp.es/noticias/2026/11/04/la-femp-acoge-la-muestra-fotografica-la-mirada-local-45-anos-de-historia-municipal-en-imagenes",
+      "source_feed": "https://www.femp.es/feed/",
+      "source_name": "FEMP · Actualidad",
+      "matched_keywords": [
+        "municip",
+        "pueblo",
+        "ia"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-11-05T11:08:30+00:00"
+    },
+    {
+      "id": "auto-news-50e54349f5ca91",
+      "date": "2026-11-04",
+      "title": "El MITECO plantea una línea de ayudas a proyectos de eficiencia energética y climatización en universidades y centros de investigación públicos",
+      "organization": "MITECO",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/noviembre/el-miteco-plantea-una-linea-de-ayudas-a-proyectos-de-eficiencia-.html",
+      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
+      "source_name": "MITECO · Sala de prensa",
+      "matched_keywords": [
+        "reto demogr",
+        "ia",
+        "energ",
+        "ayuda"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-11-05T11:08:28+00:00"
+    },
+    {
+      "id": "auto-news-dd8e30b63c824d",
+      "date": "2026-11-03",
+      "title": "Utrillas estrenará la primera experiencia piloto de la Red de Experiencias Turísticas del Carbón",
+      "organization": "MITECO",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/noviembre/-utrillas-estrenara-la-primera-experiencia-piloto-de-la-red-de-e.html",
+      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
+      "source_name": "MITECO · Sala de prensa",
+      "matched_keywords": [
+        "ia"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-11-05T11:08:28+00:00"
+    },
+    {
+      "id": "auto-news-83d6c3ebbd68a5",
+      "date": "2026-11-03",
+      "title": "La reserva hídrica española se encuentra al 56 % de su capacidad",
+      "organization": "MITECO",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/noviembre/la-reserva-hidrica-espanola-se-encuentra-al-56---de-su-capacidad.html",
+      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
+      "source_name": "MITECO · Sala de prensa",
+      "matched_keywords": [
+        "agua"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-11-05T11:08:28+00:00"
+    },
+    {
+      "id": "auto-news-71e52ce2f73456",
+      "date": "2026-11-03",
+      "title": "La FEMP impulsa la proyección internacional de las ciudades inteligentes españolas en el Smart City Expo World Congress",
+      "organization": "FEMP",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.femp.es/noticias/2026/11/03/la-femp-impulsa-la-proyeccion-internacional-de-las-ciudades-inteligentes-espanolas-en-el-smart-city-expo-world-congress",
+      "source_feed": "https://www.femp.es/feed/",
+      "source_name": "FEMP · Actualidad",
+      "matched_keywords": [
+        "municip",
+        "dato",
+        "ia"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-11-05T11:08:30+00:00"
+    },
+    {
+      "id": "auto-news-96c47a1d9c9cac",
+      "date": "2026-11-03",
+      "title": "El Gobierno aprueba la propuesta de ampliación del Parque Nacional de Aigüestortes i Estany de Sant Maurici",
+      "organization": "MITECO",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/noviembre/el-gobierno-aprueba-la-propuesta-de-ampliacion-del-parque-nacion.html",
+      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
+      "source_name": "MITECO · Sala de prensa",
+      "matched_keywords": [
+        "reto demogr",
+        "ia",
+        "conectividad"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-11-05T11:08:28+00:00"
+    },
+    {
+      "id": "auto-news-6122b547f62c63",
+      "date": "2026-11-03",
+      "title": "Convocatoria de ayudas a entidades locales para proyectos de igualdad",
+      "organization": "FEMP",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.femp.es/noticias/2026/11/03/convocatoria-de-ayudas-a-entidades-locales-para-proyectos-de-igualdad",
+      "source_feed": "https://www.femp.es/feed/",
+      "source_name": "FEMP · Actualidad",
+      "matched_keywords": [
+        "municip",
+        "entidades locales",
+        "ia",
+        "ayuda"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-11-05T11:08:30+00:00"
+    },
     {
       "id": "auto-news-a018cf92d6af5c",
       "date": "2026-10-29",
@@ -21,20 +251,30 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:46+00:00"
+      "detected_at": "2026-11-05T11:08:30+00:00"
     },
     {
-      "id": "auto-watch-b045733b9ec4d4",
+      "id": "auto-news-4efff21decffc8",
       "date": "2026-10-29",
-      "title": "Cambio detectado en Red.es · Noticias",
-      "organization": "Red.es",
-      "category": "vigilancia",
-      "why": "La página oficial vigilada ha cambiado desde la última comprobación.",
-      "action": "Revisar manualmente el cambio antes de publicarlo como novedad material.",
-      "source": "https://www.red.es/es/actualidad/noticias",
+      "title": "Carta Local nº 404 – octubre 2026",
+      "organization": "FEMP",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.femp.es/carta-local/2026/10/29/carta-local-no-404-octubre-2026",
+      "source_feed": "https://www.femp.es/feed/",
+      "source_name": "FEMP · Actualidad",
+      "matched_keywords": [
+        "municip",
+        "digital",
+        "dato",
+        "ia",
+        "movilidad",
+        "servicios públicos"
+      ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:47+00:00"
+      "detected_at": "2026-11-05T11:08:30+00:00"
     },
     {
       "id": "auto-news-375f41ddd84a85",
@@ -54,7 +294,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:46+00:00"
+      "detected_at": "2026-11-05T11:08:30+00:00"
     },
     {
       "id": "auto-news-84f9017deac5ce",
@@ -74,7 +314,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:46+00:00"
+      "detected_at": "2026-11-05T11:08:30+00:00"
     },
     {
       "id": "auto-news-7d18375020c6d6",
@@ -94,7 +334,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-228fbbbb779779",
@@ -113,7 +353,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-a3b7616d1a31d0",
@@ -131,7 +371,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-f650fcbcd44a66",
@@ -151,7 +391,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:46+00:00"
+      "detected_at": "2026-11-05T11:08:30+00:00"
     },
     {
       "id": "auto-news-6b465355515444",
@@ -170,7 +410,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-b23a4f63cfeab4",
@@ -190,7 +430,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-fff62fe847f4b2",
@@ -210,7 +450,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-a3ed6ac3cd34f9",
@@ -230,7 +470,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-c08d3acadaa113",
@@ -249,7 +489,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:46+00:00"
+      "detected_at": "2026-11-05T11:08:30+00:00"
     },
     {
       "id": "auto-news-ae7504c0e28579",
@@ -270,7 +510,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-714d3b1b280439",
@@ -289,7 +529,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-3bd520e9aff1f1",
@@ -309,48 +549,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
-    },
-    {
-      "id": "auto-news-0ffb984843d6cf",
-      "date": "2026-10-23",
-      "title": "La Red +Biodiversidad de la FEMP aborda en Alcorcón los retos de la conectividad ecológica en el ámbito local",
-      "organization": "FEMP",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.femp.es/noticias/2026/10/23/la-red-biodiversidad-de-la-femp-aborda-en-alcorcon-los-retos-de-la-conectividad-ecologica-en-el-ambito-local",
-      "source_feed": "https://www.femp.es/feed/",
-      "source_name": "FEMP · Actualidad",
-      "matched_keywords": [
-        "municip",
-        "ia",
-        "conectividad"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:46+00:00"
-    },
-    {
-      "id": "auto-news-1c4fa872ca6428",
-      "date": "2026-10-23",
-      "title": "La Comisión de Promoción Económica y Empleo cierra sus reuniones ordinarias con un balance positivo del mandato",
-      "organization": "FEMP",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.femp.es/noticias/2026/10/23/la-comision-de-promocion-economica-y-empleo-cierra-sus-reuniones-ordinarias-con-un-balance-positivo-del-mandato",
-      "source_feed": "https://www.femp.es/feed/",
-      "source_name": "FEMP · Actualidad",
-      "matched_keywords": [
-        "municip",
-        "ens",
-        "dato",
-        "ia"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:46+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-7246fa20811e76",
@@ -371,45 +570,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
-    },
-    {
-      "id": "auto-news-9ac1a56ae8b241",
-      "date": "2026-10-22",
-      "title": "Martínez-Sicluna reivindica la cercanía, responsabilidad y capacidad de escucha del municipalismo",
-      "organization": "FEMP",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.femp.es/noticias/2026/10/22/martinez-sicluna-reivindica-la-cercania-responsabilidad-y-capacidad-de-escucha-del-municipalismo",
-      "source_feed": "https://www.femp.es/feed/",
-      "source_name": "FEMP · Actualidad",
-      "matched_keywords": [
-        "municip",
-        "ia"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:46+00:00"
-    },
-    {
-      "id": "auto-news-d7472a790e5b86",
-      "date": "2026-10-22",
-      "title": "Escuchar y evaluar: las claves de la FEMP para el fortalecimiento de las administraciones públicas",
-      "organization": "FEMP",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.femp.es/noticias/2026/10/22/escuchar-y-evaluar-las-claves-de-la-femp-para-el-fortalecimiento-de-las-administraciones-publicas",
-      "source_feed": "https://www.femp.es/feed/",
-      "source_name": "FEMP · Actualidad",
-      "matched_keywords": [
-        "municip",
-        "ia"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:46+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-c70df42dddd122",
@@ -429,67 +590,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
-    },
-    {
-      "id": "auto-news-6737bfc2982e54",
-      "date": "2026-10-22",
-      "title": "Dos décadas impulsando políticas locales para la conservación medioambiental",
-      "organization": "FEMP",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.femp.es/noticias/2026/10/22/dos-decadas-impulsando-politicas-locales-para-la-conservacion-medioambiental",
-      "source_feed": "https://www.femp.es/feed/",
-      "source_name": "FEMP · Actualidad",
-      "matched_keywords": [
-        "municip",
-        "ia"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:46+00:00"
-    },
-    {
-      "id": "auto-news-c74e2a1cc5fc19",
-      "date": "2026-10-22",
-      "title": "Apuesta por llevar la agenda del dato a todos los municipios para ofrecer mejores servicios públicos",
-      "organization": "FEMP",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.femp.es/noticias/2026/10/22/apuesta-por-llevar-la-agenda-del-dato-a-todos-los-municipios-para-ofrecer-mejores-servicios-publicos",
-      "source_feed": "https://www.femp.es/feed/",
-      "source_name": "FEMP · Actualidad",
-      "matched_keywords": [
-        "municip",
-        "digital",
-        "dato",
-        "ia",
-        "servicios públicos"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:46+00:00"
-    },
-    {
-      "id": "auto-news-b36057c931553b",
-      "date": "2026-10-21",
-      "title": "La FEMP aborda la actualidad de los fondos europeos en el ámbito local",
-      "organization": "FEMP",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.femp.es/noticias/2026/10/21/la-femp-aborda-la-actualidad-de-los-fondos-europeos-en-el-ambito-local",
-      "source_feed": "https://www.femp.es/feed/",
-      "source_name": "FEMP · Actualidad",
-      "matched_keywords": [
-        "municip",
-        "ia"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:46+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-77f5797782b00c",
@@ -507,7 +608,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-0604908492454d",
@@ -525,7 +626,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-6174feb824892a",
@@ -545,7 +646,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-b056c1c878cdca",
@@ -564,7 +665,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-bdb31477006385",
@@ -584,7 +685,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-1375ddd9c358e7",
@@ -604,7 +705,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-11351488e4b209",
@@ -624,7 +725,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-980dd01fe76152",
@@ -644,7 +745,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-3739334ce44920",
@@ -662,7 +763,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-dd06bc05ebb2e3",
@@ -682,7 +783,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-bfc81b31421270",
@@ -701,7 +802,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-1cf0e2b8245b03",
@@ -719,7 +820,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-f1a6ead8acea02",
@@ -737,7 +838,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-2abb514a1ca92f",
@@ -756,7 +857,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-149e23fcc1f78b",
@@ -775,7 +876,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-94f2efa873f954",
@@ -798,7 +899,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-66916dfed9fbd8",
@@ -818,7 +919,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-f10d1b61b647e2",
@@ -838,7 +939,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-708fc41dbdf921",
@@ -858,7 +959,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-b2196eb71781eb",
@@ -877,7 +978,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-3d17dcd7b87e03",
@@ -897,7 +998,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-5d85943aad7d32",
@@ -916,7 +1017,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-7bb6c8fdbadf66",
@@ -935,7 +1036,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-cc8a0cd0cc0b17",
@@ -953,7 +1054,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-8f80c863fa6751",
@@ -972,7 +1073,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-44134191c2b174",
@@ -993,7 +1094,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-87c60e7223d903",
@@ -1012,7 +1113,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-de1cf327f791b6",
@@ -1031,7 +1132,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-8bfde45a478650",
@@ -1051,7 +1152,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-c477659192895c",
@@ -1071,7 +1172,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-433e0c2c91d74e",
@@ -1090,7 +1191,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-246c23cd950fb5",
@@ -1108,7 +1209,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-db6e6ad1db59cd",
@@ -1128,7 +1229,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-1b7517997a49f0",
@@ -1148,7 +1249,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-50e838ca8f9830",
@@ -1168,7 +1269,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-bddcfce20f4ace",
@@ -1188,7 +1289,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     },
     {
       "id": "auto-news-0814cc6075c531",
@@ -1207,162 +1308,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
-    },
-    {
-      "id": "auto-news-665ce4d62379c1",
-      "date": "2026-09-18",
-      "title": "La Reserva de la Biosfera de La Siberia acogerá el III Congreso Español de Reservas de la Biosfera",
-      "organization": "MITECO",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/septiembre/la-reserva-de-la-biosfera-de-la-siberia-acogera-el-iii-congreso-.html",
-      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
-      "source_name": "MITECO · Sala de prensa",
-      "matched_keywords": [
-        "ia"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
-    },
-    {
-      "id": "auto-news-c3960bfd33e046",
-      "date": "2026-09-17",
-      "title": "El ITJ presenta en Andorra el procedimiento para adjudicar los 937 MW del nudo Mudéjar",
-      "organization": "MITECO",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/septiembre/el-itj-presenta-en-andorra-el-procedimiento-para-adjudicar-los-9.html",
-      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
-      "source_name": "MITECO · Sala de prensa",
-      "matched_keywords": [
-        "reto demogr",
-        "ia"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
-    },
-    {
-      "id": "auto-news-5e1efff4cbb245",
-      "date": "2026-09-16",
-      "title": "Sara Aagesen anuncia una inversión superior a 17.000 millones en la Planificación eléctrica a 2030",
-      "organization": "MITECO",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/septiembre/sara-aagesen-anuncia-una-inversion-superior-a-17-000-millones-en.html",
-      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
-      "source_name": "MITECO · Sala de prensa",
-      "matched_keywords": [
-        "reto demogr",
-        "ia",
-        "energ"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
-    },
-    {
-      "id": "auto-news-e68783ad855d86",
-      "date": "2026-09-16",
-      "title": "Joan Groizard destaca el gran potencial de Canarias para el desarrollo de energía renovable",
-      "organization": "MITECO",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/septiembre/joan-groizard-destaca-el-gran-potencial-de-canarias-para-el-desa.html",
-      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
-      "source_name": "MITECO · Sala de prensa",
-      "matched_keywords": [
-        "municip",
-        "ia",
-        "energ",
-        "ayuda"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
-    },
-    {
-      "id": "auto-news-18c823b5b8e17a",
-      "date": "2026-09-16",
-      "title": "El MITECO incentiva la firmeza y la flexibilidad del sistema eléctrico con un nuevo mercado de capacidad que permitirá integrar más renovables",
-      "organization": "MITECO",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/septiembre/el-miteco-incentiva-la-firmeza-y-la-flexibilidad-del-sistema-ele.html",
-      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
-      "source_name": "MITECO · Sala de prensa",
-      "matched_keywords": [
-        "reto demogr",
-        "ia"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
-    },
-    {
-      "id": "auto-news-04d3a60ab46309",
-      "date": "2026-09-16",
-      "title": "El MITECO finaliza la renaturalización de 84 ha de humedal en el entorno de la Doñana sevillana",
-      "organization": "MITECO",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/septiembre/el-miteco-finaliza-la-renaturalizacion-de-84-ha-de-humedal-en-el.html",
-      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
-      "source_name": "MITECO · Sala de prensa",
-      "matched_keywords": [
-        "reto demogr",
-        "agua",
-        "ia"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
-    },
-    {
-      "id": "auto-news-4b65f6ca3ac62a",
-      "date": "2026-09-15",
-      "title": "La reserva hídrica española se encuentra al 61,8 % de su capacidad",
-      "organization": "MITECO",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/septiembre/la-reserva-hidrica-espanola-se-encuentra-al-61-8---de-su-capacid.html",
-      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
-      "source_name": "MITECO · Sala de prensa",
-      "matched_keywords": [
-        "agua"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
-    },
-    {
-      "id": "auto-news-2fc1597c8a8777",
-      "date": "2026-09-14",
-      "title": "El Gobierno presenta el Marco de Acción Nacional para consolidar una red integral de recarga eléctrica y combustibles alternativos en el transporte",
-      "organization": "MITECO",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/septiembre/el-gobierno-presenta-el-marco-de-accion-nacional-para-consolidar.html",
-      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
-      "source_name": "MITECO · Sala de prensa",
-      "matched_keywords": [
-        "reto demogr",
-        "ia",
-        "movilidad"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-10-29T10:11:44+00:00"
+      "detected_at": "2026-11-05T11:08:28+00:00"
     }
   ],
   "watched_pages": [
@@ -1371,14 +1317,14 @@
       "name": "Red.es · Noticias",
       "url": "https://www.red.es/es/actualidad/noticias",
       "changed": true,
-      "checked_at": "2026-10-29T10:11:47+00:00"
+      "checked_at": "2026-11-05T11:08:31+00:00"
     }
   ],
   "errors": [
     {
       "source": "PAe · Portal de Administración Electrónica",
       "url": "https://administracionelectronica.gob.es/ctt/pae",
-      "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nMoved Temporarily"
+      "error": "IncompleteRead(202565 bytes read)"
     }
   ]
 }
