@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "checked_at": "2026-11-11T14:31:16+00:00",
+  "checked_at": "2026-11-12T15:23:25+00:00",
   "summary": {
     "total": 12,
     "ok": 12,
     "failed": 0,
-    "changed": 8
+    "changed": 9
   },
   "note": "Estado técnico de las fuentes. No implica que exista una convocatoria abierta, que el municipio sea beneficiario ni que una fuente financie un proyecto concreto.",
   "sources": [
@@ -18,7 +18,7 @@
       "topics": [
         "todos"
       ],
-      "checked_at": "2026-11-11T14:31:12+00:00",
+      "checked_at": "2026-11-12T15:23:21+00:00",
       "ok": true,
       "http_status": 200,
       "final_url": "https://www.infosubvenciones.es/bdnstrans/GE/es/index",
@@ -42,16 +42,16 @@
         "igualdad",
         "juventud"
       ],
-      "checked_at": "2026-11-11T14:31:13+00:00",
+      "checked_at": "2026-11-12T15:23:21+00:00",
       "ok": true,
       "http_status": 200,
       "final_url": "https://commission.europa.eu/funding-and-tenders/find-funding/eu-funding-programmes/citizens-equality-rights-and-values-programme_en",
       "content_type": "text/html; charset=utf-8",
       "etag": null,
       "last_modified": null,
-      "fingerprint": "6fdc7a41a3dc0f9a3d6e02af76c05d7d6ee9f741153fe13a8c6ee692f0c04b53",
+      "fingerprint": "3dad222aedd6d4a9559c1d27da56aedc118a5a7ebd9e4047b32e72921d0f1377",
       "changed": true,
-      "bytes_sampled": 156425
+      "bytes_sampled": 156448
     },
     {
       "id": "erasmus",
@@ -65,14 +65,14 @@
         "participacion",
         "deporte"
       ],
-      "checked_at": "2026-11-11T14:31:13+00:00",
+      "checked_at": "2026-11-12T15:23:21+00:00",
       "ok": true,
       "http_status": 200,
       "final_url": "https://erasmus-plus.ec.europa.eu/erasmus-programme-guide",
       "content_type": "text/html; charset=utf-8",
-      "etag": "W/\"1794405810-gzip\"",
-      "last_modified": "Wed, 11 Nov 2026 14:03:30 GMT",
-      "fingerprint": "daa20bad2c525b79df5f1de00e01f5b7b6f13c566bd23b07e4d9c9df977b6d67",
+      "etag": "W/\"1794488255-gzip\"",
+      "last_modified": "Thu, 12 Nov 2026 12:57:35 GMT",
+      "fingerprint": "9f2d10eca65091f75249cce2115c4bb7c0b89e6c2669128fc700d3d649c99dbb",
       "changed": true,
       "bytes_sampled": 196809
     },
@@ -91,7 +91,7 @@
         "participacion",
         "innovacion"
       ],
-      "checked_at": "2026-11-11T14:31:12+00:00",
+      "checked_at": "2026-11-12T15:23:21+00:00",
       "ok": true,
       "http_status": 200,
       "final_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home",
@@ -117,14 +117,14 @@
         "empleo",
         "adaptacion"
       ],
-      "checked_at": "2026-11-11T14:31:13+00:00",
+      "checked_at": "2026-11-12T15:23:22+00:00",
       "ok": true,
       "http_status": 200,
       "final_url": "https://fundacion-biodiversidad.es/buscador-de-convocatorias/",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "last_modified": null,
-      "fingerprint": "dfbcda29e97623785734b8b0ae235587959a3d36d98e9524f70a52d91effbc70",
+      "fingerprint": "23063aca4c765b9fa42bc8499ea5260d4fac365c4c86ff7b8500485bcc4b3198",
       "changed": true,
       "bytes_sampled": 177115
     },
@@ -142,16 +142,16 @@
         "movilidad",
         "clima"
       ],
-      "checked_at": "2026-11-11T14:31:13+00:00",
+      "checked_at": "2026-11-12T15:23:22+00:00",
       "ok": true,
       "http_status": 200,
       "final_url": "https://www.idae.es/ayudas-y-financiacion",
       "content_type": "text/html; charset=UTF-8",
-      "etag": "\"1794407474\"",
-      "last_modified": "Wed, 11 Nov 2026 14:31:14 GMT",
-      "fingerprint": "d1d817c2cf7b3713e3df288d7cb94d38aa9644889391c30b8edfedf674b2c996",
+      "etag": "\"1794496975\"",
+      "last_modified": "Thu, 12 Nov 2026 15:22:55 GMT",
+      "fingerprint": "decfc2f769491d2ebda7fbbc0a070862293ce13ff02e6773c886a43454b4b26b",
       "changed": true,
-      "bytes_sampled": 134708
+      "bytes_sampled": 134715
     },
     {
       "id": "interreg",
@@ -168,16 +168,16 @@
         "patrimonio",
         "innovacion"
       ],
-      "checked_at": "2026-11-11T14:31:12+00:00",
+      "checked_at": "2026-11-12T15:23:21+00:00",
       "ok": true,
       "http_status": 200,
       "final_url": "https://interreg.eu/calls-for-projects/",
       "content_type": "text/html; charset=utf-8",
       "etag": null,
       "last_modified": null,
-      "fingerprint": "401005e8a85b443979b90ee6113a37abc05b6fd0197ca0bb41be962d48b33048",
-      "changed": false,
-      "bytes_sampled": 49680
+      "fingerprint": "39791099c9e3e3e7b5dbf2acb10e8aef1c95a402a6e414d5ea4b8f8a1a069ff9",
+      "changed": true,
+      "bytes_sampled": 48206
     },
     {
       "id": "leader",
@@ -193,7 +193,7 @@
         "servicios",
         "economia_local"
       ],
-      "checked_at": "2026-11-11T14:31:13+00:00",
+      "checked_at": "2026-11-12T15:23:21+00:00",
       "ok": true,
       "http_status": 200,
       "final_url": "https://www.redpac.gob.es/visores_redpac/gal",
@@ -219,16 +219,16 @@
         "residuos",
         "vivienda"
       ],
-      "checked_at": "2026-11-11T14:31:12+00:00",
+      "checked_at": "2026-11-12T15:23:21+00:00",
       "ok": true,
       "http_status": 200,
       "final_url": "https://cinea.ec.europa.eu/life-calls-proposals-2026_en",
       "content_type": "text/html; charset=utf-8",
       "etag": null,
       "last_modified": null,
-      "fingerprint": "0157a16a8c65b8349f3e99b9aeedcf973813a800faa1cd5f705a7586c5bf0b2f",
+      "fingerprint": "85e9151ec25a367c1a4216b21f6fdc78b437df94eaf72e42a89f7938cd0e5caa",
       "changed": true,
-      "bytes_sampled": 107562
+      "bytes_sampled": 107566
     },
     {
       "id": "poctep",
@@ -247,14 +247,14 @@
         "turismo",
         "gobernanza"
       ],
-      "checked_at": "2026-11-11T14:31:12+00:00",
+      "checked_at": "2026-11-12T15:23:21+00:00",
       "ok": true,
       "http_status": 200,
       "final_url": "https://www.poctep.eu/proximas-convocatorias/",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "last_modified": null,
-      "fingerprint": "7f3f7f6108ea8016cceee318c59396dc3bcb3eb2c2228155c48c49442788fd15",
+      "fingerprint": "00ac1e04bda325d03976f97b957911987679bd228f9a485195624b694c90609d",
       "changed": true,
       "bytes_sampled": 215619
     },
@@ -274,14 +274,14 @@
         "servicios",
         "todos"
       ],
-      "checked_at": "2026-11-11T14:31:13+00:00",
+      "checked_at": "2026-11-12T15:23:22+00:00",
       "ok": true,
       "http_status": 200,
       "final_url": "https://planderecuperacion.gob.es/como-acceder-a-los-fondos/convocatorias",
       "content_type": "text/html; charset=utf-8",
       "etag": null,
-      "last_modified": "Wed, 11 Nov 2026 12:42:41 GMT",
-      "fingerprint": "011504011fb819490415a16848def0a2d3168746c3e2e24d9940eca9f2b7f471",
+      "last_modified": "Thu, 12 Nov 2026 14:33:44 GMT",
+      "fingerprint": "c61e408bb49013e90ac64243d0f855cac0d0601846d6852ba7d73dfc958a3f13",
       "changed": true,
       "bytes_sampled": 57469
     },
@@ -299,16 +299,16 @@
         "innovacion",
         "patrimonio"
       ],
-      "checked_at": "2026-11-11T14:31:12+00:00",
+      "checked_at": "2026-11-12T15:23:21+00:00",
       "ok": true,
       "http_status": 200,
       "final_url": "https://interreg-sudoe.eu/",
       "content_type": "text/html; charset=UTF-8",
-      "etag": "\"7c09d-66000be21b21e\"",
-      "last_modified": "Wed, 11 Nov 2026 14:09:26 GMT",
-      "fingerprint": "0e2e87215b91a9701e247923c618c37f339dcf731bd2acd4ea32ffcf781364e4",
+      "etag": "\"7cf5e-6601439b61dd6\"",
+      "last_modified": "Thu, 12 Nov 2026 13:24:04 GMT",
+      "fingerprint": "5719658663067e9b221e3187d5f9cdcb0a88831f27a251ecfaa01fe31215637b",
       "changed": true,
-      "bytes_sampled": 508061
+      "bytes_sampled": 511838
     }
   ]
 }
