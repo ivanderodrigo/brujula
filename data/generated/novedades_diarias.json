@@ -1,7 +1,101 @@
 {
-  "generated_at": "2026-11-19T11:56:53+00:00",
+  "generated_at": "2026-11-21T11:21:24+00:00",
   "review_policy": "Todas las novedades automáticas requieren revisión editorial.",
   "items": [
+    {
+      "id": "auto-watch-788c413aeadf96",
+      "date": "2026-11-21",
+      "title": "Cambio detectado en Red.es · Noticias",
+      "organization": "Red.es",
+      "category": "vigilancia",
+      "why": "La página oficial vigilada ha cambiado desde la última comprobación.",
+      "action": "Revisar manualmente el cambio antes de publicarlo como novedad material.",
+      "source": "https://www.red.es/es/actualidad/noticias",
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-11-21T11:21:21+00:00"
+    },
+    {
+      "id": "auto-news-350793acb10feb",
+      "date": "2026-11-20",
+      "title": "El Gobierno refuerza la repotenciación eólica, el autoconsumo industrial, y el almacenamiento con hidroeléctrica y solar termoeléctrica",
+      "organization": "MITECO",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/noviembre/el-gobierno-refuerza-la-repotenciacion-eolica--el-autoconsumo-in.html",
+      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
+      "source_name": "MITECO · Sala de prensa",
+      "matched_keywords": [
+        "reto demogr",
+        "ia",
+        "energ"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-11-21T11:21:18+00:00"
+    },
+    {
+      "id": "auto-news-9229d5fe1760cc",
+      "date": "2026-11-20",
+      "title": "El Gobierno aprueba la transposición de la normativa europea que introduce un nuevo mercado de emisiones para edificios y transporte por carretera",
+      "organization": "MITECO",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/noviembre/el-gobierno-aprueba-la-transposicion-de-la-normativa-europea-que.html",
+      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
+      "source_name": "MITECO · Sala de prensa",
+      "matched_keywords": [
+        "reto demogr",
+        "energ"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-11-21T11:21:18+00:00"
+    },
+    {
+      "id": "auto-news-a15c0bd91419ce",
+      "date": "2026-11-20",
+      "title": "El Gobierno aprueba la Planificación Eléctrica en el horizonte 2030, diseñada para atender las nuevas demandas propiciadas por la transición energética",
+      "organization": "MITECO",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/noviembre/el-gobierno-aprueba-la-planificacion-electrica-en-el-horizonte-2.html",
+      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
+      "source_name": "MITECO · Sala de prensa",
+      "matched_keywords": [
+        "reto demogr",
+        "ia",
+        "energ"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-11-21T11:21:18+00:00"
+    },
+    {
+      "id": "auto-news-17009c325918fe",
+      "date": "2026-11-20",
+      "title": "El Gobierno aprueba el Real Decreto para la sostenibilidad energética, medioambiental y de resiliencia y soberanía digital de los centros de datos",
+      "organization": "MITECO",
+      "category": "actualidad",
+      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
+      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
+      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/noviembre/el-gobierno-aprueba-el-real-decreto-para-la-sostenibilidad-energ.html",
+      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
+      "source_name": "MITECO · Sala de prensa",
+      "matched_keywords": [
+        "reto demogr",
+        "digital",
+        "dato",
+        "ia",
+        "energ"
+      ],
+      "review_status": "pending",
+      "origin": "automatic",
+      "detected_at": "2026-11-21T11:21:18+00:00"
+    },
     {
       "id": "auto-news-1244f2a598f518",
       "date": "2026-11-19",
@@ -22,20 +116,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
-    },
-    {
-      "id": "auto-watch-b28d6225f3925b",
-      "date": "2026-11-19",
-      "title": "Cambio detectado en Red.es · Noticias",
-      "organization": "Red.es",
-      "category": "vigilancia",
-      "why": "La página oficial vigilada ha cambiado desde la última comprobación.",
-      "action": "Revisar manualmente el cambio antes de publicarlo como novedad material.",
-      "source": "https://www.red.es/es/actualidad/noticias",
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:49+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-ea2f4a8972d674",
@@ -54,7 +135,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-c7c38eb8d8da03",
@@ -73,7 +154,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:48+00:00"
+      "detected_at": "2026-11-21T11:21:20+00:00"
     },
     {
       "id": "auto-news-e3d1d83747af59",
@@ -91,7 +172,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-c00d02cab86fcf",
@@ -111,7 +192,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:48+00:00"
+      "detected_at": "2026-11-21T11:21:20+00:00"
     },
     {
       "id": "auto-news-f4da02dd20d667",
@@ -130,7 +211,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-41d3b38b0358c4",
@@ -152,7 +233,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:48+00:00"
+      "detected_at": "2026-11-21T11:21:20+00:00"
     },
     {
       "id": "auto-news-c1df261de765f0",
@@ -171,7 +252,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-833af6ec50727b",
@@ -193,7 +274,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-26a0ccd7a84fae",
@@ -212,7 +293,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:48+00:00"
+      "detected_at": "2026-11-21T11:21:20+00:00"
     },
     {
       "id": "auto-news-1b039d6db55f79",
@@ -231,7 +312,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-ff491ca9c4e233",
@@ -250,7 +331,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-2fbbb9c5c8f0ca",
@@ -268,7 +349,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-fa021ca1a1e447",
@@ -287,7 +368,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:48+00:00"
+      "detected_at": "2026-11-21T11:21:20+00:00"
     },
     {
       "id": "auto-news-ea6fdb7c4571c6",
@@ -306,7 +387,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-517b21333a7351",
@@ -325,7 +406,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-ec9e4c95916362",
@@ -344,7 +425,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-cebcd7eba3fa0a",
@@ -364,7 +445,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:48+00:00"
+      "detected_at": "2026-11-21T11:21:20+00:00"
     },
     {
       "id": "auto-news-11694435a53979",
@@ -385,7 +466,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-ab4273e99a7655",
@@ -405,7 +486,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-a7f1bf335e04d1",
@@ -425,7 +506,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:48+00:00"
+      "detected_at": "2026-11-21T11:21:20+00:00"
     },
     {
       "id": "auto-news-150b00373f5550",
@@ -444,7 +525,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:48+00:00"
+      "detected_at": "2026-11-21T11:21:20+00:00"
     },
     {
       "id": "auto-news-961ec51caa7bc1",
@@ -463,7 +544,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:48+00:00"
+      "detected_at": "2026-11-21T11:21:20+00:00"
     },
     {
       "id": "auto-news-aa26f9c69bf89d",
@@ -483,7 +564,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-94f2252103edc2",
@@ -503,7 +584,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-6b4c8c9d152f1b",
@@ -523,7 +604,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-83b888f72ed9ae",
@@ -543,7 +624,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:48+00:00"
+      "detected_at": "2026-11-21T11:21:20+00:00"
     },
     {
       "id": "auto-news-503d508e477b30",
@@ -563,7 +644,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-e4f100d8823895",
@@ -583,7 +664,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:48+00:00"
+      "detected_at": "2026-11-21T11:21:20+00:00"
     },
     {
       "id": "auto-news-6ad56ac1ce4b5b",
@@ -603,7 +684,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:48+00:00"
+      "detected_at": "2026-11-21T11:21:20+00:00"
     },
     {
       "id": "auto-news-74f49f717b3b16",
@@ -622,7 +703,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-4a9a6f3a2d56a4",
@@ -642,7 +723,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-8ee496101316a4",
@@ -662,7 +743,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-84e6406d3ee40a",
@@ -682,7 +763,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-50e54349f5ca91",
@@ -703,7 +784,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-dd8e30b63c824d",
@@ -721,7 +802,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-83d6c3ebbd68a5",
@@ -739,7 +820,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-96c47a1d9c9cac",
@@ -759,7 +840,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-7d18375020c6d6",
@@ -779,7 +860,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-228fbbbb779779",
@@ -798,7 +879,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-a3b7616d1a31d0",
@@ -816,7 +897,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-6b465355515444",
@@ -835,7 +916,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-b23a4f63cfeab4",
@@ -855,7 +936,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-fff62fe847f4b2",
@@ -875,7 +956,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-a3ed6ac3cd34f9",
@@ -895,7 +976,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-ae7504c0e28579",
@@ -916,7 +997,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-714d3b1b280439",
@@ -935,7 +1016,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-3bd520e9aff1f1",
@@ -955,7 +1036,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-7246fa20811e76",
@@ -976,7 +1057,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-c70df42dddd122",
@@ -996,7 +1077,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-77f5797782b00c",
@@ -1014,7 +1095,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-0604908492454d",
@@ -1032,7 +1113,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-6174feb824892a",
@@ -1052,7 +1133,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-b056c1c878cdca",
@@ -1071,7 +1152,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-bdb31477006385",
@@ -1091,7 +1172,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-1375ddd9c358e7",
@@ -1111,7 +1192,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-11351488e4b209",
@@ -1131,7 +1212,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-980dd01fe76152",
@@ -1151,7 +1232,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-3739334ce44920",
@@ -1169,7 +1250,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-dd06bc05ebb2e3",
@@ -1189,7 +1270,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-bfc81b31421270",
@@ -1208,7 +1289,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-1cf0e2b8245b03",
@@ -1226,7 +1307,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-f1a6ead8acea02",
@@ -1244,7 +1325,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     },
     {
       "id": "auto-news-2abb514a1ca92f",
@@ -1263,69 +1344,7 @@
       ],
       "review_status": "pending",
       "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
-    },
-    {
-      "id": "auto-news-149e23fcc1f78b",
-      "date": "2026-10-06",
-      "title": "El MITECO comienza los trabajos previos para la retirada de Puerto Mayor y la recuperación ambiental de la Caleta del Estacio (San Javier, Murcia)",
-      "organization": "MITECO",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/octubre/el-miteco-comienza-los-trabajos-previos-para-la-retirada-de-puer.html",
-      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
-      "source_name": "MITECO · Sala de prensa",
-      "matched_keywords": [
-        "reto demogr",
-        "ia"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
-    },
-    {
-      "id": "auto-news-94f2efa873f954",
-      "date": "2026-10-06",
-      "title": "El BOE publica la convocatoria de 80 millones en ayudas para proyectos innovadores y combatir la despoblación",
-      "organization": "MITECO",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/octubre/el-boe-publica-la-convocatoria-de-80-millones-en-ayudas-para-pro.html",
-      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
-      "source_name": "MITECO · Sala de prensa",
-      "matched_keywords": [
-        "entidades locales",
-        "reto demogr",
-        "despobl",
-        "ia",
-        "subvenci",
-        "ayuda"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
-    },
-    {
-      "id": "auto-news-66916dfed9fbd8",
-      "date": "2026-10-05",
-      "title": "Joan Groizard se reúne con Eduardo Arasti sobre la Propuesta de planificación de electricidad con horizonte 2030 en Cantabria tras las alegaciones",
-      "organization": "MITECO",
-      "category": "actualidad",
-      "why": "Novedad detectada automáticamente en una fuente oficial con términos de posible interés municipal.",
-      "action": "Revisar la fuente antes de convertir esta detección en recomendación, obligación, proyecto u oportunidad.",
-      "source": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias/2026/octubre/joan-groizard-se-reune-con-eduardo-arasti-sobre-la-propuesta-de-.html",
-      "source_feed": "https://www.miteco.gob.es/content/miteco/es/es/prensa/ultimas-noticias.newsfeed.rss.xml",
-      "source_name": "MITECO · Sala de prensa",
-      "matched_keywords": [
-        "reto demogr",
-        "ia",
-        "energ"
-      ],
-      "review_status": "pending",
-      "origin": "automatic",
-      "detected_at": "2026-11-19T11:56:47+00:00"
+      "detected_at": "2026-11-21T11:21:18+00:00"
     }
   ],
   "watched_pages": [
@@ -1334,14 +1353,14 @@
       "name": "Red.es · Noticias",
       "url": "https://www.red.es/es/actualidad/noticias",
       "changed": true,
-      "checked_at": "2026-11-19T11:56:49+00:00"
+      "checked_at": "2026-11-21T11:21:21+00:00"
     },
     {
       "id": "pae-portal",
       "name": "PAe · Portal de Administración Electrónica",
       "url": "https://administracionelectronica.gob.es/ctt/pae",
       "changed": false,
-      "checked_at": "2026-11-19T11:56:53+00:00"
+      "checked_at": "2026-11-21T11:21:24+00:00"
     }
   ],
   "errors": []
