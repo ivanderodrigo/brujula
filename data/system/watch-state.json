@@ -1,13 +1,13 @@
 {
   "pages": {
     "redes-noticias": {
-      "hash": "f3b3828776efcb73e224567ec05acabed9747324a45375e6bdbf89364cd34465",
-      "checked_at": "2026-11-23T13:06:53+00:00",
+      "hash": "94a91f8bac180b31e354972a7a259c9c7be3bac6c285695ba838d23933fe4725",
+      "checked_at": "2026-11-26T12:52:10+00:00",
       "url": "https://www.red.es/es/actualidad/noticias"
     },
     "pae-portal": {
       "hash": "a3e24ae1e07736ac8e262864a10ef07a34b96aeeae039774f3835cdbf58026cf",
-      "checked_at": "2026-11-24T13:59:36+00:00",
+      "checked_at": "2026-11-26T12:52:13+00:00",
       "url": "https://administracionelectronica.gob.es/ctt/pae"
     }
   }
